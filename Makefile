@@ -69,5 +69,5 @@ clean :
 dist :
 	$(MAKE) -f Makefile clean
 	tar -C .. -zcvf $(PACKAGE)-$(VERSION).tar.gz \
-	  --exclude=CVS --exclude=*.tar.bz2 --exclude=.* \
+	  --exclude=*.tar.bz2 --exclude=.* \
 	  --exclude=*~ --exclude=*.tar.gz $(PACKAGE)
