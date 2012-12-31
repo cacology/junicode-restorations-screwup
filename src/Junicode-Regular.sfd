@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1160109490
-ModificationTime: 1356973554
+ModificationTime: 1356974985
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -150,7 +150,7 @@ KernClass2: 78 74 "'kern' Horizontal Kerning lookup 6 subtable"
  12 r.sc uniF772
  26 t tcaron uniEECE f_f_t f_t
  12 t.sc uniF774
- 1 u
+ 5 u Q_u
  92 u.sc uniF775 uniF7FA uniF7FB uniF7FC uniF7F9 ugrave.sc uacute.sc ucircumflex.sc udieresis.sc
  7 uni01F7
  37 v w y f_f_y uniEECF uniEED0 f_t_y f_y
@@ -192,7 +192,7 @@ KernClass2: 78 74 "'kern' Horizontal Kerning lookup 6 subtable"
  11 gamma_gamma
  5 sigma
  345 A Aacute Abreve Acircumflex Adieresis Agrave Alpha Amacron Aogonek Aring Aringacute Atilde Lambda uni01CD uni01DE uni01E0 uni0200 uni0226 uni1E00 uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6 uniEF90 uniEF92 uniEF94 uniEF96 uniEF98 uniEF9A uniEFE0 uniEFE2 uniEFE4 uniEFE6 uniEFEA uniEFEE uniEFF0
- 478 C Cacute Ccaron Ccedillaacute Ccircumflex Cdotaccent G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohorn Ohungarumlaut Omacron Omicron Oogonek Oslash Oslashacute Otilde Q Theta uni0187 uni0193 uni019F uni01A2 uni01D1 uni01E4 uni01EC uni01F4 uni020C uni020E uni022A uni022C uni022E uni0230 uni1E20 uni1E4C uni1E4E uni1E50 uni1E52 uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2
+ 482 C Cacute Ccaron Ccedillaacute Ccircumflex Cdotaccent G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent O OE Oacute Obreve Ocircumflex Odieresis Ograve Ohorn Ohungarumlaut Omacron Omicron Oogonek Oslash Oslashacute Otilde Q Theta uni0187 uni0193 uni019F uni01A2 uni01D1 uni01E4 uni01EC uni01F4 uni020C uni020E uni022A uni022C uni022E uni0230 uni1E20 uni1E4C uni1E4E uni1E50 uni1E52 uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA uni1EDC uni1EDE uni1EE0 uni1EE2 Q_u
  65 T Tau Tcaron Tcommaaccent uni01AC uni1E6A uni1E6C uni1E6E uni1E70
  88 Upsilon Y Yacute Ycircumflex Ydieresis Ydotaccent Ygrave uni0232 uni1EF4 uni1EF6 uni1EF8
  71 V W Wacute Wcircumflex Wdieresis Wgrave uni1E7C uni1E7E uni1E86 uni1E88
@@ -132466,8 +132466,6 @@ StartChar: Q_u
 Encoding: 1114418 -1 3289
 Width: 2510
 Flags: W
-AnchorPoint: "below" 564 -129 basechar 0
-AnchorPoint: "above" 729 1415 basechar 0
 LayerCount: 2
 UndoRedoHistory
 Layer: 0
@@ -132536,19 +132534,20 @@ SplineSet
  1976.98632812 -263.875701904 1976.98632812 -263.875701904 2445.5 -230.810546875 c 0,74,75
  2459.48503331 -229.82355904 2459.48503331 -229.82355904 2458.44920171 -257.123132172 c 128,-1,76
  2457.4133701 -284.422705303 2457.4133701 -284.422705303 2434.5 -287.810546875 c 0,77,78
- 1892.98632812 -367.875701904 1892.98632812 -367.875701904 1343.74316406 -248.843063354 c 128,-1,79
- 794.5 -129.810424805 794.5 -129.810424805 501 9 c 0,80,81
- 324.659408893 92.4000421189 324.659408893 92.4000421189 208.5 255.5 c 0,82,83
+ 2217.86177378 -320.007074837 2217.86177378 -320.007074837 1999.98632812 -320.007074837 c 3,79,80
+ 1630.71455056 -320.007074837 1630.71455056 -320.007074837 1203.22537926 -218.00742078 c 128,-1,81
+ 775.736207962 -116.007766724 775.736207962 -116.007766724 501 9 c 0,82,83
+ 323.447619255 89.788137676 323.447619255 89.788137676 206.313799253 257.362689016 c 128,-1,84
  89.1799792508 424.937240356 89.1799792508 424.937240356 91 667 c 256,59,60
-282 708 m 256,84,85
- 282 421 282 421 431 234 c 128,-1,86
- 580 47 580 47 749 47 c 259,87,88
- 975 47 975 47 1083.5 227 c 128,-1,89
- 1192 407 1192 407 1192 664 c 256,90,91
- 1192 925 1192 925 1052 1119.5 c 128,-1,92
- 912 1314 912 1314 733 1314 c 259,93,94
- 535 1314 535 1314 408.5 1152 c 128,-1,95
- 282 990 282 990 282 708 c 256,84,85
+282 708 m 256,85,86
+ 282 421 282 421 431 234 c 128,-1,87
+ 580 47 580 47 749 47 c 259,88,89
+ 975 47 975 47 1083.5 227 c 128,-1,90
+ 1192 407 1192 407 1192 664 c 256,91,92
+ 1192 925 1192 925 1052 1119.5 c 128,-1,93
+ 912 1314 912 1314 733 1314 c 259,94,95
+ 535 1314 535 1314 408.5 1152 c 128,-1,96
+ 282 990 282 990 282 708 c 256,85,86
 EndSplineSet
 LCarets2: 1 1452 
 Ligature2: "'liga' Standard Ligatures in Latin short" Q u
