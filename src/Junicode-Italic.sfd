@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159967861
-ModificationTime: 1356972536
+ModificationTime: 1356974407
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -149,7 +149,7 @@ KernClass2: 57 58 "'kern' Horizonal Kerning in Latin-1"
  7 J.swash
  73 A Agrave Aacute Acircumflex Atilde Adieresis Aring Amacron Abreve Aogonek
  10 AE uni01E2
- 171 C G O Q Ograve Oacute Ocircumflex Otilde Odieresis Ccedilla Cacute Ccircumflex Cdotaccent Ccaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Omacron Obreve Ohungarumlaut OE
+ 175 C G O Q Ograve Oacute Ocircumflex Otilde Odieresis Ccedilla Cacute Ccircumflex Cdotaccent Ccaron Gcircumflex Gbreve Gdotaccent Gcommaaccent Omacron Obreve Ohungarumlaut OE Q_u
  13 J Jcircumflex
  1 M
  39 N Ntilde Nacute Ncommaaccent Ncaron Eng
@@ -305,7 +305,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 1114032 16 11
+WinInfo: 64 16 11
 BeginPrivate: 3
 BlueValues 36 [-38 -7 850 852 1358 1385 1464 1485]
 OtherBlues 11 [-559 -553]
@@ -328,7 +328,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "below"  "'mark' Mark Below-1" "mkmk anchor"  "'mkmk' Mark Positioning in any lookup 0-1" "above"  "'mark' Mark Positioning in Latin lookup 0" 
-BeginChars: 1114195 2480
+BeginChars: 1114196 2481
 
 StartChar: space
 Encoding: 32 32 0
@@ -53493,8 +53493,16 @@ StartChar: k_i.alt
 Encoding: 1114130 -1 1811
 Width: 1421
 VWidth: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
 714 598 m 0,0,1
@@ -85350,20 +85358,6 @@ Width: 1564
 VWidth: 0
 Flags: W
 LayerCount: 2
-UndoRedoHistory
-Layer: 0
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
-UndoRedoHistory
-Layer: 1
-Undoes
-EndUndoes
-Redoes
-EndRedoes
-EndUndoRedoHistory
 Fore
 SplineSet
 1427.65722656 778 m 259,0,1
@@ -90343,6 +90337,99 @@ SplineSet
  621 1362 621 1362 696.5 1268 c 128,-1,28
  772 1174 772 1174 772 1059 c 256,0,1
 EndSplineSet
+EndChar
+
+StartChar: Q_u
+Encoding: 1114195 -1 2480
+Width: 2469
+Flags: W
+AnchorPoint: "above" 1090 1415 basechar 0
+LayerCount: 2
+UndoRedoHistory
+Layer: 0
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+SplineSet
+2246 203 m 2,0,1
+ 2234 161 2234 161 2234 141 c 0,2,3
+ 2234 102 2234 102 2268 102 c 128,-1,4
+ 2302 102 2302 102 2393 195 c 0,5,6
+ 2396 198 2396 198 2401 198 c 0,7,8
+ 2414 198 2414 198 2425 186 c 0,9,10
+ 2438 172 2438 172 2437 164 c 0,11,12
+ 2437 160 2437 160 2434 156 c 0,13,14
+ 2270 -27 2270 -27 2150 -27 c 0,15,16
+ 2092 -27 2092 -27 2092 63 c 0,17,18
+ 2092 99 2092 99 2103 137 c 2,19,-1
+ 2185 424 l 1,20,21
+ 1941 116 1941 116 1850.5 44.5 c 128,-1,22
+ 1760 -27 1760 -27 1704 -27 c 256,23,24
+ 1620 -27 1620 -27 1620 72 c 0,25,26
+ 1620 110 1620 110 1640 180 c 2,27,-1
+ 1767 625 l 2,28,29
+ 1773 646 1773 646 1773 666 c 0,30,31
+ 1773 711 1773 711 1744.5 711 c 128,-1,32
+ 1716 711 1716 711 1692 684 c 0,33,34
+ 1666 655 1666 655 1636 625 c 0,35,36
+ 1633 622 1633 622 1628 622 c 0,37,38
+ 1610 622 1610 622 1597 644 c 0,39,40
+ 1593 651 1593 651 1593 656 c 0,41,42
+ 1593 660 1593 660 1595 662 c 0,43,44
+ 1749 852 1749 852 1863 852 c 0,45,46
+ 1918 852 1918 852 1918 770 c 0,47,48
+ 1918 723 1918 723 1893 636 c 2,49,-1
+ 1806 334 l 2,50,51
+ 1765 192 1765 192 1765 147 c 128,-1,52
+ 1765 102 1765 102 1793 102 c 0,53,54
+ 1837 102 1837 102 1952 224 c 128,-1,55
+ 2067 346 2067 346 2180 541 c 0,56,57
+ 2238 641 2238 641 2301 829 c 0,58,59
+ 2309 852 2309 852 2361 852 c 0,60,61
+ 2431 852 2431 852 2423 826 c 2,62,-1
+ 2246 203 l 2,0,1
+1534 886 m 0,63,64
+ 1534 731 1534 731 1464.5 561 c 0,65,66
+ 1395.50244858 392.229010908 1395.50244858 392.229010908 1248 241.5 c 0,67,68
+ 1099.30700982 87.2401286831 1099.30700982 87.2401286831 920 20 c 0,69,70
+ 912 17 912 17 911.291766245 10.2073647586 c 128,-1,71
+ 910.58353249 3.4147295172 910.58353249 3.4147295172 916 0 c 0,72,73
+ 1100 -116 1100 -116 1455.83789062 -210.191894531 c 128,-1,74
+ 1811.67578125 -304.383789062 1811.67578125 -304.383789062 2347.92578125 -308.998046875 c 0,75,76
+ 2357.41210938 -309.080078125 2357.41210938 -309.080078125 2357.16894531 -329.0390625 c 128,-1,77
+ 2356.92578125 -348.998046875 2356.92578125 -348.998046875 2353.55717865 -357.278270957 c 128,-1,78
+ 2350.18857604 -365.558495038 2350.18857604 -365.558495038 2340 -366 c 0,79,80
+ 2256.72147528 -368.32992812 2256.72147528 -368.32992812 2176.5357666 -368.32992812 c 3,81,82
+ 1650.11866398 -368.32992812 1650.11866398 -368.32992812 1257 -263 c 0,83,84
+ 804 -142 804 -142 590 -46 c 128,-1,85
+ 376 50 376 50 296.5 164 c 128,-1,86
+ 217 278 217 278 217 443 c 0,87,88
+ 217 796 217 796 492.5 1090.5 c 128,-1,89
+ 768 1385 768 1385 1079 1385 c 0,90,91
+ 1295 1385 1295 1385 1414.5 1243 c 128,-1,92
+ 1534 1101 1534 1101 1534 886 c 0,63,64
+1371 886 m 0,93,94
+ 1371 1080 1371 1080 1277 1196.5 c 128,-1,95
+ 1183 1313 1183 1313 1035 1314 c 256,96,97
+ 878 1314 878 1314 721 1184 c 128,-1,98
+ 564 1054 564 1054 472 852 c 128,-1,99
+ 380 650 380 650 380 448 c 256,100,101
+ 380 286 380 286 476.5 166.5 c 128,-1,102
+ 573 47 573 47 707 47 c 0,103,104
+ 980 47 980 47 1175.5 314.5 c 128,-1,105
+ 1371 582 1371 582 1371 886 c 0,93,94
+EndSplineSet
+Ligature2: "'liga' Standard Ligatures in Latin lookup 1" Q u
 EndChar
 EndChars
 EndSplineFont
