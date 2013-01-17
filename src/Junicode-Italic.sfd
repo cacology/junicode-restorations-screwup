@@ -20,7 +20,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1159967861
-ModificationTime: 1358119959
+ModificationTime: 1358445533
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -74,6 +74,7 @@ Lookup: 1 0 0 "'ss19' Latin to Gothic transliteration"  {"'ss19' Latin to Gothic
 Lookup: 1 0 0 "'ss20' Gothic to Latin transliteration"  {"'ss20' Gothic to Latin transliteration subtable"  } ['ss20' ('DFLT' <'dflt' > 'goth' <'dflt' > ) ]
 Lookup: 3 0 0 "'salt' Stylistic Alternatives lookup 24"  {"'salt' Stylistic Alternatives lookup 24-1"  } ['salt' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'ISL ' 'dflt' > ) ]
 Lookup: 4 0 0 "'frac' Diagonal Fractions in Latin lookup 2"  {"'frac' Diagonal Fractions in Latin lookup 2"  } ['frac' ('DFLT' <'dflt' > 'latn' <'ISL ' 'dflt' > ) ]
+Lookup: 1 0 0 "'case' Case-Sensitive Forms lookup 32"  {"'case' Case-Sensitive Forms lookup 32-1"  } ['case' ('DFLT' <'dflt' > 'cyrl' <'dflt' > 'goth' <'dflt' > 'grek' <'dflt' > 'latn' <'ISL ' 'dflt' > 'runr' <'dflt' > ) ]
 Lookup: 4 0 0 "'hlig' Historic Ligatures in Latin lookup 22"  {"'hlig' Historic Ligatures in Latin lookup 22-1"  } ['hlig' ('DFLT' <'dflt' > 'latn' <'ISL ' 'dflt' > ) ]
 Lookup: 4 0 0 "'dlig' Discretionary Ligatures in Latin lookup 23"  {"'dlig' Discretionary Ligatures quadruples"  "'dlig' Discretionary Ligatures triples"  "'dlig' Discretionary Ligatures in Latin lookup 23-1"  } ['dlig' ('DFLT' <'dflt' > 'latn' <'ISL ' 'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 0"  {"'liga' Standard Ligatures in Latin lookup 0"  "'liga' Standard Ligatures in Latin lookup 1"  } ['liga' ('DFLT' <'dflt' > 'latn' <'ISL ' 'dflt' > ) ]
@@ -306,7 +307,7 @@ NameList: Adobe Glyph List
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 1
-WinInfo: 80 16 11
+WinInfo: 368 16 11
 BeginPrivate: 3
 BlueValues 36 [-38 -7 850 852 1358 1385 1464 1485]
 OtherBlues 11 [-559 -553]
@@ -329,7 +330,7 @@ Grid
   EndSpiro
 EndSplineSet
 AnchorClass2: "below"  "'mark' Mark Below-1" "mkmk anchor"  "'mkmk' Mark Positioning in any lookup 0-1" "above"  "'mark' Mark Positioning in Latin lookup 0" 
-BeginChars: 1114196 2481
+BeginChars: 1114197 2482
 
 StartChar: space
 Encoding: 32 32 0
@@ -5746,6 +5747,7 @@ SplineSet
  676 1279 676 1279 676 1270 c 128,-1,10
  676 1261 676 1261 673 1258 c 2,0,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 32-1" CapAcute
 Comment: "last+AD0A-10" 
 Colour: ffffff
 EndChar
@@ -11007,10 +11009,18 @@ EndChar
 
 StartChar: uni01B7
 Encoding: 439 439 325
-Width: 1071
+Width: 1004
 GlyphClass: 2
 Flags: W
+AnchorPoint: "above" 713 1415 basechar 0
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
 915 611 m 256,0,1
@@ -11822,12 +11832,19 @@ EndChar
 
 StartChar: uni01EE
 Encoding: 494 494 369
-Width: 1071
+Width: 1004
 GlyphClass: 2
 Flags: W
 LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
-Refer: 987 -1 N 1 0 0 1 95 0 2
+Refer: 987 -1 N 1 0 0 1 15 0 2
 Refer: 325 439 N 1 0 0 1 0 0 3
 Ligature2: "'ccmp' Glyph Composition/Decomposition in Latin single" uni01B7 uni030C
 LCarets2: 1 0 
@@ -19640,6 +19657,7 @@ SplineSet
  -132 1279 -132 1279 -132 1270 c 128,-1,10
  -132 1261 -132 1261 -135 1258 c 2,0,-1
 EndSplineSet
+Substitution2: "'case' Case-Sensitive Forms lookup 32-1" CapAcute.comb
 EndChar
 
 StartChar: uni0302
@@ -33254,6 +33272,13 @@ SplineSet
  999.193 1671.21 999.193 1671.21 996.371 1666.59 c 128,-1,18
  993.549 1661.97 993.549 1661.97 990.809 1660.7 c 2,0,-1
 EndSplineSet
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
 Fore
 SplineSet
 984.809 1656.7 m 2,0,-1
@@ -90424,6 +90449,39 @@ SplineSet
  1371 582 1371 582 1371 886 c 0,93,94
 EndSplineSet
 Ligature2: "'liga' Standard Ligatures in Latin lookup 1" Q u
+EndChar
+
+StartChar: CapAcute.comb
+Encoding: 1114196 -1 2481
+Width: 0
+VWidth: 1911
+Flags: W
+AnchorPoint: "above" -480 1415 mark 0
+LayerCount: 2
+UndoRedoHistory
+Layer: 1
+Undoes
+EndUndoes
+Redoes
+EndRedoes
+EndUndoRedoHistory
+Fore
+SplineSet
+-115.19140625 1656.70019531 m 2,0,-1
+ -479.80078125 1488.84960938 l 2,1,2
+ -498.720703125 1480.13964844 -498.720703125 1480.13964844 -515.091796875 1480.13964844 c 3,3,4
+ -528.666992188 1480.13964844 -528.666992188 1480.13964844 -540.56640625 1486.83007812 c 128,-1,5
+ -552.46484375 1493.50976562 -552.46484375 1493.50976562 -552.46484375 1503.25 c 3,6,7
+ -552.46484375 1512.05957031 -552.46484375 1512.05957031 -544.205078125 1522.63964844 c 0,8,9
+ -535.776367188 1533.4296875 -535.776367188 1533.4296875 -524.23046875 1540.29980469 c 2,10,-1
+ -169.486328125 1751.45019531 l 2,11,12
+ -165.185546875 1754.00976562 -165.185546875 1754.00976562 -159.930664062 1754.00976562 c 3,13,14
+ -152.49609375 1754.00976562 -152.49609375 1754.00976562 -138.965820312 1747.61035156 c 128,-1,15
+ -125.435546875 1741.20019531 -125.435546875 1741.20019531 -116.12109375 1713.79980469 c 128,-1,16
+ -106.806640625 1686.41015625 -106.806640625 1686.41015625 -106.806640625 1672.76953125 c 3,17,18
+ -106.806640625 1667.20996094 -106.806640625 1667.20996094 -109.62890625 1662.58984375 c 128,-1,19
+ -112.458984375 1657.95996094 -112.458984375 1657.95996094 -115.19140625 1656.70019531 c 2,0,-1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
