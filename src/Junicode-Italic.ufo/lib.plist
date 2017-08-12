@@ -2866,6 +2866,14 @@
 		<string>Thorn.nordic</string>
 		<string>uni0233.sc</string>
 		<string>d.sc</string>
+		<string>CapCaron.comb</string>
+		<string>CapCircumflex.comb</string>
+		<string>CapDieresis.comb</string>
+		<string>CapDoubleAcute.comb</string>
+		<string>CapDoubleGrave.comb</string>
+		<string>CapGrave.comb</string>
+		<string>CapMacron.comb</string>
+		<string>CapTilde.comb</string>
 	</array>
 </dict>
 </plist>

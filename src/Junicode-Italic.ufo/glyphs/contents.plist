@@ -48,20 +48,36 @@
 	<string>C_apA_cute.comb.glif</string>
 	<key>CapCaron</key>
 	<string>C_apC_aron.glif</string>
+	<key>CapCaron.comb</key>
+	<string>C_apC_aron.comb.glif</string>
 	<key>CapCircumflex</key>
 	<string>C_apC_ircumflex.glif</string>
+	<key>CapCircumflex.comb</key>
+	<string>C_apC_ircumflex.comb.glif</string>
 	<key>CapDieresis</key>
 	<string>C_apD_ieresis.glif</string>
+	<key>CapDieresis.comb</key>
+	<string>C_apD_ieresis.comb.glif</string>
 	<key>CapDoubleAcute</key>
 	<string>C_apD_oubleA_cute.glif</string>
+	<key>CapDoubleAcute.comb</key>
+	<string>C_apD_oubleA_cute.comb.glif</string>
 	<key>CapDoubleGrave</key>
 	<string>C_apD_oubleG_rave.glif</string>
+	<key>CapDoubleGrave.comb</key>
+	<string>C_apD_oubleG_rave.comb.glif</string>
 	<key>CapGrave</key>
 	<string>C_apG_rave.glif</string>
+	<key>CapGrave.comb</key>
+	<string>C_apG_rave.comb.glif</string>
 	<key>CapMacron</key>
 	<string>C_apM_acron.glif</string>
+	<key>CapMacron.comb</key>
+	<string>C_apM_acron.comb.glif</string>
 	<key>CapTilde</key>
 	<string>C_apT_ilde.glif</string>
+	<key>CapTilde.comb</key>
+	<string>C_apT_ilde.comb.glif</string>
 	<key>Ccaron</key>
 	<string>C_caron.glif</string>
 	<key>Ccedilla</key>
