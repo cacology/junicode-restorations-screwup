@@ -1757,7 +1757,7 @@ lookup mark_Mark_Above {
   pos base [ uniF205 ] <anchor 1094 1425> mark @above_center ;
   pos base [ Thorn.nordic uniA766 ] <anchor 649 1425> mark @above_center ;
   pos base [ eth.nordic ] <anchor 507 1548> mark @above_center ;
-  pos base [ omega.ipa uni0277 ] <anchor 654 900> mark @above_center ;
+  pos base [ omega uni0277 ] <anchor 654 900> mark @above_center ;
   pos base [ T.alt ] <anchor 793 1415> mark @above_center ;
   pos base [ uni2C71 ] <anchor 453 900> mark @above_center ;
   pos base [ uni2C72 ] <anchor 1050 1415> mark @above_center ;
@@ -1986,7 +1986,7 @@ lookup mark_Mark_Below {
   pos base [ uniEEFC ] <anchor 439 -89> mark @below_center ;
   pos base [ uniF204 uniEFA1 ] <anchor 588 -75> mark @below_center ;
   pos base [ uniF206 ] <anchor 585 -75> mark @below_center ;
-  pos base [ omega.ipa uni0277 ] <anchor 654 -75> mark @below_center ;
+  pos base [ omega uni0277 ] <anchor 654 -75> mark @below_center ;
   pos base [ uni2C71 ] <anchor 432 -75> mark @below_center ;
   pos base [ uni2C73 ] <anchor 681 -75> mark @below_center ;
   pos base [ t.scalt ] <anchor 576 -75> mark @below_center ;
@@ -3706,8 +3706,8 @@ feature kern {
 	uniF7F2 uniF7F3 uniF7F4 uniF7F5 uniF7F6 uniF7F9 uniF7FA uniF7FB uniF7FC 
 	uniF7FD uniF7FF uniFE5F uniFE6A Thorn.nordic 
 	thorn.nordic eth.nordic uniE18A CapGrave CapAcute CapCircumflex 
-	CapDieresis CapTilde CapMacron CapCaron uniE196 beta.ipa omega.ipa 
-	gamma.alt theta.ipa pi.math chi.alt phi.math uni2125 
+	CapDieresis CapTilde CapMacron CapCaron uniE196 beta omega
+	gamma theta pi chi phi uni2125 
 	uniF6FA T.alt uni0277 uni2C71 uni2C72 uni2C73 t.scalt uniE410 uniE404 
 	uniE40A uniEFA0 uniE436 uniE036 uniE443 uniE043 uniE442 uniE43F 
 	uniE03F uniE43D uniE43A uniF215 uniEFA1 uniEFA2 uniEFAE uniF214 

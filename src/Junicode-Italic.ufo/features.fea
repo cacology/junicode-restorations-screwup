@@ -1818,7 +1818,7 @@ lookup mark_Mark_Below {
   pos base [ uniEEFC ] <anchor 510 -89> mark @below_center ;
   pos base [ uniF204 uniEFA1 ] <anchor 440 -75> mark @below_center ;
   pos base [ uniF206 ] <anchor 568 -75> mark @below_center ;
-  pos base [ omega.ipa uni0277 ] <anchor 478 -75> mark @below_center ;
+  pos base [ omega uni0277 ] <anchor 478 -75> mark @below_center ;
   pos base [ uni2C71 ] <anchor 238 -75> mark @below_center ;
   pos base [ uni2C73 ] <anchor 558 -75> mark @below_center ;
 #  pos base [ t.scalt ] <anchor 576 -75> mark @below_center ;
@@ -2223,7 +2223,7 @@ feature mkmk {
 	uni2E0C uni2E0D uni1E9E uni23D1 uni23D2 uni23D3 
 	uni23D4 uni2E29 uni2E28 uni2E20 uni2E21 uni2E22 uni2E23 uni2E24 uni2E25 
 	uni2E26 uni2E27 uni2E2A uni2E2B uni2E2C uni2E2D uni2E2E uni2E00 uni2E1C 
-	uni2E1D uni2E19 uni035C uni1D79 beta.ipa theta.ipa pi.math chi.alt 
+	uni2E1D uni2E19 uni035C uni1D79 beta theta pi chi 
 	eogonek.alt uniE4EA.alt uniE4EB.alt uniE4E8.alt uniEBF3.alt uniE49F.alt 
 	uniE4EC.alt uniE4BC.alt uniE499.alt j.alt uniEFA1 uniEFA2 uniEFA3 
 	uniEFA4 uniEFA6 uniEFA7 uniEFAA uniEFA5 uniEFA0 uniEFA9 uniEFAC uniF204 uniEFAE

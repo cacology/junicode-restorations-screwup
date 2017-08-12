@@ -3,6 +3,6 @@
   <advance width="956"/>
   <unicode hex="F702"/>
   <outline>
-    <component base="theta.ipa"/>
+    <component base="theta"/>
   </outline>
 </glyph>

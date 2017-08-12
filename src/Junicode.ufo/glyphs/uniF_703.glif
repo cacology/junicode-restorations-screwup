@@ -3,6 +3,6 @@
   <advance width="1294"/>
   <unicode hex="F703"/>
   <outline>
-    <component base="omega.ipa"/>
+    <component base="omega"/>
   </outline>
 </glyph>
