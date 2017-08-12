@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CapDoubleAcute" format="1">
+  <advance width="528"/>
+  <outline>
+    <contour>
+      <point x="264" y="791" type="qcurve" smooth="yes"/>
+      <point x="86" y="722" type="line" smooth="yes"/>
+      <point x="80" y="720"/>
+      <point x="74" y="720" type="qcurve" smooth="yes"/>
+      <point x="67" y="720"/>
+      <point x="53" y="728"/>
+      <point x="53" y="737" type="qcurve" smooth="yes"/>
+      <point x="53" y="749"/>
+      <point x="69" y="758" type="qcurve" smooth="yes"/>
+      <point x="222" y="859" type="line" smooth="yes"/>
+      <point x="227" y="862"/>
+      <point x="233" y="863" type="qcurve" smooth="yes"/>
+      <point x="242" y="863"/>
+      <point x="264" y="845"/>
+      <point x="276" y="818"/>
+      <point x="276" y="808" type="qcurve" smooth="yes"/>
+      <point x="276" y="795"/>
+    </contour>
+    <contour>
+      <point x="476" y="791" type="qcurve" smooth="yes"/>
+      <point x="298" y="722" type="line" smooth="yes"/>
+      <point x="292" y="720"/>
+      <point x="286" y="720" type="qcurve" smooth="yes"/>
+      <point x="279" y="720"/>
+      <point x="265" y="728"/>
+      <point x="265" y="737" type="qcurve" smooth="yes"/>
+      <point x="265" y="749"/>
+      <point x="281" y="758" type="qcurve" smooth="yes"/>
+      <point x="435" y="859" type="line" smooth="yes"/>
+      <point x="440" y="862"/>
+      <point x="446" y="863" type="qcurve" smooth="yes"/>
+      <point x="455" y="863"/>
+      <point x="476" y="845"/>
+      <point x="488" y="818"/>
+      <point x="488" y="808" type="qcurve" smooth="yes"/>
+      <point x="488" y="795"/>
+    </contour>
+  </outline>
+</glyph>

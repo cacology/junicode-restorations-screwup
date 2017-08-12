@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0233" format="1">
+  <advance width="838"/>
+  <unicode hex="0233"/>
+  <outline>
+    <contour>
+      <point x="360" y="-597" type="move" name="below"/>
+    </contour>
+    <contour>
+      <point x="459" y="1265" type="move" name="above"/>
+    </contour>
+    <component base="macron" xOffset="140"/>
+    <component base="y"/>
+  </outline>
+</glyph>

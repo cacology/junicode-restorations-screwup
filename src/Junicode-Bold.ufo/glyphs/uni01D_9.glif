@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01D9" format="1">
+  <advance width="738"/>
+  <unicode hex="01D9"/>
+  <outline>
+    <component base="CapCaron" xOffset="225" yOffset="139"/>
+    <component base="CapDieresis" xOffset="210" yOffset="-20"/>
+    <component base="U"/>
+  </outline>
+</glyph>

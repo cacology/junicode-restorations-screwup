@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0306" format="2">
+  <unicode hex="0306"/>
+  <anchor x="-220" y="880" name="_mkmk_anchor"/>
+  <anchor x="-149" y="1245" name="mkmk_anchor"/>
+  <anchor x="-149" y="1245" name="mkmk anchor"/>
+  <anchor x="-220" y="880" name="_mkmk anchor"/>
+  <anchor x="-216" y="900" name="_above"/>
+  <outline>
+    <contour>
+      <point x="327" y="1228" type="qcurve"/>
+      <point x="280" y="953"/>
+      <point x="-224" y="953"/>
+      <point x="-224" y="1142" type="qcurve" smooth="yes"/>
+      <point x="-224" y="1184"/>
+      <point x="-214" y="1228" type="qcurve"/>
+      <point x="-201" y="1236"/>
+      <point x="-181" y="1236"/>
+      <point x="-171" y="1228" type="qcurve"/>
+      <point x="-166" y="1062"/>
+      <point x="218" y="1062"/>
+      <point x="282" y="1228" type="qcurve"/>
+      <point x="293" y="1236"/>
+      <point x="317" y="1236"/>
+    </contour>
+  </outline>
+</glyph>

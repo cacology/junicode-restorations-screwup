@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="oacute" format="1">
+  <advance width="995"/>
+  <unicode hex="00F3"/>
+  <outline>
+    <contour>
+      <point x="510" y="-75" type="move" name="below"/>
+    </contour>
+    <component base="acute" xOffset="270"/>
+    <component base="o"/>
+  </outline>
+</glyph>

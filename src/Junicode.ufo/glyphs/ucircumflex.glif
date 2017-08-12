@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ucircumflex" format="1">
+  <advance width="1036"/>
+  <unicode hex="00FB"/>
+  <outline>
+    <contour>
+      <point x="522" y="-75" type="move" name="below"/>
+    </contour>
+    <component base="circumflex" xOffset="98"/>
+    <component base="u"/>
+  </outline>
+</glyph>

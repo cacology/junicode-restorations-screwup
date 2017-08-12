@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE4EC.alt" format="1">
+  <advance width="427"/>
+  <outline>
+    <component base="dotaccent" xOffset="41"/>
+    <component base="acute" xOffset="207"/>
+    <component base="eogonek.alt"/>
+  </outline>
+</glyph>

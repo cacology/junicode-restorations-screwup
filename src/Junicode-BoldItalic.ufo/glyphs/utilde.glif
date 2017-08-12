@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="utilde" format="1">
+  <advance width="497"/>
+  <unicode hex="0169"/>
+  <outline>
+    <contour>
+      <point x="359" y="618" type="move" name="Anchor-0"/>
+    </contour>
+    <component base="tilde" xOffset="198"/>
+    <component base="u"/>
+  </outline>
+</glyph>

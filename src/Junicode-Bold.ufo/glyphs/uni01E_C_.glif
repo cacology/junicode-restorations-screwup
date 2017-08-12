@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01EC" format="1">
+  <advance width="744"/>
+  <unicode hex="01EC"/>
+  <outline>
+    <component base="CapMacron" xOffset="178"/>
+    <component base="Oogonek"/>
+  </outline>
+</glyph>

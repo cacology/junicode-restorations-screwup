@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01E0" format="1">
+  <advance width="684"/>
+  <unicode hex="01E0"/>
+  <outline>
+    <component base="CapMacron" xOffset="156" yOffset="139"/>
+    <component base="dotaccent" xOffset="219" yOffset="212"/>
+    <component base="A"/>
+  </outline>
+</glyph>

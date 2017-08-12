@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ibreve" format="1">
+  <advance width="683"/>
+  <unicode hex="012C"/>
+  <outline>
+    <contour>
+      <point x="339" y="-75" type="move" name="below"/>
+    </contour>
+    <component base="breve" xOffset="-22" yOffset="503"/>
+    <component base="I"/>
+  </outline>
+</glyph>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniE608" format="2">
+  <advance width="995"/>
+  <unicode hex="E608"/>
+  <outline>
+    <component base="dotbelowcomb" xOffset="662.5934065934066" yOffset="103.9309262166405"/>
+    <component base="oogonek"/>
+  </outline>
+</glyph>

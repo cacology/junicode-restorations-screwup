@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="longslash" format="1">
+  <advance width="872"/>
+  <outline>
+    <contour>
+      <point x="853" y="1423" type="line"/>
+      <point x="121" y="-301" type="line" smooth="yes"/>
+      <point x="118" y="-308"/>
+      <point x="113" y="-310"/>
+      <point x="100" y="-310" type="qcurve" smooth="yes"/>
+      <point x="70" y="-310"/>
+      <point x="48" y="-303"/>
+      <point x="13" y="-281" type="qcurve" smooth="yes"/>
+      <point x="-8" y="-268"/>
+      <point x="-15" y="-260"/>
+      <point x="-15" y="-250" type="qcurve" smooth="yes"/>
+      <point x="-15" y="-246"/>
+      <point x="-14" y="-244" type="qcurve" smooth="yes"/>
+      <point x="716" y="1479" type="line" smooth="yes"/>
+      <point x="718" y="1484"/>
+      <point x="723" y="1486"/>
+      <point x="735" y="1486" type="qcurve" smooth="yes"/>
+      <point x="766" y="1486"/>
+      <point x="789" y="1479"/>
+      <point x="825" y="1459" type="qcurve" smooth="yes"/>
+      <point x="845" y="1448"/>
+      <point x="852" y="1441"/>
+      <point x="854" y="1431" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

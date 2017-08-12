@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ograve" format="1">
+  <advance width="995"/>
+  <unicode hex="00F2"/>
+  <outline>
+    <contour>
+      <point x="510" y="-75" type="move" name="below"/>
+    </contour>
+    <component base="grave" xOffset="110"/>
+    <component base="o"/>
+  </outline>
+</glyph>

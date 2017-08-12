@@ -1,0 +1,22 @@
+#!/bin/bash
+
+# In theory I should be able to do:
+#
+# fontforge -script gen.script Junicode.ufo
+#
+# but fontforge segfaults trying to open a UFO from a script, so
+# start by using FontForge GUI to generate Junicode-raw.ttf
+# (containing no OpenType tables but only a kern table, which we
+# discard below).
+
+echo "Removing legacy kern table (if any)"
+sfntedit -d kern Junicode-raw.ttf
+
+echo "Applying feature file Junicode.fea"
+makeotf -fi fontinfo -f Junicode-raw.ttf -o Junicode-new.ttf -ff Junicode.fea -mf JunicodeNameDB
+if [ $? -ne 0 ]; then
+    echo "makeotf error"
+    exit
+fi
+echo "Running ttfautohint to produce Junicode.ttf . . ."
+ttfautohint -v --reference=JunicodeBlueRef.otf Junicode-new.ttf Junicode.ttf

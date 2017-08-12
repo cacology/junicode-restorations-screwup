@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="amacron" format="1">
+  <advance width="419"/>
+  <unicode hex="0101"/>
+  <outline>
+    <contour>
+      <point x="212" y="618" type="move" name="Anchor-1"/>
+    </contour>
+    <component base="macron" xOffset="57"/>
+    <component base="a"/>
+  </outline>
+</glyph>

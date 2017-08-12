@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CapAcute" format="1">
+  <advance width="359"/>
+  <outline>
+    <contour>
+      <point x="296" y="805" type="qcurve" smooth="yes"/>
+      <point x="296" y="800"/>
+      <point x="293" y="794"/>
+      <point x="291" y="793" type="qcurve" smooth="yes"/>
+      <point x="150" y="727" type="line" smooth="yes"/>
+      <point x="135" y="720"/>
+      <point x="125" y="720" type="qcurve" smooth="yes"/>
+      <point x="116" y="720"/>
+      <point x="100" y="731"/>
+      <point x="100" y="740" type="qcurve" smooth="yes"/>
+      <point x="100" y="747"/>
+      <point x="111" y="765"/>
+      <point x="119" y="771" type="qcurve" smooth="yes"/>
+      <point x="246" y="868" type="line" smooth="yes"/>
+      <point x="249" y="871"/>
+      <point x="253" y="871" type="qcurve" smooth="yes"/>
+      <point x="257" y="871"/>
+      <point x="269" y="864"/>
+      <point x="283" y="841"/>
+      <point x="296" y="813"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CapCaron" format="1">
+  <advance width="394"/>
+  <outline>
+    <contour>
+      <point x="177" y="861" type="line" smooth="yes"/>
+      <point x="175" y="863"/>
+      <point x="175" y="866" type="qcurve" smooth="yes"/>
+      <point x="175" y="871"/>
+      <point x="186" y="888"/>
+      <point x="190" y="888" type="qcurve" smooth="yes"/>
+      <point x="193" y="888" type="line"/>
+      <point x="325" y="823" type="line" smooth="yes"/>
+      <point x="334" y="819"/>
+      <point x="354" y="818"/>
+      <point x="364" y="823" type="qcurve" smooth="yes"/>
+      <point x="511" y="888" type="line"/>
+      <point x="514" y="888" type="line" smooth="yes"/>
+      <point x="520" y="888"/>
+      <point x="532" y="873"/>
+      <point x="532" y="868" type="qcurve" smooth="yes"/>
+      <point x="532" y="864"/>
+      <point x="529" y="861" type="qcurve" smooth="yes"/>
+      <point x="358" y="729" type="line" smooth="yes"/>
+      <point x="346" y="719"/>
+      <point x="320" y="720"/>
+      <point x="308" y="731" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0307" format="2">
+  <unicode hex="0307"/>
+  <anchor x="-232" y="880" name="_mkmk_anchor"/>
+  <anchor x="-160" y="1245" name="mkmk_anchor"/>
+  <anchor x="-160" y="1245" name="mkmk anchor"/>
+  <anchor x="-232" y="880" name="_mkmk anchor"/>
+  <anchor x="-227" y="900" name="_above"/>
+  <outline>
+    <contour>
+      <point x="139" y="1135" type="qcurve" smooth="yes"/>
+      <point x="139" y="1077"/>
+      <point x="72" y="1010"/>
+      <point x="27" y="1010" type="qcurve" smooth="yes"/>
+      <point x="-60" y="1010"/>
+      <point x="-60" y="1100" type="qcurve" smooth="yes"/>
+      <point x="-60" y="1152"/>
+      <point x="10" y="1225"/>
+      <point x="54" y="1225" type="qcurve" smooth="yes"/>
+      <point x="139" y="1224"/>
+    </contour>
+  </outline>
+</glyph>

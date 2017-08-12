@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Udieresis" format="1">
+  <advance width="1497"/>
+  <unicode hex="00DC"/>
+  <outline>
+    <contour>
+      <point x="756" y="-75" type="move" name="below"/>
+    </contour>
+    <component base="CapDieresis" xOffset="376"/>
+    <component base="U"/>
+  </outline>
+</glyph>

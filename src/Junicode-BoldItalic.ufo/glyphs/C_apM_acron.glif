@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="CapMacron" format="1">
+  <advance width="394"/>
+  <outline>
+    <contour>
+      <point x="532" y="815" type="line" smooth="yes"/>
+      <point x="544" y="815"/>
+      <point x="527" y="760"/>
+      <point x="515" y="760" type="qcurve" smooth="yes"/>
+      <point x="206" y="760" type="line" smooth="yes"/>
+      <point x="195" y="760"/>
+      <point x="209" y="815"/>
+      <point x="221" y="815" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

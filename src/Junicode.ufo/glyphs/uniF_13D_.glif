@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniF13D" format="1">
+  <advance width="1145"/>
+  <unicode hex="F13D"/>
+  <outline>
+    <contour>
+      <point x="578" y="1265" type="move" name="above"/>
+    </contour>
+    <component base="breve" xOffset="207"/>
+    <component base="ae"/>
+  </outline>
+</glyph>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <anchor x="-423.0" y="880" name="_mkmk_anchor"/>
+  <anchor x="-0.1367289573765902" y="879.9265593326412" name="_mkmk anchor"/>
+  <anchor x="0" y="900" name="_above"/>
+  <outline>
+    <contour>
+      <point x="89.0" y="986" type="line" smooth="yes"/>
+      <point x="94.29674124533824" y="974.1279937604806"/>
+      <point x="94.0" y="966" type="qcurve" smooth="yes"/>
+      <point x="94.0" y="929"/>
+      <point x="58.0" y="929" type="qcurve" smooth="yes"/>
+      <point x="33.77219380288233" y="928.8579014265495"/>
+      <point x="17.0" y="956" type="qcurve" smooth="yes"/>
+      <point x="-169.0" y="1257" type="line" smooth="yes"/>
+      <point x="-170.4868288404792" y="1259.4061047364862"/>
+      <point x="-171.0" y="1265" type="qcurve" smooth="yes"/>
+      <point x="-171.0" y="1285"/>
+      <point x="-105.0" y="1327"/>
+      <point x="-63.0" y="1327"/>
+      <point x="-56.0" y="1311" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="guillemotleft" format="1">
+  <advance width="426"/>
+  <unicode hex="00AB"/>
+  <outline>
+    <contour>
+      <point x="451" y="384" type="qcurve" smooth="yes"/>
+      <point x="332" y="224" type="line" smooth="yes"/>
+      <point x="321" y="209"/>
+      <point x="324" y="195" type="qcurve" smooth="yes"/>
+      <point x="357" y="32" type="line" smooth="yes"/>
+      <point x="358" y="26"/>
+      <point x="334" y="12"/>
+      <point x="331" y="17" type="qcurve" smooth="yes"/>
+      <point x="225" y="191" type="line" smooth="yes"/>
+      <point x="214" y="209"/>
+      <point x="235" y="227" type="qcurve" smooth="yes"/>
+      <point x="433" y="399" type="line" smooth="yes"/>
+      <point x="438" y="404"/>
+      <point x="446" y="397" type="qcurve" smooth="yes"/>
+      <point x="455" y="390"/>
+    </contour>
+    <contour>
+      <point x="273" y="384" type="qcurve" smooth="yes"/>
+      <point x="154" y="224" type="line" smooth="yes"/>
+      <point x="143" y="209"/>
+      <point x="146" y="195" type="qcurve" smooth="yes"/>
+      <point x="179" y="32" type="line" smooth="yes"/>
+      <point x="180" y="26"/>
+      <point x="156" y="11"/>
+      <point x="153" y="17" type="qcurve" smooth="yes"/>
+      <point x="47" y="191" type="line" smooth="yes"/>
+      <point x="36" y="209"/>
+      <point x="57" y="227" type="qcurve" smooth="yes"/>
+      <point x="255" y="399" type="line" smooth="yes"/>
+      <point x="260" y="404"/>
+      <point x="269" y="397" type="qcurve" smooth="yes"/>
+      <point x="277" y="390"/>
+    </contour>
+  </outline>
+</glyph>

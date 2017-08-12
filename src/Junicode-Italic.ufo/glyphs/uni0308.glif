@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni0308" format="2">
+  <unicode hex="0308"/>
+  <anchor x="-280" y="880" name="_mkmk_anchor"/>
+  <anchor x="-208" y="1245" name="mkmk_anchor"/>
+  <anchor x="-208" y="1245" name="mkmk anchor"/>
+  <anchor x="-280" y="880" name="_mkmk anchor"/>
+  <anchor x="-276" y="900" name="_above"/>
+  <outline>
+    <contour>
+      <point x="-35" y="1135" type="qcurve" smooth="yes"/>
+      <point x="-35" y="1077"/>
+      <point x="-102" y="1010"/>
+      <point x="-147" y="1010" type="qcurve" smooth="yes"/>
+      <point x="-234" y="1010"/>
+      <point x="-234" y="1100" type="qcurve" smooth="yes"/>
+      <point x="-234" y="1152"/>
+      <point x="-164" y="1225"/>
+      <point x="-120" y="1225" type="qcurve" smooth="yes"/>
+      <point x="-35" y="1224"/>
+    </contour>
+    <contour>
+      <point x="322" y="1135" type="qcurve" smooth="yes"/>
+      <point x="322" y="1077"/>
+      <point x="255" y="1010"/>
+      <point x="210" y="1010" type="qcurve" smooth="yes"/>
+      <point x="123" y="1010"/>
+      <point x="123" y="1100" type="qcurve" smooth="yes"/>
+      <point x="123" y="1152"/>
+      <point x="193" y="1225"/>
+      <point x="237" y="1225" type="qcurve" smooth="yes"/>
+      <point x="322" y="1224"/>
+    </contour>
+  </outline>
+</glyph>

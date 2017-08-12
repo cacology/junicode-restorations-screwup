@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tildecomb.sc" format="1">
+  <advance width="0"/>
+  <outline>
+    <contour>
+      <point x="-179" y="488" type="move" name="_Anchor-1"/>
+    </contour>
+    <contour>
+      <point x="-35" y="619" type="qcurve" smooth="yes"/>
+      <point x="-83" y="539"/>
+      <point x="-131" y="539" type="qcurve" smooth="yes"/>
+      <point x="-149" y="539"/>
+      <point x="-187" y="554" type="qcurve" smooth="yes"/>
+      <point x="-229" y="570"/>
+      <point x="-243" y="570" type="qcurve" smooth="yes"/>
+      <point x="-271" y="570"/>
+      <point x="-292" y="542" type="qcurve" smooth="yes"/>
+      <point x="-293" y="541"/>
+      <point x="-295" y="540" type="qcurve" smooth="yes"/>
+      <point x="-299" y="540"/>
+      <point x="-305" y="547" type="qcurve" smooth="yes"/>
+      <point x="-312" y="554"/>
+      <point x="-312" y="559" type="qcurve" smooth="yes"/>
+      <point x="-312" y="560"/>
+      <point x="-311" y="561" type="qcurve" smooth="yes"/>
+      <point x="-265" y="639"/>
+      <point x="-215" y="639" type="qcurve" smooth="yes"/>
+      <point x="-193" y="639"/>
+      <point x="-157" y="623" type="qcurve" smooth="yes"/>
+      <point x="-124" y="610"/>
+      <point x="-108" y="610" type="qcurve" smooth="yes"/>
+      <point x="-80" y="610"/>
+      <point x="-55" y="640" type="qcurve" smooth="yes"/>
+      <point x="-54" y="641"/>
+      <point x="-52" y="642" type="qcurve" smooth="yes"/>
+      <point x="-49" y="642"/>
+      <point x="-42" y="635" type="qcurve" smooth="yes"/>
+      <point x="-34" y="627"/>
+      <point x="-34" y="622" type="qcurve" smooth="yes"/>
+      <point x="-34" y="620"/>
+    </contour>
+  </outline>
+</glyph>

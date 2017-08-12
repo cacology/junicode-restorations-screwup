@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="aring" format="1">
+  <advance width="797"/>
+  <unicode hex="00E5"/>
+  <outline>
+    <contour>
+      <point x="380" y="-75" type="move" name="below"/>
+    </contour>
+    <contour>
+      <point x="387" y="1400" type="move" name="above"/>
+    </contour>
+    <component base="a"/>
+    <component base="ring" xOffset="18"/>
+  </outline>
+</glyph>

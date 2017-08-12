@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni01E3" format="1">
+  <advance width="1145"/>
+  <unicode hex="01E3"/>
+  <outline>
+    <contour>
+      <point x="540" y="-75" type="move" name="below"/>
+    </contour>
+    <contour>
+      <point x="570" y="1265" type="move" name="above"/>
+    </contour>
+    <component base="macron" xOffset="271"/>
+    <component base="ae"/>
+  </outline>
+</glyph>

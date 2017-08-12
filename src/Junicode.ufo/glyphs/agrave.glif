@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="agrave" format="1">
+  <advance width="797"/>
+  <unicode hex="00E0"/>
+  <outline>
+    <contour>
+      <point x="366" y="-75" type="move" name="below"/>
+    </contour>
+    <component base="grave" xOffset="4"/>
+    <component base="a"/>
+  </outline>
+</glyph>

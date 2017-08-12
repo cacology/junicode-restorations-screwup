@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="acutecomb" format="2">
+  <unicode hex="0301"/>
+  <anchor x="0" y="880" name="_mkmk_anchor"/>
+  <anchor x="0" y="880" name="_mkmk anchor"/>
+  <anchor x="0" y="900" name="_above"/>
+  <outline>
+    <contour>
+      <point x="325" y="1258" type="qcurve" smooth="yes"/>
+      <point x="51" y="955" type="line" smooth="yes"/>
+      <point x="27" y="929"/>
+      <point x="-23" y="929"/>
+      <point x="-23" y="967"/>
+      <point x="-10" y="985" type="qcurve" smooth="yes"/>
+      <point x="238" y="1324" type="line" smooth="yes"/>
+      <point x="244" y="1333"/>
+      <point x="284" y="1333"/>
+      <point x="328" y="1279"/>
+      <point x="328" y="1261"/>
+    </contour>
+  </outline>
+</glyph>
