@@ -2549,7 +2549,7 @@
 		<string>uni16D8.rtl</string>
 		<string>uniF173.square</string>
 		<string>gcaron.sc</string>
-		<string>chi.alt</string>
+		<string>chi</string>
 		<string>ugrave.sc</string>
 		<string>c.sc</string>
 		<string>uni16AD.rtl</string>
@@ -2560,9 +2560,9 @@
 		<string>Q.swash</string>
 		<string>uni16B9.rtl</string>
 		<string>uni16DC.rtl</string>
-		<string>phi.math</string>
+		<string>phi</string>
 		<string>eth.alt</string>
-		<string>gamma.alt</string>
+		<string>gamma</string>
 		<string>uni16A5.rtl</string>
 		<string>t_t_r</string>
 		<string>uni16D7.rtl</string>
@@ -2606,7 +2606,7 @@
 		<string>uni16B8.rtl</string>
 		<string>uni16AA.rtl</string>
 		<string>CapDoubleGrave</string>
-		<string>omega.ipa</string>
+		<string>omega</string>
 		<string>uni16D2.rtl</string>
 		<string>uni16C3.rtl</string>
 		<string>uni16EA.rtl</string>
@@ -2786,7 +2786,7 @@
 		<string>two.oldstyle</string>
 		<string>CapAcute.comb</string>
 		<string>xmedoverline</string>
-		<string>theta.ipa</string>
+		<string>theta</string>
 		<string>parenleft.alt</string>
 		<string>parenright.alt</string>
 		<string>nacute.sc</string>
@@ -2833,7 +2833,7 @@
 		<string>uacute.sc</string>
 		<string>uniE441.square</string>
 		<string>lslash.sc</string>
-		<string>pi.math</string>
+		<string>pi</string>
 		<string>Wynndotsub</string>
 		<string>vhighoverline</string>
 		<string>uni16DD.rtl</string>
@@ -2841,7 +2841,7 @@
 		<string>uni0294.alt</string>
 		<string>f_thorn</string>
 		<string>uni16DB.rtl</string>
-		<string>beta.ipa</string>
+		<string>beta</string>
 		<string>oe.sc</string>
 		<string>e.sc</string>
 		<string>quoteleft.alt</string>

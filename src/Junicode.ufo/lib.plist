@@ -2682,7 +2682,7 @@
 		<string>uni16C5.rtl</string>
 		<string>ccaron.sc</string>
 		<string>quotedblright.alt</string>
-		<string>beta.ipa</string>
+		<string>beta</string>
 		<string>uni16C8.rtl</string>
 		<string>x.sc</string>
 		<string>t.sc</string>
@@ -2707,7 +2707,7 @@
 		<string>dcaron.sc</string>
 		<string>uni16B1.rtl</string>
 		<string>uni16A7.rtl</string>
-		<string>theta.ipa</string>
+		<string>theta</string>
 		<string>j.alt</string>
 		<string>l.sc</string>
 		<string>uni0304.sc</string>
@@ -2724,7 +2724,7 @@
 		<string>idieresis.sc</string>
 		<string>f.sc</string>
 		<string>uniE39F.nordic</string>
-		<string>phi.math</string>
+		<string>phi</string>
 		<string>uni16B0.rtl</string>
 		<string>uni16A3.rtl</string>
 		<string>f_f_udieresis</string>
@@ -2733,11 +2733,11 @@
 		<string>uni0302.sc</string>
 		<string>uni16EE.rtl</string>
 		<string>ntilde.sc</string>
-		<string>pi.math</string>
+		<string>pi</string>
 		<string>thorn.sc</string>
 		<string>quoteleft.sc</string>
 		<string>eogonek.enlargedalt</string>
-		<string>omega.ipa</string>
+		<string>omega</string>
 		<string>uni16B5.rtl</string>
 		<string>quotedblleft.alt</string>
 		<string>gravecomb.sc</string>
@@ -2756,7 +2756,7 @@
 		<string>d.sc</string>
 		<string>cmedoverline</string>
 		<string>uni16AE.rtl</string>
-		<string>chi.alt</string>
+		<string>chi</string>
 		<string>r.sc</string>
 		<string>cdotaccent.sc</string>
 		<string>egrave.sc</string>
@@ -2795,7 +2795,6 @@
 		<string>tildecomb.sc</string>
 		<string>uni16B8.rtl</string>
 		<string>t.scalt</string>
-		<string>twosuperior</string>
 		<string>ograve.sc</string>
 		<string>oslash.sc</string>
 		<string>uni16AC.rtl</string>
@@ -2826,14 +2825,13 @@
 		<string>one.oldstyle</string>
 		<string>scaron.sc</string>
 		<string>uni16BB.rtl</string>
-		<string>gamma.alt</string>
+		<string>gamma</string>
 		<string>uniA735.alt1</string>
 		<string>uni16AB.rtl</string>
 		<string>uni16D5.rtl</string>
 		<string>amacron.sc</string>
 		<string>adieresis.sc</string>
 		<string>germandbls.sc1</string>
-		<string>uniA753_p</string>
 		<string>uni16AF.rtl</string>
 		<string>edieresis.sc</string>
 		<string>f_r</string>
@@ -2932,14 +2930,12 @@
 		<string>lslash.sc</string>
 		<string>uni16C6.rtl</string>
 		<string>eogonek.alt</string>
-		<string>onesuperior</string>
 		<string>parenright.sc</string>
 		<string>k.sc</string>
 		<string>mhighoverline</string>
 		<string>uni16D2.rtl</string>
 		<string>quotedblright.sc</string>
 		<string>uni16B6.rtl</string>
-		<string>threesuperior</string>
 		<string>iacute.sc</string>
 		<string>mdotmacronacute</string>
 		<string>omacron.sc</string>

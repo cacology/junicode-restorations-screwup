@@ -428,8 +428,8 @@
 	<string>backslash.glif</string>
 	<key>bar</key>
 	<string>bar.glif</string>
-	<key>beta.ipa</key>
-	<string>beta.ipa.glif</string>
+	<key>beta</key>
+	<string>beta.glif</string>
 	<key>braceleft</key>
 	<string>braceleft.glif</string>
 	<key>braceleft.alt</key>
@@ -486,8 +486,8 @@
 	<string>cent.glif</string>
 	<key>cent.oldstyle</key>
 	<string>cent.oldstyle.glif</string>
-	<key>chi.alt</key>
-	<string>chi.alt.glif</string>
+	<key>chi</key>
+	<string>chi.glif</string>
 	<key>chighoverline</key>
 	<string>chighoverline.glif</string>
 	<key>circumflex</key>
@@ -664,8 +664,8 @@
 	<string>g.glif</string>
 	<key>g.sc</key>
 	<string>g.sc.glif</string>
-	<key>gamma.alt</key>
-	<string>gamma.alt.glif</string>
+	<key>gamma</key>
+	<string>gamma.glif</string>
 	<key>gbreve</key>
 	<string>gbreve.glif</string>
 	<key>gcaron</key>
@@ -900,8 +900,8 @@
 	<string>omacron.glif</string>
 	<key>omacron.sc</key>
 	<string>omacron.sc.glif</string>
-	<key>omega.ipa</key>
-	<string>omega.ipa.glif</string>
+	<key>omega</key>
+	<string>omega.glif</string>
 	<key>one</key>
 	<string>one.glif</string>
 	<key>one.oldstyle</key>
@@ -964,10 +964,10 @@
 	<string>periodcentered.glif</string>
 	<key>perthousand</key>
 	<string>perthousand.glif</string>
-	<key>phi.math</key>
-	<string>phi.math.glif</string>
-	<key>pi.math</key>
-	<string>pi.math.glif</string>
+	<key>phi</key>
+	<string>phi.glif</string>
+	<key>pi</key>
+	<string>pi.glif</string>
 	<key>plus</key>
 	<string>plus.glif</string>
 	<key>plusminus</key>
@@ -1108,8 +1108,8 @@
 	<string>tcommaaccent.glif</string>
 	<key>therefore</key>
 	<string>therefore.glif</string>
-	<key>theta.ipa</key>
-	<string>theta.ipa.glif</string>
+	<key>theta</key>
+	<string>theta.glif</string>
 	<key>thorn</key>
 	<string>thorn.glif</string>
 	<key>thorn.nordic</key>
