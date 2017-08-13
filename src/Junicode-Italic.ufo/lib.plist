@@ -2632,6 +2632,7 @@
 		<string>CapCaron</string>
 		<string>uni16CB.rtl</string>
 		<string>i.sc</string>
+		<string>i.sc1</string>
 		<string>uniE49F.alt</string>
 		<string>zdotaccent.sc</string>
 		<string>emacron.sc</string>
@@ -2712,6 +2713,7 @@
 		<string>uniE442.square</string>
 		<string>longbackslash</string>
 		<string>hyphen.cap</string>
+		<string>f_odieresis</string>
 		<string>f_udieresis</string>
 		<string>quotedblright.sc</string>
 		<string>uni16C2.rtl</string>
