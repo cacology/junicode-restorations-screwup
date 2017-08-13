@@ -630,6 +630,8 @@
 	<string>f_f_y.glif</string>
 	<key>f_j</key>
 	<string>f_j.glif</string>
+	<key>f_odieresis</key>
+	<string>f_odieresis.glif</string>
 	<key>f_r</key>
 	<string>f_r.glif</string>
 	<key>f_t</key>
@@ -642,8 +644,6 @@
 	<string>f_thorn.nordic.glif</string>
 	<key>f_udieresis</key>
 	<string>f_udieresis.glif</string>
-	<key>f_odieresis</key>
-	<string>f_odieresis.glif</string>
 	<key>f_y</key>
 	<string>f_y.glif</string>
 	<key>figuredash</key>

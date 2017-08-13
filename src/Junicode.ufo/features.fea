@@ -30,8 +30,6 @@ markClass @combining_above <anchor 0 900> @above_center;
 
 markClass @cap_diacritics <anchor 0 1400> @above_center;
 
-# Marks from F1C0 on don't yet have mkmk points above.
-#
 # F1C5 and F1CA are fakeups, and Junicode includes but does not support them.
 #
 # Note that 1DCE, ogonek above, attaches differently: it must connect with the letter rather
@@ -56,12 +54,15 @@ markClass @combining_below <anchor 0 -75> @below_center;
 
 @other_below = [ uni0321 uni0322 uni0327 uni0328 uni1DD0 ];
 
-
-
 # These diacritics attach below and so need different anchors: 0321, 0322, 0327, 0328, 1DD0.
 # Of these, 0321 and 0322 are not generally used in the IPA and so it would probably be a waste
 # of space to give them attachment points. Could 0327 (cedilla) and 0328 (ogonek) share an
 # anchor? 1DD0 appears to need its own anchor.
+
+# markClass [ hookabovecomb ] <anchor -690 1230> @tone_marks ;
+# markClass [ uni0340 ] <anchor -148 1155> @tone_marks ;
+# markClass [ uni0341 ] <anchor -687 1155> @tone_marks ;
+
 
 @AllLowerCase = [ a b c d e f g h i j k l m n o p q r s t u v w x y z agrave aacute 
 	acircumflex atilde adieresis aring ae ccedilla egrave eacute 
@@ -1004,7 +1005,6 @@ lookup case_Case_Sensitive_Forms {
     sub circumflex by CapCircumflex ;
     sub caron by CapCaron ;
     sub tilde by CapTilde ;
-    sub acutecomb by CapAcute.comb ;
     sub gravecomb by  CapGrave.comb ;
     sub acutecomb by CapAcute.comb ;
     sub uni030C by CapCaron.comb ;
@@ -1430,12 +1430,6 @@ lookup Restoremodernapostrophe {
     sub quoteright.alt by quoteright ;
 } Restoremodernapostrophe ;
 
-lookup calt_s_In_Final_Position {
-  lookupflag 0;
-  ignore sub [longs uniE1AB]' @AllLowerCase;
-  sub [longs uniE1AB]' by [s uniF4FD];
-} calt_s_In_Final_Position;
-
 lookup calt_Old_Punctuation_Cleanup {
   lookupflag 0 ;
     @cc49_match_1 = [ quoteright.alt ] ;
@@ -1456,6 +1450,13 @@ lookup calt_Old_Punctuation_Cleanup {
     sub @cc49_match_1' lookup Restoremodernapostrophe  @cc49_match_2 ;
     sub @cc49_match_3 @cc49_match_1' lookup Restoremodernapostrophe ;
 } calt_Old_Punctuation_Cleanup ;
+
+lookup calt_s_In_Final_Position {
+  lookupflag 0;
+  ignore sub [ longs uniE1AB ]' @AllLowerCase ;
+  ignore sub [ longs uniE1AB ]' [ quotesingle quoteright ] @AllLowerCase ;
+  sub [longs uniE1AB]' by [ s uniF4FD ] ;
+} calt_s_In_Final_Position;
 
 feature ccmp {
 #  lookup ccmp_make_precomposed ;
@@ -1796,7 +1797,11 @@ lookup mark_Mark_Above {
   pos base [ uniA768 uniA77B uniA784 ] <anchor 565 1425> mark @above_center ;
   pos base [ uniA769 ] <anchor 456 900> mark @above_center ;
   pos base [ uniA76C ] <anchor 507 1415> mark @above_center ;
+  pos base [ uniA779 ] <anchor 750 1400> mark @above_center ;
   pos base [ uniA77A ] <anchor 520 1315> mark @above_center ;
+  pos base [ uniA77D ] <anchor 650 1400> mark @above_center ;
+  pos base [ uniA782 ] <anchor 750 1400> mark @above_center ;
+  pos base [ uniA786 ] <anchor 740 1400> mark @above_center ;
   pos base [ uniA787 ] <anchor 476 900> mark @above_center ;
   pos base [ uniA7FE ] <anchor 358 1415> mark @above_center ;
   pos base [ uniEAF1 ] <anchor 675 1071> mark @above_center ;
@@ -2041,18 +2046,18 @@ lookup mark_Mark_Below {
 lookup mark_Ogonek_Above {
   lookupflag 0;
   markClass [ uni1DCE ] <anchor 0 984> @ogonek_above ;
-  pos base [ a ] <anchor 400 858> mark @ogonek_above ;
-  pos base [ A ] <anchor 720 1300> mark @ogonek_above ;
+  pos base [ a aogonek ] <anchor 400 858> mark @ogonek_above ;
+  pos base [ A Aogonek ] <anchor 720 1300> mark @ogonek_above ;
   pos base [ e eogonek ] <anchor 440 858> mark @ogonek_above ;
   pos base [ E Eogonek ] <anchor 580 1330> mark @ogonek_above ;
   pos base [ dotlessi ] <anchor 270 810> mark @ogonek_above ;
-  pos base [ I ] <anchor 350 1330> mark @ogonek_above ;
+  pos base [ I Iogonek ] <anchor 350 1330> mark @ogonek_above ;
   pos base [ uni0237 ] <anchor 320 810> mark @ogonek_above ;
   pos base [ J ] <anchor 370 1330> mark @ogonek_above ;  
   pos base [ o oogonek oslash ] <anchor 480 858> mark @ogonek_above ;
   pos base [ O Oogonek ] <anchor 700 1340> mark @ogonek_above ;
-  pos base [ u ] <anchor 295 858> mark @ogonek_above ;
-  pos base [ U ] <anchor 400 1330> mark @ogonek_above ;
+  pos base [ u uogonek ] <anchor 295 858> mark @ogonek_above ;
+  pos base [ U Uogonek ] <anchor 400 1330> mark @ogonek_above ;
   pos base [ y ] <anchor 200 858> mark @ogonek_above ;
   pos base [ Y ] <anchor 280 1330> mark @ogonek_above ;
   pos base [ ae ] <anchor 450 858> mark @ogonek_above ;
@@ -2073,32 +2078,8 @@ lookup mark_Attached_Below {
   pos base [ t ] <anchor 440 0> mark @attached_below ;
 } mark_Attached_Below ;
 
- lookup mkmk_Mark_to_Mark_Below {
-  lookupflag 0 ;
-  pos mark [ uni0316 uni0317 ] <anchor 0 -600> mark @below_center ;
-  pos mark [ uni0318 uni0319 uni031F ] <anchor 0 -693> mark @below_center ;
-  pos mark [ uni031C uni0325 uni0339 ] <anchor 0 -660> mark @below_center ;
-  pos mark [ uni031D uni031E uni032E uni032F uni0349 ] <anchor 0 -552> mark @below_center ;
-  pos mark [ uni0320 ] <anchor 0 -435> mark @below_center ;
-  pos mark [ dotbelowcomb uni0324 ] <anchor 0 -485> mark @below_center ;
-  pos mark [ uni0326 ] <anchor 0 -874> mark @below_center ;
-  pos mark [ uni0329 uni0347 uni0348 ] <anchor 0 -633> mark @below_center ;
-  pos mark [ uni032A uni033A ] <anchor 0 -560> mark @below_center ;
-  pos mark [ uni032B uni033C ] <anchor 0 -465> mark @below_center ;
-  pos mark [ uni032C ] <anchor 0 -696> mark @below_center ;
-  pos mark [ uni032D uni034D ] <anchor 0 -621> mark @below_center ;
-  pos mark [ uni0330 ] <anchor 0 -438> mark @below_center ;
-  pos mark [ uni0331 uni0332 ] <anchor 0 -414> mark @below_center ;
-  pos mark [ uni0333 uni034E ] <anchor 0 -585> mark @below_center ;
-  pos mark [ uni033B ] <anchor 0 -670> mark @below_center ;
-  pos mark [ uni0353 ] <anchor 0 -653> mark @below_center ;
-  pos mark [ uni0354 uni0355 uni0356 ] <anchor 0 -592> mark @below_center ;
-  pos mark [ uni0359 ] <anchor 0 -770> mark @below_center ;
-  pos mark [ uni1DCF ] <anchor 0 -894> mark @below_center ;
-} mkmk_Mark_to_Mark_Below ;
-
 lookup mkmk_Mark_to_Mark_Above {
-  lookupflag 0 ;
+  lookupflag MarkAttachmentType @above_center ;
   pos mark [ gravecomb ] <anchor 0 1401> mark @above_center ;
   pos mark [ acutecomb ] <anchor 0 1411> mark @above_center ;
   pos mark [ uni0302 ] <anchor 0 1458> mark @above_center ;
@@ -2150,7 +2131,8 @@ lookup mkmk_Mark_to_Mark_Above {
   pos mark [ uni1DDB uni1DE1 uni1DE2 ] <anchor 0 1643> mark @above_center ;
   pos mark [ uni1DDC uni1DDD ] <anchor 0 1798> mark @above_center ;
 # small cap, top around 1618
-  pos mark [ uni1DDE uni1DDF uniF013 uniF016 uniF01C uniF02A ] <anchor 0 1628> mark @above_center ;
+  pos mark [ uni1DDE uni1DDF uniF013 uniF016 uniF01C uniF02A ]
+      	     <anchor 0 1628> mark @above_center ;
   pos mark [ uni1DE3 ] <anchor 0 1588> mark @above_center ;
   pos mark [ uni1DE5 ] <anchor 0 1715> mark @above_center ;
   pos mark [ uniF017 ] <anchor 0 1762> mark @above_center ;
@@ -2178,16 +2160,50 @@ lookup mkmk_Mark_to_Mark_Above {
   pos mark [ tildecomb.sc ] <anchor 0 1284> mark @above_center ;
   pos mark [ uni0304.sc ] <anchor 0 1214> mark @above_center ;
   pos mark [ uni0308.sc ] <anchor 0 1316> mark @above_center ;
+  pos mark [ CapAcute ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapCaron ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapCircumflex ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapDieresis ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapDoubleAcute ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapDoubleGrave ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapGrave ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapMacron ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapTilde ] <anchor 0 1800> mark @above_center ;
 } mkmk_Mark_to_Mark_Above ;
+
+ lookup mkmk_Mark_to_Mark_Below {
+  lookupflag MarkAttachmentType @below_center ;
+  pos mark [ uni0316 uni0317 ] <anchor 0 -600> mark @below_center ;
+  pos mark [ uni0318 uni0319 uni031F ] <anchor 0 -693> mark @below_center ;
+  pos mark [ uni031C uni0325 uni0339 ] <anchor 0 -660> mark @below_center ;
+  pos mark [ uni031D uni031E uni032E uni032F uni0349 ] <anchor 0 -552> mark @below_center ;
+  pos mark [ uni0320 ] <anchor 0 -435> mark @below_center ;
+  pos mark [ dotbelowcomb uni0324 ] <anchor 0 -485> mark @below_center ;
+  pos mark [ uni0326 ] <anchor 0 -874> mark @below_center ;
+  pos mark [ uni0329 uni0347 uni0348 ] <anchor 0 -633> mark @below_center ;
+  pos mark [ uni032A uni033A ] <anchor 0 -560> mark @below_center ;
+  pos mark [ uni032B uni033C ] <anchor 0 -465> mark @below_center ;
+  pos mark [ uni032C ] <anchor 0 -696> mark @below_center ;
+  pos mark [ uni032D uni034D ] <anchor 0 -621> mark @below_center ;
+  pos mark [ uni0330 ] <anchor 0 -438> mark @below_center ;
+  pos mark [ uni0331 uni0332 ] <anchor 0 -414> mark @below_center ;
+  pos mark [ uni0333 uni034E ] <anchor 0 -585> mark @below_center ;
+  pos mark [ uni033B ] <anchor 0 -670> mark @below_center ;
+  pos mark [ uni0353 ] <anchor 0 -653> mark @below_center ;
+  pos mark [ uni0354 uni0355 uni0356 ] <anchor 0 -592> mark @below_center ;
+  pos mark [ uni0359 ] <anchor 0 -770> mark @below_center ;
+  pos mark [ uni1DCF ] <anchor 0 -894> mark @below_center ;
+} mkmk_Mark_to_Mark_Below ;
 
 # For positioning hook above and tone marks relative to the circumflex.
 
 lookup mkmk_Mark_to_Mark_03 {
-  lookupflag 0 ;
-  markClass [ hookabovecomb ] <anchor -690 1230> @Anchor4 ;
-  markClass [ uni0340 ] <anchor -148 1155> @Anchor4 ;
-  markClass [ uni0341 ] <anchor -687 1155> @Anchor4 ;
-  pos mark [ uni0302 ] <anchor -400 1367> mark @Anchor4 ;
+  lookupflag 0;
+#  lookupflag MarkAttachmentType @tone_marks ;
+  markClass [ hookabovecomb ] <anchor -690 1230> @tone_marks ;
+  markClass [ uni0340 ] <anchor -148 1155> @tone_marks ;
+  markClass [ uni0341 ] <anchor -687 1155> @tone_marks ;
+  pos mark [ uni0302 ] <anchor -400 1367> mark @tone_marks ;
 } mkmk_Mark_to_Mark_03 ;
 
 lookup kern_Horizontal_Kerning {
@@ -2268,6 +2284,7 @@ lookup kern_Horizontal_Kerning {
     @kc59_first_60 = [ u10344 ] ;
     @kc59_first_61 = [ u10345 ] ;
     @kc59_first_62 = [ u10349 ] ;
+    @kc59_first_63 = [ longs ] ;
     @kc59_second_1 = [ A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring 
 	Aringacute Atilde uni01CD uni01DE uni01E0 uni0200 uni0226 
 	uni1E00 uni1EA0 uni1EA2 uni1EA4 uni1EA6 uni1EA8 uni1EAA uni1EAC 
@@ -3426,6 +3443,7 @@ lookup kern_Horizontal_Kerning {
     pos @kc59_first_62 @kc59_second_52 30 ;
     pos @kc59_first_62 @kc59_second_53 -40 ;
     pos @kc59_first_62 @kc59_second_57 100 ;
+    pos @kc59_first_63 @kc59_second_10 300 ;
 } kern_Horizontal_Kerning ;
 
 lookup Contextual_Kerning_01 {
@@ -3499,8 +3517,8 @@ feature mark {
 } mark ;
 
 feature mkmk {
-  lookup mkmk_Mark_to_Mark_Below ;
   lookup mkmk_Mark_to_Mark_Above ;
+  lookup mkmk_Mark_to_Mark_Below ;
   lookup mkmk_Mark_to_Mark_03 ;
 } mkmk ;
 

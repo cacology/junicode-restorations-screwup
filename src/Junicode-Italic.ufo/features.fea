@@ -2,10 +2,13 @@ languagesystem DFLT dflt;
 languagesystem goth dflt;
 languagesystem latn dflt;
 languagesystem latn ISL ;
+languagesystem latn TRK ;
 languagesystem runr dflt;
 
 @combining_above = [ gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307
-		     uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F
+		     uni0308
+#		     hookabovecomb
+		     uni030A uni030B uni030C uni030D uni030E uni030F
 		     uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni031A uni031B uni033D
 		     uni033E uni033F uni0346 uni034A uni034B uni034C uni0350 uni0351 uni0352
 		     uni035B uni0363 uni0364 uni0365 uni0366 uni0367 uni0368 uni0369 uni036A
@@ -19,6 +22,11 @@ languagesystem runr dflt;
 		     uniF1CC ];
 
 markClass @combining_above <anchor 0 900> @above_center;
+
+@cap_above = [ CapGrave.comb CapAcute.comb CapCaron.comb CapCircumflex.comb CapMacron.comb
+	       CapDieresis.comb CapDoubleAcute.comb CapDoubleGrave.comb CapTilde.comb ];
+
+markClass @cap_above <anchor 0 1415> @above_center;
 
 #
 # Marks from F1C0 on don't yet have mkmk points above.
@@ -37,6 +45,13 @@ markClass @combining_above <anchor 0 900> @above_center;
 		     uni034D uni034E uni0353 uni0354 uni0355 uni0356 uni0359 uni1DCF ];
 
 markClass @combining_below <anchor 0 -75> @below_center;
+
+markClass [ hookabovecomb ] <anchor -780 1230> @tone_marks ;
+markClass [ uni0340 ] <anchor -448 1090> @tone_marks ;
+markClass [ uni0341 ] <anchor -1090 1120> @tone_marks ;
+
+@other_above = [ uni1DCE hookabovecomb uni0340 uni0341 ];
+
 
 @AllLowerCase = [ a b c d e f g h i j k l m n o p q r s t u v w x y z agrave aacute 
 	acircumflex atilde adieresis aring ae ccedilla egrave eacute 
@@ -319,18 +334,6 @@ lookup onum_Old_Style_Figures {
     sub cent by cent.oldstyle ;
 } onum_Old_Style_Figures;
 
-lookup locl_Icelandic {
-  lookupflag 0;
-    sub Thorn by Thorn.nordic ;
-    sub eth by eth.nordic ;
-    sub thorn by thorn.nordic ;
-} locl_Icelandic;
-
-lookup locl_Turkish {
-  lookupflag 0 ;
-    sub i.sc by i.sc1 ;
-} locl_Turkish ;
-
 lookup swsh_Swashes {
   lookupflag 0;
     sub A by A.swash ;
@@ -596,6 +599,18 @@ lookup c2sc_Caps_to_Small_Caps {
 #  sub uni1E46 by uniEF2A ;
 #  sub uni1E6C by uniEF2D ;
 } c2sc_Caps_to_Small_Caps ;
+
+lookup locl_Icelandic {
+  lookupflag 0;
+    sub Thorn by Thorn.nordic ;
+    sub eth by eth.nordic ;
+    sub thorn by thorn.nordic ;
+} locl_Icelandic;
+
+lookup locl_Turkish {
+  lookupflag 0 ;
+    sub i.sc by i.sc1 ;
+} locl_Turkish ;
 
 lookup hist_Historical_Forms {
   lookupflag 0;
@@ -1399,7 +1414,7 @@ feature calt {
 lookup mark_Mark_Above {
   lookupflag 0;
 # The above_center mark class is defined at the top of the file.
-  markClass [ CapAcute.comb ] <anchor -480 1415> @above_center;
+#  markClass [ CapAcute.comb ] <anchor -480 1415> @above_center;
   pos base [ A ] <anchor 950 1415> mark @above_center;
   pos base [ B uni0181 uni0182 uni0184 ] <anchor 846 1415> mark @above_center;
   pos base [ C ] <anchor 1160 1415> mark @above_center;
@@ -1738,7 +1753,7 @@ lookup mark_Attached_Below {
 } mark_Attached_Below ;
 
 lookup mkmk_Mark_To_Mark {
-  lookupflag 0;
+  lookupflag MarkAttachmentType @above_center;
 # The above_center mark class is defined at the top of the file.
   pos mark [ gravecomb] <anchor 30 1370> mark @above_center;
   pos mark [ tildecomb uni0307 uni0308 ] <anchor 30 1245> mark @above_center;
@@ -1820,7 +1835,7 @@ lookup mkmk_Mark_To_Mark {
 } mkmk_Mark_To_Mark;
 
 lookup mkmk_Mark_to_Mark_Below {
-  lookupflag 0 ;
+  lookupflag MarkAttachmentType @below_center ;
   pos mark [ uni0316 uni0317 ] <anchor -76 -470> mark @below_center ;
   pos mark [ uni0318 uni0319 uni031F ] <anchor -90 -550> mark @below_center ;
   pos mark [ uni031C uni0325 uni0339 ] <anchor -110 -640> mark @below_center ;
@@ -1846,11 +1861,11 @@ lookup mkmk_Mark_to_Mark_Below {
 # For positioning hook above and tone marks relative to the circumflex.
 
 lookup mkmk_Mark_to_Mark_03 {
-  lookupflag 0 ;
-  markClass [ hookabovecomb ] <anchor -780 1230> @Anchor4 ;
-  markClass [ uni0340 ] <anchor -448 1090> @Anchor4 ;
-  markClass [ uni0341 ] <anchor -1090 1120> @Anchor4 ;
-  pos mark [ uni0302 ] <anchor -400 1367> mark @Anchor4 ;
+  lookupflag MarkAttachmentType @tone_marks ;
+#  markClass [ hookabovecomb ] <anchor -780 1230> @tone_marks ;
+#  markClass [ uni0340 ] <anchor -448 1090> @tone_marks ;
+#  markClass [ uni0341 ] <anchor -1090 1120> @tone_marks ;
+  pos mark [ uni0302 ] <anchor -400 1367> mark @tone_marks ;
 } mkmk_Mark_to_Mark_03 ;
 
 include(Junicode-Italic-kern.fea);
@@ -2151,7 +2166,7 @@ feature mkmk {
 	uni2177 uni2178 uni217A uni217B onethird twothirds uni2155 uni2159 
 	oneeighth uni2150 uni2151 uni2152 uni2189 uni2156 uni2157 uni2158 
 	uni215A threeeighths fiveeighths seveneighths Q_u ];
-@GDEF_Mark = [ @combining_above @combining_below CapAcute.comb ];
+@GDEF_Mark = [ @combining_above @combining_below @other_above @cap_above ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
