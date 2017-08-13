@@ -38,163 +38,189 @@ markClass @combining_above <anchor 0 900> @above_center;
 
 markClass @combining_below <anchor 0 -75> @below_center;
 
+@AllLowerCase = [ a b c d e f g h i j k l m n o p q r s t u v w x y z agrave aacute 
+	acircumflex atilde adieresis aring ae ccedilla egrave eacute 
+	ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde 
+	ograve oacute ocircumflex otilde odieresis oslash ugrave uacute 
+	ucircumflex udieresis yacute thorn ydieresis germandbls amacron emacron imacron
+	omacron umacron abreve aogonek cacute ccircumflex cdotaccent ccaron dcaron
+	dcroat ebreve edotaccent eogonek ecaron gcircumflex gbreve gdotaccent
+	gcommaaccent hcircumflex hbar itilde imacron ibreve iogonek dotlessi jcircumflex
+	kcommaaccent kgreenlandic lacute lcommaaccent lcaron ldot lslash nacute
+	ncommaaccent ncaron napostrophe eng omacron obreve ohungarumlaut oe racute
+	rcommaaccent rcaron sacute scircumflex scedilla scaron tcommaaccent tcaron tbar
+	utilde umacron ubreve uring uhungarumlaut uogonek wcircumflex ycircumflex 
+	zacute zdotaccent zcaron longs uni0180 uni0183 uni0185 uni0188 uni018C uni018D
+	florin uni0195 uni0199 uni019A uni019B uni019E ohorn uni01A3 uni01A5 uni01A8
+	uni01AA uni01AB uni01AD uhorn uni01B4 uni01B6 uni01B9 uni01BA uni01BD uni01BE
+	uni01BF uni01C6 uni01C9 uni01CC uni01CE uni01D0 uni01D2 uni01D4 uni01D6 uni01D8
+	uni01DA uni01DC uni01DD uni01DF uni01E1 uni01E3 uni01E5 gcaron uni01E9
+	uni01EB uni01ED uni01EF uni01F0 uni01F3 uni01F5 uni01F9 aringacute aeacute oslashacute
+	uni0201 uni0203 uni0205  uni0207 uni0209 uni020B uni020D uni020F uni0211 uni0213
+	uni0215 uni0217 scommaaccent uni021B uni021D uni021F uni0221 uni0223 uni0225
+	uni0227 uni0229 uni022B uni022D uni022F uni0231 uni0233
+	uni0237 uni0238 uni0239 uni0249 uniFB00 uniFB01 uniFB02 uniFB03 uniFB04 uniFB05
+	uniFB06 f_f_t f_f_y f_t_y f_f_udieresis uniE1AB uniE1AA uniE1A7 uniE1A9 uniE1A8
+	uniE1A6 uniEBA5 uniEBA0 uniEBA4 uniEBAB uniEEDA f_thorn f_thorn.nordic uniF4FB
+	f_eth.nordic f_y f_j f_r f_t f_udieresis ] ;
+
 
 # GSUB 
 
 
 
-lookup ccmp_Make_Composites {
-  lookupflag 0;
-    sub U uni0308 uni0304  by uni01D5;
-    sub U uni0308 acutecomb  by uni01D7;
-    sub U uni0308 uni030C  by uni01D9;
-    sub U uni0308 gravecomb  by uni01DB;
-    sub O uni0304 uni0328  by uni01EC;
-    sub O uni0328 uni0304  by uni01EC;
-    sub o uni0304 uni0328  by uni01ED;
-    sub o uni0328 uni0304  by uni01ED;
-    sub A uni030A acutecomb  by Aringacute;
-    sub E uni1DCE uni0328  by uniEBF2;
-    sub E uni0328 uni1DCE  by uniEBF2;
-    sub e uni1DCE uni0328  by uniEBF3;
-    sub e uni0328 uni1DCE  by uniEBF3;
-    sub O uni1DCE uni0328  by uniE24F;
-    sub O uni0328 uni1DCE  by uniE24F;
-    sub o uni1DCE uni0328  by uniE64F;
-    sub o uni0328 uni1DCE  by uniE64F;
-    sub O uni1DCE acutecomb  by uniEBB7;
-    sub o uni1DCE acutecomb  by uniEBB8;
-    sub A gravecomb  by Agrave;
-    sub A acutecomb  by Aacute;
-    sub A uni0302  by Acircumflex;
-    sub A tildecomb  by Atilde;
-    sub A uni0308  by Adieresis;
-    sub C uni0327  by Ccedilla;
-    sub E gravecomb  by Egrave;
-    sub E acutecomb  by Eacute;
-    sub E uni0302  by Ecircumflex;
-    sub E uni0308  by Edieresis;
-    sub I gravecomb  by Igrave;
-    sub I acutecomb  by Iacute;
-    sub I uni0302  by Icircumflex;
-    sub I uni0308  by Idieresis;
-    sub N tildecomb  by Ntilde;
-    sub O gravecomb  by Ograve;
-    sub O acutecomb  by Oacute;
-    sub O uni0302  by Ocircumflex;
-    sub O tildecomb  by Otilde;
-    sub O uni0308  by Odieresis;
-    sub U gravecomb  by Ugrave;
-    sub U acutecomb  by Uacute;
-    sub U uni0302  by Ucircumflex;
-    sub U uni0308  by Udieresis;
-    sub Y acutecomb  by Yacute;
-    sub c uni0327  by ccedilla;
-    sub y acutecomb  by yacute;
-    sub A uni0304  by Amacron;
-    sub A uni0306  by Abreve;
-    sub A uni0328  by Aogonek;
-    sub a uni0328  by aogonek;
-    sub C acutecomb  by Cacute;
-    sub C uni0302  by Ccircumflex;
-    sub C uni030C  by Ccaron;
-    sub D uni030C  by Dcaron;
-    sub d uni030C  by dcaron;
-    sub D uni0304  by Dcroat;
-    sub E uni0304  by Emacron;
-    sub E uni0328  by Eogonek;
-    sub e uni0328  by eogonek;
-    sub E uni030C  by Ecaron;
-    sub G uni0302  by Gcircumflex;
-    sub G uni0327  by Gcommaaccent;
-    sub g uni0327  by gcommaaccent;
-    sub H uni0302  by Hcircumflex;
-    sub h uni0302  by hcircumflex;
-    sub I tildecomb  by Itilde;
-    sub I uni0304  by Imacron;
-    sub I uni0328  by Iogonek;
-    sub i uni0328  by iogonek;
-    sub J uni0302  by Jcircumflex;
-    sub j uni0302  by jcircumflex;
-    sub K uni0327  by Kcommaaccent;
-    sub k uni0327  by kcommaaccent;
-    sub L acutecomb  by Lacute;
-    sub l acutecomb  by lacute;
-    sub L uni0327  by Lcommaaccent;
-    sub l uni0327  by lcommaaccent;
-    sub L uni030C  by Lcaron;
-    sub l uni030C  by lcaron;
-    sub L periodcentered  by Ldot;
-    sub l periodcentered  by ldot;
-    sub N acutecomb  by Nacute;
-    sub N uni0327  by Ncommaaccent;
-    sub n uni0327  by ncommaaccent;
-    sub N uni030C  by Ncaron;
-    sub afii57929 n  by napostrophe;
-    sub O uni0304  by Omacron;
-    sub R acutecomb  by Racute;
-    sub R uni0327  by Rcommaaccent;
-    sub r uni0327  by rcommaaccent;
-    sub R uni030C  by Rcaron;
-    sub S acutecomb  by Sacute;
-    sub S uni0302  by Scircumflex;
-    sub S uni0327  by Scedilla;
-    sub s uni0327  by scedilla;
-    sub S uni030C  by Scaron;
-    sub T uni0327  by Tcommaaccent;
-    sub t uni0327  by tcommaaccent;
-    sub T uni030C  by Tcaron;
-    sub t uni030C  by tcaron;
-    sub U tildecomb  by Utilde;
-    sub U uni0304  by Umacron;
-    sub U uni0328  by Uogonek;
-    sub u uni0328  by uogonek;
-    sub W uni0302  by Wcircumflex;
-    sub Y uni0302  by Ycircumflex;
-    sub Y uni0308  by Ydieresis;
-    sub Z acutecomb  by Zacute;
-    sub Z uni030C  by Zcaron;
-    sub A uni030C  by uni01CD;
-    sub I uni030C  by uni01CF;
-    sub O uni030C  by uni01D1;
-    sub U uni030C  by uni01D3;
-    sub AE uni0304  by uni01E2;
-    sub G uni030C  by Gcaron;
-    sub K uni030C  by uni01E8;
-    sub k uni030C  by uni01E9;
-    sub O uni0328  by uni01EA;
-    sub o uni0328  by uni01EB;
-    sub uni01EA uni0304  by uni01EC;
-    sub uni01B7 uni030C  by uni01EE;
-    sub G acutecomb  by uni01F4;
-    sub N gravecomb  by uni01F8;
-    sub Aring acutecomb  by Aringacute;
-    sub AE acutecomb  by AEacute;
-    sub Oslash acutecomb  by Oslashacute;
-    sub A hookabovecomb  by uni1EA2;
-    sub a hookabovecomb  by uni1EA3;
-    sub E hookabovecomb  by uni1EBA;
-    sub e hookabovecomb  by uni1EBB;
-    sub I hookabovecomb  by uni1EC8;
-    sub i hookabovecomb  by uni1EC9;
-    sub O hookabovecomb  by uni1ECE;
-    sub o hookabovecomb  by uni1ECF;
-    sub U hookabovecomb  by uni1EE6;
-    sub u hookabovecomb  by uni1EE7;
-    sub Y hookabovecomb  by uni1EF6;
-    sub y hookabovecomb  by uni1EF7;
-    sub AE hookabovecomb  by uniEBEA;
-    sub ae hookabovecomb  by uniEBEB;
-    sub J hookabovecomb  by uniE163;
-    sub j hookabovecomb  by uniE563;
-    sub Oslash hookabovecomb  by uniE3D4;
-    sub oslash hookabovecomb  by uniE7D4;
-    sub i acutecomb by iacute;
-    sub i gravecomb by igrave;
-    sub i uni0302 by icircumflex;
-    sub i uni0308 by idieresis;
-    sub i uni0304 by imacron;
-} ccmp_Make_Composites;
+#lookup ccmp_Make_Composites {
+#  lookupflag 0;
+#    sub U uni0308 uni0304  by uni01D5;
+#    sub U uni0308 acutecomb  by uni01D7;
+#    sub U uni0308 uni030C  by uni01D9;
+#    sub U uni0308 gravecomb  by uni01DB;
+#    sub O uni0304 uni0328  by uni01EC;
+#    sub O uni0328 uni0304  by uni01EC;
+#    sub o uni0304 uni0328  by uni01ED;
+#    sub o uni0328 uni0304  by uni01ED;
+#    sub A uni030A acutecomb  by Aringacute;
+#    sub E uni1DCE uni0328  by uniEBF2;
+#    sub E uni0328 uni1DCE  by uniEBF2;
+#    sub e uni1DCE uni0328  by uniEBF3;
+#    sub e uni0328 uni1DCE  by uniEBF3;
+#    sub O uni1DCE uni0328  by uniE24F;
+#    sub O uni0328 uni1DCE  by uniE24F;
+#    sub o uni1DCE uni0328  by uniE64F;
+#    sub o uni0328 uni1DCE  by uniE64F;
+#    sub O uni1DCE acutecomb  by uniEBB7;
+#    sub o uni1DCE acutecomb  by uniEBB8;
+#    sub A gravecomb  by Agrave;
+#    sub A acutecomb  by Aacute;
+#    sub A uni0302  by Acircumflex;
+#    sub A tildecomb  by Atilde;
+#    sub A uni0308  by Adieresis;
+#    sub C uni0327  by Ccedilla;
+#    sub E gravecomb  by Egrave;
+#    sub E acutecomb  by Eacute;
+#    sub E uni0302  by Ecircumflex;
+#    sub E uni0308  by Edieresis;
+#    sub I gravecomb  by Igrave;
+#    sub I acutecomb  by Iacute;
+#    sub I uni0302  by Icircumflex;
+#    sub I uni0308  by Idieresis;
+#    sub N tildecomb  by Ntilde;
+#    sub O gravecomb  by Ograve;
+#    sub O acutecomb  by Oacute;
+#    sub O uni0302  by Ocircumflex;
+#    sub O tildecomb  by Otilde;
+#    sub O uni0308  by Odieresis;
+#    sub U gravecomb  by Ugrave;
+#    sub U acutecomb  by Uacute;
+#    sub U uni0302  by Ucircumflex;
+#    sub U uni0308  by Udieresis;
+#    sub Y acutecomb  by Yacute;
+#    sub c uni0327  by ccedilla;
+#    sub y acutecomb  by yacute;
+#    sub A uni0304  by Amacron;
+#    sub A uni0306  by Abreve;
+#    sub A uni0328  by Aogonek;
+#    sub a uni0328  by aogonek;
+#    sub C acutecomb  by Cacute;
+#    sub C uni0302  by Ccircumflex;
+#    sub C uni030C  by Ccaron;
+#    sub D uni030C  by Dcaron;
+#    sub d uni030C  by dcaron;
+#    sub D uni0304  by Dcroat;
+#    sub E uni0304  by Emacron;
+#    sub E uni0328  by Eogonek;
+#    sub e uni0328  by eogonek;
+#    sub E uni030C  by Ecaron;
+#    sub G uni0302  by Gcircumflex;
+#    sub G uni0327  by Gcommaaccent;
+#    sub g uni0327  by gcommaaccent;
+#    sub H uni0302  by Hcircumflex;
+#    sub h uni0302  by hcircumflex;
+#    sub I tildecomb  by Itilde;
+#    sub I uni0304  by Imacron;
+#    sub I uni0328  by Iogonek;
+#    sub i uni0328  by iogonek;
+#    sub J uni0302  by Jcircumflex;
+#    sub j uni0302  by jcircumflex;
+#    sub K uni0327  by Kcommaaccent;
+#    sub k uni0327  by kcommaaccent;
+#    sub L acutecomb  by Lacute;
+#    sub l acutecomb  by lacute;
+#    sub L uni0327  by Lcommaaccent;
+#    sub l uni0327  by lcommaaccent;
+#    sub L uni030C  by Lcaron;
+#    sub l uni030C  by lcaron;
+#    sub L periodcentered  by Ldot;
+#    sub l periodcentered  by ldot;
+#    sub N acutecomb  by Nacute;
+#    sub N uni0327  by Ncommaaccent;
+#    sub n uni0327  by ncommaaccent;
+#    sub N uni030C  by Ncaron;
+#    sub afii57929 n  by napostrophe;
+#    sub O uni0304  by Omacron;
+#    sub R acutecomb  by Racute;
+#    sub R uni0327  by Rcommaaccent;
+#    sub r uni0327  by rcommaaccent;
+#    sub R uni030C  by Rcaron;
+#    sub S acutecomb  by Sacute;
+#    sub S uni0302  by Scircumflex;
+#    sub S uni0327  by Scedilla;
+#    sub s uni0327  by scedilla;
+#    sub S uni030C  by Scaron;
+#    sub T uni0327  by Tcommaaccent;
+#    sub t uni0327  by tcommaaccent;
+#    sub T uni030C  by Tcaron;
+#    sub t uni030C  by tcaron;
+#    sub U tildecomb  by Utilde;
+#    sub U uni0304  by Umacron;
+#    sub U uni0328  by Uogonek;
+#    sub u uni0328  by uogonek;
+#    sub W uni0302  by Wcircumflex;
+#    sub Y uni0302  by Ycircumflex;
+#    sub Y uni0308  by Ydieresis;
+#    sub Z acutecomb  by Zacute;
+#    sub Z uni030C  by Zcaron;
+#    sub A uni030C  by uni01CD;
+#    sub I uni030C  by uni01CF;
+#    sub O uni030C  by uni01D1;
+#    sub U uni030C  by uni01D3;
+#    sub AE uni0304  by uni01E2;
+#    sub G uni030C  by Gcaron;
+#    sub K uni030C  by uni01E8;
+#    sub k uni030C  by uni01E9;
+#    sub O uni0328  by uni01EA;
+#    sub o uni0328  by uni01EB;
+#    sub uni01EA uni0304  by uni01EC;
+#    sub uni01B7 uni030C  by uni01EE;
+#    sub G acutecomb  by uni01F4;
+#    sub N gravecomb  by uni01F8;
+#    sub Aring acutecomb  by Aringacute;
+#    sub AE acutecomb  by AEacute;
+#    sub Oslash acutecomb  by Oslashacute;
+#    sub A hookabovecomb  by uni1EA2;
+#    sub a hookabovecomb  by uni1EA3;
+#    sub E hookabovecomb  by uni1EBA;
+#    sub e hookabovecomb  by uni1EBB;
+#    sub I hookabovecomb  by uni1EC8;
+#    sub i hookabovecomb  by uni1EC9;
+#    sub O hookabovecomb  by uni1ECE;
+#    sub o hookabovecomb  by uni1ECF;
+#    sub U hookabovecomb  by uni1EE6;
+#    sub u hookabovecomb  by uni1EE7;
+#    sub Y hookabovecomb  by uni1EF6;
+#    sub y hookabovecomb  by uni1EF7;
+#    sub AE hookabovecomb  by uniEBEA;
+#    sub ae hookabovecomb  by uniEBEB;
+#    sub J hookabovecomb  by uniE163;
+#    sub j hookabovecomb  by uniE563;
+#    sub Oslash hookabovecomb  by uniE3D4;
+#    sub oslash hookabovecomb  by uniE7D4;
+#    sub i acutecomb by iacute;
+#    sub i gravecomb by igrave;
+#    sub i uni0302 by icircumflex;
+#    sub i uni0308 by idieresis;
+#    sub i uni0304 by imacron;
+#} ccmp_Make_Composites;
 
 lookup Single_Substitution_01 {
   lookupflag 0;
@@ -299,6 +325,11 @@ lookup locl_Icelandic {
     sub eth by eth.nordic ;
     sub thorn by thorn.nordic ;
 } locl_Icelandic;
+
+lookup locl_Turkish {
+  lookupflag 0 ;
+    sub i.sc by i.sc1 ;
+} locl_Turkish ;
 
 lookup swsh_Swashes {
   lookupflag 0;
@@ -409,6 +440,7 @@ lookup smcp_Small_Caps {
   sub scedilla by scedilla.sc;
   sub tcaron by tcaron.sc;
   sub thorn by thorn.sc;
+  sub thorn.nordic by thorn.nordicsc;
   sub tildecomb by tildecomb.sc;
   sub uacute by uacute.sc;
   sub ucircumflex by ucircumflex.sc;
@@ -910,6 +942,59 @@ lookup ss20_Gothic_To_Latin {
     sub u10349 by o ;
 } ss20_Gothic_To_Latin;
 
+lookup rtlm_Mirrored_Runes {
+  lookupflag 0 ;
+    sub uni16A0 by uni16A0.rtl ;
+    sub uni16A1 by uni16A1.rtl ;
+    sub uni16A2 by uni16A2.rtl ;
+    sub uni16A3 by uni16A3.rtl ;
+    sub uni16A4 by uni16A4.rtl ;
+    sub uni16A5 by uni16A5.rtl ;
+    sub uni16A6 by uni16A6.rtl ;
+    sub uni16A7 by uni16A7.rtl ;
+    sub uni16A8 by uni16A8.rtl ;
+    sub uni16A9 by uni16A9.rtl ;
+    sub uni16AA by uni16AA.rtl ;
+    sub uni16AB by uni16AB.rtl ;
+    sub uni16AC by uni16AC.rtl ;
+    sub uni16AD by uni16AD.rtl ;
+    sub uni16AE by uni16AE.rtl ;
+    sub uni16AF by uni16AF.rtl ;
+    sub uni16B0 by uni16B0.rtl ;
+    sub uni16B1 by uni16B1.rtl ;
+    sub uni16B2 by uni16B2.rtl ;
+    sub uni16B3 by uni16B3.rtl ;
+    sub uni16B4 by uni16B4.rtl ;
+    sub uni16B5 by uni16B5.rtl ;
+    sub uni16B6 by uni16B6.rtl ;
+    sub uni16B8 by uni16B8.rtl ;
+    sub uni16B9 by uni16B9.rtl ;
+    sub uni16BA by uni16BA.rtl ;
+    sub uni16BB by uni16BB.rtl ;
+    sub uni16BE by uni16BE.rtl ;
+    sub uni16BF by uni16BF.rtl ;
+    sub uni16C0 by uni16C0.rtl ;
+    sub uni16C3 by uni16C3.rtl ;
+    sub uni16C5 by uni16C5.rtl ;
+    sub uni16C6 by uni16C6.rtl ;
+    sub uni16C7 by uni16C7.rtl ;
+    sub uni16C8 by uni16C8.rtl ;
+    sub uni16CA by uni16CA.rtl ;
+    sub uni16CB by uni16CB.rtl ;
+    sub uni16D0 by uni16D0.rtl ;
+    sub uni16D1 by uni16D1.rtl ;
+    sub uni16D2 by uni16D2.rtl ;
+    sub uni16D3 by uni16D3.rtl ;
+    sub uni16D4 by uni16D4.rtl ;
+    sub uni16D5 by uni16D5.rtl ;
+    sub uni16DA by uni16DA.rtl ;
+    sub uni16DB by uni16DB.rtl ;
+    sub uni16E2 by uni16E2.rtl ;
+    sub uni16E9 by uni16E9.rtl ;
+    sub uni16EA by uni16EA.rtl ;
+    sub uni16EE by uni16EE.rtl ;
+} rtlm_Mirrored_Runes ;
+
 lookup salt_Stylistic_Alternates {
   lookupflag 0;
     sub A from [ uniF13A ];
@@ -969,7 +1054,15 @@ lookup frac_Fractions {
 lookup case_Case_Sensitive_Forms {
   lookupflag 0;
     sub acute by CapAcute ;
+    sub gravecomb by  CapGrave.comb ;
     sub acutecomb by CapAcute.comb ;
+    sub uni030C by CapCaron.comb ;
+    sub uni0302 by CapCircumflex.comb ;
+    sub uni0304 by CapMacron.comb ;
+    sub uni0308 by CapDieresis.comb ;
+    sub uni030B by CapDoubleAcute.comb ;
+    sub uni030F by CapDoubleGrave.comb ;
+    sub tildecomb by CapTilde.comb ;
 } case_Case_Sensitive_Forms;
 
 lookup hlig_Historic_Ligatures {
@@ -1150,91 +1243,31 @@ lookup calt_Old_Punctuation_Cleanup {
     sub @cc35_match_2 @cc35_match_3' lookup Restore_Quote_Right  ;
 } calt_Old_Punctuation_Cleanup;
 
+lookup calt_s_In_Final_Position {
+  lookupflag 0;
+  ignore sub [ longs uniE1AB ]' @AllLowerCase;
+  ignore sub [ longs uniE1AB ]' [ quotesingle quoteright ] @AllLowerCase ;
+  sub [longs uniE1AB]' by [s uniF4FD];
+} calt_s_In_Final_Position;
+
 feature ccmp {
-
- script DFLT;
-     language dflt ;
-      lookup ccmp_Make_Composites;
-      lookup ccmp_dotless_i_j;
-
- script latn;
-     language dflt ;
-      lookup ccmp_Make_Composites;
-      lookup ccmp_dotless_i_j;
-     language ISL  exclude_dflt;
-      lookup ccmp_Make_Composites;
-      lookup ccmp_dotless_i_j;
+  lookup ccmp_dotless_i_j;
 } ccmp;
 
 feature sups {
-
- script DFLT;
-     language dflt ;
-      lookup sups_Superscripts;
-
- script latn;
-     language dflt ;
-      lookup sups_Superscripts;
-     language ISL  exclude_dflt;
-      lookup sups_Superscripts;
+  lookup sups_Superscripts;
 } sups;
 
 feature subs {
-
- script DFLT;
-     language dflt ;
-      lookup subs_Subscripts;
-
- script goth;
-     language dflt ;
-      lookup subs_Subscripts;
-
- script latn;
-     language dflt ;
-      lookup subs_Subscripts;
-     language ISL  exclude_dflt;
-      lookup subs_Subscripts;
-
- script runr;
-     language dflt ;
-      lookup subs_Subscripts;
+  lookup subs_Subscripts;
 } subs;
 
 feature onum {
-
- script DFLT;
-     language dflt ;
-      lookup onum_Old_Style_Figures;
-
- script latn;
-     language dflt ;
-      lookup onum_Old_Style_Figures;
-     language ISL  exclude_dflt;
-      lookup onum_Old_Style_Figures;
-
- script runr;
-     language dflt ;
-      lookup onum_Old_Style_Figures;
+  lookup onum_Old_Style_Figures;
 } onum;
 
-feature locl {
-
- script latn;
-     language ISL  exclude_dflt;
-      lookup locl_Icelandic;
-} locl;
-
 feature swsh {
-
- script DFLT;
-     language dflt ;
-      lookup swsh_Swashes;
-
- script latn;
-     language dflt ;
-      lookup swsh_Swashes;
-     language ISL  exclude_dflt;
-      lookup swsh_Swashes;
+  lookup swsh_Swashes;
 } swsh;
 
 feature smcp {
@@ -1245,44 +1278,31 @@ feature c2sc {
   lookup c2sc_Caps_to_Small_Caps;
 } c2sc;
 
-feature hist {
-
- script DFLT;
-     language dflt ;
-      lookup hist_Historical_Forms;
-
+feature locl {
  script latn;
-     language dflt ;
-      lookup hist_Historical_Forms;
-     language ISL  exclude_dflt;
-      lookup hist_Historical_Forms;
+    language ISL  exclude_dflt;
+      lookup locl_Icelandic;
+    language TRK  exclude_dflt ;
+      lookup locl_Turkish ;
+} locl;
+
+feature hist {
+  lookup hist_Historical_Forms;
+  lookup calt_s_In_Final_Position;
 } hist;
 
 feature ss01 {
-
- script DFLT;
-     language dflt ;
-      lookup ss01_Nordic_Shapes;
-
- script latn;
-     language dflt ;
-      lookup ss01_Nordic_Shapes;
-     language ISL  exclude_dflt;
-      lookup ss01_Nordic_Shapes;
+  lookup ss01_Nordic_Shapes;
 } ss01;
 
 feature ss02 {
-
- script DFLT;
-     language dflt ;
-      lookup ss02_Insular_Shapes;
-
- script latn;
-     language dflt ;
-      lookup ss02_Insular_Shapes;
-     language ISL  exclude_dflt;
-      lookup ss02_Insular_Shapes;
+  lookup ss02_Insular_Shapes;
 } ss02;
+
+feature ss03 {
+  lookup hist_Historical_Forms;
+  lookup calt_s_In_Final_Position;
+} ss03;
 
 feature ss04 {
   lookup ss04_High_Overlines ;
@@ -1301,272 +1321,77 @@ feature ss07 {
 } ss07;
 
 feature ss08 {
-
- script DFLT;
-     language dflt ;
-      lookup ss08_Flat_Top_Yogh;
-
- script latn;
-     language dflt ;
-      lookup ss08_Flat_Top_Yogh;
-     language ISL  exclude_dflt;
-      lookup ss08_Flat_Top_Yogh;
+  lookup ss08_Flat_Top_Yogh;
 } ss08;
 
 feature ss09 {
-
- script DFLT;
-     language dflt ;
-      lookup ss09_Old_Junicode_Shapes;
-
- script latn;
-     language dflt ;
-      lookup ss09_Old_Junicode_Shapes;
-     language ISL  exclude_dflt;
-      lookup ss09_Old_Junicode_Shapes;
+  lookup ss09_Old_Junicode_Shapes;
 } ss09;
 
 feature ss10 {
-
- script DFLT;
-     language dflt ;
-      lookup ss10_Long_Slashes;
-
- script goth;
-     language dflt ;
-      lookup ss10_Long_Slashes;
-
- script latn;
-     language dflt ;
-      lookup ss10_Long_Slashes;
-     language ISL  exclude_dflt;
-      lookup ss10_Long_Slashes;
-
- script runr;
-     language dflt ;
-      lookup ss10_Long_Slashes;
+  lookup ss10_Long_Slashes;
 } ss10;
 
 feature ss14 {
-
- script DFLT;
-     language dflt ;
-      lookup ss14_MUFI_Hook_Above;
-
- script latn;
-     language dflt ;
-      lookup ss14_MUFI_Hook_Above;
-     language ISL  exclude_dflt;
-      lookup ss14_MUFI_Hook_Above;
+  lookup ss14_MUFI_Hook_Above;
 } ss14;
 
 feature ss15 {
-
- script DFLT;
-     language dflt ;
-      lookup ss15_Centered_Ogonek;
-
- script latn;
-     language dflt ;
-      lookup ss15_Centered_Ogonek;
-     language ISL  exclude_dflt;
-      lookup ss15_Centered_Ogonek;
+  lookup ss15_Centered_Ogonek;
 } ss15;
 
 feature ss16 {
-
- script DFLT;
-     language dflt ;
-      lookup ss16_Upright_brackets;
-
- script latn;
-     language dflt ;
-      lookup ss16_Upright_brackets;
-     language ISL  exclude_dflt;
-      lookup ss16_Upright_brackets;
-
- script runr;
-     language dflt ;
-      lookup ss16_Upright_brackets;
+  lookup ss16_Upright_brackets;
 } ss16;
 
 feature ss17 {
-
- script DFLT;
-     language dflt ;
-      lookup ss17_Linguistic_Alternates;
-
- script goth;
-     language dflt ;
-      lookup ss17_Linguistic_Alternates;
-
- script latn;
-     language dflt ;
-      lookup ss17_Linguistic_Alternates;
-     language ISL  exclude_dflt;
-      lookup ss17_Linguistic_Alternates;
-
- script runr;
-     language dflt ;
-      lookup ss17_Linguistic_Alternates;
+  lookup ss17_Linguistic_Alternates;
 } ss17;
 
 feature ss18 {
-
- script DFLT;
-     language dflt ;
-      lookup ss18_Old_Style_Punctuation;
-
- script latn;
-     language dflt ;
-      lookup ss18_Old_Style_Punctuation;
-     language ISL  exclude_dflt;
-      lookup ss18_Old_Style_Punctuation;
-
- script runr;
-     language dflt ;
-      lookup ss18_Old_Style_Punctuation;
+  lookup ss18_Old_Style_Punctuation;
 } ss18;
 
 feature ss19 {
-
- script DFLT;
-     language dflt ;
-      lookup ss19_Latin_To_Gothic;
-
- script goth;
-     language dflt ;
-      lookup ss19_Latin_To_Gothic;
-
- script latn;
-     language dflt ;
-      lookup ss19_Latin_To_Gothic;
-     language ISL  exclude_dflt;
-      lookup ss19_Latin_To_Gothic;
-
- script runr;
-     language dflt ;
-      lookup ss19_Latin_To_Gothic;
+  lookup ss19_Latin_To_Gothic;
 } ss19;
 
 feature ss20 {
-
- script DFLT;
-     language dflt ;
-      lookup ss20_Gothic_To_Latin;
-
- script goth;
-     language dflt ;
-      lookup ss20_Gothic_To_Latin;
+  lookup ss20_Gothic_To_Latin;
 } ss20;
 
+feature rtlm {
+  lookup rtlm_Mirrored_Runes ;
+} rtlm ;
+
 feature salt {
-
- script DFLT;
-     language dflt ;
-      lookup salt_Stylistic_Alternates;
-
- script latn;
-     language dflt ;
-      lookup salt_Stylistic_Alternates;
-     language ISL  exclude_dflt;
-      lookup salt_Stylistic_Alternates;
+  lookup salt_Stylistic_Alternates;
 } salt;
 
 feature frac {
-
- script DFLT;
-     language dflt ;
-      lookup frac_Fractions;
-
- script latn;
-     language dflt ;
-      lookup frac_Fractions;
-     language ISL  exclude_dflt;
-      lookup frac_Fractions;
+  lookup frac_Fractions;
 } frac;
 
 feature case {
-
- script DFLT;
-     language dflt ;
-      lookup case_Case_Sensitive_Forms;
-
- script goth;
-     language dflt ;
-      lookup case_Case_Sensitive_Forms;
-
- script latn;
-     language dflt ;
-      lookup case_Case_Sensitive_Forms;
-     language ISL  exclude_dflt;
-      lookup case_Case_Sensitive_Forms;
-
- script runr;
-     language dflt ;
-      lookup case_Case_Sensitive_Forms;
+  lookup case_Case_Sensitive_Forms;
 } case;
 
 feature hlig {
-
- script DFLT;
-     language dflt ;
-      lookup hlig_Historic_Ligatures;
-
- script latn;
-     language dflt ;
-      lookup hlig_Historic_Ligatures;
-     language ISL  exclude_dflt;
-      lookup hlig_Historic_Ligatures;
+  lookup hlig_Historic_Ligatures;
 } hlig;
 
 feature dlig {
-
- script DFLT;
-     language dflt ;
-      lookup dlig_Discretionary_Ligatures;
-
- script latn;
-     language dflt ;
-      lookup dlig_Discretionary_Ligatures;
-     language ISL  exclude_dflt;
-      lookup dlig_Discretionary_Ligatures;
+  lookup dlig_Discretionary_Ligatures;
 } dlig;
 
 feature liga {
-
- script DFLT;
-     language dflt ;
-      lookup liga_Standard_Ligatures;
-
- script latn;
-     language dflt ;
-      lookup liga_Standard_Ligatures;
-     language ISL  exclude_dflt;
-      lookup liga_Standard_Ligatures;
+  lookup liga_Standard_Ligatures;
 } liga;
 
 feature calt {
-
- script DFLT;
-     language dflt ;
-      lookup calt_Non_Colliding_Forms;
-      lookup calt_j_After_Ogonek;
-      lookup calt_Old_Punctuation_Cleanup;
-
- script latn;
-     language dflt ;
-      lookup calt_Non_Colliding_Forms;
-      lookup calt_j_After_Ogonek;
-      lookup calt_Old_Punctuation_Cleanup;
-     language ISL  exclude_dflt;
-      lookup calt_Non_Colliding_Forms;
-      lookup calt_j_After_Ogonek;
-      lookup calt_Old_Punctuation_Cleanup;
-
- script runr;
-     language dflt ;
-      lookup calt_Old_Punctuation_Cleanup;
+  lookup calt_Non_Colliding_Forms;
+  lookup calt_j_After_Ogonek;
+  lookup calt_Old_Punctuation_Cleanup;
 } calt;
 
 # GPOS
@@ -1656,6 +1481,18 @@ lookup mark_Mark_Above {
   pos base [ uni021D ] <anchor 540 900> mark @above_center;
   pos base [ uni0229 ] <anchor 608 900> mark @above_center;
   pos base [ uni0233 ] <anchor 564 1265> mark @above_center;
+  pos base [ uniA779 ] <anchor 1000 1415> mark @above_center;
+  pos base [ uniA77A ] <anchor 420 1350> mark @above_center;
+  pos base [ uniA77B ] <anchor 950 1415> mark @above_center;
+  pos base [ uniA77C ] <anchor 590 900> mark @above_center;
+  pos base [ uniA77D ] <anchor 1000 1415> mark @above_center;
+  pos base [ uniA782 ] <anchor 1040 1415> mark @above_center;
+  pos base [ uniA783 ] <anchor 570 900> mark @above_center;
+  pos base [ uniA784 ] <anchor 970 1415> mark @above_center;
+  pos base [ uniA785 ] <anchor 490 900> mark @above_center;
+  pos base [ uniA786 ] <anchor 1100 1415> mark @above_center;
+  pos base [ uniA787 ] <anchor 560 900> mark @above_center;
+  pos base [ uni1D79 ] <anchor 600 900> mark @above_center;
   pos base [ uniF13E ] <anchor -402 900> mark @above_center;
   pos base [ uni0190 ] <anchor 684 1415> mark @above_center;
   pos base [ uni0186 ] <anchor 836 1415> mark @above_center;

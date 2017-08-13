@@ -62,6 +62,7 @@ lookup kern_Horizontal_Kerning {
     @kc40_first_54 = [ u10342 ];
     @kc40_first_55 = [ u10345 ];
     @kc40_first_56 = [ u10349 ];
+    @kc40_first_57 = [ longs ];
     @kc40_second_1 = [ A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring 
 	Atilde ];
     @kc40_second_2 = [ AE uni01E2 ];
@@ -1471,6 +1472,7 @@ lookup kern_Horizontal_Kerning {
     pos @kc40_first_56 @kc40_second_56 31;
     pos @kc40_first_56 @kc40_second_57 111;
     pos @kc40_first_56 @kc40_second_58 118;
+    pos @kc40_first_57 @kc40_second_16 218;
   subtable;
     @kc41_first_1 = [ a.sc agrave.sc aacute.sc atilde.sc acircumflex.sc adieresis.sc 
 	amacron.sc ];
@@ -1485,7 +1487,7 @@ lookup kern_Horizontal_Kerning {
 	imacron.sc ntilde.sc nacute.sc ncaron.sc uniEF21 uniEF2A uniEBDA ];
     @kc41_first_9 = [ j.sc ];
     @kc41_first_10 = [ k.sc uniEBDB ];
-    @kc41_first_11 = [ l.sc lslash.sc uniEF28 uniEBDC uniEBDC ];
+    @kc41_first_11 = [ l.sc lslash.sc uniEF28 uniEBDC ];
     @kc41_first_12 = [ m.sc uniEBDD uniEF29 ];
     @kc41_first_13 = [ o.sc ograve.sc oacute.sc ocircumflex.sc otilde.sc odieresis.sc 
 	omacron.sc ];
