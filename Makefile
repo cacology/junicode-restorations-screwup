@@ -17,16 +17,23 @@ define generate_font
 	  echo "Required program makeotf (Adobe FDK) not installed!" ; \
 	  exit 1 ; \
 	fi ; \
+	which ttx > /dev/null ; \
+	if [ $$? -eq 0 ] ; then \
+	  echo "Adding dummy DSIG table" ; \
+	  ttx -d . -o $(1)-dsig.ttf -m $(1)-tmp.ttf util/dsig.ttx ; \
+	else \
+	  echo "Required program ttx (FontTools) not installed!" ; \
+	  exit 1; \
+	fi ; \
 	which ttfautohint > /dev/null ; \
 	if [ $$? -eq 0 ] ; then \
 	  echo "Running ttfautohint to make hinted font $(2).ttf" ; \
-	  ttfautohint -f latn --hinting-range-min=20 --hinting-range-max=150 -v $(1)-tmp.ttf $(2).ttf ; \
-	  rm $(1)-tmp.ttf ; \
+	  ttfautohint -f latn --hinting-range-min=20 --hinting-range-max=150 -v $(1)-dsig.ttf $(2).ttf ; \
 	else \
 	  echo "$(2).ttf will be uhinted - ttfautohint not installed!" ; \
 	  mv $(1)-tmp.ttf $(2).ttf ; \
 	fi ; \
-	rm $(1).ttf
+	rm -f $(1).ttf $(1)-dsig.ttf $(1)-tmp.ttf
 endef
 
 all : regular bold italic bolditalic greek
