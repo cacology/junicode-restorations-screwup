@@ -1,0 +1,15 @@
+[Junicode]
+	f=Junicode
+	s=Regular
+[Junicode-Italic]
+	f=Junicode
+	s=Italic
+[Junicode-Bold]
+	f=Junicode
+	s=Bold
+[Junicode-BoldItalic]
+	f=Junicode
+	s=BoldItalic
+[FoulisGreek]
+	f=FoulisGreek
+	s=Regular
