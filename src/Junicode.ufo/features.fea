@@ -3990,3 +3990,16 @@ table hhea {
   Ascender 2070 ;
   Descender 880 ;
 } hhea ;
+
+table head {
+  FontRevision 0.900;
+} head;
+
+table name {
+  nameid 0 1 "Copyright (c) 1998-2017 by Peter S. Baker";
+  nameid 0 3 "Copyright (c) 1998-2017 by Peter S. Baker";
+  nameid 13 1 "Licensed under the SIL Open Font License, version 1.1";
+  nameid 13 3 "Licensed under the SIL Open Font License, version 1.1";
+  nameid 14 1 "http://scripts.sil.org/OFL";
+  nameid 14 3 "http://scripts.sil.org/OFL";
+} name;

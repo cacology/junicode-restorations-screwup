@@ -7,7 +7,7 @@
 	<key>capHeight</key>
 	<integer>1363</integer>
 	<key>copyright</key>
-	<string>Copyright (c) 1998-2012 by Peter S. Baker</string>
+	<string>Copyright (c) 1998-2017 by Peter S. Baker</string>
 	<key>descender</key>
 	<integer>-410</integer>
 	<key>familyName</key>
@@ -37,7 +37,7 @@ tilde above lc circumflex 450</string>
 	<key>openTypeNameDesignerURL</key>
 	<string>http://junicode.sourceforge.net/</string>
 	<key>openTypeNameLicense</key>
-	<string>Copyright (c) 2012, Peter S. Baker,
+	<string>Copyright (c) 2017, Peter S. Baker,
 with Reserved Font Name Junicode.
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
