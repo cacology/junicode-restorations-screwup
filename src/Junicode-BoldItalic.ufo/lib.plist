@@ -882,47 +882,47 @@
 		<string>u10348</string>
 		<string>u10349</string>
 		<string>u1034A</string>
-		<string>j.alt</string>
-		<string>CapAcute</string>
-		<string>CapDoubleAcute</string>
-		<string>six.oldstyle</string>
-		<string>eogonek.alt</string>
-		<string>eth.nordic</string>
 		<string>three.oldstyle</string>
-		<string>f_eth</string>
-		<string>eth.alt</string>
-		<string>f_f.alt</string>
-		<string>CapCircumflex</string>
-		<string>CapDieresis</string>
-		<string>f_j</string>
-		<string>PoisonMark</string>
-		<string>nine.oldstyle</string>
-		<string>zero.oldstyle</string>
-		<string>thorn.nordic</string>
-		<string>dollar.oldstyle</string>
-		<string>two.oldstyle</string>
-		<string>CapCaron</string>
-		<string>longslash</string>
-		<string>caron.alt</string>
-		<string>eight.oldstyle</string>
-		<string>five.oldstyle</string>
-		<string>Thorn.nordic</string>
-		<string>f_thorn.nordic</string>
-		<string>longbackslash</string>
-		<string>one.oldstyle</string>
-		<string>T.alt</string>
-		<string>uni0294.alt</string>
-		<string>seven.oldstyle</string>
-		<string>.notdef</string>
-		<string>four.oldstyle</string>
-		<string>CapMacron</string>
-		<string>uniA77A.alt</string>
-		<string>CapDoubleGrave</string>
-		<string>cent.oldstyle</string>
-		<string>f.alt</string>
-		<string>CapGrave</string>
-		<string>f_thorn</string>
 		<string>CapTilde</string>
+		<string>CapCaron</string>
+		<string>CapDoubleGrave</string>
+		<string>T.alt</string>
+		<string>nine.oldstyle</string>
+		<string>CapMacron</string>
+		<string>zero.oldstyle</string>
+		<string>f.alt</string>
+		<string>four.oldstyle</string>
+		<string>f_eth</string>
+		<string>j.alt</string>
+		<string>PoisonMark</string>
+		<string>CapDoubleAcute</string>
+		<string>eth.nordic</string>
+		<string>eth.alt</string>
+		<string>caron.alt</string>
+		<string>uni0294.alt</string>
+		<string>one.oldstyle</string>
+		<string>cent.oldstyle</string>
+		<string>seven.oldstyle</string>
+		<string>f_j</string>
+		<string>five.oldstyle</string>
+		<string>CapGrave</string>
+		<string>CapAcute</string>
+		<string>longslash</string>
+		<string>eogonek.alt</string>
+		<string>uniA77A.alt</string>
+		<string>two.oldstyle</string>
+		<string>f_thorn.nordic</string>
+		<string>dollar.oldstyle</string>
+		<string>Thorn.nordic</string>
+		<string>thorn.nordic</string>
+		<string>CapDieresis</string>
+		<string>longbackslash</string>
+		<string>CapCircumflex</string>
+		<string>.notdef</string>
+		<string>eight.oldstyle</string>
+		<string>six.oldstyle</string>
+		<string>f_thorn</string>
+		<string>f_f.alt</string>
 	</array>
 </dict>
 </plist>

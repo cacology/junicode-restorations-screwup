@@ -408,7 +408,7 @@ lookup c2sc_Caps_to_Small_Caps {
   sub exclamdown by exclamdown.sc;
   sub Gcaron by gcaron.sc;
   sub Gdotaccent by gdotaccent.sc;
-  sub uni1E9E by germandbls.sc;
+  sub uni1E9E by germandbls.sc1;
   sub gravecomb by gravecomb.sc;
   sub Iacute by iacute.sc;
   sub Icircumflex by icircumflex.sc;
@@ -700,6 +700,7 @@ lookup ss10_Long_Slashes {
 
 lookup ss14_MUFI_Hook_Above {
   lookupflag 0 ;
+    sub hookabovecomb by uni1DCE;
     sub uni1EA2 by uniE033 ;
     sub uni1EA3 by uniE433 ;
     sub uni1EBA by uniE0E9 ;

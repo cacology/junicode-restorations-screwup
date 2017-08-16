@@ -4,17 +4,20 @@
   <unicode hex="0331"/>
   <outline>
     <contour>
-      <point x="-246" y="-37" type="move" name="_Anchor-1"/>
+      <point x="-504" y="-76" type="move" name="_Anchor1"/>
     </contour>
     <contour>
-      <point x="-137" y="-125" type="line" smooth="yes"/>
-      <point x="-122" y="-125"/>
-      <point x="-142" y="-180"/>
-      <point x="-155" y="-180" type="qcurve" smooth="yes"/>
-      <point x="-373" y="-180" type="line" smooth="yes"/>
-      <point x="-387" y="-180"/>
-      <point x="-371" y="-125"/>
-      <point x="-357" y="-125" type="qcurve" smooth="yes"/>
+      <point x="-504" y="-76" type="move" name="_Anchor-1"/>
+    </contour>
+    <contour>
+      <point x="-281" y="-256" type="line" smooth="yes"/>
+      <point x="-250" y="-256"/>
+      <point x="-291" y="-369"/>
+      <point x="-317" y="-369" type="qcurve" smooth="yes"/>
+      <point x="-764" y="-369" type="line" smooth="yes"/>
+      <point x="-793" y="-369"/>
+      <point x="-760" y="-256"/>
+      <point x="-731" y="-256" type="qcurve" smooth="yes"/>
     </contour>
   </outline>
 </glyph>

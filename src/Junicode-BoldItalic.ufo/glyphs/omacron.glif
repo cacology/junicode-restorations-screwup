@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="omacron" format="1">
-  <advance width="462"/>
+  <advance width="946"/>
   <unicode hex="014D"/>
   <outline>
     <contour>
-      <point x="354" y="618" type="move" name="Anchor-0"/>
+      <point x="725" y="1266" type="move" name="Anchor0"/>
     </contour>
-    <component base="macron" xOffset="89"/>
+    <contour>
+      <point x="725" y="1266" type="move" name="Anchor-0"/>
+    </contour>
+    <component base="macron" xOffset="182"/>
     <component base="o"/>
   </outline>
 </glyph>

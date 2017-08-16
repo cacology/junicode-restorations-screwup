@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni16CB" format="1">
-  <advance width="569"/>
+  <advance width="1165"/>
   <unicode hex="16CB"/>
   <outline>
     <contour>
-      <point x="18" y="189" type="line"/>
-      <point x="113" y="726" type="line"/>
-      <point x="225" y="726" type="line"/>
-      <point x="152" y="315" type="line"/>
-      <point x="427" y="503" type="line"/>
-      <point x="539" y="503" type="line"/>
-      <point x="450" y="0" type="line"/>
-      <point x="338" y="0" type="line"/>
-      <point x="405" y="377" type="line"/>
-      <point x="130" y="189" type="line"/>
+      <point x="37" y="387" type="line"/>
+      <point x="231" y="1487" type="line"/>
+      <point x="461" y="1487" type="line"/>
+      <point x="311" y="645" type="line"/>
+      <point x="874" y="1030" type="line"/>
+      <point x="1104" y="1030" type="line"/>
+      <point x="922" y="0" type="line"/>
+      <point x="692" y="0" type="line"/>
+      <point x="829" y="772" type="line"/>
+      <point x="266" y="387" type="line"/>
     </contour>
   </outline>
 </glyph>

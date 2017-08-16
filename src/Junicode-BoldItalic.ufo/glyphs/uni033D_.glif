@@ -4,21 +4,24 @@
   <unicode hex="033D"/>
   <outline>
     <contour>
-      <point x="-100" y="439" type="move" name="_Anchor-0"/>
+      <point x="-205" y="899" type="move" name="_Anchor0"/>
     </contour>
     <contour>
-      <point x="-5" y="501" type="line"/>
-      <point x="-33" y="477" type="line"/>
-      <point x="-89" y="546" type="line"/>
-      <point x="-171" y="477" type="line"/>
-      <point x="-191" y="501" type="line"/>
-      <point x="-109" y="570" type="line"/>
-      <point x="-164" y="639" type="line"/>
-      <point x="-135" y="664" type="line"/>
-      <point x="-80" y="594" type="line"/>
-      <point x="3" y="664" type="line"/>
-      <point x="22" y="639" type="line"/>
-      <point x="-60" y="570" type="line"/>
+      <point x="-205" y="899" type="move" name="_Anchor-0"/>
+    </contour>
+    <contour>
+      <point x="-10" y="1026" type="line"/>
+      <point x="-68" y="977" type="line"/>
+      <point x="-182" y="1118" type="line"/>
+      <point x="-350" y="977" type="line"/>
+      <point x="-391" y="1026" type="line"/>
+      <point x="-223" y="1167" type="line"/>
+      <point x="-336" y="1309" type="line"/>
+      <point x="-276" y="1360" type="line"/>
+      <point x="-164" y="1217" type="line"/>
+      <point x="6" y="1360" type="line"/>
+      <point x="45" y="1309" type="line"/>
+      <point x="-123" y="1167" type="line"/>
     </contour>
   </outline>
 </glyph>

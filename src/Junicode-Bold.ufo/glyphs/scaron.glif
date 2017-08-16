@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="scaron" format="1">
-  <advance width="365"/>
+  <advance width="747"/>
   <unicode hex="0161"/>
   <outline>
     <contour>
-      <point x="183" y="654" type="move" name="Anchor-1"/>
+      <point x="375" y="1339" type="move" name="Anchor1"/>
     </contour>
-    <component base="caron" xOffset="-1"/>
+    <contour>
+      <point x="375" y="1339" type="move" name="Anchor-1"/>
+    </contour>
+    <component base="caron" xOffset="-2"/>
     <component base="s"/>
   </outline>
 </glyph>

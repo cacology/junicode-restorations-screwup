@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="PoisonMark" format="1">
-  <advance width="335"/>
+  <advance width="686"/>
   <outline>
     <contour>
-      <point x="280" y="489" type="line"/>
-      <point x="250" y="459" type="line"/>
-      <point x="151" y="557" type="line"/>
-      <point x="53" y="459" type="line"/>
-      <point x="23" y="489" type="line"/>
-      <point x="121" y="587" type="line"/>
-      <point x="23" y="686" type="line"/>
-      <point x="53" y="716" type="line"/>
-      <point x="151" y="618" type="line"/>
-      <point x="250" y="716" type="line"/>
-      <point x="280" y="686" type="line"/>
-      <point x="182" y="587" type="line"/>
+      <point x="573" y="1001" type="line"/>
+      <point x="512" y="940" type="line"/>
+      <point x="309" y="1141" type="line"/>
+      <point x="109" y="940" type="line"/>
+      <point x="47" y="1001" type="line"/>
+      <point x="248" y="1202" type="line"/>
+      <point x="47" y="1405" type="line"/>
+      <point x="109" y="1466" type="line"/>
+      <point x="309" y="1266" type="line"/>
+      <point x="512" y="1466" type="line"/>
+      <point x="573" y="1405" type="line"/>
+      <point x="373" y="1202" type="line"/>
     </contour>
   </outline>
 </glyph>

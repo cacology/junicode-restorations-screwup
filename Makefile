@@ -12,7 +12,7 @@ define generate_font
 	fi ; \
 	which makeotf > /dev/null ; \
 	if [ $$? -eq 0 ] ; then \
-	  makeotf -fi src/fontinfo -f $(1).ttf -o $(1)-tmp.ttf -ff src/$(2).ufo/features.fea -mf src/JunicodeNameDB ; \
+	  makeotf -fi src/$(1)_fontinfo -f $(1).ttf -o $(1)-tmp.ttf -ff src/$(2).ufo/features.fea -mf src/JunicodeNameDB ; \
 	else \
 	  echo "Required program makeotf (Adobe FDK) not installed!" ; \
 	  exit 1 ; \
@@ -82,7 +82,4 @@ clean :
 	rm -f *.ttf ; rm -f *.woff
 
 dist :
-	$(MAKE) -f Makefile clean
-	tar -C .. -zcvf $(PACKAGE)-$(VERSION).tar.gz \
-	  --exclude=*.tar.bz2 --exclude=.* \
-	  --exclude=*~ --exclude=*.tar.gz $(PACKAGE)
+	zip -r junicode-$(VERSION).zip *.ttf doc/*.pdf

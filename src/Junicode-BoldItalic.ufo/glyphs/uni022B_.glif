@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni022B" format="1">
-  <advance width="462"/>
+  <advance width="946"/>
   <unicode hex="022B"/>
   <outline>
-    <component base="macron" xOffset="118" yOffset="176"/>
-    <component base="dieresis" xOffset="50"/>
+    <component base="macron" xOffset="242" yOffset="360"/>
+    <component base="dieresis" xOffset="102"/>
     <component base="o"/>
   </outline>
 </glyph>

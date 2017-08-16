@@ -4,8 +4,11 @@
   <unicode hex="0328"/>
   <outline>
     <contour>
-      <point x="-107" y="-37" type="move" name="_Anchor-1"/>
+      <point x="-219" y="-76" type="move" name="_Anchor1"/>
     </contour>
-    <component base="ogonek" xOffset="-310"/>
+    <contour>
+      <point x="-219" y="-76" type="move" name="_Anchor-1"/>
+    </contour>
+    <component base="ogonek" xOffset="-635"/>
   </outline>
 </glyph>

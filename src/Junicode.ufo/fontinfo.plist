@@ -5,7 +5,7 @@
 	<key>ascender</key>
 	<integer>1638</integer>
 	<key>capHeight</key>
-	<integer>1363</integer>
+	<integer>1385</integer>
 	<key>copyright</key>
 	<string>Copyright (c) 1998-2017 by Peter S. Baker</string>
 	<key>descender</key>
@@ -27,9 +27,9 @@ tilde above lc circumflex 450</string>
 	<key>openTypeHeadCreated</key>
 	<string>2006/10/06 04:38:10</string>
 	<key>openTypeHheaAscender</key>
-	<integer>2100</integer>
+	<integer>2070</integer>
 	<key>openTypeHheaDescender</key>
-	<integer>-845</integer>
+	<integer>-880</integer>
 	<key>openTypeHheaLineGap</key>
 	<integer>0</integer>
 	<key>openTypeNameDesigner</key>
@@ -138,13 +138,13 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://junicode.sourceforge.net/</string>
 	<key>openTypeNameUniqueID</key>
-	<string>Peter S.Baker: Junicode: 0.7.8</string>
+	<string>Peter S.Baker: Junicode: 0.900</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 0.7.8</string>
+	<string>Version 0.900</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>1</integer>
-		<integer>0</integer>
+		<integer>2</integer>
 	</array>
 	<key>openTypeOS2Panose</key>
 	<array>
@@ -182,9 +182,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeOS2Type</key>
 	<array/>
 	<key>openTypeOS2TypoAscender</key>
-	<integer>2100</integer>
+	<integer>2070</integer>
 	<key>openTypeOS2TypoDescender</key>
-	<integer>-845</integer>
+	<integer>-880</integer>
 	<key>openTypeOS2TypoLineGap</key>
 	<integer>0</integer>
 	<key>openTypeOS2VendorID</key>
@@ -194,9 +194,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeOS2WidthClass</key>
 	<integer>5</integer>
 	<key>openTypeOS2WinAscent</key>
-	<integer>2100</integer>
+	<integer>2070</integer>
 	<key>openTypeOS2WinDescent</key>
-	<integer>845</integer>
+	<integer>880</integer>
 	<key>postscriptBlueFuzz</key>
 	<integer>1</integer>
 	<key>postscriptBlueValues</key>
@@ -215,7 +215,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>postscriptFontName</key>
 	<string>Junicode</string>
 	<key>postscriptFullName</key>
-	<string>Junicode Regular</string>
+	<string>Junicode</string>
 	<key>postscriptOtherBlues</key>
 	<array>
 		<integer>-578</integer>
@@ -231,6 +231,10 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<integer>70</integer>
 	<key>postscriptWeightName</key>
 	<string>Regular</string>
+	<key>styleMapFamilyName</key>
+	<string>Junicode</string>
+	<key>styleMapStyleName</key>
+	<string>regular</string>
 	<key>styleName</key>
 	<string>Regular</string>
 	<key>trademark</key>
@@ -240,7 +244,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>versionMajor</key>
 	<integer>0</integer>
 	<key>versionMinor</key>
-	<integer>7</integer>
+	<integer>900</integer>
 	<key>xHeight</key>
 	<integer>856</integer>
 </dict>

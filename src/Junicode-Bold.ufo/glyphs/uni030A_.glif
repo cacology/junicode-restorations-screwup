@@ -4,14 +4,23 @@
   <unicode hex="030A"/>
   <outline>
     <contour>
-      <point x="-222" y="732" type="move" name="Anchor-2"/>
+      <point x="-455" y="981" type="move" name="_Anchor2"/>
     </contour>
     <contour>
-      <point x="-222" y="479" type="move" name="_Anchor-2"/>
+      <point x="-455" y="1499" type="move" name="Anchor2"/>
     </contour>
     <contour>
-      <point x="-222" y="439" type="move" name="_Anchor-1"/>
+      <point x="-455" y="899" type="move" name="_Anchor1"/>
     </contour>
-    <component base="ring" xOffset="-410"/>
+    <contour>
+      <point x="-455" y="1499" type="move" name="Anchor-2"/>
+    </contour>
+    <contour>
+      <point x="-455" y="981" type="move" name="_Anchor-2"/>
+    </contour>
+    <contour>
+      <point x="-455" y="899" type="move" name="_Anchor-1"/>
+    </contour>
+    <component base="ring" xOffset="-840"/>
   </outline>
 </glyph>

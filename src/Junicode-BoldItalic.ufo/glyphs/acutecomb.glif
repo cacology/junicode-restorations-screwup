@@ -4,8 +4,11 @@
   <unicode hex="0301"/>
   <outline>
     <contour>
-      <point x="-146" y="439" type="move" name="_Anchor-0"/>
+      <point x="-299" y="899" type="move" name="_Anchor0"/>
     </contour>
-    <component base="acute" xOffset="-322"/>
+    <contour>
+      <point x="-299" y="899" type="move" name="_Anchor-0"/>
+    </contour>
+    <component base="acute" xOffset="-659"/>
   </outline>
 </glyph>
