@@ -5,7 +5,7 @@ include version.mk
 define generate_font
 	which sfntedit > /dev/null ; \
 	if [ $$? -eq 0 ] ; then \
-	  sfntedit -d kern $(1).ttf ; \
+	  sfntedit -d GSUB,GPOS,GDEF $(1).ttf ; \
 	else \
 	  echo "Required program sfntedit (Adobe FDK) not installed!" ; \
 	  exit 1 ; \
