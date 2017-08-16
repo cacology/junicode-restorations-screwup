@@ -48,7 +48,7 @@
 \pagestyle{fancy}
 \fancyfoot{}
 \renewcommand{\headrulewidth}{0pt}
-\newcommand{\sampletext}{Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 12345 \addfontfeatures{Numbers=OldStyle}12345}
+\newcommand{\sampletext}{Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. 12345 \addfontfeatures{Numbers=OldStyle}12345}
 \newcommand{\sctext}{Cum multa divinitus, pontifices, a
 ma\-ioribus nos\-tris in\-venta atque in\-sti\-tuta sunt}
 
@@ -117,6 +117,9 @@ license.
 \noindent {\scshape {\tiny \sctext} {\small \sctext} {\large \sctext}
 {\Large \sctext} {\LARGE \sctext}}\\
 
+\noindent\textit{\scshape {\tiny \sctext} {\small \sctext} {\large \sctext}
+  {\Large \sctext} {\LARGE \sctext}}\\
+
 \noindent {\scshape\bfseries {\tiny \sctext} {\small \sctext} {\large \sctext}
 {\Large \sctext} {\LARGE \sctext}}\\
 
@@ -168,8 +171,8 @@ Gunnari skyldu fara, ok réðu hversu at skyldi fara.}
 \subsection*{Runic}
 ᚠᛁᛋᚳ ᚠᛚᚩᛞᚢ ᚪᚻᚩᚠ ᚩᚾ ᚠᛖᚱᚷᛖᚾᛒᛖᚱᛁᚷ ᚹᚪᚱᚦ ᚷᚪ᛬ᛇᚱᛁᚳ ᚷᚱᚩᚱᚾ ᚦᚨᚱ ᚻᛖ ᚩᚾ ᚷᚱᛖᚢᛏ ᚷᛁᛇᚹᚩᛗ
 ᚻᚱᚩᚾᚨᛇ ᛒᚪᚾ\\
-ᚱᚩᛗᚹᚪᛚᚢᛇ ᚪᚾᛞ ᚱᛖᚢᛗᚹᚪᛚᚢᛇ ᛏᚹᛟᚷᛖᚾ ᚷᛁᛒᚱᚩᚦᚫᚱ ᚪᚠᛟᛞᛞᚫ ᛞᛁᚫ ᚹᚣᛚᛁᚠ ᚩᚾ ᚱᚩᛗᚫ\linebreak[0]ᚳᚫᛇᛏᛁ᛬
-ᚩᚦᛚᚫ ᚢᚾᚾᛖᚷ
+\textit{ᚱᚩᛗᚹᚪᛚᚢᛇ ᚪᚾᛞ ᚱᛖᚢᛗᚹᚪᛚᚢᛇ} {\bfseries ᛏᚹᛟᚷᛖᚾ ᚷᛁᛒᚱᚩᚦᚫᚱ ᚪᚠᛟᛞᛞᚫ ᛞᛁᚫ ᚹᚣᛚᛁᚠ \textit{ᚩᚾ ᚱᚩᛗᚫ\linebreak[0]ᚳᚫᛇᛏᛁ᛬
+ᚩᚦᛚᚫ ᚢᚾᚾᛖᚷ}}
 
 \subsection*{German}
 
@@ -633,5 +636,5 @@ and bug reports.\\
   \setbox0=\hbox{X\lower.5ex\hbox{\kern-.15em\reflect{E}}\kern-.1667em \TeX}%
   \dp0=0pt\ht0=0pt\box0 }
 
-\noindent This document was set with {\XeTeX}.
+\noindent This document was set with LuaTeX.
 \end{document}
