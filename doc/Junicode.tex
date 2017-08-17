@@ -23,6 +23,7 @@
 \newICUfeature{StyleSet}{altyogh}{+ss08}
 \newICUfeature{StyleSet}{altpua}{+ss09}
 \newICUfeature{StyleSet}{longslash}{+ss10}
+\newICUfeature{StyleSet}{altae}{+ss11}
 \newICUfeature{StyleSet}{altogonek}{+ss15}
 \newICUfeature{StyleSet}{oldpunct}{+ss18}
 \newICUfeature{StyleSet}{gothic}{+ss19}
@@ -547,6 +548,12 @@ such alternates: {\fontspec[StyleSet=altpua]{Junicode} ꝺ} for ꝺ,
 
 Some users prefer slashes and backslashes that are longer than
 usual. Use Stylistic Set 10 to access these: a/a, {\addfontfeatures{StyleSet=longslash}a/a}.
+
+\subsection*{Alternative italic æ (ss11)}
+
+In texts that contain both æ and œ, the two may be confused in the
+italic face: \textit{æ œ}. In this case, use Stylistic Set 11 to
+substitute \textit{\addfontfeatures{StylisticSet=11}æ} for \textit{æ}.
 
 \subsection*{E caudata (ss15)}
 

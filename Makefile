@@ -82,4 +82,4 @@ clean :
 	rm -f *.ttf ; rm -f *.woff
 
 dist :
-	zip -r junicode-$(VERSION).zip *.ttf doc/*.pdf
+	zip -r junicode-$(VERSION).zip *.ttf ChangeLog doc/*.pdf util/mt-Junicode.cfg

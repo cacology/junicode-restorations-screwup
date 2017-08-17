@@ -1,3 +1,38 @@
+2017-08-16  Peter Baker  <peter@hengest>
+
+	* Junicode-Italic: Characters and features added to bring italic
+	face into line with regular. It is now possible to switch back and
+	forth between regular and italic losslessly.
+
+	* Junicode: Greek ranges removed and placed in a new font, Foulis
+	Greek, which has all the kerning and OT features that were in
+	Junicode Greek.
+
+	* Junicode, Junicode-Italic: Removed ss14 feature as no longer
+	necessary, now that combining ogonek above is part of the Unicode
+	standard (U+1DCE). mgrk removed as no longer necessary; Greek math
+	and PUA charaacters moved from unencoded area to vacated Greek
+	range. hist now substitues longs for s everywhere except at
+	word-end and before apostrophe + letter. fina removed as not
+	appropriate for Latin script.
+
+	* All: ccmp "make precomposed" disabled. Must decide whether to
+	retain this feature.
+
+	* Junicode, Junicode-Italic: Selection of cap combining marks
+	expanded. These are covered by case feature, used automatically in
+	some applications. Coverage of mark and mkmk features expanded.
+
+	* All: Source format is now UFO. Ongoing cleanup of decayed glyphs
+	(FontForge TrueType editing being somewhat lossy). Change of
+	format and editor should stop the decay.
+
+	* Junicode-Bold, Junicode-BoldItalic: These two faces are being
+	maintained but not developed further. Anyone want to take them
+	over?
+
+	* All: Too many minor changes to list, over five years.
+
 2012-12-27  Peter Baker  <peter@hengest>
 
 	* Junicode*: ss17 now used for linguistic alternates. Regularized
