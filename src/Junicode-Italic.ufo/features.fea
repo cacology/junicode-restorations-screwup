@@ -816,21 +816,20 @@ lookup ss10_Long_Slashes {
     sub backslash by longbackslash ;
 } ss10_Long_Slashes;
 
-lookup ss14_MUFI_Hook_Above {
-  lookupflag 0;
-    sub uni1EA2 by uniE033 ;
-    sub uni1EA3 by uniE433 ;
-    sub uni1EBA by uniE0E9 ;
-    sub uni1EBB by uniE4E9 ;
-    sub uni1EC8 by uniE12A ;
-    sub uni1EC9 by uniE52A ;
-    sub uni1ECE by uniE3D3 ;
-    sub uni1ECF by uniE7D3 ;
-    sub uni1EE6 by uniE331 ;
-    sub uni1EE7 by uniE731 ;
-    sub uni1EF6 by uniE385 ;
-    sub uni1EF7 by uniE785 ;
-} ss14_MUFI_Hook_Above;
+lookup ss11_Square_ae {
+ lookupflag 0;
+ sub ae by ae.square;
+ sub aeacute by aeacute.square;
+ sub uni01E3 by uni01E3.square;
+ sub uniE436 by uniE436.square;
+ sub uniE43F by uniE43F.square;
+ sub uniE441 by uniE441.square;
+ sub uniE442 by uniE442.square;
+ sub uniE443 by uniE443.square;
+ sub uniE8D1 by uniE8D1.square;
+ sub uniF173 by uniF173.square;
+ sub uniF183 by uniF183.square;
+} ss11_Square_ae;
 
 lookup ss15_Centered_Ogonek {
   lookupflag 0;
@@ -1347,9 +1346,9 @@ feature ss10 {
   lookup ss10_Long_Slashes;
 } ss10;
 
-feature ss14 {
-  lookup ss14_MUFI_Hook_Above;
-} ss14;
+feature ss11 {
+  lookup ss11_Square_ae;
+} ss11;
 
 feature ss15 {
   lookup ss15_Centered_Ogonek;
