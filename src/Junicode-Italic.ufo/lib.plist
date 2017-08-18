@@ -2876,6 +2876,10 @@
 		<string>zdotaccent.sc</string>
 		<string>zero</string>
 		<string>zero.oldstyle</string>
+		<string>uniE8C8</string>
+		<string>uniE8C9</string>
+		<string>uniE8DE</string>
+		<string>uniE8DF</string>
 	</array>
 </dict>
 </plist>
