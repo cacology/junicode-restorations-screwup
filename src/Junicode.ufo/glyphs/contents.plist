@@ -3246,6 +3246,8 @@
 	<string>uni2051.glif</string>
 	<key>uni2052</key>
 	<string>uni2052.glif</string>
+	<key>uni2056</key>
+	<string>uni2056.glif</string>
 	<key>uni2057</key>
 	<string>uni2057.glif</string>
 	<key>uni2058</key>
@@ -5936,7 +5938,83 @@
 	<string>zero.glif</string>
 	<key>zero.oldstyle</key>
 	<string>zero.oldstyle.glif</string>
-	<key>uni2056</key>
-	<string>un2056.glif</string>
-</dict>
-</plist>
+	<key>uniF2E6</key>
+	<string>uniF_2E_6.glif</string>
+	<key>uniF2E7</key>
+	<string>uniF_2E_7.glif</string>
+	<key>uniF2E8</key>
+	<string>uniF_2E_8.glif</string>
+	<key>uniF2E9</key>
+	<string>uniF_2E_9.glif</string>
+	<key>uniF2EA</key>
+	<string>uniF_2E_A_.glif</string>
+	<key>uniF2EB</key>
+	<string>uniF_2E_B_.glif</string>
+	<key>uniF2EC</key>
+	<string>uniF_2E_C_.glif</string>
+	<key>uniF2ED</key>
+	<string>uniF_2E_D_.glif</string>
+	<key>uniF2EE</key>
+	<string>uniF_2E_E_.glif</string>
+	<key>uniF2EF</key>
+	<string>uniF_2E_F_.glif</string>
+	<key>uniF2F0</key>
+	<string>uniF_2F_0.glif</string>
+	<key>uniF2F1</key>
+	<string>uniF_2F_1.glif</string>
+	<key>uniF2F2</key>
+	<string>uniF_2F_2.glif</string>
+	<key>uniF2F3</key>
+	<string>uniF_2F_3.glif</string>
+	<key>uniF2F4</key>
+	<string>uniF_2F_4.glif</string>
+	<key>uniF2F5</key>
+	<string>uniF_2F_5.glif</string>
+	<key>logicaland</key>
+	<string>logicaland.glif</string>
+	<key>Theta</key>
+	<string>T_heta.glif</string>
+	<key>u10190</key>
+	<string>u10190.glif</string>
+	<key>u10191</key>
+	<string>u10191.glif</string>
+	<key>u10192</key>
+	<string>u10192.glif</string>
+	<key>u10193</key>
+	<string>u10193.glif</string>
+	<key>u10194</key>
+	<string>u10194.glif</string>
+	<key>u10195</key>
+	<string>u10195.glif</string>
+	<key>u10196</key>
+	<string>u10196.glif</string>
+	<key>u10197</key>
+	<string>u10197.glif</string>
+	<key>u10198</key>
+	<string>u10198.glif</string>
+	<key>u10199</key>
+	<string>u10199.glif</string>
+	<key>u1019A</key>
+	<string>u1019A_.glif</string>
+	<key>uni25AA</key>
+	<string>uni25A_A_.glif</string>
+	<key>uni25AB</key>
+	<string>uni25A_B_.glif</string>
+	<key>uni25B9</key>
+	<string>uni25B_9.glif</string>
+	<key>uni25C3</key>
+	<string>uni25C_3.glif</string>
+	<key>uni25CC</key>
+	<string>uni25C_C_.glif</string>
+	<key>uni271D</key>
+	<string>uni271D_.glif</string>
+	<key>uni2C7D</key>
+	<string>uni2C_7D_.glif</string>
+	<key>uni2E40</key>
+	<string>uni2E_40.glif</string>
+	<key>uniE8BA</key>
+	<string>uniE_8B_A_.glif</string>
+	<key>uniF1BD</key>
+	<string>uniF_1B_D_.glif</string>
+      </dict>
+    </plist>

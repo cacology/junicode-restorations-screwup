@@ -1114,6 +1114,12 @@ lookup hlig_Historic_Ligatures {
     sub g r  by uniEAD0 ;
     sub g p  by uniEAD2 ;
     sub g o  by uniEEDE ;
+    sub U U by uniE8C6;
+    sub u u by uniE8C7;
+    sub U E by uniE8C8;
+    sub u e by uniE8C9;
+    sub o uniA75B by uniE8DE;
+    sub c uniF23A by uniF1BB;
 } hlig_Historic_Ligatures ;
 
 lookup dlig_Discretionary_Ligatures {

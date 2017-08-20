@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniE3E5" format="2">
+<?xml version="1.0"?>
+<glyph name="uniE3E5" format="1">
   <advance width="1154"/>
   <unicode hex="E3E5"/>
   <outline>
     <component base="uniA77B"/>
-    <component base="dotbelowcomb" xOffset="1072.4927835051546" yOffset="0.38556701030927343"/>
+    <component base="dotbelowcomb" xOffset="712.493" yOffset="0.385567"/>
   </outline>
 </glyph>

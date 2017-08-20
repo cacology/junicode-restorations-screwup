@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uniEFFA" format="2">
+<?xml version="1.0"?>
+<glyph name="uniEFFA" format="1">
   <advance width="1754"/>
   <unicode hex="EFFA"/>
   <outline>
     <component base="uniA73C"/>
-    <component base="dotbelowcomb" xOffset="1211.3987206823026" yOffset="0.5138592750533348"/>
+    <component base="dotbelowcomb" xOffset="1276.4" yOffset="0.513859"/>
   </outline>
 </glyph>
