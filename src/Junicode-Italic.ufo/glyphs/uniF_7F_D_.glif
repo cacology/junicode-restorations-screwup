@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<glyph name="uniF7FD" format="1">
+  <advance width="929"/>
+  <unicode hex="F7FD"/>
+  <outline>
+    <component base="acutecomb.sc" xOffset="1010"/>
+    <component base="y.sc"/>
+  </outline>
+</glyph>

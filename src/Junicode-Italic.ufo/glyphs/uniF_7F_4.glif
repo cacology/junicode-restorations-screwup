@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<glyph name="uniF7F4" format="1">
+  <advance width="1061"/>
+  <unicode hex="F7F4"/>
+  <outline>
+    <contour>
+      <point x="-309" y="1141" type="move" smooth="yes"/>
+    </contour>
+    <component base="uni0302.sc" xOffset="1072"/>
+    <component base="o.sc"/>
+  </outline>
+</glyph>

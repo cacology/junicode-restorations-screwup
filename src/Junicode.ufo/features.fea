@@ -92,36 +92,60 @@ markClass @combining_below <anchor 0 -75> @below_center;
 
 # GSUB 
 
-# This isn't working in most applications and I don't know why, since ccmp is obviously
-# on.
+# This ccmp lookup contains letters with stacked diacritics, since the mkmk feature
+# is the one most likely to be unsupported (or badly supported) in applications.
 
-#lookup ccmp_make_precomposed {
-#  lookupflag 0 ;
-#  sub c uniF00C by chighoverline ;
-#  sub d uniF00C by dhighoverline ;
-#  sub i uniF00C by ihighoverline ;
-#  sub j uniF00C by jhighoverline ;
-#  sub l uniF00C by lhighoverline ;
-#  sub m uniF00C by mhighoverline ;
-#  sub v uniF00C by vhighoverline ;
-#  sub x uniF00C by xhighoverline ;
-#  sub C uniF00C by uniF7B5 ;
-#  sub D uniF00C by uniF7B6 ;
-#  sub I uniF00C by uniE150 ;
-#  sub J uniF00C by uniE152 ;
-#  sub L uniF00C by uniF7B4 ;
-#  sub M uniF00C by uniE1D2 ;
-#  sub V uniF00C by uniF7B2 ;
-#  sub X uniF00C by uniF7B3 ;
-#  sub c uniF00D by cmedoverline ;
-#  sub d uniF00D by uniE491 ;
-#  sub i uniF00D by uniE550 ;
-#  sub j uniF00D by uniE552 ;
-#  sub l uniF00D by uniE5B1 ;
-#  sub m uniF00D by uniE5D2 ;
-#  sub v uniF00D by vmedoverline ;
-#  sub x uniF00D by xmedoverline ;
-#} ccmp_make_precomposed ;
+lookup ccmp_make_precomposed {
+  lookupflag 0;
+  sub U uni0308 uni0304 by uni01D5;
+  sub u uni0308 uni0304 by uni01D6;
+  sub O uni0308 uni0304 by uni022A;
+  sub o uni0308 uni0304 by uni022B;
+  sub A uni0304 acutecomb by uniE00A;
+  sub a uni0304 acutecomb by uniE40A;
+  sub AE uni0304 acutecomb by uniE03A;
+  sub ae uni0304 acutecomb by uniE43A;
+  sub E uni0304 acutecomb by uni1E16;
+  sub e uni0304 acutecomb by uni1E17;
+  sub I uni0304 acutecomb by uniE135;
+  sub i uni0304 acutecomb by uniE535;
+  sub Oslash uni0304 acutecomb by uniEBEC;
+  sub oslash uni0304 acutecomb by uniEBED;
+  sub O uni0304 acutecomb by uni1E52;
+  sub o uni0304 acutecomb by uni1E53;
+  sub Oslash uni0304 acutecomb by uniEBEC;
+  sub oslash uni0304 acutecomb by uniEBED;
+  sub U uni0304 acutecomb by uniE309;
+  sub u uni0304 acutecomb by uniE709;
+  sub Y uni0304 acutecomb by uniE373;
+  sub y uni0304 acutecomb by uniE773;
+  sub A uni0306 acutecomb by uni1EAE;
+  sub a uni0306 acutecomb by uni1EAF;
+  sub o uni0308 acutecomb by uniE62C;
+  sub a uni0308 uni0302 by uniE41A;
+  sub O uni0308 uni0302 by uniE22D;
+  sub o uni0308 uni0302 by uniE62D;
+  sub U uni0308 uni0302 by uniE317;
+  sub u uni0308 uni0302 by uniE717;
+  sub a uni030A uni0302 by uniE41F;
+  sub A uni0304 uni0306 by uniE010;
+  sub AE uni0304 uni0306 by uniE03D;
+  sub ae uni0304 uni0306 by uniE43D;
+  sub E uni0304 uni0306 by uniE0B7;
+  sub e uni0304 uni0306 by uniE4B7;
+  sub I uni0304 uni0306 by uniE137;
+  sub i uni0304 uni0306 by uniE537;
+  sub O uni0304 uni0306 by uniE21B;
+  sub o uni0304 uni0306 by uniE61B;
+  sub OE uni0304 uni0306 by uniE260;
+  sub oe uni0304 uni0306 by uniE660;
+  sub Oslash uni0304 uni0306 by uniE253;
+  sub oslash uni0304 uni0306 by uniE653;
+  sub U uni0304 uni0306 by uniE30B;
+  sub u uni0304 uni0306 by uniE70B;
+  sub Y uni0304 uni0306 by uniE375;
+  sub y uni0304 uni0306 by uniE775;
+} ccmp_make_precomposed ;
 
 lookup Misc_Lookups {
   lookupflag 0 ;
@@ -1449,7 +1473,7 @@ lookup calt_s_In_Final_Position {
 } calt_s_In_Final_Position;
 
 feature ccmp {
-#  lookup ccmp_make_precomposed ;
+  lookup ccmp_make_precomposed ;
   lookup ccmp_i_to_dotlessi ;
 } ccmp ;
 
