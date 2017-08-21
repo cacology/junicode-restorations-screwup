@@ -5,6 +5,6 @@
   <outline>
     <component base="CapAcute" xOffset="628"/>
     <component base="dotaccent" xOffset="218" yOffset="525"/>
-    <component base="Oogonek"/>
+    <component base="uni01EA"/>
   </outline>
 </glyph>

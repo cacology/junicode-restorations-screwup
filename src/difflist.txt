@@ -14,13 +14,13 @@
 64a72
 > bracketright.alt.glif (it only)
 97d104
-< C_cedillaacute.glif (rename in reg to uni1E08)
+< C_cedillaacute.glif (rename in reg to uni1E08) DONE
 131d138
-< D_elta.glif (uni2206 in it; what should it be?)
+< D_elta.glif (change it from uni2206 to Delta)
 142a150
 > D_.swash.glif (it only)
 176d183
-< eogonek.enlargedalt.glif (centered ogonek style in enlarged; need it it?)
+< eogonek.enlargedalt.glif (centered ogonek style in enlarged; needed in it?)
 185d191
 < eth.nordicenlarged.glif (add equivalent in it)
 204a211,212
@@ -36,16 +36,16 @@
 305a318
 > k.swash.glif (it only?)
 325d337
-< longs_longs.glif (duplicates E_1A_B_.glif)
+< longs_longs.glif (duplicates E_1A_B_.glif) DONE
 357d368
-< ogonek.nordic.glif (delete this!)
+< ogonek.nordic.glif (delete this!) DONE
 390d399
-< oldjbar.glif (needed at all?)
+< oldjbar.glif (needed at all?) deleted DONE
 395d403
 < O_mega.glif (2126: not ital in it!)
 403,404d410
-< oogonek.glif (rename to uni01EB)
-< O_ogonek.glif 
+< oogonek.glif (rename to uni01EB) DONE
+< O_ogonek.glif (rename to uni01EA) DONE
 416a423
 > parenleft.alt1.glif (it only)
 419a427
@@ -53,21 +53,21 @@
 435c443
 > Q_.swash.glif (it only)
 536,537d544
-< t_r.glif (can delete)
-< t.scalt.glif (reg only? check this out carefully--obs junicode shape)
+< t_r.glif (can delete) DONE
+< t.scalt.glif (reg only?--obs junicode shape) not needed in it DONE
 545d551
-< t_y.glif (can prob. delete)
+< t_y.glif (can prob. delete) DONE
 709a716
 > uni01E_3.square.glif (it only)
 713a721,722
-> uni01E_A_.glif (rename from Oogonek to uni01EA in reg)
-> uni01E_B_.glif (rename from oogonek to uni01EB in reg)
+> uni01E_A_.glif (rename from Oogonek to uni01EA in reg) DONE
+> uni01E_B_.glif (rename from oogonek to uni01EB in reg) DONE
 1053d1061
-< uni10F_B_.glif (reg only. MUFI?)
+< uni10F_B_.glif (reg only. MUFI? Yes, add to it)
 1100a1109
 
  Reg leaves out rtl runic characters when they're symmetrical, but ital doesn't,
- though it could. Should be leave them out of ital? Would make us rethink
+ though it could. Should we leave them out of ital? Would make us rethink
  spacing of rtl runes, but it should probably be done anyway.
 
 > uni16B_7.rtl.glif
@@ -134,9 +134,9 @@
 1183a1223
 > uni16F_0.rtl.glif
 1329a1370
-> uni1E_08.glif (rename in reg from Ccedillaacute)
+> uni1E_08.glif (rename in reg from Ccedillaacute) DONE
 1456a1498
-> uni1E_8E_.glif (rename in reg from Ydotaccent)
+> uni1E_8E_.glif (rename in reg from Ydotaccent) DONE
 1468d1509
 < uni1E_9A_.glif (a with half ring missing in it. Supply it.)
 1473d1513
@@ -149,19 +149,19 @@
 < uni2049.glif
 1649,1650d1683
 < uni20B_0.glif (Supply German penny sign in it.)
-< uni20D_D_.glif (Supply enclosin circle in it.)
+< uni20D_D_.glif (Supply enclosing circle in it.)
 1656,1657c1689
-< uni2132.glif (named minute in it: check AGL for correct name.)
+< uni2132.glif (Supply in it.)
 < uni214E_.glif (Supply small turned f in it.)
 ---
-> uni2126.glif (Omega in reg: check AGL.)
+> uni2126.glif (Omega in reg: check AGL. Shd be Omega in it.)
 1710a1743,1745
-> uni2206.glif (Delta in reg: check AGL.)
-> uni2215.glif (Supply division slash in reg.)
-> uni2219.glif (Supply bullet operator in reg.)
+> uni2206.glif (Delta in reg: check AGL. Shd be Delta in it.)
+> uni2215.glif (Supply division slash in reg.) DONE
+> uni2219.glif (Supply bullet operator in reg.) DONE
 1879,1880d1913
-< uni25A_A_.glif (check AGL for these small squares.)
-< uni25A_B_.glif
+< uni25A_A_.glif (should be H18543 in reg.) DONE
+< uni25A_B_.glif (should be H18551 in reg.) DONE
 1892d1924
 < uni2740.glif (fleuron)
 2037a2070
@@ -231,10 +231,10 @@
 2665a2676
 > uniF_129.glif (obsolete code point for insular t in it. Delete!)
 2670,2671d2680
-< uniF_13C_.glif (AE + breve. Duplicate in reg?)
-< uniF_13D_.glif (ae + breve. Duplicate in reg?)
+< uniF_13C_.glif (AE + breve. Duplicate in reg?) DONE
+< uniF_13D_.glif (ae + breve. Duplicate in reg?) DONE
 2685,2688d2693
-< uniF_164.glif (Vacant characters in reg. Delete!)
+< uniF_164.glif (Vacant characters in reg. Delete!) DONE
 < uniF_167.glif
 < uniF_168.glif
 < uniF_169.glif
@@ -245,30 +245,30 @@
 2716d2722
 < uniF_19F_.glif (Junicode lady)
 2730d2735
-< uniF_1C_6.glif (alt ogonek in reg. Delete!)
+< uniF_1C_6.glif (alt ogonek in reg. Delete!) DONE
 2759d2763
-< uniF_1F_F_.glif (vacant char in reg. Delete!)
+< uniF_1F_F_.glif (vacant char in reg. Delete!) DONE
 2790,2791d2793
 < uniF_22A_.glif (small cap n missing in it. Supply.)
 < uniF_22B_.glif (small cap n missing in it. Supply.)
 2800d2801
-< uniF_2E_1.glif (decommissioned Lat. weight sign in reg. Delete.)
+< uniF_2E_1.glif (decommissioned Lat. weight sign in reg. Delete.) DONE
 2838,2840d2838
-< uniF_6F_6.glif (small cap tilde in reg. Needed or redundant?)
+< uniF_6F_6.glif (small cap tilde in reg. Needed or redundant?) ok 2 keep
 < uniF_6F_A_.glif (small cap oe. Supply in it.)
-< uniF_6F_E_.glif (small cap tilde in reg. Needed or redundant?)
+< uniF_6F_E_.glif (small cap tilde in reg. Needed or redundant?) ok 2 keep
 2860,2862d2857
-< uniF_721.glif (small cap exclam. Redundant?)
-< uniF_724.glif (small cap dollar. Redundant?)
-< uniF_726.glif (small cap ampersand. Redundant?)
+< uniF_721.glif (small cap exclam. Redundant?) ok 2 keep
+< uniF_724.glif (small cap dollar. Redundant?) ok 2 keep
+< uniF_726.glif (small cap ampersand. Redundant?) ok 2 keep
 2873,2874d2867
-< uniF_73F_.glif (small cap question. Redundant?)
-< uniF_760.glif (small cap grave. Redundant?)
+< uniF_73F_.glif (small cap question. Redundant?) ok 2 keep
+< uniF_760.glif (small cap grave. Redundant?)  ok 2 keep
 2903,2904d2895
-< uniF_7A_8.glif (small cap dieresis. Redundant?)
-< uniF_7A_F_.glif (small cap macron. Redundant?)
+< uniF_7A_8.glif (small cap dieresis. Redundant?)  ok 2 keep
+< uniF_7A_F_.glif (small cap macron. Redundant?)  ok 2 keep
 2949,2950d2939
-< uniF_E_5F_.glif (small cap mumber sign. Redundant?)
-< uniF_E_6A_.glif (small cap percent. Redundant?)
+< uniF_E_5F_.glif (small cap mumber sign. Redundant?)  ok 2 keep
+< uniF_E_6A_.glif (small cap percent. Redundant?)  ok 2 keep
 2992d2980
-< Y_dotaccent.glif (rename to uni-pattern (see above).)
+< Y_dotaccent.glif (rename to uni-pattern (see above).) DONE

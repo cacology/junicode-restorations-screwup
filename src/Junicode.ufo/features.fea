@@ -81,7 +81,7 @@ markClass @combining_below <anchor 0 -75> @below_center;
 	uni01AA uni01AB uni01AD uhorn uni01B4 uni01B6 uni01B9 uni01BA uni01BD uni01BE
 	uni01BF uni01C6 uni01C9 uni01CC uni01CE uni01D0 uni01D2 uni01D4 uni01D6 uni01D8
 	uni01DA uni01DC uni01DD uni01DF uni01E1 uni01E3 uni01E5 gcaron uni01E9
-	oogonek uni01ED uni01EF uni01F0 uni01F3 uni01F5 uni01F9 aringacute aeacute oslashacute
+	uni01EB uni01ED uni01EF uni01F0 uni01F3 uni01F5 uni01F9 aringacute aeacute oslashacute
 	uni0201 uni0203 uni0205  uni0207 uni0209 uni020B uni020D uni020F uni0211 uni0213
 	uni0215 uni0217 scommaaccent uni021B uni021D uni021F uni0221 uni0223 uni0225
 	uni0227 uni0229 uni022B uni022D uni022F uni0231 uni0233
@@ -680,8 +680,8 @@ lookup ss07_Underdotted {
     sub thorn by uniE79F ;
     sub longs by uniE7C2 ;
     sub uni01BF by wynndotsub ;
-    sub Oogonek by uniE208 ;
-    sub oogonek by uniE608 ;
+    sub uni01EA by uniE208 ;
+    sub uni01EB by uniE608 ;
     sub uni01F7 by Wynndotsub ;
     sub uni021C by Yoghdotsub ;
     sub uni021D by yoghdotsub ;
@@ -1051,7 +1051,7 @@ lookup hlig_Historic_Ligatures {
     sub o ohungarumlaut  by uniEFED ;
     sub A uni0226  by uniEFEE ;
     sub a uni0227  by uniEFEF ;
-    sub A Ydotaccent  by uniEFF0 ;
+    sub A uni1E8E  by uniEFF0 ;
     sub a uni1E8F  by uniEFF1 ;
     sub uniEEE0 uniEEE0  by uniEFDF ;
     sub a uni1EA1  by uniEFF3 ;
@@ -1629,7 +1629,7 @@ lookup mark_Mark_Above {
   pos base [ J ] <anchor 370 1400> mark @above_center ;
   pos base [ K Kcommaaccent uni0198 uni1E32 uni1E34 ] <anchor 638 1400> mark @above_center ;
   pos base [ M uni1E42 ] <anchor 924 1400> mark @above_center ;
-  pos base [ N O Q Oslash Ncommaaccent Eng uni019D uni019F Ohorn Oogonek uni1E46
+  pos base [ N O Q Oslash Ncommaaccent Eng uni019D uni019F Ohorn uni01EA uni1E46
       	     uni1E48 uni1E4A uni1ECC uni1EE2 ] <anchor 740 1400> mark @above_center ;
   pos base [ P ] <anchor 568 1400> mark @above_center ;
   pos base [ R Rcommaaccent uni1E5A uni1E5E ] <anchor 588 1400> mark @above_center ;
@@ -1679,9 +1679,9 @@ lookup mark_Mark_Above {
   pos base [ ae uniF204 uniEFA1 ] <anchor 588 900> mark @above_center ;
   pos base [ ccedilla ] <anchor 498 900> mark @above_center ;
   pos base [ eth eth.alt ] <anchor 520 1537> mark @above_center ;
-  pos base [ oslash oogonek ] <anchor 510 900> mark @above_center ;
+  pos base [ oslash uni01EB ] <anchor 510 900> mark @above_center ;
   pos base [ thorn ] <anchor 412 1545> mark @above_center ;
-  pos base [ dotlessi uniF6BE oldjbar ] <anchor 285 900> mark @above_center ;
+  pos base [ dotlessi uniF6BE ] <anchor 285 900> mark @above_center ;
   pos base [ OE ] <anchor 1056 1415> mark @above_center ;
   pos base [ oe ] <anchor 819 900> mark @above_center ;
   pos base [ longs ] <anchor 568 1489> mark @above_center ;
@@ -1862,7 +1862,7 @@ lookup mark_Mark_Below {
   pos base [ h ] <anchor 560 -75> mark @below_center ;
   pos base [ i igrave iacute icircumflex idieresis imacron uni0269 dotlessi ]
       	     <anchor 280 -75> mark @below_center ;
-  pos base [ j uni025F uni0283 uni0286 uni029D uniF6BE oldjbar uni0249 j.alt ]
+  pos base [ j uni025F uni0283 uni0286 uni029D uniF6BE uni0249 j.alt ]
              <anchor 207 -594> mark @below_center ;
   pos base [ k ] <anchor 487 -75> mark @below_center ;
   pos base [ l uni026B uni026C uniE5B0 uniE5B1 uniA749 ] <anchor 282 -75> mark @below_center ;
@@ -2064,8 +2064,8 @@ lookup mark_Ogonek_Above {
   pos base [ I Iogonek ] <anchor 350 1330> mark @ogonek_above ;
   pos base [ uni0237 ] <anchor 320 810> mark @ogonek_above ;
   pos base [ J ] <anchor 370 1330> mark @ogonek_above ;  
-  pos base [ o oogonek oslash ] <anchor 480 858> mark @ogonek_above ;
-  pos base [ O Oogonek ] <anchor 700 1340> mark @ogonek_above ;
+  pos base [ o uni01EB oslash ] <anchor 480 858> mark @ogonek_above ;
+  pos base [ O uni01EA ] <anchor 700 1340> mark @ogonek_above ;
   pos base [ u uogonek ] <anchor 295 858> mark @ogonek_above ;
   pos base [ U Uogonek ] <anchor 400 1330> mark @ogonek_above ;
   pos base [ y ] <anchor 200 858> mark @ogonek_above ;
@@ -2229,21 +2229,21 @@ lookup kern_Horizontal_Kerning {
     @kc59_first_4 = [ G ] ;
     @kc59_first_5 = [ K ] ;
     @kc59_first_6 = [ O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron 
-	Oogonek Oslash Otilde uni018F uni019F uni01D1 uni01EC uni020C 
+	uni01EA Oslash Otilde uni018F uni019F uni01D1 uni01EC uni020C 
 	uni020E uni022A uni022C uni022E uni0230 uni1E4C uni1E4E uni1E50 
 	uni1E52 uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED8 ] ;
     @kc59_first_7 = [ P ] ;
     @kc59_first_8 = [ R ] ;
     @kc59_first_9 = [ T T.alt Tcaron Tcommaaccent uni01AC uni1E6A uni1E6C 
 	uni1E70 ] ;
-    @kc59_first_10 = [ Y Yacute Ycircumflex Ydieresis Ydotaccent Ygrave uni0232 uni1EF4 
+    @kc59_first_10 = [ Y Yacute Ycircumflex Ydieresis uni1E8E Ygrave uni0232 uni1EF4 
 	uni1EF6 uni1EF8 ] ;
     @kc59_first_11 = [ V W Wacute Wcircumflex Wdieresis Wgrave uni1E7C uni1E7E uni1E86 uni1E88 ] ;
     @kc59_first_12 = [ X ] ;
     @kc59_first_13 = [ a ] ;
     @kc59_first_14 = [ a.sc agrave.sc aacute.sc acircumflex.sc atilde.sc adieresis.sc uniF761 
 	uniF7E1 uniF7E2 uniF7E4 uniF7E0 uniF7E5 ] ;
-    @kc59_first_15 = [ b eth o oogonek p thorn ] ;
+    @kc59_first_15 = [ b eth o uni01EB p thorn ] ;
     @kc59_first_16 = [ b.sc uniF762 ] ;
     @kc59_first_17 = [ c ] ;
     @kc59_first_18 = [ d ] ;
@@ -2304,13 +2304,13 @@ lookup kern_Horizontal_Kerning {
     @kc59_second_2 = [ C Cacute Ccaron Ccedillaacute Ccircumflex Cdotaccent G Gbreve Gcaron 
 	Gcircumflex Gcommaaccent Gdotaccent O OE Oacute Obreve 
 	Ocircumflex Odieresis Ograve Ohorn Ohungarumlaut Omacron 
-	Oogonek Oslash Oslashacute Otilde Q uni0187 uni0193 uni019F 
+	uni01EA Oslash Oslashacute Otilde Q uni0187 uni0193 uni019F 
 	uni01A2 uni01D1 uni01E4 uni01EC uni01F4 uni020C uni020E uni022A 
 	uni022C uni022E uni0230 uni1E20 uni1E4C uni1E4E uni1E50 uni1E52 
 	uni1ECC uni1ECE uni1ED0 uni1ED2 uni1ED4 uni1ED6 uni1ED8 uni1EDA 
 	uni1EDC uni1EDE uni1EE2 Q_u ] ;
     @kc59_second_3 = [ T Tcaron Tcommaaccent uni01AC uni1E6A uni1E6C ] ;
-    @kc59_second_4 = [ Y Yacute Ycircumflex Ydieresis Ydotaccent Ygrave uni0232 uni1EF4 
+    @kc59_second_4 = [ Y Yacute Ycircumflex Ydieresis uni1E8E Ygrave uni0232 uni1EF4 
 	uni1EF6 uni1EF8 ] ;
     @kc59_second_5 = [ V W Wacute Wcircumflex Wdieresis Wgrave uni1E7C uni1E7E uni1E86 uni1E88 ] ;
     @kc59_second_6 = [ a ae ] ;
@@ -2321,7 +2321,7 @@ lookup kern_Horizontal_Kerning {
     @kc59_second_10 = [ afii57929 quotedblright quoteright quoteright.alt quotedblright.alt ] ;
     @kc59_second_11 = [ b thorn ] ;
     @kc59_second_12 = [ braceright bracketright ] ;
-    @kc59_second_13 = [ c e eogonek o oe oogonek q ] ;
+    @kc59_second_13 = [ c e eogonek o oe uni01EB q ] ;
     @kc59_second_14 = [ c.sc uniF763 uniF7E7 uniF767 uniF76F uniF7F3 uniF7F4 uniF7F6 uniF7F2 
 	uniF7F8 uniF7F5 uniF771 ] ;
     @kc59_second_15 = [ colon semicolon colon.alt ] ;
@@ -3587,7 +3587,7 @@ feature kern {
 	uni01C8 uni01C9 uni01CA uni01CB uni01CC uni01CD uni01CE uni01CF uni01D0 
 	uni01D1 uni01D2 uni01D3 uni01D4 uni01D5 uni01D6 uni01D7 uni01D8 uni01D9 
 	uni01DA uni01DB uni01DC uni01DD uni01DE uni01DF uni01E0 uni01E1 uni01E2 
-	uni01E3 uni01E4 uni01E5 Gcaron gcaron uni01E8 uni01E9 Oogonek oogonek 
+	uni01E3 uni01E4 uni01E5 Gcaron gcaron uni01E8 uni01E9 uni01EA uni01EB 
 	uni01EC uni01ED uni01EE uni01EF uni01F0 uni01F1 uni01F2 uni01F3 uni01F4 
 	uni01F5 uni01F6 uni01F7 uni01F8 uni01F9 Aringacute aringacute AEacute 
 	aeacute Oslashacute oslashacute uni0200 uni0201 uni0202 uni0203 uni0204 
@@ -3652,7 +3652,7 @@ feature kern {
 	uni1E73 uni1E74 uni1E75 uni1E76 uni1E77 uni1E78 uni1E79 uni1E7A uni1E7B 
 	uni1E7C uni1E7D uni1E7E uni1E7F Wgrave wgrave Wacute wacute Wdieresis 
 	wdieresis uni1E86 uni1E87 uni1E88 uni1E89 uni1E8A uni1E8B uni1E8C 
-	uni1E8D Ydotaccent uni1E8F uni1E90 uni1E91 uni1E92 uni1E93 uni1E94 
+	uni1E8D uni1E8E uni1E8F uni1E90 uni1E91 uni1E92 uni1E93 uni1E94 
 	uni1E95 uni1E96 uni1E97 uni1E98 uni1E99 uni1E9A uni1E9B uni1EA0 uni1EA1 
 	uni1EA2 uni1EA3 uni1EA4 uni1EA5 uni1EA6 uni1EA7 uni1EA8 uni1EA9 uni1EAA 
 	uni1EAB uni1EAC uni1EAD uni1EAE uni1EAF uni1EB0 uni1EB1 uni1EB2 uni1EB3 
@@ -3711,11 +3711,11 @@ feature kern {
 	uniEEFB uniEEFC uniEF0C uniEF11 uniEF15 uniEF90 uniEF91 uniEF92 
 	uniEF93 uniEF94 uniEF95 uniEF96 uniEF97 uniEF98 uniEF99 uniEF9A uniEF9B 
 	uniEF9C uniF106 uniF10A uniF10E uniF110 uniF11A uniF126 uniF127 uniF13A 
-	uniF13C uniF13D uniF140 uniF141 uniF142 uniF149 uniF150 uniF158 uniF159 
+	uniF140 uniF141 uniF142 uniF149 uniF150 uniF158 uniF159 
 	uniF160 uniF161 uniF162 uniF171 uniF173 uniF175 uniF177 
 	uniF179 uniF17B uniF17D uniF181 uniF183 uniF185 uniF187 uniF189 uniF18B 
 	uniF18D uniF190 uniF191 uniF192 uniF193 uniF194 uniF195 uniF196 uniF197 
-	uniF19E uniF19F uniF1C6 uniF6BE uniF721 uniF724 uniF726 uniF730 uniF731 
+	uniF19E uniF19F uniF6BE uniF721 uniF724 uniF726 uniF730 uniF731 
 	uniF732 uniF733 uniF734 uniF735 uniF736 uniF737 uniF738 uniF739 uniF73F 
 	uniF760 uniF761 uniF762 uniF763 uniF764 uniF765 uniF766 uniF767 uniF768 
 	uniF769 uniF76A uniF76B uniF76C uniF76D uniF76E uniF76F uniF770 uniF771 
@@ -3746,7 +3746,7 @@ feature kern {
 	uniE3E5 uniE7E5 uniEBB4 uniEBB3 uniEBD6 uniF21B uniEBD5 uniF21C uniE101 
 	uniEF27 f.alt eth.alt uniF21D uniF21E uniF21F uniE517 
 	uniEBDA uni2C76 uni2C75 uniF23A uniEEFD uniE548 
-	uniE537 uniE535 uniF220 uniEEFE uniE15C oldjbar uni0249 
+	uniE537 uniE535 uniF220 uniEEFE uniE15C uni0249 
 	uni0248 uniEBE3 uniE554 uniE168 uniEBDB uniF221 uniE5B0 uniE1B0 
 	uniEF28 uniEBDC uniEF9F uniF222 uniEF29 
 	uniEBDD uniE5B8 uniF223 uniF225 uniF226 uniF224 uniF22B 
@@ -3766,7 +3766,7 @@ feature kern {
 	uni2E0D uni2E1C uni2E1D uni27E6 uni27E7 uni2E00 uni27E8 uni27E9 uniF1F8 
 	uniF1E2 uniF1E3 uniF1EA uniF1E4 uniF1E5 uniF1E6 uniF1FA uniF1FB uniF1F5 
 	uniF1E7 uniF1E8 uniF1F9 uniF1E0 uniF1E1 uni2766 uni2767 uni205C uni22D7 
-	uniF1F7 uniF1F4 uniF1EC uni2108 uniF2E1 uniF2E2 uniF2E3 uniF2E4 uniF2E0 
+	uniF1F7 uniF1F4 uniF1EC uni2108 uniF2E2 uniF2E3 uniF2E4 uniF2E0 
 	uniA77A.alt uni20B0 uni1E9C uni1E9D uni1E9E uni1E9F uni1EFB uni1EFC 
 	uni1EFD uni1EFF uni1EFE uniA730 uniA731 uniA73A uniA73B uniA73E uniA73F 
 	uniA741 uniA740 uniA742 uniA743 uniA744 uniA745 uniA746 uniA747 uniA748 
@@ -3792,7 +3792,7 @@ feature kern {
 	uniE22D uniE62D uniE317 uniE717 uniE41D uniE49F uniE60E uniE41F uniE660 
 	PoisonSign uni23D1 uni23D3 uni23D2 uni23D4 uniF2E5 uniE033 
 	uniE433 eogonek.alt uniE499.alt uniE4EA.alt uniEBF3.alt uniE4EB.alt 
-	uniE4E8.alt uniE4EC.alt uniE4BC.alt uniE49F.alt ogonek.nordic 
+	uniE4E8.alt uniE4EC.alt uniE4BC.alt uniE49F.alt
 	hyphen.cap j.alt eogonek.enlargedalt a.sc b.sc c.sc d.sc e.sc f.sc g.sc 
 	h.sc i.sc j.sc k.sc l.sc m.sc n.sc o.sc p.sc q.sc r.sc s.sc t.sc u.sc 
 	v.sc w.sc x.sc y.sc z.sc agrave.sc aacute.sc acircumflex.sc atilde.sc 

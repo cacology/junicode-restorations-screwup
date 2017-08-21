@@ -3,7 +3,7 @@
   <advance width="1461"/>
   <unicode hex="01EC"/>
   <outline>
-    <component base="Oogonek"/>
+    <component base="uni01EA"/>
     <component base="CapMacron" xOffset="376"/>
   </outline>
 </glyph>

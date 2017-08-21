@@ -442,8 +442,8 @@
 		<string>gcaron</string>
 		<string>uni01E8</string>
 		<string>uni01E9</string>
-		<string>Oogonek</string>
-		<string>oogonek</string>
+		<string>uni01EA</string>
+		<string>uni01EB</string>
 		<string>uni01EC</string>
 		<string>uni01ED</string>
 		<string>uni01EE</string>
@@ -1036,7 +1036,7 @@
 		<string>uni1E05</string>
 		<string>uni1E06</string>
 		<string>uni1E07</string>
-		<string>Ccedillaacute</string>
+		<string>uni1E08</string>
 		<string>uni1E09</string>
 		<string>uni1E0A</string>
 		<string>uni1E0B</string>
@@ -1170,7 +1170,7 @@
 		<string>uni1E8B</string>
 		<string>uni1E8C</string>
 		<string>uni1E8D</string>
-		<string>Ydotaccent</string>
+		<string>uni1E8E</string>
 		<string>uni1E8F</string>
 		<string>uni1E90</string>
 		<string>uni1E91</string>
@@ -1863,7 +1863,6 @@
 		<string>uniE1A8</string>
 		<string>uniE1A9</string>
 		<string>uniE1AA</string>
-		<string>longs_longs</string>
 		<string>uniE1AB</string>
 		<string>uniE1AC</string>
 		<string>uniE1AD</string>
@@ -2426,8 +2425,6 @@
 		<string>uniF135</string>
 		<string>uniF136</string>
 		<string>uniF13A</string>
-		<string>uniF13C</string>
-		<string>uniF13D</string>
 		<string>uniF13E</string>
 		<string>uniF13F</string>
 		<string>uniF140</string>
@@ -2441,10 +2438,6 @@
 		<string>uniF160</string>
 		<string>uniF161</string>
 		<string>uniF162</string>
-		<string>uniF164</string>
-		<string>uniF167</string>
-		<string>uniF168</string>
-		<string>uniF169</string>
 		<string>uniF171</string>
 		<string>uniF173</string>
 		<string>uniF175</string>
@@ -2485,7 +2478,6 @@
 		<string>uniF1C1</string>
 		<string>uniF1C2</string>
 		<string>uniF1C5</string>
-		<string>uniF1C6</string>
 		<string>uniF1C7</string>
 		<string>uniF1C8</string>
 		<string>uniF1CA</string>
@@ -2514,7 +2506,6 @@
 		<string>uniF1FA</string>
 		<string>uniF1FB</string>
 		<string>uniF1FC</string>
-		<string>uniF1FF</string>
 		<string>uniF200</string>
 		<string>uniF201</string>
 		<string>uniF202</string>
@@ -2555,7 +2546,6 @@
 		<string>uniF23E</string>
 		<string>uniF23F</string>
 		<string>uniF2E0</string>
-		<string>uniF2E1</string>
 		<string>uniF2E2</string>
 		<string>uniF2E3</string>
 		<string>uniF2E4</string>
@@ -2896,7 +2886,6 @@
 		<string>eacute.sc</string>
 		<string>t.sc</string>
 		<string>exclam.alt</string>
-		<string>ogonek.nordic</string>
 		<string>uni16B6.rtl</string>
 		<string>amacron.sc</string>
 		<string>scedilla.sc</string>
@@ -2933,7 +2922,6 @@
 		<string>adieresis.sc</string>
 		<string>uni16AB.rtl</string>
 		<string>x.sc</string>
-		<string>oldjbar</string>
 		<string>atilde.sc</string>
 		<string>agrave.sc</string>
 		<string>cent.oldstyle</string>
@@ -3017,8 +3005,8 @@
 		<string>u10198</string>
 		<string>u10199</string>
 		<string>u1019A</string>
-		<string>uni25AA</string>
-		<string>uni25AB</string>
+		<string>H18543</string>
+		<string>H18551</string>
 		<string>uni25B9</string>
 		<string>uni25C3</string>
 		<string>uni25CC</string>
@@ -3032,7 +3020,8 @@
 		<string>uniF2F8</string>
 		<string>uniF2F9</string>
 		<string>uniF2FD</string>
-
+		<string>uni2215</string>
+		<string>uni2219</string>
 	</array>
 </dict>
 </plist>
