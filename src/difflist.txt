@@ -1,0 +1,274 @@
+16a17
+> aeacute.square.glif (it only)
+19a21,22
+> ae.square.glif (it only)
+> A_E_.swash.glif (it only)
+52a56
+> A_.swash.glif (it only)
+61a66
+> braceleft.alt.glif (it only)
+62a68
+> braceright.alt.glif (it only)
+63a70
+> bracketleft.alt.glif (it only)
+64a72
+> bracketright.alt.glif (it only)
+97d104
+< C_cedillaacute.glif (rename in reg to uni1E08)
+131d138
+< D_elta.glif (uni2206 in it; what should it be?)
+142a150
+> D_.swash.glif (it only)
+176d183
+< eogonek.enlargedalt.glif (centered ogonek style in enlarged; need it it?)
+185d191
+< eth.nordicenlarged.glif (add equivalent in it)
+204a211,212
+> H_18543.glif (rename to uni25AA in it)
+> H_18551.glif (rename to uni25AB in it)
+273d282
+< i.enlarged.glif (stray file; deleted)
+299a309
+> J_.swash.glif (it only)
+304a315,316
+> k_i.alt.glif (it only)
+> k_i.glif (it only)
+305a318
+> k.swash.glif (it only?)
+325d337
+< longs_longs.glif (duplicates E_1A_B_.glif)
+357d368
+< ogonek.nordic.glif (delete this!)
+390d399
+< oldjbar.glif (needed at all?)
+395d403
+< O_mega.glif (2126: not ital in it!)
+403,404d410
+< oogonek.glif (rename to uni01EB)
+< O_ogonek.glif 
+416a423
+> parenleft.alt1.glif (it only)
+419a427
+> parenright.alt1.glif (it only)
+435c443
+> Q_.swash.glif (it only)
+536,537d544
+< t_r.glif (can delete)
+< t.scalt.glif (reg only? check this out carefully--obs junicode shape)
+545d551
+< t_y.glif (can prob. delete)
+709a716
+> uni01E_3.square.glif (it only)
+713a721,722
+> uni01E_A_.glif (rename from Oogonek to uni01EA in reg)
+> uni01E_B_.glif (rename from oogonek to uni01EB in reg)
+1053d1061
+< uni10F_B_.glif (reg only. MUFI?)
+1100a1109
+
+ Reg leaves out rtl runic characters when they're symmetrical, but ital doesn't,
+ though it could. Should be leave them out of ital? Would make us rethink
+ spacing of rtl runes, but it should probably be done anyway.
+
+> uni16B_7.rtl.glif
+1109a1119
+> uni16B_C_.rtl.glif
+1110a1121
+> uni16B_D_.rtl.glif
+1117a1129
+> uni16C_1.rtl.glif
+1118a1131
+> uni16C_2.rtl.glif
+1121a1135
+> uni16C_4.rtl.glif
+1130a1145
+> uni16C_9.rtl.glif
+1135a1151
+> uni16C_C_.rtl.glif
+1136a1153
+> uni16C_D_.rtl.glif
+1137a1155
+> uni16C_E_.rtl.glif
+1138a1157
+> uni16C_F_.rtl.glif
+1151a1171
+> uni16D_6.rtl.glif
+1152a1173
+> uni16D_7.rtl.glif
+1153a1175
+> uni16D_8.rtl.glif
+1154a1177
+> uni16D_9.rtl.glif
+1159a1183
+> uni16D_C_.rtl.glif
+1160a1185
+> uni16D_D_.rtl.glif
+1161a1187
+> uni16D_E_.rtl.glif
+1162a1189
+> uni16D_F_.rtl.glif
+1163a1191
+> uni16E_0.rtl.glif
+1164a1193
+> uni16E_1.rtl.glif
+1167a1197
+> uni16E_3.rtl.glif
+1168a1199
+> uni16E_4.rtl.glif
+1169a1201
+> uni16E_5.rtl.glif
+1170a1203
+> uni16E_6.rtl.glif
+1171a1205
+> uni16E_7.rtl.glif
+1172a1207
+> uni16E_8.rtl.glif
+1177a1213
+> uni16E_B_.rtl.glif
+1178a1215
+> uni16E_C_.rtl.glif
+1179a1217
+> uni16E_D_.rtl.glif
+1182a1221
+> uni16E_F_.rtl.glif
+1183a1223
+> uni16F_0.rtl.glif
+1329a1370
+> uni1E_08.glif (rename in reg from Ccedillaacute)
+1456a1498
+> uni1E_8E_.glif (rename in reg from Ydotaccent)
+1468d1509
+< uni1E_9A_.glif (a with half ring missing in it. Supply it.)
+1473d1513
+< uni1E_9F_.glif (small delta missing in it. Supply it.)
+1602,1606d1641
+< uni2045.glif (Supply several gen. punct chars in it.)
+< uni2046.glif
+< uni2047.glif
+< uni2048.glif
+< uni2049.glif
+1649,1650d1683
+< uni20B_0.glif (Supply German penny sign in it.)
+< uni20D_D_.glif (Supply enclosin circle in it.)
+1656,1657c1689
+< uni2132.glif (named minute in it: check AGL for correct name.)
+< uni214E_.glif (Supply small turned f in it.)
+---
+> uni2126.glif (Omega in reg: check AGL.)
+1710a1743,1745
+> uni2206.glif (Delta in reg: check AGL.)
+> uni2215.glif (Supply division slash in reg.)
+> uni2219.glif (Supply bullet operator in reg.)
+1879,1880d1913
+< uni25A_A_.glif (check AGL for these small squares.)
+< uni25A_B_.glif
+1892d1924
+< uni2740.glif (fleuron)
+2037a2070
+> uniD_262.glif (OE + ogoneck in it--a mistake?) 
+2086d2118
+< uniE_189.glif (Supply small cap fi in it.)
+2088,2089d2119
+< uniE_18C_.glif (Supply small cap fl in it.)
+< uniE_196.glif (Supply small cap ss in it.)
+2120,2121d2149
+< uniE_270.glif (fleuron)
+< uniE_27D_.glif (fleuron)
+2169a2198
+> uniE_436.square.glif (it only)
+2172a2202
+> uniE_43F_.square.glif (it only)
+2174a2205
+> uniE_441.square.glif (it only)
+2175a2207
+> uniE_442.square.glif (it only)
+2176a2209
+> uniE_443.square.glif (it only)
+2265,2266d2297
+< uniE_670.glif (fleuron)
+< uniE_67D_.glif (fleuron)
+2270d2300
+< uniE_68A_.glif (fleuron)
+2287d2316
+< uniE_736.glif (fleuron)
+2330,2331d2358
+< uniE_8B_0.glif (fleuron)
+< uniE_8B_1.glif (fleuron)
+2351a2379
+> uniE_8D_1.square.glif (it only)
+2556,2569d2583
+< uniE_F_90.glif (fleurons through EF9F)
+< uniE_F_91.glif
+< uniE_F_92.glif
+< uniE_F_93.glif
+< uniE_F_94.glif
+< uniE_F_95.glif
+< uniE_F_96.glif
+< uniE_F_97.glif
+< uniE_F_98.glif
+< uniE_F_99.glif
+< uniE_F_9A_.glif
+< uniE_F_9B_.glif
+< uniE_F_9C_.glif
+< uniE_F_9F_.glif
+2628d2641
+< uniF_011.glif (fleuron)
+2631d2643
+< uniF_014.glif (fleuron)
+2634,2636d2645
+< uniF_018.glif (fleuron)
+< uniF_019.glif (fleuron)
+< uniF_01B_.glif (fleuron)
+2638,2639d2646
+< uniF_01D_.glif (fleuron)
+< uniF_01E_.glif (fleuron)
+2658a2666
+> uniF_109.glif (obsolete code point for insular d in it. Delete!)
+2659a2668
+> uniF_10D_.glif (obsolete code point for insular f in it. Delete!)
+2662a2672
+> uniF_125.glif (obsolete code point for insular r in it. Delete!)
+2665a2676
+> uniF_129.glif (obsolete code point for insular t in it. Delete!)
+2670,2671d2680
+< uniF_13C_.glif (AE + breve. Duplicate in reg?)
+< uniF_13D_.glif (ae + breve. Duplicate in reg?)
+2685,2688d2693
+< uniF_164.glif (Vacant characters in reg. Delete!)
+< uniF_167.glif
+< uniF_168.glif
+< uniF_169.glif
+2690a2696
+> uniF_173.square.glif (it only)
+2697a2704
+> uniF_183.square.glif (it only)
+2716d2722
+< uniF_19F_.glif (Junicode lady)
+2730d2735
+< uniF_1C_6.glif (alt ogonek in reg. Delete!)
+2759d2763
+< uniF_1F_F_.glif (vacant char in reg. Delete!)
+2790,2791d2793
+< uniF_22A_.glif (small cap n missing in it. Supply.)
+< uniF_22B_.glif (small cap n missing in it. Supply.)
+2800d2801
+< uniF_2E_1.glif (decommissioned Lat. weight sign in reg. Delete.)
+2838,2840d2838
+< uniF_6F_6.glif (small cap tilde in reg. Needed or redundant?)
+< uniF_6F_A_.glif (small cap oe. Supply in it.)
+< uniF_6F_E_.glif (small cap tilde in reg. Needed or redundant?)
+2860,2862d2857
+< uniF_721.glif (small cap exclam. Redundant?)
+< uniF_724.glif (small cap dollar. Redundant?)
+< uniF_726.glif (small cap ampersand. Redundant?)
+2873,2874d2867
+< uniF_73F_.glif (small cap question. Redundant?)
+< uniF_760.glif (small cap grave. Redundant?)
+2903,2904d2895
+< uniF_7A_8.glif (small cap dieresis. Redundant?)
+< uniF_7A_F_.glif (small cap macron. Redundant?)
+2949,2950d2939
+< uniF_E_5F_.glif (small cap mumber sign. Redundant?)
+< uniF_E_6A_.glif (small cap percent. Redundant?)
+2992d2980
+< Y_dotaccent.glif (rename to uni-pattern (see above).)
