@@ -3822,7 +3822,7 @@ feature kern {
 	q.superscript uni2619 uni261A uni261B uni2740 caron.sc zcaron.sc 
 	scaron.sc ccaron.sc rcaron.sc dcaron.sc tcaron.sc ncaron.sc ecaron.sc 
 	uring.sc caron.alt uni0221 uni0238 uni0239 emptyset arrowleft arrowup 
-	arrowright arrowdown uniF703 uniF702 uniF701 scedilla.sc gcaron.sc 
+	arrowright arrowdown scedilla.sc gcaron.sc 
 	i.sc1 germandbls.sc1 parenleft.sc parenright.sc quoteleft.sc 
 	quoteright.sc quotedblleft.sc quotedblright.sc u10330 u10331 u10332 
 	u10333 u10334 u10335 u10336 u10337 u10338 u10339 u1033A u1033B u1033C 

@@ -1,0 +1,12 @@
+
+
+
+#!/bin/bash
+
+for f in *.glif; do
+  if ! grep -q $f contents.plist
+  then
+    echo $f
+  fi
+done
+
