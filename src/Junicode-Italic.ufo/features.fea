@@ -703,7 +703,6 @@ lookup ss08_Flat_Top_Yogh {
 lookup ss09_Old_Junicode_Shapes {
   lookupflag 0;
     sub T by T.alt ;
-    sub uniF109 by uniA77A.alt ;
     sub uniA77A by uniA77A.alt ;
 } ss09_Old_Junicode_Shapes;
 
@@ -1885,8 +1884,8 @@ feature mkmk {
 	uni207D uni207E Omega uni208E Euro trademark partialdiff 
 	Delta product summation minus uni2215 uni2219 radical infinity 
 	integral approxequal notequal lessequal greaterequal angleleft 
-	angleright lozenge uniF106 uniF109 uniF10A uniF10D uniF10E uniF110 
-	uniF11A uniF125 uniF126 uniF127 uniF129 uniF13A uniF13E uniF13F uniF140 
+	angleright lozenge uniF106 uniF10A uniF10E uniF110 
+	uniF11A uniF126 uniF127 uniF13A uniF13E uniF13F uniF140 
 	uniF141 uniF142 uniF149 uniF150 uniF153 uniF160 uniF161 uniF162 
 	uniF171 
 	uniF173 uniF175 uniF177 uniF179 uniF17B uniF17D uniF181 uniF183 uniF185 

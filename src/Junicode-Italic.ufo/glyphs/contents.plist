@@ -4140,8 +4140,6 @@
 	<string>uniA_7F_F_.glif</string>
 	<key>uniAB57</key>
 	<string>uniA_B_57.glif</string>
-	<key>uniD262</key>
-	<string>uniD_262.glif</string>
 	<key>uniE004</key>
 	<string>uniE_004.glif</string>
 	<key>uniE00A</key>
@@ -5332,28 +5330,20 @@
 	<string>uniF_040.glif</string>
 	<key>uniF106</key>
 	<string>uniF_106.glif</string>
-	<key>uniF109</key>
-	<string>uniF_109.glif</string>
 	<key>uniF10A</key>
 	<string>uniF_10A_.glif</string>
-	<key>uniF10D</key>
-	<string>uniF_10D_.glif</string>
 	<key>uniF10E</key>
 	<string>uniF_10E_.glif</string>
 	<key>uniF110</key>
 	<string>uniF_110.glif</string>
 	<key>uniF11A</key>
 	<string>uniF_11A_.glif</string>
-	<key>uniF125</key>
-	<string>uniF_125.glif</string>
 	<key>uniF126</key>
 	<string>uniF_126.glif</string>
 	<key>uniF127</key>
 	<string>uniF_127.glif</string>
 	<key>uniF128</key>
 	<string>uniF_128.glif</string>
-	<key>uniF129</key>
-	<string>uniF_129.glif</string>
 	<key>uniF130</key>
 	<string>uniF_130.glif</string>
 	<key>uniF135</key>
@@ -6020,5 +6010,23 @@
 	<string>uni2049.glif</string>
 	<key>uni20B0</key>
 	<string>uni20B_0.glif</string>
+	<key>uni20DD</key>
+	<string>uni20D_D_.glif</string>
+	<key>uni2132</key>
+	<string>uni2132.glif</string>
+	<key>uni214E</key>
+	<string>uni214E_.glif</string>
+	<key>uniE189</key>
+	<string>uniE_189.glif</string>
+	<key>uniE18C</key>
+	<string>uniE_18C_.glif</string>
+	<key>uniE196</key>
+	<string>uniE_196.glif</string>
+	<key>uniF22A</key>
+	<string>uniF_22A_.glif</string>
+	<key>uniF22B</key>
+	<string>uniF_22B_.glif</string>
+	<key>uniF6FA</key>
+	<string>uniF_6F_A_.glif</string>
 </dict>
 </plist>

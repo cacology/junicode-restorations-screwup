@@ -1793,7 +1793,6 @@
 		<string>uniA7FE</string>
 		<string>uniA7FF</string>
 		<string>uniAB57</string>
-		<string>uniD262</string>
 		<string>uniE004</string>
 		<string>uniE00A</string>
 		<string>uniE010</string>
@@ -2372,17 +2371,13 @@
 		<string>uniF03F</string>
 		<string>uniF040</string>
 		<string>uniF106</string>
-		<string>uniF109</string>
 		<string>uniF10A</string>
-		<string>uniF10D</string>
 		<string>uniF10E</string>
 		<string>uniF110</string>
 		<string>uniF11A</string>
-		<string>uniF125</string>
 		<string>uniF126</string>
 		<string>uniF127</string>
 		<string>uniF128</string>
-		<string>uniF129</string>
 		<string>uniF130</string>
 		<string>uniF135</string>
 		<string>uniF136</string>
@@ -3024,6 +3019,15 @@
 		<string>uni2048</string>
 		<string>uni2049</string>
 		<string>uni20B0</string>
+		<string>uni20DD</string>
+		<string>uni2132</string>
+		<string>uni214E</string>
+		<string>uniE189</string>
+		<string>uniE18C</string>
+		<string>uniE196</string>
+		<string>uniF22A</string>
+		<string>uniF22B</string>
+		<string>uniF6FA</string>
 	</array>
 </dict>
 </plist>
