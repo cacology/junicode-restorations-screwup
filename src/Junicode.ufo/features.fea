@@ -2301,7 +2301,7 @@ lookup kern_Horizontal_Kerning {
 	uni1EAE uni1EB0 uni1EB2 uni1EB4 uni1EB6 uniEF90 uniEF92 uniEF94 
 	uniEF96 uniEF98 uniEF9A uniEFE0 uniEFE2 uniEFE4 uniEFE6 uniEFEA 
 	uniEFF0 ] ;
-    @kc59_second_2 = [ C Cacute Ccaron Ccedillaacute Ccircumflex Cdotaccent G Gbreve Gcaron 
+    @kc59_second_2 = [ C Cacute Ccaron uni1E08 Ccircumflex Cdotaccent G Gbreve Gcaron 
 	Gcircumflex Gcommaaccent Gdotaccent O OE Oacute Obreve 
 	Ocircumflex Odieresis Ograve Ohorn Ohungarumlaut Omacron 
 	uni01EA Oslash Oslashacute Otilde Q uni0187 uni0193 uni019F 
@@ -3637,7 +3637,7 @@ feature kern {
 	uni1D5A uni1D5B uni1D5C uni1D5D uni1D5E uni1D5F uni1D60 uni1D61 uni1D62 
 	uni1D63 uni1D64 uni1D65 uni1D66 uni1D67 uni1D68 uni1D69 uni1D6A uni1D6B 
 	uni1E00 uni1E01 uni1E02 uni1E03 uni1E04 uni1E05 uni1E06 uni1E07 
-	Ccedillaacute uni1E09 uni1E0A uni1E0B uni1E0C uni1E0D uni1E0E uni1E0F 
+	uni1E08 uni1E09 uni1E0A uni1E0B uni1E0C uni1E0D uni1E0E uni1E0F 
 	uni1E10 uni1E11 uni1E12 uni1E13 uni1E14 uni1E15 uni1E16 uni1E17 uni1E18 
 	uni1E19 uni1E1A uni1E1B uni1E1C uni1E1D uni1E1E uni1E1F uni1E20 uni1E21 
 	uni1E22 uni1E23 uni1E24 uni1E25 uni1E26 uni1E27 uni1E28 uni1E29 uni1E2A 

@@ -16,16 +16,13 @@
 97d104
 < C_cedillaacute.glif (rename in reg to uni1E08) DONE
 131d138
-< D_elta.glif (change it from uni2206 to Delta)
+< D_elta.glif (change it from uni2206 to Delta) DONE
 142a150
 > D_.swash.glif (it only)
 176d183
-< eogonek.enlargedalt.glif (centered ogonek style in enlarged; needed in it?)
+< eogonek.enlargedalt.glif (add to it) DONE
 185d191
 < eth.nordicenlarged.glif (add equivalent in it)
-204a211,212
-> H_18543.glif (rename to uni25AA in it)
-> H_18551.glif (rename to uni25AB in it)
 273d282
 < i.enlarged.glif (stray file; deleted)
 299a309

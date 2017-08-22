@@ -604,7 +604,7 @@ lookup ss06_Enlarged_Minuscules {
     sub longs by uniEEDF ;
     sub uniF6BE by uniEEFE ;
     sub thorn.nordic by thorn.nordicenlarged ;
-#    sub eth.nordic by eth.nordicenlarged ;
+    sub eth.nordic by eth.nordicenlarged ;
     sub uni0237 by uniEEFE ;
     sub uniA733 by uniEFDF ;
     sub uniA735 by uniEFDE ;
@@ -739,6 +739,7 @@ lookup ss15_Centered_Ogonek {
     sub uniEBF3 by uniEBF3.alt ;
     sub uniE49F by uniE49F.alt ;
     sub uniE4EC by uniE4EC.alt ;
+    sub uniEAF3 by eogonek.enlargedalt ;
 } ss15_Centered_Ogonek;
 
 lookup ss16_Upright_brackets {
@@ -1882,7 +1883,7 @@ feature mkmk {
 	uni201F dagger daggerdbl bullet ellipsis perthousand minute second 
 	uni2038 guilsinglleft guilsinglright uni203F uni2040 uni2041 uni204A 
 	uni207D uni207E uni208D uni208E Euro trademark uni2126 partialdiff 
-	uni2206 product summation minus uni2215 uni2219 radical infinity 
+	Delta product summation minus uni2215 uni2219 radical infinity 
 	integral approxequal notequal lessequal greaterequal angleleft 
 	angleright lozenge uniF106 uniF109 uniF10A uniF10D uniF10E uniF110 
 	uniF11A uniF125 uniF126 uniF127 uniF129 uniF13A uniF13E uniF13F uniF140 

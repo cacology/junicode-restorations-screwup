@@ -1457,7 +1457,7 @@
 		<string>uni21A9</string>
 		<string>partialdiff</string>
 		<string>emptyset</string>
-		<string>uni2206</string>
+		<string>Delta</string>
 		<string>product</string>
 		<string>summation</string>
 		<string>minus</string>
@@ -3013,6 +3013,8 @@
 		<string>uniF7FF</string>
 		<string>uni25CC</string>
 		<string>uniF7F1</string>
+		<string>eogonek.enlargedalt</string>
+		<string>eth.nordicenlarged</string>
 	</array>
 </dict>
 </plist>
