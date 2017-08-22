@@ -147,14 +147,14 @@
 1649,1650d1683
 < uni20B_0.glif (Supply German penny sign in it.) DONE
 stop here
-< uni20D_D_.glif (Supply enclosing circle in it.)
+< uni20D_D_.glif (Supply enclosing circle in it.) DONE
 1656,1657c1689
-< uni2132.glif (Supply in it.)
-< uni214E_.glif (Supply small turned f in it.)
+< uni2132.glif (Supply in it.) DONE
+< uni214E_.glif (Supply small turned f in it.) DONE
 ---
-> uni2126.glif (Omega in reg: check AGL. Shd be Omega in it.)
+> uni2126.glif (Omega in reg: check AGL. Shd be Omega in it.) DONE
 1710a1743,1745
-> uni2206.glif (Delta in reg: check AGL. Shd be Delta in it.)
+> uni2206.glif (Delta in reg: check AGL. Shd be Delta in it.) DONE
 > uni2215.glif (Supply division slash in reg.) DONE
 > uni2219.glif (Supply bullet operator in reg.) DONE
 1879,1880d1913
@@ -163,12 +163,12 @@ stop here
 1892d1924
 < uni2740.glif (fleuron)
 2037a2070
-> uniD_262.glif (OE + ogoneck in it--a mistake?) 
+> uniD_262.glif (OE + ogoneck in it--a mistake?)  DONE
 2086d2118
-< uniE_189.glif (Supply small cap fi in it.)
+< uniE_189.glif (Supply small cap fi in it.) DONE
 2088,2089d2119
-< uniE_18C_.glif (Supply small cap fl in it.)
-< uniE_196.glif (Supply small cap ss in it.)
+< uniE_18C_.glif (Supply small cap fl in it.) DONE
+< uniE_196.glif (Supply small cap ss in it.) DONE
 2120,2121d2149
 < uniE_270.glif (fleuron)
 < uniE_27D_.glif (fleuron)
@@ -221,13 +221,13 @@ stop here
 < uniF_01D_.glif (fleuron)
 < uniF_01E_.glif (fleuron)
 2658a2666
-> uniF_109.glif (obsolete code point for insular d in it. Delete!)
+> uniF_109.glif (obsolete code point for insular d in it. Delete!) DONE
 2659a2668
-> uniF_10D_.glif (obsolete code point for insular f in it. Delete!)
+> uniF_10D_.glif (obsolete code point for insular f in it. Delete!) DONE
 2662a2672
-> uniF_125.glif (obsolete code point for insular r in it. Delete!)
+> uniF_125.glif (obsolete code point for insular r in it. Delete!) DONE
 2665a2676
-> uniF_129.glif (obsolete code point for insular t in it. Delete!)
+> uniF_129.glif (obsolete code point for insular t in it. Delete!) DONE
 2670,2671d2680
 < uniF_13C_.glif (AE + breve. Duplicate in reg?) DONE
 < uniF_13D_.glif (ae + breve. Duplicate in reg?) DONE
@@ -247,13 +247,13 @@ stop here
 2759d2763
 < uniF_1F_F_.glif (vacant char in reg. Delete!) DONE
 2790,2791d2793
-< uniF_22A_.glif (small cap n missing in it. Supply.)
-< uniF_22B_.glif (small cap n missing in it. Supply.)
+< uniF_22A_.glif (small cap n missing in it. Supply.) DONE
+< uniF_22B_.glif (small cap n missing in it. Supply.) DONE
 2800d2801
 < uniF_2E_1.glif (decommissioned Lat. weight sign in reg. Delete.) DONE
 2838,2840d2838
 < uniF_6F_6.glif (small cap tilde in reg. Needed or redundant?) ok 2 keep
-< uniF_6F_A_.glif (small cap oe. Supply in it.)
+< uniF_6F_A_.glif (small cap oe. Supply in it.) DONE
 < uniF_6F_E_.glif (small cap tilde in reg. Needed or redundant?) ok 2 keep
 2860,2862d2857
 < uniF_721.glif (small cap exclam. Redundant?) ok 2 keep
