@@ -1391,7 +1391,7 @@
 		<string>trademark</string>
 		<string>uni2123</string>
 		<string>uni2125</string>
-		<string>uni2126</string>
+		<string>Omega</string>
 		<string>uni2150</string>
 		<string>uni2151</string>
 		<string>uni2152</string>
@@ -3015,6 +3015,15 @@
 		<string>uniF7F1</string>
 		<string>eogonek.enlargedalt</string>
 		<string>eth.nordicenlarged</string>
+		<string>uni10FB</string>
+		<string>uni1E9A</string>
+		<string>uni1E9F</string>
+		<string>uni2045</string>
+		<string>uni2046</string>
+		<string>uni2047</string>
+		<string>uni2048</string>
+		<string>uni2049</string>
+		<string>uni20B0</string>
 	</array>
 </dict>
 </plist>

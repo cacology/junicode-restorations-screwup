@@ -3386,8 +3386,8 @@
 	<string>uni2123.glif</string>
 	<key>uni2125</key>
 	<string>uni2125.glif</string>
-	<key>uni2126</key>
-	<string>uni2126.glif</string>
+	<key>Omega</key>
+	<string>O_mega.glif</string>
 	<key>uni2150</key>
 	<string>uni2150.glif</string>
 	<key>uni2151</key>
@@ -6002,5 +6002,23 @@
 	<string>eogonek.enlargedalt.glif</string>
 	<key>eth.nordicenlarged</key>
 	<string>eth.nordicenlarged.glif</string>
+	<key>uni10FB</key>
+	<string>uni10F_B_.glif</string>
+	<key>uni1E9A</key>
+	<string>uni1E_9A_.glif</string>
+	<key>uni1E9F</key>
+	<string>uni1E_9F_.glif</string>
+	<key>uni2045</key>
+	<string>uni2045.glif</string>
+	<key>uni2046</key>
+	<string>uni2046.glif</string>
+	<key>uni2047</key>
+	<string>uni2047.glif</string>
+	<key>uni2048</key>
+	<string>uni2048.glif</string>
+	<key>uni2049</key>
+	<string>uni2049.glif</string>
+	<key>uni20B0</key>
+	<string>uni20B_0.glif</string>
 </dict>
 </plist>

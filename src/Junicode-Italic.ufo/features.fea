@@ -1882,7 +1882,7 @@ feature mkmk {
 	quotesinglbase quotereversed quotedblleft quotedblright quotedblbase 
 	uni201F dagger daggerdbl bullet ellipsis perthousand minute second 
 	uni2038 guilsinglleft guilsinglright uni203F uni2040 uni2041 uni204A 
-	uni207D uni207E uni208D uni208E Euro trademark uni2126 partialdiff 
+	uni207D uni207E Omega uni208E Euro trademark partialdiff 
 	Delta product summation minus uni2215 uni2219 radical infinity 
 	integral approxequal notequal lessequal greaterequal angleleft 
 	angleright lozenge uniF106 uniF109 uniF10A uniF10D uniF10E uniF110 
