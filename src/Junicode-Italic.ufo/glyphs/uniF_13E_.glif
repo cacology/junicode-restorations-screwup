@@ -1,14 +1,8 @@
 <?xml version="1.0"?>
 <glyph name="uniF13E" format="1">
-  <advance width="838"/>
+  <advance width="0"/>
   <unicode hex="F13E"/>
   <outline>
-    <contour>
-      <point x="0" y="900" type="move" name="_above"/>
-    </contour>
-    <contour>
-      <point x="-402" y="900" type="move" name="above"/>
-    </contour>
     <contour>
       <point x="84" y="993" type="qcurve" smooth="yes"/>
       <point x="49" y="950"/>

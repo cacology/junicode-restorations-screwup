@@ -8,8 +8,8 @@ languagesystem runr dflt;
 # 105 glyphs
 @combining_above = [ gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307
 		     uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F
-		     uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni031A uni031B uni033D
-		     uni033E uni033F uni0346 uni034A uni034B uni034C uni0350 uni0351 uni0352
+		     uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni031A uni033D
+		     uni033E uni033F uni0346 uni034A uni034B uni034C uni0350 uni0351 uni0352 uni0357
 		     uni035B uni0363 uni0364 uni0365 uni0366 uni0367 uni0368 uni0369 uni036A
 		     uni036B uni036C uni036D uni036E uni036F uni1DD1 uni1DD2 uni1DD3 uni1DD4
 		     uni1DD5 uni1DD6 uni1DD7 uni1DD8 uni1DD9 uni1DDA uni1DDB uni1DDC uni1DDD
@@ -43,6 +43,8 @@ markClass @cap_above <anchor 0 1415> @above_center;
 # Note that 1DCE, ogonek above, attaches differently: it must connect with the letter rather
 # than sitting above it. So it has its own mark class (defined in the lookup, not up here) and
 # attaches only to vowels.
+#
+# 031B is also different, and so far we aren't doing anything about it.
 #
 
 @combining_below = [ uni0316 uni0317 uni0318 uni0319 uni031C uni031D uni031E uni031F
@@ -1689,6 +1691,7 @@ lookup mkmk_Mark_To_Mark {
 # The above_center mark class is defined at the top of the file.
   pos mark [ gravecomb] <anchor 30 1370> mark @above_center;
   pos mark [ acutecomb ] <anchor 180 1370> mark @above_center;
+  pos mark [ uni0302 ] <anchor 89 1440> mark @above_center;
   pos mark [ tildecomb uni0307 uni0308 ] <anchor 30 1245> mark @above_center;
   pos mark [ uni0304 ] <anchor 36 1245> mark @above_center;
   pos mark [ uni0305 ] <anchor 83 1703> mark @above_center;
@@ -1696,6 +1699,7 @@ lookup mkmk_Mark_To_Mark {
   pos mark [ hookabovecomb] <anchor 30 1475> mark @above_center;
   pos mark [ uni030A ] <anchor 30 1374> mark @above_center;
   pos mark [ uni030B ] <anchor 30 1412> mark @above_center;
+  pos mark [ uni030C ] <anchor 87 1440> mark @above_center;
   pos mark [ uni030D ] <anchor 120 1455> mark @above_center;
   pos mark [ uni030E ] <anchor 117 1475> mark @above_center;
   pos mark [ uni030F ] <anchor 0 1400> mark @above_center;
@@ -1716,6 +1720,7 @@ lookup mkmk_Mark_To_Mark {
   pos mark [ uni0350 ] <anchor 30 1322> mark @above_center;
   pos mark [ uni0351 ] <anchor 30 1321> mark @above_center;
   pos mark [ uni0352 ] <anchor 30 1487> mark @above_center;
+  pos mark [ uni0357 ] <anchor 22 1400> mark @above_center;
   pos mark [ uni035B ] <anchor 67 1612> mark @above_center;
   pos mark [ uni0363 ] <anchor 150 1545> mark @above_center;
   pos mark [ uni0364 ] <anchor 150 1545> mark @above_center;
@@ -1730,6 +1735,7 @@ lookup mkmk_Mark_To_Mark {
   pos mark [ uni036D ] <anchor 64 1619> mark @above_center;
   pos mark [ uni036E ] <anchor 100 1545> mark @above_center;
   pos mark [ uni036F ] <anchor 80 1545> mark @above_center;
+# end of combining diacritical mark range. Next: combining diacritical mark supp.
   pos mark [ uni1DD1 ] <anchor 30 1415> mark @above_center;
   pos mark [ uni1DD2 ] <anchor 122 1636> mark @above_center;
   pos mark [ uni1DD3 ] <anchor 100 1512> mark @above_center;
@@ -1747,6 +1753,7 @@ lookup mkmk_Mark_To_Mark {
       	     uniF01C uniF02A ] <anchor 115 1545> mark @above_center;
   pos mark [ uni1DDF ] <anchor 122 1575> mark @above_center;
   pos mark [ uni1DE5 ] <anchor 250 1780> mark @above_center;
+# comb. diac. mark supp. ends with 1DE6. Next is PUA.
   pos mark [ uniF012 ] <anchor 150 1763> mark @above_center;
   pos mark [ uniF017 ] <anchor 170 1820> mark @above_center;
   pos mark [ uniF025 ] <anchor 150 1757> mark @above_center;
