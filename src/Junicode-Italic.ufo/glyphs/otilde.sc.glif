@@ -2,7 +2,7 @@
 <glyph name="otilde.sc" format="2">
   <advance width="1061"/>
   <outline>
-    <component base="tildecomb.sc" xOffset="1065.716990483743" yOffset="-0.7745836637589036"/>
+    <component base="tildecomb.sc" xOffset="644.2418176785243" yOffset="-1.2497564689776937"/>
     <component base="o.sc"/>
   </outline>
 </glyph>

@@ -1,12 +1,10 @@
-<?xml version="1.0"?>
-<glyph name="uniF7F4" format="1">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uniF7F4" format="2">
   <advance width="1061"/>
   <unicode hex="F7F4"/>
+  <anchor x="-309" y="1141"/>
   <outline>
-    <contour>
-      <point x="-309" y="1141" type="move" smooth="yes"/>
-    </contour>
-    <component base="uni0302.sc" xOffset="1072"/>
+    <component base="uni0302.sc" xOffset="653.376532980501" yOffset="-0.9855349003148604"/>
     <component base="o.sc"/>
   </outline>
 </glyph>

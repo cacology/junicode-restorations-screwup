@@ -2,7 +2,7 @@
 <glyph name="ecircumflex.sc" format="2">
   <advance width="899"/>
   <outline>
-    <component base="uni0302.sc" xOffset="1037.9239764534423" yOffset="-1.153692180362441"/>
+    <component base="uni0302.sc" xOffset="578.4950658827627" yOffset="-2.0596021012734127"/>
     <component base="e.sc"/>
   </outline>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="ograve.sc" format="2">
   <advance width="1061"/>
   <outline>
-    <component base="gravecomb.sc" xOffset="890.4782910388581" yOffset="-0.9834456780333767"/>
+    <component base="gravecomb.sc" xOffset="657.7412265062521" yOffset="-1.0893034119440017"/>
     <component base="o.sc"/>
   </outline>
 </glyph>

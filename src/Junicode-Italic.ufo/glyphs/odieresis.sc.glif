@@ -2,7 +2,7 @@
 <glyph name="odieresis.sc" format="2">
   <advance width="1061"/>
   <outline>
-    <component base="uni0308.sc" xOffset="1152.3143338620143" yOffset="-0.08802537668520927"/>
+    <component base="uni0308.sc" xOffset="684.7471584577206" yOffset="-0.20930385544215824"/>
     <component base="o.sc"/>
   </outline>
 </glyph>
