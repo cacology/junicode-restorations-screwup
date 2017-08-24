@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni1DE0" format="2">
   <unicode hex="1DE0"/>
-  <anchor x="-387" y="900" name="_above"/>
   <outline>
     <contour>
       <point x="198" y="1162" type="line"/>

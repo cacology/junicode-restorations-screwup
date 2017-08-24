@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni033D" format="2">
   <unicode hex="033D"/>
-  <anchor x="-231" y="880" name="_mkmk_anchor"/>
-  <anchor x="-231" y="880" name="_mkmk anchor"/>
-  <anchor x="-227" y="900" name="_above"/>
   <outline>
     <contour>
       <point x="217" y="1026" type="line"/>

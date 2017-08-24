@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotbelowcomb" format="2">
   <unicode hex="0323"/>
-  <anchor x="31.0" y="-75" name="_below"/>
   <outline>
     <contour>
       <point x="66.0" y="-286" type="qcurve" smooth="yes"/>

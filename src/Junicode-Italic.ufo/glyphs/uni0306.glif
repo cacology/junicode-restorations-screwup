@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0306" format="2">
   <unicode hex="0306"/>
-  <anchor x="-220" y="880" name="_mkmk_anchor"/>
-  <anchor x="-149" y="1245" name="mkmk_anchor"/>
-  <anchor x="-149" y="1245" name="mkmk anchor"/>
-  <anchor x="-220" y="880" name="_mkmk anchor"/>
-  <anchor x="-216" y="900" name="_above"/>
   <outline>
     <contour>
       <point x="327" y="1228" type="qcurve"/>

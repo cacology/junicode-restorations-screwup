@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="hookabovecomb" format="2">
   <unicode hex="0309"/>
-  <anchor x="-400" y="900" name="_above"/>
   <outline>
     <contour>
       <point x="166" y="1283" type="qcurve" smooth="yes"/>
