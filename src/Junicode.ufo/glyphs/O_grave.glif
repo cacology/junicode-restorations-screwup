@@ -3,9 +3,6 @@
   <advance width="1461"/>
   <unicode hex="00D2"/>
   <outline>
-    <contour>
-      <point x="732" y="-75" type="move" name="below"/>
-    </contour>
     <component base="CapGrave" xOffset="173"/>
     <component base="O"/>
   </outline>

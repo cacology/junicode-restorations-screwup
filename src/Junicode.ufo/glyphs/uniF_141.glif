@@ -3,9 +3,6 @@
   <advance width="838"/>
   <unicode hex="F141"/>
   <outline>
-    <contour>
-      <point x="430" y="1265" type="move" name="above"/>
-    </contour>
     <component base="breve" xOffset="67"/>
     <component base="y"/>
   </outline>

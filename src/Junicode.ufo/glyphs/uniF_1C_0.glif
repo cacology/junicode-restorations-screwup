@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniF1C0" format="2">
   <unicode hex="F1C0"/>
-  <anchor x="-426" y="900" name="_above"/>
   <outline>
     <contour>
       <point x="111.0" y="1342.0" type="qcurve" smooth="yes"/>

@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb" format="2">
   <unicode hex="0300"/>
-  <anchor x="-390" y="980" name="_Anchor-2"/>
-  <anchor x="-390" y="1420" name="Anchor-2"/>
-  <anchor x="-390" y="900" name="_above"/>
   <outline>
     <contour>
       <point x="47" y="1081" type="line" smooth="yes"/>

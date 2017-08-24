@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="ae.sc" format="2">
   <advance width="1310"/>
-  <anchor x="675" y="-75" name="below"/>
-  <anchor x="798" y="985" name="above"/>
   <outline>
     <contour>
       <point x="80" y="145" type="qcurve"/>

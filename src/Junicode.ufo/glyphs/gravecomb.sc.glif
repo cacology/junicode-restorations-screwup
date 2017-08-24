@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="gravecomb.sc" format="2">
-  <anchor x="-192" y="985" name="_above"/>
   <outline>
     <contour>
       <point x="49.0" y="1114.0" type="qcurve" smooth="yes"/>

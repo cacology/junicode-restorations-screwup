@@ -3,9 +3,6 @@
   <advance width="1461"/>
   <unicode hex="00D4"/>
   <outline>
-    <contour>
-      <point x="736" y="-75" type="move" name="below"/>
-    </contour>
     <component base="CapCircumflex" xOffset="345"/>
     <component base="O"/>
   </outline>

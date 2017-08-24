@@ -3,12 +3,6 @@
   <advance width="534"/>
   <outline>
     <contour>
-      <point x="280" y="985" type="move" name="above"/>
-    </contour>
-    <contour>
-      <point x="190" y="-338" type="move" name="below"/>
-    </contour>
-    <contour>
       <point x="473" y="872" type="qcurve" smooth="yes"/>
       <point x="406" y="872"/>
       <point x="354" y="836"/>

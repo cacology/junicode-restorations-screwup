@@ -3,12 +3,6 @@
   <advance width="0"/>
   <outline>
     <contour>
-      <point x="0" y="900" type="move" name="_above_center_1"/>
-    </contour>
-    <contour>
-      <point x="0" y="900" type="move" name="_above_center"/>
-    </contour>
-    <contour>
       <point x="-291" y="1238"/>
       <point x="-234" y="1296"/>
       <point x="-153" y="1296"/>

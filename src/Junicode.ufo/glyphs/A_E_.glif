@@ -4,12 +4,6 @@
   <unicode hex="00C6"/>
   <outline>
     <contour>
-      <point x="1040" y="1330" type="move" name="ogonek_above"/>
-    </contour>
-    <contour>
-      <point x="879" y="-75" type="move" name="below_center"/>
-    </contour>
-    <contour>
       <point x="66" y="172" type="qcurve" smooth="yes"/>
       <point x="642" y="1196" type="line" smooth="yes"/>
       <point x="658" y="1224"/>

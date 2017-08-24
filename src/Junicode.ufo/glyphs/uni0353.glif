@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0353" format="2">
   <unicode hex="0353"/>
-  <anchor x="-400" y="-80" name="_Anchor-3"/>
-  <anchor x="-400" y="-585" name="Anchor-3"/>
-  <anchor x="-400" y="-75" name="below"/>
   <outline>
     <contour>
       <point x="196.0" y="-528.0" type="line"/>
