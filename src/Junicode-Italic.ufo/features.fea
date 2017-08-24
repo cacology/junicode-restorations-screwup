@@ -1110,24 +1110,6 @@ lookup calt_Non_Colliding_Forms {
 	uniEBAE uniEBAF uniF4FA uniF4FB uniF4FC uniF4FD uniF4FE
 	uniF4FF uniEEC9 uniEECA uniEECB f_thorn f_udieresis f_y 
 	f_thorn.nordic f_eth.nordic ];
-    @cc33_back_1 = [ k_i ];
-    @cc33_back_2 = [ f g j p f_f.alt f_f_t f_f_udieresis f_f_y uniFB00 uniFB01 uniFB02 
-	uniFB03 uniFB04 uniFB05 longs uniE1A6 uniEBA1 uniEBA2 uniF4FC 
-	uniEBA3 uniEBA6 uniEBA7 uniEBA8 uniEBA0
-	uniEBA1 uniEBA2 uniEBA3 uniEBA4 uniEBA5 uniEBA6 uniEBA7 
-	uniEBA8 uniEBA9 uniEBAA uniEBAB uniEBAC uniEBAD 
-	uniEBAE uniEBAF uniF4FA uniF4FB uniF4FC uniF4FD uniF4FE
-	uniF4FF f_j f_r f_t f_thorn f_udieresis f_y 
-	f_thorn.nordic f_eth.nordic ];
-    @cc33_ahead_1 = [ k_i ];
-    @cc33_ahead_2 = [ f g j p f_f.alt f_f_t f_f_udieresis f_f_y uniFB00 uniFB01 uniFB02 
-	uniFB03 uniFB04 uniFB05 longs uniE1A6 uniEBA1 uniEBA2 uniF4FC
-	uniEBA3 uniEBA6 uniEBA7 uniEBA8 uniEBA0
-	uniEBA1 uniEBA2 uniEBA3 uniEBA4 uniEBA5 uniEBA6 uniEBA7 
-	uniEBA8 uniEBA9 uniEBAA uniEBAB uniEBAC uniEBAD 
-	uniEBAE uniEBAF uniF4FA uniF4FB uniF4FC uniF4FD uniF4FE
-	uniF4FF f_j f_r f_t f_thorn f_udieresis f_y 
-	f_thorn.nordic f_eth.nordic ];
     sub @cc33_match_1' @cc33_match_2  by [ k_i.alt ] ;
 } calt_Non_Colliding_Forms;
 
@@ -1151,18 +1133,6 @@ lookup calt_Old_Punctuation_Cleanup {
     @cc35_match_2 = [ colon colon.alt semicolon semicolon.alt question question.alt exclam 
 	exclam.alt period comma ];
     @cc35_match_3 = [ quoteright.alt ];
-    @cc35_back_1 = [ a b c d e f g h i j k l m n o p q r s t u v w x y z
-                    A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-		    Eacute eacute ];
-    @cc35_back_2 = [ colon colon.alt semicolon semicolon.alt question question.alt exclam 
-	exclam.alt period comma ];
-    @cc35_back_3 = [ quoteright.alt ];
-    @cc35_ahead_1 = [ a b c d e f g h i j k l m n o p q r s t u v w x y z
-    		     A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-		     Eacute eacute ];
-    @cc35_ahead_2 = [ colon colon.alt semicolon semicolon.alt question question.alt exclam 
-		     exclam.alt period comma ];
-    @cc35_ahead_3 = [ quoteright.alt ];
     sub @cc35_match_3' lookup Restore_Quote_Right  @cc35_match_1 ;
     sub @cc35_match_2 @cc35_match_3' lookup Restore_Quote_Right  ;
 } calt_Old_Punctuation_Cleanup;
