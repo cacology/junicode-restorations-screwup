@@ -1673,14 +1673,14 @@ lookup mark_Mark_Above {
       	     <anchor 465 900> mark @above_center ;
   pos base [ r uni0279 uni027B uni027C uni027D uni027E uni027F ]
       	     <anchor 393 900> mark @above_center ;
-  pos base [ s uni0282 uni029A uniF128 ] <anchor 369 900> mark @above_center ;
+  pos base [ s uni0282 uni029A uniF128 scedilla ] <anchor 369 900> mark @above_center ;
   pos base [ t ] <anchor 334 1068> mark @above_center ;
-  pos base [ u ] <anchor 490 900> mark @above_center ;
-  pos base [ v ] <anchor 458 900> mark @above_center ;
-  pos base [ w ] <anchor 695 900> mark @above_center ;
+  pos base [ u uogonek uhorn uni1E73 uni1E75 uni1E77 uni1EE5 uni1EF1 ] <anchor 490 900> mark @above_center ;
+  pos base [ v uni1E7F ] <anchor 458 900> mark @above_center ;
+  pos base [ w uni1E89 ] <anchor 695 900> mark @above_center ;
   pos base [ x ] <anchor 488 900> mark @above_center ;
-  pos base [ y ] <anchor 425 900> mark @above_center ;
-  pos base [ z ] <anchor 374 900> mark @above_center ;
+  pos base [ y uni1EF5 ] <anchor 425 900> mark @above_center ;
+  pos base [ z uni01B6 uni0225 uni1E93 uni1E95 ] <anchor 374 900> mark @above_center ;
   pos base [ ae uniF204 uniEFA1 ] <anchor 588 900> mark @above_center ;
   pos base [ ccedilla ] <anchor 498 900> mark @above_center ;
   pos base [ eth eth.alt ] <anchor 520 1537> mark @above_center ;
@@ -2080,7 +2080,8 @@ lookup mark_Ogonek_Above {
 } mark_Ogonek_Above;
 
 # I have only found documentation for 1DD0 "Combining is below" combining
-# with b m n t. See the 2006 MUFI Unicode proposal and:
+# with b m n t. (This confirmed now by Andrea Correa, Visigothic paleographer at
+# Kings Coll. London.) See the 2006 MUFI Unicode proposal and:
 # http://litteravisigothica.com/medieval-abbreviations-ii-medieval-period/
 # http://litteravisigothica.com/medieval-abbreviations-iii-visigothic-script-style/
 
@@ -2101,7 +2102,7 @@ lookup mkmk_Mark_to_Mark_Above {
   pos mark [ tildecomb ] <anchor 0 1233> mark @above_center ;
   pos mark [ uni0304 ] <anchor 0 1208> mark @above_center ;
   pos mark [ uni0305 ] <anchor 0 1216> mark @above_center ;
-  pos mark [ uni0306 ] <anchor 0 1305> mark @above_center ;
+  pos mark [ uni0306 ] <anchor 0 1380> mark @above_center ;
   pos mark [ uni0307 uni0308 ] <anchor 0 1274> mark @above_center ;
   pos mark [ hookabovecomb ] <anchor 0 1428> mark @above_center ;
   pos mark [ uni030A ] <anchor 0 1419> mark @above_center ;
