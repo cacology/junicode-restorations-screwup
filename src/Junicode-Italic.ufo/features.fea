@@ -1315,340 +1315,357 @@ feature calt {
 
 # GPOS
 
-lookup mark_Mark_Above {
+lookup mark_Mark_Positioning {
   lookupflag IgnoreLigatures;
-# The above_center mark class is defined at the top of the file.
-  pos base [ A ] <anchor 950 1415> mark @above_center;
-  pos base [ B uni0181 uni0182 uni0184 ] <anchor 846 1415> mark @above_center;
-  pos base [ C ] <anchor 1160 1415> mark @above_center;
-  pos base [ D uni018A D.swash ] <anchor 978 1415> mark @above_center;
-  pos base [ E ] <anchor 966 1415> mark @above_center;
-  pos base [ F Thorn uni0191 ] <anchor 930 1415> mark @above_center;
-  pos base [ G uni0193 uni0187 ] <anchor 1152 1415> mark @above_center;
-  pos base [ H uni01F6 ] <anchor 1056 1415> mark @above_center;
-  pos base [ I uni0197 ] <anchor 678 1415> mark @above_center;
-  pos base [ J ] <anchor 680 1415> mark @above_center;
-  pos base [ K ] <anchor 1022 1415> mark @above_center;
-  pos base [ L ] <anchor 686 1415> mark @above_center;
-  pos base [ M ] <anchor 1236 1415> mark @above_center;
-  pos base [ N ] <anchor 1106 1415> mark @above_center;
-  pos base [ O uni01EA uni019F ] <anchor 1094 1415> mark @above_center;
-  pos base [ P uni01A4 ] <anchor 924 1415> mark @above_center;
-  pos base [ Q Q_u ] <anchor 1090 1415> mark @above_center;
-  pos base [ R ] <anchor 880 1415> mark @above_center;
-  pos base [ S ] <anchor 850 1415> mark @above_center;
-  pos base [ T ] <anchor 1120 1415> mark @above_center;
-  pos base [ U Uhorn ] <anchor 1118 1415> mark @above_center;
-  pos base [ V ] <anchor 942 1415> mark @above_center;
-  pos base [ W ] <anchor 1302 1415> mark @above_center;
-  pos base [ X ] <anchor 1086 1415> mark @above_center;
-  pos base [ Y ] <anchor 934 1415> mark @above_center;
-  pos base [ Z ] <anchor 954 1415> mark @above_center;
-  pos base [ a aogonek ] <anchor 620 900> mark @above_center;
-  pos base [ b uni0183 uni0185 uni0238 ] <anchor 630 1545> mark @above_center;
-  pos base [ c ] <anchor 550 900> mark @above_center;
-  pos base [ d uni0221 ] <anchor 736 1545> mark @above_center;
-  pos base [ e uni23D1 uni23D2 uni23D3 ] <anchor 561 900> mark @above_center;
-  pos base [ f f.alt ] <anchor 584 1545> mark @above_center;
-  pos base [ g ] <anchor 546 900> mark @above_center;
-  pos base [ h ] <anchor 632 1545> mark @above_center;
-  pos base [ i ] <anchor 452 1305> mark @above_center;
-  pos base [ j j.alt ] <anchor 456 1305> mark @above_center;
-  pos base [ k uni0199 uniE8C5 k.swash ] <anchor 668 1545> mark @above_center;
-  pos base [ l uni019A uni0196 ] <anchor 460 1545> mark @above_center;
-  pos base [ m ] <anchor 840 900> mark @above_center;
-  pos base [ n uni019E ] <anchor 637 900> mark @above_center;
-  pos base [ o uni01EB ohorn ] <anchor 600 900> mark @above_center;
-  pos base [ p ] <anchor 592 1305> mark @above_center;
-  pos base [ q ae.square ] <anchor 688 900> mark @above_center;
-  pos base [ r ] <anchor 565 900> mark @above_center;
-  pos base [ s ] <anchor 384 900> mark @above_center;
-  pos base [ t ] <anchor 480 1305> mark @above_center;
-  pos base [ u uhorn ] <anchor 633 900> mark @above_center;
-  pos base [ v ] <anchor 562 900> mark @above_center;
-  pos base [ w ] <anchor 832 900> mark @above_center;
-  pos base [ x ] <anchor 582 900> mark @above_center;
-  pos base [ y ] <anchor 500 900> mark @above_center;
-  pos base [ z ] <anchor 568 900> mark @above_center;
-  pos base [ AE ] <anchor 1456 1415> mark @above_center;
-  pos base [ Eth ] <anchor 1030 1415> mark @above_center;
-  pos base [ Oslash ] <anchor 1084 1415> mark @above_center;
-  pos base [ ae ] <anchor 800 900> mark @above_center;
-  pos base [ eth ] <anchor 564 1545> mark @above_center;
-  pos base [ oslash ] <anchor 594 900> mark @above_center;
-  pos base [ thorn ] <anchor 612 1545> mark @above_center;
-  pos base [ amacron ] <anchor 692 1265> mark @above_center;
-  pos base [ abreve ebreve ] <anchor 668 1265> mark @above_center;
-  pos base [ emacron ] <anchor 655 1265> mark @above_center;
-  pos base [ eogonek ] <anchor 602 900> mark @above_center;
-  pos base [ imacron ] <anchor 402 1265> mark @above_center;
-  pos base [ ibreve ] <anchor 440 1265> mark @above_center;
-  pos base [ dotlessi ] <anchor 382 900> mark @above_center;
-  pos base [ omacron ] <anchor 658 1265> mark @above_center;
-  pos base [ obreve ] <anchor 702 1265> mark @above_center;
-  pos base [ OE ] <anchor 1469 1415> mark @above_center;
-  pos base [ oe ] <anchor 795 900> mark @above_center;
-  pos base [ scaron ] <anchor 482 1340> mark @above_center;
-  pos base [ umacron ] <anchor 680 1265> mark @above_center;
-  pos base [ ubreve ] <anchor 716 1265> mark @above_center;
-  pos base [ uogonek ] <anchor 645 900> mark @above_center;
-  pos base [ uni01B7 ] <anchor 713 1415> mark @above_center;
-  pos base [ uni01BF ] <anchor 668 900> mark @above_center;
-  pos base [ uni01E3 ] <anchor 934 1265> mark @above_center;
-  pos base [ uni01ED ] <anchor 666 1265> mark @above_center;
-  pos base [ uni021D ] <anchor 540 900> mark @above_center;
-  pos base [ uni0229 ] <anchor 608 900> mark @above_center;
-  pos base [ uni0233 ] <anchor 564 1265> mark @above_center;
-  pos base [ uniA779 ] <anchor 1000 1415> mark @above_center;
-  pos base [ uniA77A ] <anchor 420 1350> mark @above_center;
-  pos base [ uniA77B ] <anchor 950 1415> mark @above_center;
-  pos base [ uniA77C ] <anchor 590 900> mark @above_center;
-  pos base [ uniA77D ] <anchor 1000 1415> mark @above_center;
-  pos base [ uniA782 ] <anchor 1040 1415> mark @above_center;
-  pos base [ uniA783 ] <anchor 570 900> mark @above_center;
-  pos base [ uniA784 ] <anchor 970 1415> mark @above_center;
-  pos base [ uniA785 ] <anchor 490 900> mark @above_center;
-  pos base [ uniA786 ] <anchor 1100 1415> mark @above_center;
-  pos base [ uniA787 ] <anchor 560 900> mark @above_center;
-  pos base [ uni1D79 ] <anchor 600 900> mark @above_center;
-  pos base [ uniF13E ] <anchor -402 900> mark @above_center;
-  pos base [ uni0190 ] <anchor 684 1415> mark @above_center;
-  pos base [ uni0186 ] <anchor 836 1415> mark @above_center;
-  pos base [ Thorn.nordic ] <anchor 698 1436> mark @above_center;
-  pos base [ T.alt ] <anchor 977 1436> mark @above_center;
-  pos base [ uni1EFE ] <anchor 660 1415> mark @above_center;
-  pos base [ uni1EFF ] <anchor 444 900> mark @above_center;
-  pos base [ uni0237 ] <anchor 380 900> mark @above_center;
-  pos base [ uni23D4 ] <anchor 1032 900> mark @above_center;
-  pos base [ uniE7E4 ] <anchor 565 829> mark @above_center;
-  pos base [ AE.swash ] <anchor 2690 1415> mark @above_center;
-  pos base [ a.sc ] <anchor 675 1050> mark @above_center;
-  pos base [ b.sc ] <anchor 542 1050> mark @above_center;
-  pos base [ c.sc g.sc ] <anchor 726 1050> mark @above_center;
-  pos base [ d.sc eth.sc ] <anchor 603 1050> mark @above_center;
-  pos base [ e.sc f.sc ] <anchor 591 1050> mark @above_center;
-  pos base [ h.sc ] <anchor 735 1050> mark @above_center;
-  pos base [ i.sc l.sc ] <anchor 411 1050> mark @above_center;
-  pos base [ j.sc ] <anchor 465 1050> mark @above_center;
-  pos base [ k.sc ] <anchor 642 1050> mark @above_center;
-  pos base [ m.sc ] <anchor 768 1050> mark @above_center;
-  pos base [ n.sc ] <anchor 639 1050> mark @above_center;
-  pos base [ o.sc oslash.sc q.sc ] <anchor 675 1050> mark @above_center;
-  pos base [ p.sc r.sc ] <anchor 576 1050> mark @above_center;
-  pos base [ s.sc ] <anchor 501 1050> mark @above_center;
-  pos base [ t.sc ] <anchor 609 1050> mark @above_center;
-  pos base [ u.sc ] <anchor 715 1050> mark @above_center;
-  pos base [ v.sc ] <anchor 642 1050> mark @above_center;
-  pos base [ w.sc ] <anchor 888 1050> mark @above_center;
-  pos base [ x.sc ] <anchor 669 1050> mark @above_center;
-  pos base [ y.sc ] <anchor 624 1050> mark @above_center;
-  pos base [ z.sc ] <anchor 642 1050> mark @above_center;
-  pos base [ ae.sc ] <anchor 951 1050> mark @above_center;
-  pos base [ oe.sc ] <anchor 930 1050> mark @above_center;
-  pos base [ thorn.sc ] <anchor 591 1050> mark @above_center;
-  pos base [ thorn.nordicsc ] <anchor 396 1050> mark @above_center;
-} mark_Mark_Above;
-
-lookup mark_Mark_Below {
-  lookupflag 0;
-  pos base [ ampersand ] <anchor 569 -75> mark @below_center ;
-  pos base [ a uniF203 uniF215 uniF214 uni21A9 agrave aacute atilde acircumflex adieresis
-      	     aring uniA747 ] <anchor 276 -75> mark @below_center ;
-  pos base [ b uni0253 uniE44D ] <anchor 335 -75> mark @below_center ;
-  pos base [ c uni0262 uni0274 uni028A uni029B uni029F uniF218 ]
-      	     <anchor 295 -75> mark @below_center ;
-  pos base [ d ] <anchor 335 -75> mark @below_center ;
-  pos base [ e uniE4E9 uniF219 egrave eacute ecircumflex edieresis ]
-      	     <anchor 306 -75> mark @below_center ;
-  pos base [ f uni026A f.alt ] <anchor 90 -626> mark @below_center ;
-  pos base [ g uniF21D uniF21E ] <anchor 233 -603> mark @below_center ;
-  pos base [ h ] <anchor 358 -75> mark @below_center ;
-  pos base [ i igrave iacute icircumflex idieresis imacron uni0269 dotlessi ]
-      	     <anchor 217 -75> mark @below_center ;
-  pos base [ j uni0237 uni025F uni0283 uni0286 uni029D uniF6BE uni0249 j.alt ]
-             <anchor 98 -594> mark @below_center ;
-  pos base [ k ] <anchor 356 -75> mark @below_center ;
-  pos base [ l uni026B uni026C uniE5B0 uniE5B1 uniA749 ] <anchor 177 -75> mark @below_center ;
-  pos base [ m ] <anchor 644 -75> mark @below_center ;
-  pos base [ n ntilde ] <anchor 431 -75> mark @below_center ;
-  pos base [ o eth.nordic ograve otilde oacute ocircumflex odieresis omacron oslash ]
-      	     <anchor 335 -75> mark @below_center ;
-  pos base [ p ] <anchor 270 -626> mark @below_center ;
-  pos base [ q uni0265 uni02A0 ] <anchor 357 -626> mark @below_center ;
-  pos base [ r uni0279 uni027A uni027E uni027F ] <anchor 266 -75> mark @below_center ;
-  pos base [ s uni0285 uni029A uniF128 ] <anchor 191 -75> mark @below_center ;
-  pos base [ t ] <anchor 201 -75> mark @below_center ;
-  pos base [ u grave uacute ucircumflex udieresis umacron uniF208 uni0289 ]
-      	     <anchor 406 -75> mark @below_center ;
-  pos base [ v ] <anchor 321 -75> mark @below_center ;
-  pos base [ w ] <anchor 578 -75> mark @below_center ;
-  pos base [ x ] <anchor 408 -75> mark @below_center ;
-  pos base [ y yacute ydieresis uni0233 uniF233 uni1EFF ]
-      	     <anchor 203 -626> mark @below_center ;
-  pos base [ z ] <anchor 393 -75> mark @below_center ;
-  pos base [ A Agrave Aacute Atilde Acircumflex Adieresis Aring Amacron ]
+  pos base [ A ]
+      	     <anchor 950 1415> mark @above_center
       	     <anchor 449 -75> mark @below_center ;
-  pos base [ B ] <anchor 536 -75> mark @below_center ;
-  pos base [ C G ] <anchor 736 -75> mark @below_center ;
-  pos base [ D ] <anchor 685 -75> mark @below_center ;
-  pos base [ E Egrave Eacute Ecircumflex Edieresis Emacron Ebreve ]
-      	     <anchor 584 -75> mark @below_center ;
-  pos base [ F ] <anchor 491 -75> mark @below_center ;
-  pos base [ H ] <anchor 648 -75> mark @below_center ;
-  pos base [ I Igrave Iacute Icircumflex Idieresis Imacron Ibreve ]
-      	     <anchor 269 -75> mark @below_center ;
-  pos base [ J ] <anchor 174 -468> mark @below_center ;
-  pos base [ K ] <anchor 561 -75> mark @below_center ;
-  pos base [ L Lslash ] <anchor 643 -75> mark @below_center ;
-  pos base [ M ] <anchor 811 -75> mark @below_center ;
-  pos base [ N Ntilde ] <anchor 722 -75> mark @below_center ;
-  pos base [ O Ograve Oacute Ocircumflex Otilde Odieresis Oslash Omacron Obreve uni0298 ]
-      	     <anchor 673 -75> mark @below_center ;
-  pos base [ P ] <anchor 527 -75> mark @below_center ;
-  pos base [ Q ] <anchor 605 -203> mark @below_center ;
-  pos base [ R ] <anchor 529 -75> mark @below_center ;
-  pos base [ S ] <anchor 408 -75> mark @below_center ;
-  pos base [ T ] <anchor 548 -75> mark @below_center ;
-  pos base [ U Ugrave Uacute Ucircumflex Udieresis Umacron Ubreve ]
-      	     <anchor 670 -75> mark @below_center ;
-  pos base [ V ] <anchor 439 -75> mark @below_center ;
-  pos base [ W ] <anchor 894 -75> mark @below_center ;
-  pos base [ X ] <anchor 585 -75> mark @below_center ;
-  pos base [ Y uni0232 ] <anchor 492 -75> mark @below_center ;
-  pos base [ Z ] <anchor 526 -75> mark @below_center ;
-  pos base [ ae uni01E3 aeacute ] <anchor 405 -75> mark @below_center ;
-  pos base [ eth eth.alt ] <anchor 336 -75> mark @below_center ;
-  pos base [ thorn ] <anchor 180 -600> mark @below_center ;
-  pos base [ eng uni0267 uni0272 uni0273 ] <anchor 262 -650> mark @below_center ;
-  pos base [ OE ] <anchor 1049 -75> mark @below_center ;
-  pos base [ oe ] <anchor 535 -75> mark @below_center ;
-  pos base [ uni0186 ] <anchor 400 -75> mark @below_center ;
-  pos base [ uni0190 ] <anchor 315 -75> mark @below_center ;
-  pos base [ AE uni01E2 AEacute ] <anchor 802 -75> mark @below_center ;
-  pos base [ uni0250 uni0295 uni02A2 ] <anchor 302 -75> mark @below_center ;
-  pos base [ uni0251 uniF200 uniF201 uniF202 ] <anchor 321 -75> mark @below_center ;
-  pos base [ uni0252 ] <anchor 353 -75> mark @below_center ;
-  pos base [ uni0254 uni025C uni025D ] <anchor 228 -75> mark @below_center ;
-  pos base [ uni0255 ] <anchor 441 -75> mark @below_center ;
-  pos base [ uni0256 ] <anchor 306 -650> mark @below_center ;
-  pos base [ uni0257 uniE491 ] <anchor 316 -75> mark @below_center ;
-  pos base [ uni0258 ] <anchor 270 -75> mark @below_center ;
-  pos base [ uni0259 uni025A ] <anchor 298 -75> mark @below_center ;
-  pos base [ uni025B ] <anchor 307 -75> mark @below_center ;
-  pos base [ uni025E ] <anchor 321 -75> mark @below_center ;
-  pos base [ uni0260 uni0261 uniF21F uniEEDE ] <anchor 265 -650> mark @below_center ;
-  pos base [ uni0263 ] <anchor 304 -597> mark @below_center ;
-  pos base [ uni0264 uni0275 ] <anchor 410 -75> mark @below_center ;
-  pos base [ uni0266 uniE517 ] <anchor 358 -75> mark @below_center ;
-  pos base [ uni0268 ] <anchor 185 -75> mark @below_center ;
-  pos base [ uni026D ] <anchor 238 -650> mark @below_center ;
-  pos base [ uni026E ] <anchor 439 -597> mark @below_center ;
-  pos base [ uni026F ] <anchor 612 -75> mark @below_center ;
-  pos base [ uni0270 uni0271 ] <anchor 494 -621> mark @below_center ;
-  pos base [ uni0276 ] <anchor 677 -75> mark @below_center ;
-  pos base [ uni0278 ] <anchor 212 -621> mark @below_center ;
-  pos base [ uni027B uni027C uni027D ] <anchor 299 -621> mark @below_center ;
-  pos base [ uni0280 ] <anchor 353 -75> mark @below_center ;
-  pos base [ uni0281 ] <anchor 308 -75> mark @below_center ;
-  pos base [ uni0282 ] <anchor 225 -315> mark @below_center ;
-  pos base [ uni0284 ] <anchor 139 -594> mark @below_center ;
-  pos base [ uni0287 ] <anchor 205 -255> mark @below_center ;
-  pos base [ uni0288 ] <anchor 160 -621> mark @below_center ;
-  pos base [ uni028B uniF221 ] <anchor 402 -75> mark @below_center ;
-  pos base [ uni028C ] <anchor 305 -75> mark @below_center ;
-  pos base [ uni028D ] <anchor 558 -75> mark @below_center ;
-  pos base [ uni028E ] <anchor 318 -57> mark @below_center ;
-  pos base [ uni028F ] <anchor 339 -75> mark @below_center ;
-  pos base [ uni0290 ] <anchor 357 -409> mark @below_center ;
-  pos base [ uni0291 ] <anchor 357 -239> mark @below_center ;
-  pos base [ uni0292 uni0293 uni2125 ] <anchor 213 -621> mark @below_center ;
-  pos base [ uni0294 uni0296 uni02A1 ] <anchor 414 -75> mark @below_center ;
-  pos base [ uni0297 ] <anchor 181 -639> mark @below_center ;
-#  pos base [ uni0298 ] <anchor 794 -75> mark @below_center ;
-  pos base [ uni0299 ] <anchor 350 -75> mark @below_center ;
-  pos base [ uni029C ] <anchor 490 -75> mark @below_center ;
-  pos base [ uni029E ] <anchor 490 -621> mark @below_center ;
-  pos base [ uniEEE0 ] <anchor 395 -89> mark @below_center ;
-  pos base [ uniEEE1 ] <anchor 355 -89> mark @below_center ;
-  pos base [ uniEEE2 ] <anchor 355 -89> mark @below_center ;
-  pos base [ uniEEE3 ] <anchor 335 -106> mark @below_center ;
-  pos base [ uniEEE4 uniEEE5 ] <anchor 375 -89> mark @below_center ;
-  pos base [ uniEEE6 ] <anchor 345 -89> mark @below_center ;
-  pos base [ uniEEE7 ] <anchor 42 -603> mark @below_center ;
-  pos base [ uniEEE8 ] <anchor 239 -603> mark @below_center ;
-  pos base [ uniEEE9 ] <anchor 395 -89> mark @below_center ;
-  pos base [ uniEEEA uniEEFD ] <anchor 245 -89> mark @below_center ;
-  pos base [ uniEEEB uniEEFE ] <anchor 246 -594> mark @below_center ;
-  pos base [ uniEEEC ] <anchor 435 -106> mark @below_center ;
-  pos base [ uniEEED ] <anchor 215 -89> mark @below_center ;
-  pos base [ uniEEEE ] <anchor 802 -89> mark @below_center ;
-  pos base [ uniEEEF ] <anchor 514 -89> mark @below_center ;
-  pos base [ uniEEF0 ] <anchor 358 -89> mark @below_center ;
-  pos base [ uniEEF1 ] <anchor 235 -615> mark @below_center ;
-  pos base [ uniEEF2 ] <anchor 443 -615> mark @below_center ;
-  pos base [ uniEEF3 ] <anchor 234 -89> mark @below_center ;
-  pos base [ uniEEF4 ] <anchor 194 -89> mark @below_center ;
-  pos base [ uniEEF5 ] <anchor 240 -89> mark @below_center ;
-  pos base [ uniEEF6 ] <anchor 280 -600> mark @below_center ;
-  pos base [ uniEEF7 ] <anchor 470 -89> mark @below_center ;
-  pos base [ uniEEF8 ] <anchor 390 -89> mark @below_center ;
-  pos base [ uniEEF9 ] <anchor 700 -89> mark @below_center ;
-  pos base [ uniEEFA ] <anchor 450 -89> mark @below_center ;
-  pos base [ uniEEFB ] <anchor 402 -610> mark @below_center ;
-  pos base [ uniEEFC ] <anchor 510 -89> mark @below_center ;
-  pos base [ uniF204 uniEFA1 ] <anchor 440 -75> mark @below_center ;
-  pos base [ uniF206 ] <anchor 568 -75> mark @below_center ;
-  pos base [ omega uni0277 ] <anchor 478 -75> mark @below_center ;
-  pos base [ uni2C71 ] <anchor 238 -75> mark @below_center ;
-  pos base [ uni2C73 ] <anchor 558 -75> mark @below_center ;
-#  pos base [ t.scalt ] <anchor 576 -75> mark @below_center ;
-  pos base [ uniEFA0 ] <anchor 398 -75> mark @below_center ;
-  pos base [ uniA733 ] <anchor 548 -75> mark @below_center ;
-  pos base [ uniEFDF uniEFDE ] <anchor 678 -89> mark @below_center ;
-  pos base [ uniEFA2 ] <anchor 468 -75> mark @below_center ;
-  pos base [ uniA739 uniA73B ] <anchor 548 -75> mark @below_center ;
-  pos base [ uniEFDD ] <anchor 658 -89> mark @below_center ;
-#  pos base [ eth.nordicenlarged ] <anchor 608 -90> mark @below_center ;
-  pos base [ thorn.nordicsc ] <anchor 318 -75> mark @below_center ;
-  pos base [ uniA735 ] <anchor 533 -75> mark @below_center ;
-  pos base [ uniA737 ] <anchor 642 -75> mark @below_center ;
-  pos base [ uniA74D ] <anchor 493 -75> mark @below_center ;
-  pos base [ uniA769 uniEADA ] <anchor 250 -610> mark @below_center ;
-  pos base [ uniEAF1 ] <anchor 463 -89> mark @below_center ;
-  pos base [ uniEAF2 ] <anchor 573 -89> mark @below_center ;
-#  pos base [ eogonek.enlargedalt ] <anchor 512 -657> mark @below_center ;
-  pos base [ a.sc aacute.sc acircumflex.sc agrave.sc atilde.sc aring.sc b.sc ]
-      	     <anchor 313 -75> mark @below_center ;
-  pos base [ c.sc n.sc ] <anchor 419 -75> mark @below_center ;
-  pos base [ d.sc ] <anchor 389 -75> mark @below_center ;
-  pos base [ e.sc f.sc egrave.sc eacute.sc ecircumflex.sc edieresis.sc emacron.sc ]
-      	     <anchor 320 -75> mark @below_center ;
-  pos base [ g.sc ] <anchor 400 -75> mark @below_center ;
-  pos base [ h.sc ] <anchor 450 -75> mark @below_center ;
-  pos base [ i.sc igrave.sc iacute.sc icircumflex.sc idieresis.sc imacron.sc ]
-      	     <anchor 120 -75> mark @below_center ;
-  pos base [ p.sc ] <anchor 280 -75> mark @below_center ;
-  pos base [ j.sc ] <anchor 167 -338> mark @below_center ;
-  pos base [ l.sc ] <anchor 630 -75> mark @below_center ;
-  pos base [ m.sc ] <anchor 480 -75> mark @below_center ;
-  pos base [ o.sc ograve.sc oacute.sc ocircumflex.sc otilde.sc odieresis.sc omacron.sc ]
-      	     <anchor 380 -75> mark @below_center ;
-  pos base [ q.sc ] <anchor 322 -132> mark @below_center ;
-  pos base [ r.sc ] <anchor 360 -75> mark @below_center ;
-  pos base [ s.sc ] <anchor 230 -75> mark @below_center ;
-  pos base [ t.sc ] <anchor 330 -75> mark @below_center ;
-  pos base [ u.sc ugrave.sc uacute.sc ucircumflex.sc udieresis.sc umacron.sc ]
-      	     <anchor 420 -75> mark @below_center ;
-  pos base [ v.sc ] <anchor 320 -75> mark @below_center ;
-  pos base [ w.sc ] <anchor 566 -75> mark @below_center ;
-  pos base [ x.sc ] <anchor 322 -75> mark @below_center ;
-  pos base [ y.sc ] <anchor 292 -75> mark @below_center ;
-  pos base [ z.sc ] <anchor 362 -75> mark @below_center ;
-  pos base [ ae.sc uni01E3.sc ] <anchor 502 -75> mark @below_center ;
-  pos base [ eth.sc ] <anchor 372 -75> mark @below_center ;
-  pos base [ thorn.sc ] <anchor 629 -610> mark @below_center ;
-  pos base [ oe.sc ] <anchor 630 -75> mark @below_center ;
-} mark_Mark_Below;
+  pos base [ B uni0181 uni0182 uni0184 ]
+      	     <anchor 846 1415> mark @above_center
+	     <anchor 536 -75> mark @below_center ;
+  pos base [ C G uni0193 uni0187 ]
+      	     <anchor 1160 1415> mark @above_center
+	     <anchor 736 -75> mark @below_center ;
+  pos base [ D uni018A D.swash Eth ]
+      	     <anchor 978 1415> mark @above_center
+	     <anchor 685 -75> mark @below_center ;
+  pos base [ E ]
+      	     <anchor 966 1415> mark @above_center
+	     <anchor 584 -75> mark @below_center ;
+  pos base [ F ]
+      	     <anchor 930 1415> mark @above_center
+	     <anchor 491 -75> mark @below_center ;
+  pos base [ Thorn uni0191 ]
+      	     <anchor 930 1415> mark @above_center
+	     <anchor 470 -570> mark @below_center ;
+  pos base [ H uni01F6 ]
+      	     <anchor 1056 1415> mark @above_center
+	     <anchor 648 -75> mark @below_center ;
+  pos base [ I uni0197 ]
+      	     <anchor 678 1415> mark @above_center
+	     <anchor 269 -75> mark @below_center ;
+  pos base [ J ]
+      	     <anchor 680 1415> mark @above_center
+	     <anchor 174 -468> mark @below_center ;
+  pos base [ K ]
+      	     <anchor 1022 1415> mark @above_center
+	     <anchor 561 -75> mark @below_center ;
+  pos base [ L Lslash ]
+      	     <anchor 686 1415> mark @above_center
+      	     <anchor 643 -75> mark @below_center ;
+  pos base [ M ]
+      	     <anchor 1236 1415> mark @above_center
+	     <anchor 811 -75> mark @below_center ;
+  pos base [ N ]
+      	     <anchor 1106 1415> mark @above_center
+	     <anchor 722 -75> mark @below_center ;
+  pos base [ O uni019F uni0298 Oslash ]
+      	     <anchor 1094 1415> mark @above_center
+	     <anchor 673 -75> mark @below_center ;
+  pos base [ uni01EA ]
+      	     <anchor 1094 1415> mark @above_center
+	     <anchor 586 -563> mark @below_center ;
+  pos base [ P uni01A4 ]
+      	     <anchor 924 1415> mark @above_center
+	     <anchor 527 -75> mark @below_center ;
+  pos base [ Q ]
+      	     <anchor 1094 1415> mark @above_center
+	     <anchor 605 -203> mark @below_center ;
+  pos base [ R ]
+      	     <anchor 880 1415> mark @above_center
+	     <anchor 529 -75> mark @below_center ;
+  pos base [ S ]
+      	     <anchor 850 1415> mark @above_center
+	     <anchor 408 -75> mark @below_center ;
+  pos base [ T ]
+      	     <anchor 1120 1415> mark @above_center
+	     <anchor 548 -75> mark @below_center ;
+  pos base [ U Uhorn ]
+      	     <anchor 1118 1415> mark @above_center
+	     <anchor 670 -75> mark @below_center ;
+  pos base [ V ]
+      	     <anchor 942 1415> mark @above_center
+	     <anchor 439 -75> mark @below_center ;
+  pos base [ W ]
+      	     <anchor 1302 1415> mark @above_center
+	     <anchor 894 -75> mark @below_center ;
+  pos base [ X ]
+      	     <anchor 1086 1415> mark @above_center
+	     <anchor 585 -75> mark @below_center ;
+  pos base [ Y ]
+      	     <anchor 934 1415> mark @above_center
+	     <anchor 492 -75> mark @below_center ;
+  pos base [ Z ]
+      	     <anchor 954 1415> mark @above_center
+	     <anchor 526 -75> mark @below_center ;
+  pos base [ a ]
+      	     <anchor 620 900> mark @above_center
+	     <anchor 276 -75> mark @below_center ;
+  pos base [ aogonek ]
+      	     <anchor 620 900> mark @above_center
+	     <anchor 418 -563> mark @below_center ;
+  pos base [ b uni0183 uni0185 uni0253 ]
+      	     <anchor 630 1545> mark @above_center
+	     <anchor 335 -75> mark @below_center ;
+  pos base [ c ]
+      	     <anchor 550 900> mark @above_center
+	     <anchor 295 -75> mark @below_center ;
+  pos base [ d uni0221 ]
+      	     <anchor 736 1545> mark @above_center
+	     <anchor 335 -75> mark @below_center ;
+  pos base [ e uniF219 ]
+      	     <anchor 561 900> mark @above_center
+	     <anchor 306 -75> mark @below_center ;
+  pos base [ f f.alt ]
+      	     <anchor 584 1545> mark @above_center
+	     <anchor 90 -626> mark @below_center ;
+  pos base [ g uniF21D uniF21E uniF21F uni0260 uni0261 ]
+      	     <anchor 546 900> mark @above_center
+	     <anchor 233 -603> mark @below_center ;
+  pos base [ h ]
+      	     <anchor 632 1545> mark @above_center
+	     <anchor 358 -75> mark @below_center ;
+  pos base [ i ]
+      	     <anchor 452 1305> mark @above_center
+	     <anchor 217 -75> mark @below_center ;
+  pos base [ j j.alt ]
+      	     <anchor 456 1305> mark @above_center
+	     <anchor 98 -594> mark @below_center ;
+  pos base [ k uni0199 uniE8C5 k.swash ]
+      	     <anchor 668 1545> mark @above_center
+	     <anchor 356 -75> mark @below_center ;
+  pos base [ l uni019A uni0196 ]
+      	     <anchor 460 1545> mark @above_center
+	     <anchor 177 -75> mark @below_center ;
+  pos base [ m ]
+      	     <anchor 910 900> mark @above_center
+	     <anchor 644 -75> mark @below_center ;
+  pos base [ n ]
+      	     <anchor 637 900> mark @above_center
+	     <anchor 431 -75> mark @below_center ;
+  pos base [ o ohorn oslash ]
+      	     <anchor 600 900> mark @above_center
+  	     <anchor 335 -75> mark @below_center ;
+  pos base [ uni01EB ]
+      	     <anchor 600 900> mark @above_center
+	     <anchor 230 -563> mark @below_center ;
+  pos base [ p ]
+      	     <anchor 592 1305> mark @above_center
+	     <anchor 270 -626> mark @below_center ;
+  pos base [ q ]
+      	     <anchor 688 900> mark @above_center
+	     <anchor 357 -626> mark @below_center ;
+  pos base [ ae.square ]
+      	     <anchor 688 900> mark @above_center
+	     <anchor 430 -75> mark @below_center ;
+  pos base [ r ]
+      	     <anchor 565 900> mark @above_center
+	     <anchor 266 -75> mark @below_center ;
+  pos base [ s ]
+      	     <anchor 384 900> mark @above_center
+	     <anchor 191 -75> mark @below_center ;
+  pos base [ t ]
+      	     <anchor 480 1305> mark @above_center
+	     <anchor 201 -75> mark @below_center ;
+  pos base [ u uhorn ]
+      	     <anchor 633 900> mark @above_center
+	     <anchor 406 -75> mark @below_center ;
+  pos base [ v ]
+      	     <anchor 562 900> mark @above_center
+	     <anchor 321 -75> mark @below_center ;
+  pos base [ w ]
+      	     <anchor 832 900> mark @above_center
+	     <anchor 578 -75> mark @below_center ;
+  pos base [ x ]
+      	     <anchor 582 900> mark @above_center
+	     <anchor 408 -75> mark @below_center ;
+  pos base [ y ]
+      	     <anchor 500 900> mark @above_center
+	     <anchor 203 -626> mark @below_center ;
+  pos base [ z ]
+      	     <anchor 568 900> mark @above_center
+	     <anchor 393 -75> mark @below_center ;
+  pos base [ AE ]
+      	     <anchor 1456 1415> mark @above_center
+	     <anchor 802 -75> mark @below_center ;
+  pos base [ ae ]
+      	     <anchor 800 900> mark @above_center
+	     <anchor 405 -75> mark @below_center ;
+  pos base [ eth eth.alt ]
+      	     <anchor 564 1545> mark @above_center
+	     <anchor 336 -75> mark @below_center ;
+  pos base [ thorn ]
+      	     <anchor 612 1545> mark @above_center
+	     <anchor 180 -600> mark @below_center ;
+  pos base [ eogonek uni0229 ]
+      	     <anchor 602 900> mark @above_center
+	     <anchor 210 -563> mark @below_center ;
+  pos base [ dotlessi uni0269 uni0270 ]
+      	     <anchor 382 900> mark @above_center
+	     <anchor 217 -75> mark @below_center ;
+  pos base [ OE ]
+      	     <anchor 1469 1415> mark @above_center
+	     <anchor 1049 -75> mark @below_center ;
+  pos base [ oe ]
+      	     <anchor 795 900> mark @above_center
+	     <anchor 535 -75> mark @below_center ;
+  pos base [ uogonek ]
+      	     <anchor 645 900> mark @above_center
+	     <anchor 445 -563> mark @below_center ;
+  pos base [ uni01B7 ] # flat Yogh
+      	     <anchor 713 1415> mark @above_center
+	     <anchor 195 -75> mark @below_center ;
+  pos base [ uni01BF ] # wynn
+      	     <anchor 668 900> mark @above_center
+	     <anchor 220 -626> mark @below_center ;
+  pos base [ uni021D ] # yogh
+      	     <anchor 540 900> mark @above_center
+	     <anchor 170 -626> mark @below_center ;
+  pos base [ uniA779 ] # round D
+      	     <anchor 1000 1415> mark @above_center
+	     <anchor 680 -75>  mark @below_center ;
+  pos base [ uniA77A ] # round d
+      	     <anchor 420 1350> mark @above_center
+	     <anchor 300 -75> mark @below_center ;
+  pos base [ uniA77B ] # insular F
+      	     <anchor 950 1415> mark @above_center
+	     <anchor 470 -570> mark @below_center ;
+  pos base [ uniA77C ] # insular f
+      	     <anchor 590 900> mark @above_center
+	     <anchor 320 -626> mark @below_center ;
+  pos base [ uniA77D ] # insular G
+      	     <anchor 1000 1415> mark @above_center
+	     <anchor 440 -75> mark @below_center ;
+  pos base [ uniA782 ] # insular R (kind of absurd)
+      	     <anchor 1040 1415> mark @above_center
+	     <anchor 485 -570> mark @below_center ;
+  pos base [ uniA783 ] # insular r
+      	     <anchor 625 900> mark @above_center
+	     <anchor 296 -626> mark @below_center ;
+  pos base [ uniA784 ] # insular S
+      	     <anchor 970 1415> mark @above_center
+	     <anchor 470 -570> mark @below_center ;
+  pos base [ uniA785 ] # insular s
+      	     <anchor 490 900> mark @above_center
+	     <anchor 281 -626> mark @below_center ;
+  pos base [ uniA786 ] # insular T
+      	     <anchor 1100 1415> mark @above_center
+	     <anchor 691 -75> mark @below_center ;
+  pos base [ uniA787 ] # insular t
+      	     <anchor 560 900> mark @above_center
+	     <anchor 327 -75> mark @below_center ;
+  pos base [ uni1D79 ]
+      	     <anchor 600 900> mark @above_center
+	     <anchor 190 -626> mark @below_center ;
+  pos base [ uni0190 ]
+      	     <anchor 684 1415> mark @above_center
+	     <anchor 315 -75> mark @below_center ;
+  pos base [ uni0186 ]
+      	     <anchor 836 1415> mark @above_center
+	     <anchor 400 -75> mark @below_center ;
+  pos base [ Thorn.nordic ]
+      	     <anchor 698 1436> mark @above_center
+	     <anchor 271 -75> mark @below_center ;
+  pos base [ T.alt ]
+      	     <anchor 1127 1436> mark @above_center
+	     <anchor 700 -75> mark @below_center ;
+  pos base [ uni1EFE ]
+      	     <anchor 896 1415> mark @above_center
+	     <anchor 628 -75> mark @below_center ;
+  pos base [ uni1EFF ]
+      	     <anchor 478 900> mark @above_center
+	     <anchor 203 -626> mark @below_center ;
+  pos base [ uni0237 ]
+      	     <anchor 380 900> mark @above_center
+	     <anchor 98 -626> mark @below_center ;
+  pos base [ AE.swash ]
+      	     <anchor 2690 1415> mark @above_center
+	     <anchor 2259 -75> mark @below_center ;
+  pos base [ a.sc ]
+      	     <anchor 675 1050> mark @above_center
+	     <anchor 313 -75> mark @below_center ;
+  pos base [ b.sc ]
+      	     <anchor 542 1050> mark @above_center
+	     <anchor 313 -75> mark @below_center ;
+  pos base [ c.sc g.sc ]
+      	     <anchor 726 1050> mark @above_center
+	     <anchor 419 -75> mark @below_center ;
+  pos base [ d.sc eth.sc ]
+      	     <anchor 603 1050> mark @above_center
+	     <anchor 389 -75> mark @below_center ;
+  pos base [ e.sc f.sc ]
+      	     <anchor 591 1050> mark @above_center
+	     <anchor 320 -75> mark @below_center ;
+  pos base [ h.sc ]
+      	     <anchor 735 1050> mark @above_center
+	     <anchor 450 -75> mark @below_center ;
+  pos base [ i.sc ]
+      	     <anchor 411 1050> mark @above_center
+	     <anchor 120 -75> mark @below_center ;
+  pos base [ l.sc ]
+      	     <anchor 411 1050> mark @above_center
+	     <anchor 630 -75> mark @below_center ;
+  pos base [ j.sc ]
+      	     <anchor 465 1050> mark @above_center
+	     <anchor 167 -338> mark @below_center ;
+  pos base [ k.sc ]
+      	     <anchor 642 1050> mark @above_center
+	     <anchor 342 -75> mark @below_center ;
+  pos base [ m.sc ]
+      	     <anchor 768 1050> mark @above_center
+	     <anchor 480 -75> mark @below_center ;
+  pos base [ n.sc ]
+      	     <anchor 639 1050> mark @above_center
+	     <anchor 419 -75> mark @below_center ;
+  pos base [ o.sc oslash.sc ]
+      	     <anchor 675 1050> mark @above_center
+	     <anchor 380 -75> mark @below_center ;
+  pos base [ q.sc ]
+      	     <anchor 675 1050> mark @above_center
+	     <anchor 322 -132> mark @below_center ;
+  pos base [ p.sc ]
+      	     <anchor 576 1050> mark @above_center
+	     <anchor 140 -75> mark @below_center ;
+  pos base [ r.sc ]
+      	     <anchor 576 1050> mark @above_center
+	     <anchor 360 -75> mark @below_center ;
+  pos base [ s.sc ]
+      	     <anchor 501 1050> mark @above_center
+	     <anchor 230 -75> mark @below_center ;
+  pos base [ t.sc ]
+      	     <anchor 609 1050> mark @above_center
+	     <anchor 330 -75> mark @below_center ;
+  pos base [ u.sc ]
+      	     <anchor 715 1050> mark @above_center
+	     <anchor 420 -75> mark @below_center ;
+  pos base [ v.sc ]
+      	     <anchor 642 1050> mark @above_center
+	     <anchor 320 -75> mark @below_center ;
+  pos base [ w.sc ]
+      	     <anchor 888 1050> mark @above_center
+	     <anchor 566 -75> mark @below_center ;
+  pos base [ x.sc ]
+      	     <anchor 669 1050> mark @above_center
+	     <anchor 322 -75> mark @below_center ;
+  pos base [ y.sc ]
+      	     <anchor 624 1050> mark @above_center
+	     <anchor 292 -75> mark @below_center ;
+  pos base [ z.sc ]
+      	     <anchor 642 1050> mark @above_center
+	     <anchor 362 -75> mark @below_center ;
+  pos base [ ae.sc ]
+      	     <anchor 951 1050> mark @above_center
+	     <anchor 502 -75> mark @below_center ;
+  pos base [ oe.sc ]
+      	     <anchor 930 1050> mark @above_center
+	     <anchor 630 -75> mark @below_center ;
+  pos base [ thorn.sc ]
+      	     <anchor 591 1050> mark @above_center
+	     <anchor 629 -610> mark @below_center ;
+  pos base [ thorn.nordicsc ]
+      	     <anchor 396 1050> mark @above_center
+	     <anchor 318 -75> mark @below_center ;
+} mark_Mark_Positioning;
 
 lookup mark_Ogonek_Above {
   lookupflag 0;
@@ -1682,14 +1699,13 @@ lookup mark_Attached_Below {
 
 lookup mkmk_Mark_To_Mark {
   lookupflag MarkAttachmentType @above_center;
-# The above_center mark class is defined at the top of the file.
   pos mark [ gravecomb] <anchor 30 1370> mark @above_center;
   pos mark [ acutecomb ] <anchor 180 1370> mark @above_center;
   pos mark [ uni0302 ] <anchor 89 1440> mark @above_center;
   pos mark [ tildecomb uni0307 uni0308 ] <anchor 30 1245> mark @above_center;
-  pos mark [ uni0304 ] <anchor 36 1245> mark @above_center;
+  pos mark [ uni0304 ] <anchor 76 1245> mark @above_center;
   pos mark [ uni0305 ] <anchor 83 1703> mark @above_center;
-  pos mark [ uni0306 ] <anchor 61 1245> mark @above_center;
+  pos mark [ uni0306 ] <anchor 61 1290> mark @above_center;
   pos mark [ hookabovecomb] <anchor 30 1475> mark @above_center;
   pos mark [ uni030A ] <anchor 30 1374> mark @above_center;
   pos mark [ uni030B ] <anchor 30 1412> mark @above_center;
@@ -1716,8 +1732,7 @@ lookup mkmk_Mark_To_Mark {
   pos mark [ uni0352 ] <anchor 30 1487> mark @above_center;
   pos mark [ uni0357 ] <anchor 22 1400> mark @above_center;
   pos mark [ uni035B ] <anchor 67 1612> mark @above_center;
-  pos mark [ uni0363 ] <anchor 150 1545> mark @above_center;
-  pos mark [ uni0364 ] <anchor 150 1545> mark @above_center;
+  pos mark [ uni0363 uni0364 ] <anchor 150 1545> mark @above_center;
   pos mark [ uni0365 ] <anchor 88 1669> mark @above_center;
   pos mark [ uni0366 ] <anchor 98 1545> mark @above_center;
   pos mark [ uni0367 ] <anchor 30 1545> mark @above_center;
@@ -1810,8 +1825,8 @@ lookup mkmk_Mark_to_Mark_03 {
 include(Junicode-Italic-kern.fea);
 
 feature mark {
-  lookup mark_Mark_Below ;
-  lookup mark_Mark_Above ;
+#  lookup mark_Mark_Below ;
+  lookup mark_Mark_Positioning ;
   lookup mark_Ogonek_Above ;
   lookup mark_Attached_Below ;
 } mark;
