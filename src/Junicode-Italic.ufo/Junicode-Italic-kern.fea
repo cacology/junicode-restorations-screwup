@@ -1,6 +1,6 @@
 
 lookup kern_Horizontal_Kerning {
-  lookupflag 0;
+  lookupflag IgnoreMarks;
     @kc40_first_1 = [ A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring 
 	Atilde ];
     @kc40_first_2 = [ AE E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave 

@@ -62,31 +62,44 @@ markClass @combining_below <anchor 0 -75> @below_center;
 @other_above = [ uni1DCE uni0340 uni0341 ];
 
 
-@AllLowerCase = [ a b c d e f g h i j k l m n o p q r s t u v w x y z agrave aacute 
-	acircumflex atilde adieresis aring ae ccedilla egrave eacute 
-	ecircumflex edieresis igrave iacute icircumflex idieresis eth ntilde 
-	ograve oacute ocircumflex otilde odieresis oslash ugrave uacute 
-	ucircumflex udieresis yacute thorn ydieresis germandbls amacron emacron imacron
-	omacron umacron abreve aogonek cacute ccircumflex cdotaccent ccaron dcaron
-	dcroat ebreve edotaccent eogonek ecaron gcircumflex gbreve gdotaccent
-	gcommaaccent hcircumflex hbar itilde imacron ibreve iogonek dotlessi jcircumflex
-	kcommaaccent kgreenlandic lacute lcommaaccent lcaron ldot lslash nacute
-	ncommaaccent ncaron napostrophe eng omacron obreve ohungarumlaut oe racute
-	rcommaaccent rcaron sacute scircumflex scedilla scaron tcommaaccent tcaron tbar
-	utilde umacron ubreve uring uhungarumlaut uogonek wcircumflex ycircumflex 
-	zacute zdotaccent zcaron longs uni0180 uni0183 uni0185 uni0188 uni018C uni018D
-	florin uni0195 uni0199 uni019A uni019B uni019E ohorn uni01A3 uni01A5 uni01A8
-	uni01AA uni01AB uni01AD uhorn uni01B4 uni01B6 uni01B9 uni01BA uni01BD uni01BE
-	uni01BF uni01C6 uni01C9 uni01CC uni01CE uni01D0 uni01D2 uni01D4 uni01D6 uni01D8
-	uni01DA uni01DC uni01DD uni01DF uni01E1 uni01E3 uni01E5 gcaron uni01E9
-	uni01EB uni01ED uni01EF uni01F0 uni01F3 uni01F5 uni01F9 aringacute aeacute oslashacute
-	uni0201 uni0203 uni0205  uni0207 uni0209 uni020B uni020D uni020F uni0211 uni0213
-	uni0215 uni0217 scommaaccent uni021B uni021D uni021F uni0221 uni0223 uni0225
-	uni0227 uni0229 uni022B uni022D uni022F uni0231 uni0233
-	uni0237 uni0238 uni0239 uni0249 uniFB00 uniFB01 uniFB02 uniFB03 uniFB04 uniFB05
-	uniFB06 f_f_t f_f_y f_t_y f_f_udieresis uniE1AB uniE1AA uniE1A7 uniE1A9 uniE1A8
-	uniE1A6 uniEBA5 uniEBA0 uniEBA4 uniEBAB uniEEDA f_thorn f_thorn.nordic uniF4FB
-	f_eth.nordic f_y f_j f_r f_t f_udieresis ] ;
+@AllLowerCase = [ a b c d e f g h i j k l m n o p q r s t u v w x y z
+	      	  agrave aacute acircumflex atilde adieresis aring ae
+	      	  ccedilla egrave eacute ecircumflex edieresis igrave
+	      	  iacute icircumflex idieresis eth ntilde ograve
+	      	  oacute ocircumflex otilde odieresis oslash ugrave
+	      	  uacute ucircumflex udieresis yacute thorn ydieresis
+	      	  germandbls amacron emacron imacron omacron umacron
+	      	  abreve aogonek cacute ccircumflex cdotaccent ccaron
+	      	  dcaron dcroat ebreve edotaccent eogonek ecaron
+	      	  gcircumflex gbreve gdotaccent gcommaaccent
+	      	  hcircumflex hbar itilde imacron ibreve iogonek
+	      	  dotlessi jcircumflex kcommaaccent kgreenlandic
+	      	  lacute lcommaaccent lcaron ldot lslash nacute
+	      	  ncommaaccent ncaron napostrophe eng omacron obreve
+	      	  ohungarumlaut oe racute rcommaaccent rcaron sacute
+	      	  scircumflex scedilla scaron tcommaaccent tcaron tbar
+	      	  utilde umacron ubreve uring uhungarumlaut uogonek
+	      	  wcircumflex ycircumflex zacute zdotaccent zcaron
+	      	  longs uni0180 uni0183 uni0185 uni0188 uni018C
+	      	  uni018D florin uni0195 uni0199 uni019A uni019B
+	      	  uni019E ohorn uni01A3 uni01A5 uni01A8 uni01AA
+	      	  uni01AB uni01AD uhorn uni01B4 uni01B6 uni01B9
+	      	  uni01BA uni01BD uni01BE uni01BF uni01C6 uni01C9
+	      	  uni01CC uni01CE uni01D0 uni01D2 uni01D4 uni01D6
+	      	  uni01D8 uni01DA uni01DC uni01DD uni01DF uni01E1
+	      	  uni01E3 uni01E5 gcaron uni01E9 uni01EB uni01ED
+	      	  uni01EF uni01F0 uni01F3 uni01F5 uni01F9 aringacute
+	      	  aeacute oslashacute uni0201 uni0203 uni0205 uni0207
+	      	  uni0209 uni020B uni020D uni020F uni0211 uni0213
+	      	  uni0215 uni0217 scommaaccent uni021B uni021D uni021F
+	      	  uni0221 uni0223 uni0225 uni0227 uni0229 uni022B
+	      	  uni022D uni022F uni0231 uni0233 uni0237 uni0238
+	      	  uni0239 uni0249 uniFB00 uniFB01 uniFB02 uniFB03
+	      	  uniFB04 uniFB05 uniFB06 f_f_t f_f_y f_t_y
+	      	  f_f_udieresis uniE1AB uniE1AA uniE1A7 uniE1A9
+	      	  uniE1A8 uniE1A6 uniEBA5 uniEBA0 uniEBA4 uniEBAB
+	      	  uniEEDA f_thorn f_thorn.nordic uniF4FB f_eth.nordic
+	      	  f_y f_j f_r f_t f_udieresis ] ;
 
 
 # GSUB 
@@ -526,6 +539,10 @@ lookup ss01_Nordic_Shapes {
     sub Thorn by Thorn.nordic ;
     sub eth by eth.nordic ;
     sub thorn by thorn.nordic ;
+    sub uniEEE5 by eth.nordicenlarged ;
+    sub uniEEF6 by thorn.nordicenlarged ;
+    sub uniEF15 by thorn.nordicsc ;
+    sub thorn.sc by thorn.nordicsc ;
 } ss01_Nordic_Shapes;
 
 lookup ss02_Insular_Shapes {
@@ -539,6 +556,7 @@ lookup ss02_Insular_Shapes {
     sub s by uniA785 ;
     sub t by uniA787 ;
     sub w by uni01BF ;
+    sub y by uni1E8F ;
 } ss02_Insular_Shapes;
 
 lookup ss04_High_Overlines {
@@ -655,7 +673,7 @@ lookup ss07_Underdotted {
     sub h by uni1E25 ;
     sub i by uni1ECB ;
     sub j by uniE551 ;
-        sub k by uni1E33 ;
+    sub k by uni1E33 ;
     sub l by uni1E37 ;
     sub m by uni1E43 ;
     sub n by uni1E47 ;
@@ -705,6 +723,8 @@ lookup ss08_Flat_Top_Yogh {
   lookupflag 0;
     sub uni021C by uni01B7 ;
     sub uni021D by uni0292 ;
+    sub yoghdotsub by yoghflatdot ;
+    sub Yoghdotsub by Yoghflatdot ;
 } ss08_Flat_Top_Yogh;
 
 lookup ss09_Old_Junicode_Shapes {
@@ -913,6 +933,7 @@ lookup rtlm_Mirrored_Runes {
     sub uni16EE by uni16EE.rtl ;
 } rtlm_Mirrored_Runes ;
 
+# There must be more stylistic alterates than this!
 lookup salt_Stylistic_Alternates {
   lookupflag 0;
     sub A from [ uniF13A ];
@@ -1014,6 +1035,7 @@ lookup hlig_Historic_Ligatures {
     sub c uniF23A by uniF1BB;
 } hlig_Historic_Ligatures;
 
+# put in the number form codes!
 lookup dlig_Discretionary_Ligatures {
   lookupflag 0;
     sub t t r by t_t_r;
@@ -1096,10 +1118,12 @@ lookup calt_Non_Colliding_Forms {
     @cc31_match_2 = [ eth ];
     sub @cc31_match_1 @cc31_match_2' lookup Single_Substitution_01  ;
     @cc32_match_1 = [ f uniFB00 ];
-    @cc32_match_2 = [ agrave acircumflex atilde adieresis aring egrave ecircumflex edieresis 
-	igrave iacute icircumflex idieresis ograve ocircumflex otilde 
-	odieresis ugrave ucircumflex udieresis ydieresis amacron abreve 
-	emacron ebreve imacron ibreve omacron obreve umacron ubreve ];
+    @cc32_match_2 = [ agrave acircumflex atilde adieresis aring egrave
+    		      ecircumflex edieresis igrave iacute icircumflex
+    		      idieresis ograve ocircumflex otilde odieresis
+    		      ugrave ucircumflex udieresis ydieresis amacron
+    		      abreve emacron ebreve imacron ibreve omacron
+    		      obreve umacron ubreve ];
     sub @cc32_match_1' lookup Single_Substitution_01  @cc32_match_2 ;
     @cc33_match_1 = [ k_i ];
     @cc33_match_2 = [ f g j p f_f.alt f_f_t f_f_udieresis f_f_y uniFB00 uniFB01 uniFB02 
@@ -1292,7 +1316,7 @@ feature calt {
 # GPOS
 
 lookup mark_Mark_Above {
-  lookupflag 0;
+  lookupflag IgnoreLigatures;
 # The above_center mark class is defined at the top of the file.
   pos base [ A ] <anchor 950 1415> mark @above_center;
   pos base [ B uni0181 uni0182 uni0184 ] <anchor 846 1415> mark @above_center;
