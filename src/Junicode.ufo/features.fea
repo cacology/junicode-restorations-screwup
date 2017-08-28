@@ -5,20 +5,20 @@ languagesystem latn ISL ;
 languagesystem latn TRK ;
 languagesystem runr dflt ;
 
-@combining_above = [ uni0304 uni0306 ];
-#@combining_above = [ gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307
-#		     uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F
-#		     uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni031A uni033D uni033E
-#		     uni033F uni0346 uni034A uni034B uni034C uni0350 uni0351 uni0352 uni0357
-#		     uni035B uni0363 uni0364 uni0365 uni0366 uni0367 uni0368 uni0369 uni036A
-#		     uni036B uni036C uni036D uni036E uni036F uni1DD1 uni1DD2 uni1DD3 uni1DD4
-#		     uni1DD5 uni1DD6 uni1DD7 uni1DD8 uni1DD9 uni1DDA uni1DDB uni1DDC uni1DDD
-#		     uni1DDE uni1DDF uni1DE0 uni1DE1 uni1DE2 uni1DE3 uni1DE4 uni1DE5 uni1DE6
-#		     uniF012 uniF013 uniF016 uniF017 uniF01C uniF025 uniF02A uniF02B
-#		     uniF02E uniF02F uniF030 uniF031 uniF032 uniF033 uniF036 uniF038 uniF03A
-#		     uniF03B uniF03C uniF03D uniF03E uniF03F uniF040 uniF130 uniF135 uniF136
-#		     uniF13E uniF13F uniF153 uniF1C0 uniF1C1 uniF1C2 uniF1C7 uniF1C8
-#		     uniF1CC ];
+
+@combining_above = [ gravecomb acutecomb uni0302 tildecomb uni0304 uni0305 uni0306 uni0307
+		     uni0308 hookabovecomb uni030A uni030B uni030C uni030D uni030E uni030F
+		     uni0310 uni0311 uni0312 uni0313 uni0314 uni0315 uni031A uni033D uni033E
+		     uni033F uni0346 uni034A uni034B uni034C uni0350 uni0351 uni0352 uni0357
+		     uni035B uni0363 uni0364 uni0365 uni0366 uni0367 uni0368 uni0369 uni036A
+		     uni036B uni036C uni036D uni036E uni036F uni1DD1 uni1DD2 uni1DD3 uni1DD4
+		     uni1DD5 uni1DD6 uni1DD7 uni1DD8 uni1DD9 uni1DDA uni1DDB uni1DDC uni1DDD
+		     uni1DDE uni1DDF uni1DE0 uni1DE1 uni1DE2 uni1DE3 uni1DE4 uni1DE5 uni1DE6
+		     uniF012 uniF013 uniF016 uniF017 uniF01C uniF025 uniF02A uniF02B
+		     uniF02E uniF02F uniF030 uniF031 uniF032 uniF033 uniF036 uniF038 uniF03A
+		     uniF03B uniF03C uniF03D uniF03E uniF03F uniF040 uniF130 uniF135 uniF136
+		     uniF13E uniF13F uniF153 uniF1C0 uniF1C1 uniF1C2 uniF1C7 uniF1C8
+		     uniF1CC ];
 
 @sc_above = [ gravecomb.sc acutecomb.sc tildecomb.sc uni0302.sc uni0304.sc uni0308.sc ];
 
@@ -30,9 +30,9 @@ languagesystem runr dflt ;
 
 markClass @combining_above <anchor 0 900> @above_center;
 
-# markClass @sc_above <anchor 0 1050> @above_center;
+markClass @sc_above <anchor 0 1050> @above_center;
 
-# markClass @cap_above <anchor 0 1400> @above_center;
+markClass @cap_above <anchor 0 1400> @above_center;
 
 @other_above = [ uni1DCE uni031B uniF00A uniF00B uniF00C uniF00D ];
 
@@ -2298,6 +2298,56 @@ lookup mark_Mark_Positioning {
   pos base [ oe.sc ]
              <anchor 780 900> mark @above_center
 	     <anchor 759 -75> mark @below_center ;
+
+# Now we need to take account of the precomposed characters which shaping
+# engines will produce from base + diacritic sequences. It seems unnecessary
+# to do this via ccmp, since Harfbuzz and other shaping engines will
+# handle it more efficiently: but we need to set up for mkmk to work.
+
+# Base these on the combinations at:
+#
+# http://www.unicode.org/charts/normalization/
+
+  pos base [ amacron ]
+      	     <anchor 392 1208> mark @above_center
+	     <anchor 392 -75> mark @below_center ;
+  pos base [ adieresis ]
+      	     <anchor 392 1274> mark @above_center
+	     <anchor 392 -75> mark @below_center ;
+  pos base [ emacron ]
+      	     <anchor 462 1208> mark @above_center
+	     <anchor 462 -75> mark @below_center ;
+  pos base [ edieresis ]
+      	     <anchor 462 1274> mark @above_center
+	     <anchor 462 -75> mark @below_center ;
+  pos base [ imacron ]
+      	     <anchor 268 1208> mark @above_center
+	     <anchor 280 -75> mark @below_center ;
+  pos base [ idieresis ]
+      	     <anchor 268 1274> mark @above_center
+	     <anchor 280 -75> mark @below_center ;
+  pos base [ omacron ]
+      	     <anchor 507 1208> mark @above_center
+	     <anchor 507 -75> mark @below_center ;
+  pos base [ odieresis ]
+      	     <anchor 507 1274> mark @above_center
+	     <anchor 507 -75> mark @below_center ;
+  pos base [ umacron ]
+      	     <anchor 490 1208> mark @above_center
+	     <anchor 439 -75> mark @below_center ;
+  pos base [ udieresis ]
+      	     <anchor 490 1274> mark @above_center
+	     <anchor 439 -75> mark @below_center ;
+  pos base [ uni0233 ] # y
+      	     <anchor 425 1208> mark @above_center
+	     <anchor 396 -628> mark @below_center ;
+  pos base [ ydieresis ]
+      	     <anchor 425 1274> mark @above_center
+	     <anchor 396 -628> mark @below_center ;
+  pos base [ uni01E3 ] # ae
+      	     <anchor 588 1208> mark @above_center
+	     <anchor 540 -75> mark @below_center ;
+
 } mark_Mark_Positioning ;
 
 
@@ -2344,95 +2394,95 @@ lookup mark_Attached_Below {
 lookup mkmk_Mark_to_Mark_Above {
   lookupflag MarkAttachmentType @above_center ;
 #  lookupflag MarkAttachmentType @all_above_marks ;
-#  pos mark [ gravecomb ] <anchor 0 1401> mark @above_center ;
-#  pos mark [ acutecomb ] <anchor 0 1411> mark @above_center ;
-#  pos mark [ uni0302 ] <anchor 0 1458> mark @above_center ;
-#  pos mark [ tildecomb ] <anchor 0 1233> mark @above_center ;
+  pos mark [ gravecomb ] <anchor 0 1401> mark @above_center ;
+  pos mark [ acutecomb ] <anchor 0 1411> mark @above_center ;
+  pos mark [ uni0302 ] <anchor 0 1458> mark @above_center ;
+  pos mark [ tildecomb ] <anchor 0 1233> mark @above_center ;
   pos mark [ uni0304 ] <anchor 0 1208> mark @above_center ;
-#  pos mark [ uni0305 ] <anchor 0 1216> mark @above_center ;
+  pos mark [ uni0305 ] <anchor 0 1216> mark @above_center ;
   pos mark [ uni0306 ] <anchor 0 1380> mark @above_center ;
-#  pos mark [ uni0307 uni0308 ] <anchor 0 1274> mark @above_center ;
-#  pos mark [ hookabovecomb ] <anchor 0 1428> mark @above_center ;
-#  pos mark [ uni030A ] <anchor 0 1419> mark @above_center ;
-#  pos mark [ uni030B ] <anchor 0 1411> mark @above_center ;
-#  pos mark [ uni030C ] <anchor 0 1458> mark @above_center ;
-#  pos mark [ uni030D uni030E ] <anchor 0 1420> mark @above_center ;
-#  pos mark [ uni030F ] <anchor 0 1401> mark @above_center ;
-#  pos mark [ uni0310 ] <anchor 0 1628> mark @above_center ;
-#  pos mark [ uni0311 ] <anchor 0 1294> mark @above_center ;
-#  pos mark [ uni0312 ] <anchor 0 1573> mark @above_center ;
-#  pos mark [ uni0313 uni0314 uni0315 ] <anchor 0 1571> mark @above_center ;
-#  pos mark [ uni031A ] <anchor 0 1321> mark @above_center ;
-#  pos mark [ uni033D ] <anchor 0 1419> mark @above_center ;
-#  pos mark [ uni033E ] <anchor 0 1631> mark @above_center ;
-#  pos mark [ uni033F ] <anchor 0 1406> mark @above_center ;
-#  pos mark [ uni0346 ] <anchor 0 1297> mark @above_center ;
-#  pos mark [ uni034A ] <anchor 0 1326> mark @above_center ;
-#  pos mark [ uni034B ] <anchor 0 1497> mark @above_center ;
-#  pos mark [ uni034C ] <anchor 0 1395> mark @above_center ;
-#  pos mark [ uni0350 ] <anchor 0 1355> mark @above_center ;
-#  pos mark [ uni0351 ] <anchor 0 1382> mark @above_center ;
-#  pos mark [ uni0352 ] <anchor 0 1448> mark @above_center ;
-#  pos mark [ uni0357 ] <anchor 0 1394> mark @above_center ;
-#  pos mark [ uni035B ] <anchor 0 1641> mark @above_center ;
-## lowercase without ascenders, top around 1538
-#  pos mark [ uni0363 uni0364 uni0366 uni0367 uni0368 uni036B uni036C uni036E uni036F uni1DE0
-#      	     uni1DE4 uni1DE6 uniF032 uniF036 uniF038 uniF03A uniF03B uniF03C uniF03E uniF130]
-#      	     <anchor 0 1548> mark @above_center ;
-#  pos mark [ uni0365 ] <anchor 0 1718> mark @above_center ;
-## lowercase with ascender, top at 1788
-#  pos mark [ uni0369 uni036A uniF012 ] <anchor 0 1798> mark @above_center ;
-#  pos mark [ uni036D ] <anchor 0 1600> mark @above_center ;
-#  pos mark [ uni1DD1 ] <anchor 0 1414> mark @above_center ;
-#  pos mark [ uni1DD2 ] <anchor 0 1606> mark @above_center ;
-#  pos mark [ uni1DD3 ] <anchor 0 1531> mark @above_center ;
-#  pos mark [ uni1DD4 ] <anchor 0 1594> mark @above_center ;
-#  pos mark [ uni1DD5 uni1DD6 ] <anchor 0 1601> mark @above_center ;
-#  pos mark [ uni1DD7 ] <anchor 0 1725> mark @above_center ;
-#  pos mark [ uni1DD8 ] <anchor 0 1762> mark @above_center ;
-#  pos mark [ uni1DD9 ] <anchor 0 1939> mark @above_center ;
-#  pos mark [ uni1DDA ] <anchor 0 1896> mark @above_center ;
-#  pos mark [ uni1DDB uni1DE1 uni1DE2 ] <anchor 0 1643> mark @above_center ;
-#  pos mark [ uni1DDC uni1DDD ] <anchor 0 1798> mark @above_center ;
-## small cap, top around 1618
-#  pos mark [ uni1DDE uni1DDF uniF013 uniF016 uniF01C uniF02A ]
-#      	     <anchor 0 1628> mark @above_center ;
-#  pos mark [ uni1DE3 ] <anchor 0 1588> mark @above_center ;
-#  pos mark [ uni1DE5 ] <anchor 0 1715> mark @above_center ;
-#  pos mark [ uniF017 ] <anchor 0 1762> mark @above_center ;
-#  pos mark [ uniF025 ] <anchor 0 1685> mark @above_center ;
-#  pos mark [ uniF02B ] <anchor 0 1795> mark @above_center ;
-#  pos mark [ uniF02E ] <anchor 0 1663> mark @above_center ;
-#  pos mark [ uniF02F ] <anchor 0 1520> mark @above_center ;
-#  pos mark [ uniF030 ] <anchor 0 1899> mark @above_center ;
-#  pos mark [ uniF031 ] <anchor 0 1680> mark @above_center ;
-#  pos mark [ uniF033 ] <anchor 0 1693> mark @above_center ;
-#  pos mark [ uniF03D ] <anchor 0 1835> mark @above_center ;
-#  pos mark [ uniF03F uniF040 ] <anchor 0 1576> mark @above_center ;
-#  pos mark [ uniF135 ] <anchor 0 1717> mark @above_center ;
-#  pos mark [ uniF136 ] <anchor 0 1728> mark @above_center ;
-#  pos mark [ uniF13E ] <anchor 0 1740> mark @above_center ;
-#  pos mark [ uniF13F ] <anchor 0 1682> mark @above_center ;
-#  pos mark [ uniF153 ] <anchor 0 1674> mark @above_center ;
-#  pos mark [ uniF1C0 ] <anchor 0 1458> mark @above_center ;
-#  pos mark [ uniF1C1 ] <anchor 0 1543> mark @above_center ;
-#  pos mark [ uniF1C2 ] <anchor 0 1300> mark @above_center ;
-#  pos mark [ uniF1C7 ] <anchor 0 1528> mark @above_center ;
-#  pos mark [ uniF1C8 ] <anchor 0 1488> mark @above_center ;
-#  pos mark [ uniF1CC ] <anchor 0 1438> mark @above_center ;
-#  pos mark [ gravecomb.sc acutecomb.sc uni0302.sc ] <anchor 0 1420> mark @above_center ;
-#  pos mark [ tildecomb.sc ] <anchor 0 1284> mark @above_center ;
-#  pos mark [ uni0304.sc ] <anchor 0 1214> mark @above_center ;
-#  pos mark [ uni0308.sc ] <anchor 0 1316> mark @above_center ;
-#  pos mark [ CapAcute.comb ] <anchor 0 1800> mark @above_center ;
-#  pos mark [ CapCaron.comb ] <anchor 0 1800> mark @above_center ;
-#  pos mark [ CapCircumflex.comb ] <anchor 0 1800> mark @above_center ;
-#  pos mark [ CapDieresis.comb ] <anchor 0 1800> mark @above_center ;
-#  pos mark [ CapDoubleAcute.comb ] <anchor 0 1800> mark @above_center ;
-#  pos mark [ CapDoubleGrave.comb ] <anchor 0 1800> mark @above_center ;
-#  pos mark [ CapGrave.comb ] <anchor 0 1800> mark @above_center ;
-#  pos mark [ CapMacron.comb ] <anchor 0 1800> mark @above_center ;
-#  pos mark [ CapTilde.comb ] <anchor 0 1800> mark @above_center ;
+  pos mark [ uni0307 uni0308 ] <anchor 0 1274> mark @above_center ;
+  pos mark [ hookabovecomb ] <anchor 0 1428> mark @above_center ;
+  pos mark [ uni030A ] <anchor 0 1419> mark @above_center ;
+  pos mark [ uni030B ] <anchor 0 1411> mark @above_center ;
+  pos mark [ uni030C ] <anchor 0 1458> mark @above_center ;
+  pos mark [ uni030D uni030E ] <anchor 0 1420> mark @above_center ;
+  pos mark [ uni030F ] <anchor 0 1401> mark @above_center ;
+  pos mark [ uni0310 ] <anchor 0 1628> mark @above_center ;
+  pos mark [ uni0311 ] <anchor 0 1294> mark @above_center ;
+  pos mark [ uni0312 ] <anchor 0 1573> mark @above_center ;
+  pos mark [ uni0313 uni0314 uni0315 ] <anchor 0 1571> mark @above_center ;
+  pos mark [ uni031A ] <anchor 0 1321> mark @above_center ;
+  pos mark [ uni033D ] <anchor 0 1419> mark @above_center ;
+  pos mark [ uni033E ] <anchor 0 1631> mark @above_center ;
+  pos mark [ uni033F ] <anchor 0 1406> mark @above_center ;
+  pos mark [ uni0346 ] <anchor 0 1297> mark @above_center ;
+  pos mark [ uni034A ] <anchor 0 1326> mark @above_center ;
+  pos mark [ uni034B ] <anchor 0 1497> mark @above_center ;
+  pos mark [ uni034C ] <anchor 0 1395> mark @above_center ;
+  pos mark [ uni0350 ] <anchor 0 1355> mark @above_center ;
+  pos mark [ uni0351 ] <anchor 0 1382> mark @above_center ;
+  pos mark [ uni0352 ] <anchor 0 1448> mark @above_center ;
+  pos mark [ uni0357 ] <anchor 0 1394> mark @above_center ;
+  pos mark [ uni035B ] <anchor 0 1641> mark @above_center ;
+# lowercase without ascenders, top around 1538
+  pos mark [ uni0363 uni0364 uni0366 uni0367 uni0368 uni036B uni036C uni036E uni036F uni1DE0
+      	     uni1DE4 uni1DE6 uniF032 uniF036 uniF038 uniF03A uniF03B uniF03C uniF03E uniF130]
+      	     <anchor 0 1548> mark @above_center ;
+  pos mark [ uni0365 ] <anchor 0 1718> mark @above_center ;
+# lowercase with ascender, top at 1788
+  pos mark [ uni0369 uni036A uniF012 ] <anchor 0 1798> mark @above_center ;
+  pos mark [ uni036D ] <anchor 0 1600> mark @above_center ;
+  pos mark [ uni1DD1 ] <anchor 0 1414> mark @above_center ;
+  pos mark [ uni1DD2 ] <anchor 0 1606> mark @above_center ;
+  pos mark [ uni1DD3 ] <anchor 0 1531> mark @above_center ;
+  pos mark [ uni1DD4 ] <anchor 0 1594> mark @above_center ;
+  pos mark [ uni1DD5 uni1DD6 ] <anchor 0 1601> mark @above_center ;
+  pos mark [ uni1DD7 ] <anchor 0 1725> mark @above_center ;
+  pos mark [ uni1DD8 ] <anchor 0 1762> mark @above_center ;
+  pos mark [ uni1DD9 ] <anchor 0 1939> mark @above_center ;
+  pos mark [ uni1DDA ] <anchor 0 1896> mark @above_center ;
+  pos mark [ uni1DDB uni1DE1 uni1DE2 ] <anchor 0 1643> mark @above_center ;
+  pos mark [ uni1DDC uni1DDD ] <anchor 0 1798> mark @above_center ;
+# small cap, top around 1618
+  pos mark [ uni1DDE uni1DDF uniF013 uniF016 uniF01C uniF02A ]
+      	     <anchor 0 1628> mark @above_center ;
+  pos mark [ uni1DE3 ] <anchor 0 1588> mark @above_center ;
+  pos mark [ uni1DE5 ] <anchor 0 1715> mark @above_center ;
+  pos mark [ uniF017 ] <anchor 0 1762> mark @above_center ;
+  pos mark [ uniF025 ] <anchor 0 1685> mark @above_center ;
+  pos mark [ uniF02B ] <anchor 0 1795> mark @above_center ;
+  pos mark [ uniF02E ] <anchor 0 1663> mark @above_center ;
+  pos mark [ uniF02F ] <anchor 0 1520> mark @above_center ;
+  pos mark [ uniF030 ] <anchor 0 1899> mark @above_center ;
+  pos mark [ uniF031 ] <anchor 0 1680> mark @above_center ;
+  pos mark [ uniF033 ] <anchor 0 1693> mark @above_center ;
+  pos mark [ uniF03D ] <anchor 0 1835> mark @above_center ;
+  pos mark [ uniF03F uniF040 ] <anchor 0 1576> mark @above_center ;
+  pos mark [ uniF135 ] <anchor 0 1717> mark @above_center ;
+  pos mark [ uniF136 ] <anchor 0 1728> mark @above_center ;
+  pos mark [ uniF13E ] <anchor 0 1740> mark @above_center ;
+  pos mark [ uniF13F ] <anchor 0 1682> mark @above_center ;
+  pos mark [ uniF153 ] <anchor 0 1674> mark @above_center ;
+  pos mark [ uniF1C0 ] <anchor 0 1458> mark @above_center ;
+  pos mark [ uniF1C1 ] <anchor 0 1543> mark @above_center ;
+  pos mark [ uniF1C2 ] <anchor 0 1300> mark @above_center ;
+  pos mark [ uniF1C7 ] <anchor 0 1528> mark @above_center ;
+  pos mark [ uniF1C8 ] <anchor 0 1488> mark @above_center ;
+  pos mark [ uniF1CC ] <anchor 0 1438> mark @above_center ;
+  pos mark [ gravecomb.sc acutecomb.sc uni0302.sc ] <anchor 0 1420> mark @above_center ;
+  pos mark [ tildecomb.sc ] <anchor 0 1284> mark @above_center ;
+  pos mark [ uni0304.sc ] <anchor 0 1214> mark @above_center ;
+  pos mark [ uni0308.sc ] <anchor 0 1316> mark @above_center ;
+  pos mark [ CapAcute.comb ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapCaron.comb ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapCircumflex.comb ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapDieresis.comb ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapDoubleAcute.comb ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapDoubleGrave.comb ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapGrave.comb ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapMacron.comb ] <anchor 0 1800> mark @above_center ;
+  pos mark [ CapTilde.comb ] <anchor 0 1800> mark @above_center ;
 } mkmk_Mark_to_Mark_Above ;
 
  lookup mkmk_Mark_to_Mark_Below {
