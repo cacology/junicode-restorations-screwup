@@ -2332,6 +2332,9 @@ lookup mark_Mark_Positioning {
   pos base [ cdotaccent ]
       	     <anchor 500 1274> mark @above_center
 	     <anchor 500 -75> mark @below_center ;
+  pos base [ cacute ]
+      	     <anchor 500 1405> mark @above_center
+	     <anchor 500 -75> mark @below_center ;
   pos base [ emacron ]
       	     <anchor 462 1208> mark @above_center
 	     <anchor 462 -75> mark @below_center ;
@@ -2347,6 +2350,9 @@ lookup mark_Mark_Positioning {
   pos base [ edieresis edotaccent ]
       	     <anchor 462 1274> mark @above_center
 	     <anchor 462 -75> mark @below_center ;
+  pos base [ uni01F5 ] # g acute
+      	     <anchor 458 1405> mark @above_center
+      	     <anchor 462 -603> mark @below_center ;
   pos base [ gdotaccent ]
       	     <anchor 458 1274> mark @above_center
       	     <anchor 462 -603> mark @below_center ;
@@ -2365,11 +2371,23 @@ lookup mark_Mark_Positioning {
   pos base [ idieresis ]
       	     <anchor 268 1274> mark @above_center
 	     <anchor 280 -75> mark @below_center ;
+  pos base [ uni1E31 ] # k acute
+      	     <anchor 323 1862> mark @above_center
+	     <anchor 560 -75> mark @below_center ;
+  pos base [ lacute ]
+      	     <anchor 323 1862> mark @above_center
+	     <anchor 282 -75> mark @below_center ;
   pos base [ uni1E41 ] # m with dot
       	     <anchor 833 1274> mark @above_center
 	     <anchor 833 -75> mark @below_center ;
+  pos base [ uni1E3F ] # m acute
+      	     <anchor 833 1405> mark @above_center
+	     <anchor 833 -75> mark @below_center ;
   pos base [ uni1E45 ] # n with dot
       	     <anchor 557 1274> mark @above_center
+	     <anchor 557 -75> mark @below_center ;
+  pos base [ uni01F9 nacute ]
+      	     <anchor 555 1405> mark @above_center
 	     <anchor 557 -75> mark @below_center ;
   pos base [ omacron ]
       	     <anchor 507 1208> mark @above_center
@@ -2377,7 +2395,7 @@ lookup mark_Mark_Positioning {
   pos base [ obreve ]
       	     <anchor 507 1380> mark @above_center
 	     <anchor 507 -75> mark @below_center ;
-  pos base [ ograve oacute oslashacute uni020D ]
+  pos base [ ograve oacute oslashacute uni020D uni1EDB uni1EDD ]
       	     <anchor 507 1405> mark @above_center
 	     <anchor 507 -75> mark @below_center ;
   pos base [ ocircumflex ]
@@ -2392,14 +2410,20 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E57 ] # p with dot
       	     <anchor 512 1274> mark @above_center
 	     <anchor 512 -75> mark @below_center ;
+  pos base [ uni1E55 ] # p acute
+      	     <anchor 512 1405> mark @above_center
+	     <anchor 512 -75> mark @below_center ;
   pos base [ uni1E59 ] # r with dot
       	     <anchor 393 1274> mark @above_center
 	     <anchor 393 -75> mark @below_center ;
-  pos base [ uni0211 ] # r with double grave
+  pos base [ uni0211 racute ]
       	     <anchor 393 1405> mark @above_center
 	     <anchor 393 -75> mark @below_center ;
   pos base [ uni1E61 ] # s with dot
       	     <anchor 369 1274> mark @above_center
+	     <anchor 369 -75> mark @below_center ;
+  pos base [ sacute ]
+      	     <anchor 369 1405> mark @above_center
 	     <anchor 369 -75> mark @below_center ;
   pos base [ uni1E9B ] # longs with dot
       	     <anchor 568 1874> mark @above_center
@@ -2413,7 +2437,7 @@ lookup mark_Mark_Positioning {
   pos base [ ubreve ]
       	     <anchor 490 1380> mark @above_center
 	     <anchor 439 -75> mark @below_center ;
-  pos base [ ugrave uacute uni0215 ]
+  pos base [ ugrave uacute uni0215 uni1EE9 ]
       	     <anchor 490 1405> mark @above_center
 	     <anchor 439 -75> mark @below_center ;
   pos base [ ucircumflex ]
@@ -2425,20 +2449,26 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E87 wdieresis ]
       	     <anchor 695 1274> mark @above_center
 	     <anchor 680 -75> mark @below_center ;
-  pos base [ uni1E8B uni1E8D ]
+  pos base [ wgrave wacute ]
+      	     <anchor 695 1405> mark @above_center
+	     <anchor 680 -75> mark @below_center ;
+  pos base [ uni1E8B uni1E8D ] # x
       	     <anchor 488 1274> mark @above_center
 	     <anchor 473 -75> mark @below_center ;
   pos base [ uni0233 uni1E8F ] # y
       	     <anchor 425 1208> mark @above_center
 	     <anchor 396 -628> mark @below_center ;
-  pos base [ yacute ]
+  pos base [ yacute ygrave ]
       	     <anchor 425 1405> mark @above_center
 	     <anchor 396 -628> mark @below_center ;
-  pos base [ ydieresis ]
+  pos base [ ydieresis uni1E8F ]
       	     <anchor 425 1274> mark @above_center
 	     <anchor 396 -628> mark @below_center ;
   pos base [ zdotaccent ]
       	     <anchor 374 1274> mark @above_center
+	     <anchor 372 -628> mark @below_center ;
+  pos base [ zacute ]
+      	     <anchor 374 1405> mark @above_center
 	     <anchor 372 -628> mark @below_center ;
   pos base [ uni01E3 ] # ae
       	     <anchor 588 1208> mark @above_center
