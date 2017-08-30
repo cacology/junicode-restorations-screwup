@@ -2510,6 +2510,9 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E6B uni1E97 ] # t with dot, dieresis
       	     <anchor 334 1400> mark @above_center
 	     <anchor 334 -75> mark @below_center ;
+  pos base [ uni1E6F ] # t macron under
+      	     <anchor 334 1068> mark @above_center
+      	     <anchor 439 -414> mark @below_center ;
   pos base [ umacron ]
       	     <anchor 490 1208> mark @above_center
 	     <anchor 439 -75> mark @below_center ;
@@ -2528,12 +2531,27 @@ lookup mark_Mark_Positioning {
   pos base [ udieresis ]
       	     <anchor 490 1274> mark @above_center
 	     <anchor 439 -75> mark @below_center ;
+  pos base [ uni1E75 ] # u tilde under
+      	     <anchor 490 900> mark @above_center
+	     <anchor 439 -438> mark @below_center ;
+  pos base [ uni1E77 ] # u circ under
+      	     <anchor 490 900> mark @above_center
+	     <anchor 439 -621> mark @below_center ;
+  pos base [ uni1E72 uni1EE5 uni1EF1] # u dieresis, dot under
+      	     <anchor 485 900> mark @above_center
+	     <anchor 439 -485> mark @below_center ;
+  pos base [ uni1E7F ] # v dot under
+      	     <anchor 458 900> mark @above_center
+	     <anchor 458 -485> mark @below_center ;
   pos base [ uni1E87 wdieresis ]
       	     <anchor 695 1274> mark @above_center
 	     <anchor 680 -75> mark @below_center ;
   pos base [ wgrave wacute uni1E98 ]
       	     <anchor 695 1405> mark @above_center
 	     <anchor 680 -75> mark @below_center ;
+  pos base [ uni1E89 ] # w dot under
+      	     <anchor 695 900> mark @above_center
+	     <anchor 680 -485> mark @below_center ;
   pos base [ uni1E8B uni1E8D ] # x
       	     <anchor 488 1274> mark @above_center
 	     <anchor 473 -75> mark @below_center ;
@@ -2549,6 +2567,9 @@ lookup mark_Mark_Positioning {
   pos base [ uni0233 uni1E8F ] # y
       	     <anchor 425 1208> mark @above_center
 	     <anchor 396 -628> mark @below_center ;
+  pos base [ uni1EF5 ] # y dot under
+      	     <anchor 425 900> mark @above_center
+	     <anchor 396 -628> mark @below_center ;
   pos base [ zdotaccent ]
       	     <anchor 374 1274> mark @above_center
 	     <anchor 372 -628> mark @below_center ;
@@ -2558,7 +2579,13 @@ lookup mark_Mark_Positioning {
   pos base [ zacute ]
       	     <anchor 374 1405> mark @above_center
 	     <anchor 372 -628> mark @below_center ;
-  pos base [ uni01E3 ] # ae
+  pos base [ uni1E95 ] # z macron under
+      	     <anchor 374 900> mark @above_center
+	     <anchor 374 -414> mark @below_center ;
+  pos base [ uni1E93 ] # z dot under
+      	     <anchor 374 900> mark @above_center
+	     <anchor 374 -485> mark @below_center ;
+  pos base [ uni01E3 ] # ae macron
       	     <anchor 588 1208> mark @above_center
 	     <anchor 540 -75> mark @below_center ;
   pos base [ aeacute ]
