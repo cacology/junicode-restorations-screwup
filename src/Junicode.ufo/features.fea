@@ -2376,7 +2376,7 @@ lookup mark_Mark_Positioning {
       	     <anchor 500 1458> mark @above_center
 	     <anchor 500 -75> mark @below_center ;
   pos base [ uni1E0B ] # d dot
-      	     <anchor 431 1595> mark @above_center
+      	     <anchor 735 1807> mark @above_center
 	     <anchor 500 -75> mark @below_center ;
   pos base [ uni1E11 ] # d cedilla
       	     <anchor 443 1475> mark @above_center
