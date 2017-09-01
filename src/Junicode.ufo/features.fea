@@ -2442,7 +2442,7 @@ lookup mark_Mark_Positioning {
       	     <anchor 458 1458> mark @above_center
       	     <anchor 462 -603> mark @below_center ;
   pos base [ uni1E23 ] # h dot
-      	     <anchor 625 1771> mark @above_center
+      	     <anchor 245 1771> mark @above_center
       	     <anchor 462 -603> mark @below_center ;
   pos base [ uni1E27 ] # h dieresis
       	     <anchor 562 1830> mark @above_center

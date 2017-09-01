@@ -1,9 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <glyph name="uni1E23" format="1">
   <advance width="1094"/>
   <unicode hex="1E23"/>
   <outline>
-    <component base="dotaccent" xOffset="256" yOffset="468"/>
+    <contour>
+      <point x="462" y="-603" type="move" name="below_center"/>
+    </contour>
+    <contour>
+      <point x="245" y="1771" type="move" name="above_center"/>
+    </contour>
+    <component base="dotaccent" xOffset="-128" yOffset="468"/>
     <component base="h"/>
   </outline>
 </glyph>
