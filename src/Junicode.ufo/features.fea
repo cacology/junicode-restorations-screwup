@@ -2579,6 +2579,9 @@ lookup mark_Mark_Positioning {
   pos base [ uni0213 ] # r inverted breve
       	     <anchor 393 1380> mark @above_center
 	     <anchor 393 -75> mark @below_center ;
+  pos base [ uni1E5B ] # r dot below
+      	     <anchor 393 900> mark @above_center
+	     <anchor 359 -485> mark @below_center ;
   pos base [ uni1E5F ] # r macron below
       	     <anchor 393 900> mark @above_center
 	     <anchor 393 -414> mark @below_center ;
@@ -2600,6 +2603,9 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E9B ] # longs with dot
       	     <anchor 568 1874> mark @above_center
 	     <anchor 568 -75> mark @below_center ;
+  pos base [ uni1E63 ] # s dot below
+             <anchor 369 900> mark @above_center
+	     <anchor 369 -485> mark @below_center ;
   pos base [ uni1E6B uni1E97 ] # t with dot, dieresis
       	     <anchor 334 1400> mark @above_center
 	     <anchor 334 -75> mark @below_center ;
@@ -2642,6 +2648,9 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E72 uni1EE5 uni1EF1] # u dieresis, dot below
       	     <anchor 485 900> mark @above_center
 	     <anchor 439 -485> mark @below_center ;
+  pos base [ uni1E7D ] # v tilde
+      	     <anchor 435 1233> mark @above_center
+	     <anchor 435 -75> mark @below_center ;
   pos base [ uni1E7F ] # v dot below
       	     <anchor 458 900> mark @above_center
 	     <anchor 458 -485> mark @below_center ;
