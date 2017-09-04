@@ -1,77 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <glyph name="Oslashacute" format="1">
   <advance width="1461"/>
   <unicode hex="01FE"/>
   <outline>
-    <contour>
-      <point x="1113" y="1776" type="qcurve" smooth="yes"/>
-      <point x="664" y="1535" type="line" smooth="yes"/>
-      <point x="644" y="1524"/>
-      <point x="610" y="1524"/>
-      <point x="593" y="1553"/>
-      <point x="593" y="1582"/>
-      <point x="617" y="1598" type="qcurve"/>
-      <point x="1031" y="1897" type="line" smooth="yes"/>
-      <point x="1041" y="1904"/>
-      <point x="1079" y="1904"/>
-      <point x="1135" y="1831"/>
-      <point x="1135" y="1788"/>
-    </contour>
-    <contour>
-      <point x="232" y="-6" type="line" smooth="yes"/>
-      <point x="229" y="-9"/>
-      <point x="225" y="-9" type="qcurve" smooth="yes"/>
-      <point x="213" y="-9"/>
-      <point x="165" y="37"/>
-      <point x="165" y="46" type="qcurve" smooth="yes"/>
-      <point x="165" y="49"/>
-      <point x="166" y="50" type="qcurve" smooth="yes"/>
-      <point x="271" y="175" type="line"/>
-      <point x="270" y="177"/>
-      <point x="268" y="178" type="qcurve" smooth="yes"/>
-      <point x="91" y="383"/>
-      <point x="91" y="667" type="qcurve" smooth="yes"/>
-      <point x="91" y="930"/>
-      <point x="443" y="1385"/>
-      <point x="740" y="1385" type="qcurve" smooth="yes"/>
-      <point x="975" y="1385"/>
-      <point x="1150" y="1222" type="qcurve"/>
-      <point x="1236" y="1325" type="line" smooth="yes"/>
-      <point x="1240" y="1329"/>
-      <point x="1246" y="1329" type="qcurve" smooth="yes"/>
-      <point x="1258" y="1329"/>
-      <point x="1305" y="1291"/>
-      <point x="1305" y="1277" type="qcurve" smooth="yes"/>
-      <point x="1305" y="1273"/>
-      <point x="1303" y="1269" type="qcurve"/>
-      <point x="1210" y="1159" type="line"/>
-      <point x="1383" y="956"/>
-      <point x="1383" y="663" type="qcurve" smooth="yes"/>
-      <point x="1383" y="407"/>
-      <point x="1035" y="-27"/>
-      <point x="735" y="-27" type="qcurve" smooth="yes"/>
-      <point x="495" y="-27"/>
-      <point x="332" y="113" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="1055" y="1109" type="line"/>
-      <point x="907" y="1314"/>
-      <point x="727" y="1314" type="qcurve" smooth="yes"/>
-      <point x="517" y="1314"/>
-      <point x="282" y="952"/>
-      <point x="282" y="726" type="qcurve" smooth="yes"/>
-      <point x="282" y="474"/>
-      <point x="381" y="306" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="1103" y="1031" type="qcurve"/>
-      <point x="432" y="232" type="line"/>
-      <point x="582" y="48"/>
-      <point x="749" y="48" type="qcurve" smooth="yes"/>
-      <point x="961" y="48"/>
-      <point x="1192" y="394"/>
-      <point x="1192" y="647" type="qcurve" smooth="yes"/>
-      <point x="1192" y="865"/>
-    </contour>
+    <component base="CapAcute" xOffset="470"/>
+    <component base="Oslash"/>
   </outline>
 </glyph>
