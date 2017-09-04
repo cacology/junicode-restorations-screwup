@@ -1350,7 +1350,7 @@ lookup mark_Mark_Positioning {
   pos base [ K ]
       	     <anchor 1022 1415> mark @above_center
 	     <anchor 561 -75> mark @below_center ;
-  pos base [ L Lslash ]
+  pos base [ L Lslash Ldot ]
       	     <anchor 686 1415> mark @above_center
       	     <anchor 643 -75> mark @below_center ;
   pos base [ M ]
@@ -2068,7 +2068,8 @@ lookup mark_Mark_Positioning {
   pos base [ Igrave Iacute Icircumflex Idieresis ]
       	     <anchor 784 1800> mark @above_center
   	     <anchor 269 -75> mark @below_center;
-  pos base [ Ograve Oacute Ocircumflex Odieresis Otilde Oslashacute ]
+  pos base [ Ograve Oacute Ocircumflex Odieresis Otilde Oslashacute Omacron uni022E
+      	     Ohungarumlaut uni01D1 uni020C uni1EDC uni1EDA uni1EE0 ]
       	     <anchor 1186 1800> mark @above_center
   	     <anchor 673 -75> mark @below_center;
   pos base [ Ugrave Uacute Ucircumflex Udieresis ]
@@ -2122,159 +2123,146 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E0E ] # D macron below
       	     <anchor 978 1415> mark @above_center
   	     <anchor 471 -414> mark @below_center;
+  pos base [ uni1EBA ] # E hook
+      	     <anchor 1100 1934> mark @above_center
+  	     <anchor 584 -75> mark @below_center;
+  pos base [ Ebreve uni0206 ]
+      	     <anchor 1031 1883> mark @above_center
+  	     <anchor 584 -75> mark @below_center;
+  pos base [ uni1EB8 ] # E dot below
+      	     <anchor 966 1415> mark @above_center
+  	     <anchor 546 -485> mark @below_center;
+  pos base [ uni1EC6 ] # E circumflex above dot below
+      	     <anchor 1064 1800> mark @above_center
+  	     <anchor 546 -485> mark @below_center;
+  pos base [ uni1E1C ] # E cedilla breve
+      	     <anchor 1032 1883> mark @above_center
+  	     <anchor 550 -535> mark @below_center;
+  pos base [ uni1E18 ] # E circumflex below
+      	     <anchor 966 1415> mark @above_center
+  	     <anchor 498 -621> mark @below_center;
+  pos base [ uni1E1A ] # E tilde below
+      	     <anchor 966 1415> mark @above_center
+  	     <anchor 504 -492> mark @below_center;
+  pos base [ uni1E1E ] # F dot
+      	     <anchor 1015 1800> mark @above_center
+  	     <anchor 491 -75> mark @below_center;
+  pos base [ uni01F4 Gcircumflex uni1E20 Gdotaccent Gcaron ]
+      	     <anchor 1259 1800> mark @above_center
+  	     <anchor 736 -75> mark @below_center;
+  pos base [ Gbreve ]
+      	     <anchor 1235 1883> mark @above_center
+  	     <anchor 736 -75> mark @below_center;
+  pos base [ Gcommaaccent ]
+      	     <anchor 1160 1415> mark @above_center
+  	     <anchor 607 -535> mark @below_center;
+  pos base [ Hcircumflex uni021E ]
+      	     <anchor 1138 1800> mark @above_center
+	     <anchor 648 -75> mark @below_center;
+  pos base [ uni1E22 uni1E26 ] # H dot, dieresis
+      	     <anchor 1118 1800> mark @above_center
+  	     <anchor 648 -75> mark @below_center;
+  pos base [ uni1E24 ] # H dot below
+      	     <anchor 1056 1415> mark @above_center
+  	     <anchor 591 -485> mark @below_center;
+  pos base [ uni1E2A ] # H breve below
+      	     <anchor 1056 1415> mark @above_center
+  	     <anchor 581 -552> mark @below_center;
+  pos base [ Itilde Imacron Idotaccent uni01CF uni0208 ]
+      	     <anchor 755 1800> mark @above_center
+  	     <anchor 269 -75> mark @below_center;
+  pos base [ Ibreve uni020A ]
+      	     <anchor 750 1883> mark @above_center
+	     <anchor 269 -75> mark @below_center;
+  pos base [ uni1EC8 ] # I hook
+      	     <anchor 840 1960> mark @above_center
+  	     <anchor 269 -75> mark @below_center;
+  pos base [ uni1ECA ] # I dot below
+      	     <anchor 678 1415> mark @above_center
+  	     <anchor 195 -485> mark @below_center;
+  pos base [ uni1E2C ] # I tilde below
+      	     <anchor 678 1415> mark @above_center
+  	     <anchor 205 -492> mark @below_center;
+  pos base [ Jcircumflex ]
+      	     <anchor 784 1800> mark @above_center
+  	     <anchor 174 -468> mark @below_center;
+  pos base [ uni1E30 uni01E8 ] # K acute
+      	     <anchor 1118 1800> mark @above_center
+  	     <anchor 561 -75> mark @below_center;
+  pos base [ uni1E32 ] # K dot below
+      	     <anchor 1022 1415> mark @above_center
+  	     <anchor 465 -485> mark @below_center;
+  pos base [ Kcommaaccent ]
+      	     <anchor 1022 1415> mark @above_center
+  	     <anchor 622 -525> mark @below_center;
+  pos base [ uni1E34 ] # K macron below
+      	     <anchor 1022 1415> mark @above_center
+  	     <anchor 455 -414> mark @below_center;
+  pos base [ Lacute ]
+      	     <anchor 775 1800> mark @above_center
+  	     <anchor 643 -75> mark @below_center;
+  pos base [ uni1E36 ] # L dot below
+      	     <anchor 686 1415> mark @above_center
+  	     <anchor 524 -485> mark @below_center;
+  pos base [ uni1E38 ] # L macron above dot below
+      	     <anchor 800 1800> mark @above_center
+  	     <anchor 524 -485> mark @below_center;
+  pos base [ Lcommaaccent ]
+      	     <anchor 686 1415> mark @above_center
+  	     <anchor 488 -535> mark @below_center;
+  pos base [ uni1E3C ] # L circumflex below
+      	     <anchor 686 1415> mark @above_center
+  	     <anchor 530 -621> mark @below_center;
+  pos base [ uni1E3A ] # L macron below
+      	     <anchor 686 1415> mark @above_center
+  	     <anchor 555 -414> mark @below_center;
+  pos base [ uni1E3E uni1E40 ] # M acute, dot
+      	     <anchor 1259 1800> mark @above_center
+      	     <anchor 811 -75> mark @below_center;
+  pos base [ uni1E42 ] # M dot below
+      	     <anchor 1236 1415> mark @above_center
+  	     <anchor 763 -485> mark @below_center;
+  pos base [ Ntilde Nacute Ncaron uni01F8 uni1E44 ]
+      	     <anchor 1122 1800> mark @above_center
+  	     <anchor 722 -75> mark @below_center;
+  pos base [ uni1E46 ] # N dot below
+      	     <anchor 1106 1415> mark @above_center
+  	     <anchor 701 -485> mark @below_center;
+  pos base [ Ncommaaccent ]
+      	     <anchor 1106 1415> mark @above_center
+  	     <anchor 700 -525> mark @below_center;
+  pos base [ uni1E4A ] # N circumflex below
+      	     <anchor 1106 1415> mark @above_center
+  	     <anchor 680 -621> mark @below_center;
+  pos base [ uni1E48 ] # N macron below
+      	     <anchor 1106 1415> mark @above_center
+  	     <anchor 653 -414> mark @below_center;
+  pos base [ Obreve uni020E ]
+      	     <anchor 1210 1883> mark @above_center
+  	     <anchor 673 -75> mark @below_center;
+  pos base [ uni1ECE uni1EDE ] # O hook
+      	     <anchor 1265 1960> mark @above_center
+  	     <anchor 673 -75> mark @below_center;
+  pos base [ uni1EE2 uni1ECC ] # Ohorn dot below
+      	     <anchor 1094 1415> mark @above_center
+  	     <anchor 581 -485> mark @below_center;
+  pos base [ uni1ED8 ] # O circumflex above dot below
+      	     <anchor 1195 1800> mark @above_center
+  	     <anchor 581 -485> mark @below_center;
+  pos base [ uni01EC ] # O ogonek macron
+      	     <anchor 1150 1800> mark @above_center
+  	     <anchor 610 -558> mark @below_center;
+  pos base [ uni1E54 uni1E56 ] # P acute, dot
+      	     <anchor 944 1800> mark @above_center
+  	     <anchor 527 -75> mark @below_center;
+  pos base [ Racute uni1E58 Rcaron uni0210 ]
+      	     <anchor 1101 1800> mark @above_center
+  	     <anchor 529 -75> mark @below_center;
+  pos base [ Rcommaaccent ]
+      	     <anchor 880 1415> mark @above_center
+	     <anchor 688 -525> mark @below_center;
 
 # stop here
-  pos base [ uni1EBA ] # E hook
-      	     <anchor 606 1934> mark @above_center
-  	     <anchor 606 -75> mark @below_center;
-  pos base [ Ebreve uni0206 ]
-      	     <anchor 606 1883> mark @above_center
-  	     <anchor 606 -75> mark @below_center;
-  pos base [ uni1EB8 ] # E dot below
-      	     <anchor 606 1415> mark @above_center
-  	     <anchor 606 -485> mark @below_center;
-  pos base [ uni1EC6 ] # E circumflex above dot below
-      	     <anchor 606 1800> mark @above_center
-  	     <anchor 606 -485> mark @below_center;
-  pos base [ uni1E1C ] # E cedilla breve
-      	     <anchor 606 1883> mark @above_center
-  	     <anchor 460 -535> mark @below_center;
-  pos base [ uni1E18 ] # E circumflex below
-      	     <anchor 606 1415> mark @above_center
-  	     <anchor 606 -621> mark @below_center;
-  pos base [ uni1E1A ] # E tilde below
-      	     <anchor 606 1415> mark @above_center
-  	     <anchor 606 -438> mark @below_center;
-  pos base [ uni1E1E ] # F dot
-      	     <anchor 650 1800> mark @above_center
-  	     <anchor 349 -75> mark @below_center;
-  pos base [ uni01F4 Gcircumflex uni1E20 Gdotaccent Gcaron ]
-      	     <anchor 780 1800> mark @above_center
-  	     <anchor 780 -75> mark @below_center;
-  pos base [ Gbreve ]
-      	     <anchor 780 1883> mark @above_center
-  	     <anchor 780 -75> mark @below_center;
-  pos base [ Gcommaaccent ]
-      	     <anchor 780 1415> mark @above_center
-  	     <anchor 647 -535> mark @below_center;
-  pos base [ Hcircumflex ]
-      	     <anchor 806 1800> mark @above_center
-	     <anchor 806 -75> mark @below_center;
-  pos base [ uni1E22 ] # H dot
-      	     <anchor 806 1800> mark @above_center
-  	     <anchor 806 -75> mark @below_center;
-  pos base [ uni1E26 ] # H dieresis
-      	     <anchor 806 1800> mark @above_center
-  	     <anchor 806 -75> mark @below_center;
-  pos base [ uni021E ] # H caron
-      	     <anchor 806 1800> mark @above_center
-  	     <anchor 806 -75> mark @below_center;
-  pos base [ uni1E24 ] # H dot below
-      	     <anchor 806 1415> mark @above_center
-  	     <anchor 806 -485> mark @below_center;
-  pos base [ uni1E2A ] # H breve below
-      	     <anchor 806 1415> mark @above_center
-  	     <anchor 806 -552> mark @below_center;
-  pos base [ Itilde Imacron Idotaccent uni01CF uni0208 ]
-      	     <anchor 350 1800> mark @above_center
-  	     <anchor 350 -75> mark @below_center;
-  pos base [ Ibreve uni020A ]
-      	     <anchor 350 1883> mark @above_center
-	     <anchor 350 -75> mark @below_center;
-  pos base [ uni1EC8 ] # I hook
-      	     <anchor 350 1960> mark @above_center
-  	     <anchor 350 -75> mark @below_center;
-  pos base [ uni1ECA ] # I dot below
-      	     <anchor 350 1415> mark @above_center
-  	     <anchor 350 -485> mark @below_center;
-  pos base [ uni1E2C ] # I tilde below
-      	     <anchor 350 1415> mark @above_center
-  	     <anchor 350 -438> mark @below_center;
-  pos base [ Jcircumflex ]
-      	     <anchor 370 1800> mark @above_center
-  	     <anchor 331 -468> mark @below_center;
-  pos base [ uni1E30 uni01E8 ] # K acute
-      	     <anchor 638 1800> mark @above_center
-  	     <anchor 765 -75> mark @below_center;
-  pos base [ uni1E32 ] # K dot belosw
-      	     <anchor 638 1415> mark @above_center
-  	     <anchor 613 -485> mark @below_center;
-  pos base [ Kcommaaccent ]
-      	     <anchor 638 1415> mark @above_center
-  	     <anchor 666 -525> mark @below_center;
-  pos base [ uni1E34 ] # K macron below
-      	     <anchor 638 1415> mark @above_center
-  	     <anchor 615 -414> mark @below_center;
-  pos base [ Ldot ]
-      	     <anchor 350 1415> mark @above_center
-  	     <anchor 750 -75> mark @below_center;
-  pos base [ Lacute ]
-      	     <anchor 350 1800> mark @above_center
-  	     <anchor 750 -75> mark @below_center;
-  pos base [ uni1E36 ] # L dot below
-      	     <anchor 350 1415> mark @above_center
-  	     <anchor 624 -485> mark @below_center;
-  pos base [ uni1E38 ] # L macron above dot below
-      	     <anchor 350 1800> mark @above_center
-  	     <anchor 701 -485> mark @below_center;
-  pos base [ Lcommaaccent ]
-      	     <anchor 350 1415> mark @above_center
-  	     <anchor 513 -535> mark @below_center;
-  pos base [ uni1E3C ] # L circumflex below
-      	     <anchor 350 1415> mark @above_center
-  	     <anchor 655 -621> mark @below_center;
-  pos base [ uni1E3A ] # L macron below
-      	     <anchor 350 1415> mark @above_center
-  	     <anchor 617 -414> mark @below_center;
-  pos base [ uni1E3E uni1E40 ] # M acute, dot
-      	     <anchor 924 1800> mark @above_center
-      	     <anchor 915 -75> mark @below_center;
-  pos base [ uni1E42 ] # M dot below
-      	     <anchor 924 1415> mark @above_center
-  	     <anchor 915 -485> mark @below_center;
-  pos base [ Ntilde Nacute Ncaron uni01F8 uni1E44 ]
-      	     <anchor 740 1800> mark @above_center
-  	     <anchor 740 -75> mark @below_center;
-  pos base [ uni1E46 ] # N dot below
-      	     <anchor 740 1415> mark @above_center
-  	     <anchor 761 -485> mark @below_center;
-  pos base [ Ncommaaccent ]
-      	     <anchor 740 1415> mark @above_center
-  	     <anchor 740 -525> mark @below_center;
-  pos base [ uni1E4A ] # N circumflex below
-      	     <anchor 740 1415> mark @above_center
-  	     <anchor 740 -621> mark @below_center;
-  pos base [ uni1E48 ] # N macron below
-      	     <anchor 740 1415> mark @above_center
-  	     <anchor 740 -414> mark @below_center;
-  pos base [ Omacron uni022E Ohungarumlaut uni01D1 uni020C uni1EDC uni1EDA
-      	     uni1EE0 ]
-      	     <anchor 740 1800> mark @above_center
-  	     <anchor 740 -75> mark @below_center;
-  pos base [ Obreve uni020E ]
-      	     <anchor 740 1883> mark @above_center
-  	     <anchor 740 -75> mark @below_center;
-  pos base [ uni1ECE uni1EDE ] # O hook
-      	     <anchor 740 1960> mark @above_center
-  	     <anchor 740 -75> mark @below_center;
-  pos base [ uni1EE2 uni1ECC ] # Ohorn dot below
-      	     <anchor 740 1415> mark @above_center
-  	     <anchor 740 -485> mark @below_center;
-  pos base [ uni1ED8 ] # O circumflex above dot below
-      	     <anchor 740 1800> mark @above_center
-  	     <anchor 740 -485> mark @below_center;
-  pos base [ uni01EC ] # O ogonek macron
-      	     <anchor 740 1800> mark @above_center
-  	     <anchor 740 -558> mark @below_center;
-  pos base [ uni1E54 uni1E56 ] # P acute, dot
-      	     <anchor 605 1800> mark @above_center
-  	     <anchor 355 -75> mark @below_center;
-  pos base [ Racute uni1E58 Rcaron uni0210 ]
-      	     <anchor 652 1800> mark @above_center
-  	     <anchor 670 -75> mark @below_center;
-  pos base [ Rcommaaccent ]
-      	     <anchor 588 1415> mark @above_center
-	     <anchor 769 -525> mark @below_center;
   pos base [ Tcommaaccent ]
       	     <anchor 666 1415> mark @above_center
 	     <anchor 529 -535> mark @below_center;
@@ -2343,7 +2331,7 @@ lookup mark_Mark_Positioning {
 	     <anchor 799 -621> mark @below_center;
   pos base [ uni1E74 ] # U tilde below
 	     <anchor 799 1415> mark @above_center
-	     <anchor 799 -438> mark @below_center;
+	     <anchor 799 -492> mark @below_center;
   pos base [ uni1E7C ] # V tilde
 	     <anchor 735 1800> mark @above_center
 	     <anchor 623 -75> mark @below_center;
@@ -2522,7 +2510,7 @@ lookup mkmk_Mark_to_Mark_Below {
   pos mark [ uni032B uni033C ] <anchor -75 -465> mark @below_center ;
   pos mark [ uni032C ] <anchor -87 -530> mark @below_center ;
   pos mark [ uni032D uni034D ] <anchor -110 -650> mark @below_center ;
-  pos mark [ uni0330 ] <anchor -100 -580> mark @below_center ;
+  pos mark [ uni0330 ] <anchor -82 -492> mark @below_center ;
   pos mark [ uni0331 uni0332 ] <anchor -85 -500> mark @below_center ;
   pos mark [ uni0333 uni034E ] <anchor -100 -580> mark @below_center ;
   pos mark [ uni033B ] <anchor -112 -670> mark @below_center ;

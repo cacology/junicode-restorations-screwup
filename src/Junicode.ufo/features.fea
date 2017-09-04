@@ -408,7 +408,6 @@ lookup smcp_Small_Caps {
   sub uni1E45 by uniEF21 ;
   sub uni1E47 by uniEF2A ;
   sub uni1E6D by uniEF2D ;
-  # Others: EF20 EF22 EF23 EF24 EF25 EF27 EF28 EF2B EF2C
 } smcp_Small_Caps ;
 
 lookup c2sc_Caps_to_Small_Caps {
