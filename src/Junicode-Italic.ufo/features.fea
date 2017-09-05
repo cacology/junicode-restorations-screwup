@@ -1404,7 +1404,7 @@ lookup mark_Mark_Positioning {
   pos base [ aogonek ]
       	     <anchor 620 900> mark @above_center
 	     <anchor 418 -563> mark @below_center ;
-  pos base [ b uni0183 uni0185 uni0253 uni1E03 ]
+  pos base [ b uni0183 uni0185 uni0253 ]
       	     <anchor 630 1545> mark @above_center
 	     <anchor 335 -75> mark @below_center ;
   pos base [ c ]
