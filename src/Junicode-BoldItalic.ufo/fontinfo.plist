@@ -39,7 +39,7 @@
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://junicode.sourceforge.net/</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 0.7.8 ; ttfautohint (v0.97) -l 20 -r 150 -G 200 -x 14 -f latn -w G</string>
+	<string>Version 1.000</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>

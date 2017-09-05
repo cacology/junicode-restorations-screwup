@@ -624,7 +624,7 @@ table hhea {
 } hhea ;
 
 table head {
-  FontRevision 0.900;
+  FontRevision 1.000;
 } head;
 
 table name {

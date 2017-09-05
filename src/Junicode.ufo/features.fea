@@ -4538,9 +4538,9 @@ lookup kern_Vertical_Kerning {
 
 lookup kern_Veritcal_f_quoteright_s {
   lookupflag 0 ;
-   @apost = [ quoteright ] ;
+   @effpost = [ quoteright ] ;
    @ess = [ s ] ;
-   pos @eff @apost' <0 -70 0 0> @ess ;
+   pos @eff @effpost' <0 -70 0 0> @ess ;
 } kern_Veritcal_f_quoteright_s ;
 
 feature mark {
@@ -5025,7 +5025,7 @@ table hhea {
 } hhea ;
 
 table head {
-  FontRevision 0.900;
+  FontRevision 1.000;
 } head;
 
 table name {

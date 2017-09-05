@@ -2333,51 +2333,48 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E74 ] # U tilde below
 	     <anchor 1118 1415> mark @above_center
 	     <anchor 559 -492> mark @below_center;
-
-
-# stop here
   pos base [ uni1E7C ] # V tilde
-	     <anchor 735 1800> mark @above_center
-	     <anchor 623 -75> mark @below_center;
+	     <anchor 959 1800> mark @above_center
+	     <anchor 439 -75> mark @below_center;
   pos base [ uni1E7E ] # V dot below
-	     <anchor 675 1415> mark @above_center
-	     <anchor 623 -485> mark @below_center;
+	     <anchor 942 1415> mark @above_center
+	     <anchor 435 -485> mark @below_center;
   pos base [ Wgrave Wacute Wcircumflex uni1E86 Wdieresis ]
-	     <anchor 1043 1800> mark @above_center
-	     <anchor 1026 -75> mark @below_center;
+	     <anchor 1358 1800> mark @above_center
+	     <anchor 894 -75> mark @below_center;
   pos base [ uni1E88 ] # W dot below
-	     <anchor 1043 1415> mark @above_center
-	     <anchor 1002 -485> mark @below_center;
+	     <anchor 1302 1415> mark @above_center
+	     <anchor 855 -485> mark @below_center;
   pos base [ uni1E8A uni1E8C ] # X dot, dieresis
-	     <anchor 727 1800> mark @above_center
-	     <anchor 650 -75> mark @below_center;
+	     <anchor 1085 1800> mark @above_center
+	     <anchor 585 -75> mark @below_center;
   pos base [ Ygrave Ycircumflex uni1EF8 uni0232 uni1E8E Ydieresis ]
-	     <anchor 655 1800> mark @above_center
-	     <anchor 607 -75> mark @below_center;
+	     <anchor 1075 1800> mark @above_center
+	     <anchor 492 -75> mark @below_center;
   pos base [ uni1EF6 ] # Y hook
-	     <anchor 655 1960> mark @above_center
-	     <anchor 607 -75> mark @below_center;
+	     <anchor 1087 1960> mark @above_center
+	     <anchor 492 -75> mark @below_center;
   pos base [ uni1EF4 ] # Y dot below
-	     <anchor 655 1415> mark @above_center
-	     <anchor 607 -485> mark @below_center;
+	     <anchor 934 1415> mark @above_center
+	     <anchor 436 -485> mark @below_center;
   pos base [ Zacute uni1E90 Zdotaccent Zcaron ]
-	     <anchor 675 1800> mark @above_center
-	     <anchor 675 -75> mark @below_center;
+	     <anchor 945 1800> mark @above_center
+	     <anchor 526 -75> mark @below_center;
   pos base [ uni1E92 ] # Z dot below
-	     <anchor 675 1415> mark @above_center
-	     <anchor 725 -485> mark @below_center;
+	     <anchor 954 1415> mark @above_center
+	     <anchor 455 -485> mark @below_center;
   pos base [ uni1E94 ] # Z macron below
-	     <anchor 675 1415> mark @above_center
-	     <anchor 675 -414> mark @below_center;
+	     <anchor 954 1415> mark @above_center
+	     <anchor 489 -414> mark @below_center;
   pos base [ AEacute ]
-	     <anchor 1105 1800> mark @above_center
-	     <anchor 879 -75> mark @below_center;
+	     <anchor 1465 1800> mark @above_center
+	     <anchor 802 -75> mark @below_center;
   pos base [ uni01E2 ]
-	     <anchor 1055 1800> mark @above_center
-	     <anchor 879 -75> mark @below_center;
+	     <anchor 1555 1800> mark @above_center
+	     <anchor 802 -75> mark @below_center;
   pos base [ uni01EE ]
-	     <anchor 535 1800> mark @above_center
-	     <anchor 477 -75> mark @below_center;
+	     <anchor 797 1800> mark @above_center
+	     <anchor 195 -75> mark @below_center;
 
 } mark_Mark_Positioning;
 
@@ -2877,7 +2874,7 @@ table hhea {
 } hhea ;
 
 table head {
-  FontRevision 0.900;
+  FontRevision 1.000;
 } head;
 
 table name {

@@ -136,7 +136,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://junicode.sourceforge.net/</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 0.007</string>
+	<string>Version 1.000</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>1</integer>
