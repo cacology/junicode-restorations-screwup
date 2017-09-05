@@ -1491,6 +1491,9 @@ lookup mark_Mark_Positioning {
   pos base [ ae ]
       	     <anchor 800 900> mark @above_center
 	     <anchor 405 -75> mark @below_center ;
+  pos base [ ccedilla ]
+      	     <anchor 550 900> mark @above_center
+	     <anchor 186 -464> mark @below_center ;
   pos base [ eth eth.alt ]
       	     <anchor 564 1545> mark @above_center
 	     <anchor 336 -75> mark @below_center ;
@@ -1702,6 +1705,9 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E01 ] # a ring below
       	     <anchor 620 900> mark @above_center
 	     <anchor 260 -578> mark @below_center ;
+  pos base [ uni1E03 ] # b dot
+      	     <anchor 581 1528> mark @above_center
+	     <anchor 335 -75> mark @below_center ; 
   pos base [ uni1E05 ] # b dot below
       	     <anchor 630 1545> mark @above_center
 	     <anchor 180 -500> mark @below_center ;
