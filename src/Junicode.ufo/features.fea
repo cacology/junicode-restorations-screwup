@@ -950,7 +950,6 @@ lookup salt_Stylistic_Alternates {
     sub a by uniEEE0 ;
     sub b by uniEEE1 ;
     sub c by uniEEE2 ;
-    sub e by uniEEE6 ;
     sub g by uniEEE8 ;
     sub h by uniEEE9 ;
     sub i by uniEEEA ;
@@ -986,10 +985,11 @@ lookup salt_Stylistic_Alternates_B {
     sub H from [ uniF110 uniEEE9 ] ;
     sub M from [ uniF11A uniEEEE ] ;
     sub S from [ uniF126 uniEEF4 ] ;
-    sub d from [ uniEEE3 uniEEE4 ] ;
-    sub f from [ uniEEE7 f.alt ] ;
-    sub k from [ uniF208 uniF209 uniEEEC ] ;
-    sub r from [ uniF10E uniEEF3 ] ;
+    sub e from [ uniEEE6 uniF218 uniF219 uniF21A ];
+    sub d from [ uniEEE3 uniEEE4 uniF193 ] ;
+    sub f from [ f.alt uniA77C uniEEE7 uniEEFF uniF207 uniF21B uniF21C uniF194 ] ;
+    sub k from [ uniF208 uniF209 uniEEEC uniF221 uniF195 ] ;
+    sub r from [ uni027C uniA75B uniA783 uniEEF3 ] ;
     sub uni1E9C from [ uniE8B7 uniE8B8 ] ;
 } salt_Stylistic_Alternates_B ;
 
