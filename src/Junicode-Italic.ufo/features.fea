@@ -1386,12 +1386,18 @@ lookup mark_Mark_Positioning {
   pos base [ S ]
       	     <anchor 850 1415> mark @above_center
 	     <anchor 408 -75> mark @below_center ;
+  pos base [ Scedilla ]
+      	     <anchor 850 1415> mark @above_center
+	     <anchor 345 -534> mark @below_center ;
   pos base [ T ]
       	     <anchor 960 1415> mark @above_center
 	     <anchor 548 -75> mark @below_center ;
   pos base [ U Uhorn ]
       	     <anchor 1118 1415> mark @above_center
 	     <anchor 670 -75> mark @below_center ;
+  pos base [ Uogonek ]
+      	     <anchor 1118 1415> mark @above_center
+	     <anchor 653 -563> mark @below_center ;
   pos base [ V ]
       	     <anchor 942 1415> mark @above_center
 	     <anchor 439 -75> mark @below_center ;
@@ -1488,6 +1494,9 @@ lookup mark_Mark_Positioning {
   pos base [ s ]
       	     <anchor 384 900> mark @above_center
 	     <anchor 191 -75> mark @below_center ;
+  pos base [ scedilla ]
+      	     <anchor 384 900> mark @above_center
+	     <anchor 26 -464> mark @below_center ;
   pos base [ t ]
       	     <anchor 480 1305> mark @above_center
 	     <anchor 201 -75> mark @below_center ;
@@ -1756,6 +1765,9 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E11 ] # d cedilla
       	     <anchor 736 1545> mark @above_center
 	     <anchor 143 -535> mark @below_center ;
+  pos base [ uni1E13 ] # d circumflex below
+      	     <anchor 736 1545> mark @above_center
+	     <anchor 306 -621> mark @below_center ;
   pos base [ uni1E0D ] # d dot below
       	     <anchor 736 1545> mark @above_center
 	     <anchor 285 -500> mark @below_center ;
@@ -1816,8 +1828,11 @@ lookup mark_Mark_Positioning {
   pos base [ gcaron gcircumflex ]
       	     <anchor 604 1440> mark @above_center
       	     <anchor 233 -603> mark @below_center ;
-  pos base [ uni1E23 uni1E27 ] # h dot
+  pos base [ uni1E23 ] # h dot
       	     <anchor 503 1803> mark @above_center
+      	     <anchor 358 -75> mark @below_center ;
+  pos base [ uni1E27 ] # h dieresisw
+      	     <anchor 777 1803> mark @above_center
       	     <anchor 358 -75> mark @below_center ;
   pos base [ hcircumflex uni021F ]
       	     <anchor 515 1829> mark @above_center
@@ -1861,7 +1876,10 @@ lookup mark_Mark_Positioning {
   pos base [ uni1E33 ] # k dot below
       	     <anchor 668 1545> mark @above_center
 	     <anchor 264 -500> mark @below_center ;
-  pos base [ uni01E9 ] # k caron
+  pos base [ uni1E35 ] # k macron below
+      	     <anchor 668 1545> mark @above_center
+	     <anchor 231 -500> mark @below_center ;
+  pos base [ uni01E9 uni1E31 ] # k caron
       	     <anchor 518 1880> mark @above_center
 	     <anchor 356 -75> mark @below_center ;
   pos base [ lacute ]
@@ -1974,7 +1992,7 @@ lookup mark_Mark_Positioning {
 	     <anchor 191 -75> mark @below_center ;
   pos base [ scaron scircumflex ]
       	     <anchor 493 1440> mark @above_center
-	     <anchor 369 -75> mark @below_center ;
+	     <anchor 191 -75> mark @below_center ;
   pos base [ uni1E9B ] # longs with dot
       	     <anchor 709 1851> mark @above_center
 	     <anchor 568 -75> mark @below_center ;
@@ -2005,7 +2023,7 @@ lookup mark_Mark_Positioning {
   pos base [ ubreve uni0217 ]
       	     <anchor 722 1290> mark @above_center
 	     <anchor 406 -75> mark @below_center ;
-  pos base [ ugrave uacute uring uni0215 uni1EE9 ]
+  pos base [ ugrave uacute uring uni0215 uni1EE9 uhungarumlaut ]
       	     <anchor 728 1370> mark @above_center
 	     <anchor 406 -75> mark @below_center ;
   pos base [ ucircumflex uni01D4 uni1EE7 uni1EED ]
@@ -2035,6 +2053,9 @@ lookup mark_Mark_Positioning {
   pos base [ wgrave wacute uni1E98 ]
       	     <anchor 825 1370> mark @above_center
 	     <anchor 578 -75> mark @below_center ;
+  pos base [ wcircumflex ]
+      	     <anchor 906 1440> mark @above_center
+	     <anchor 578 -75> mark @below_center ;
   pos base [ uni1E89 ] # w dot below
       	     <anchor 828 900> mark @above_center
 	     <anchor 530 -500> mark @below_center ;
@@ -2043,6 +2064,9 @@ lookup mark_Mark_Positioning {
 	     <anchor 408 -75> mark @below_center ;
   pos base [ yacute uni1E99 ]
       	     <anchor 560 1370> mark @above_center
+	     <anchor 203 -626> mark @below_center ;
+  pos base [ ycircumflex ]
+      	     <anchor 596 1440> mark @above_center
 	     <anchor 203 -626> mark @below_center ;
   pos base [ uni1EF7 ] # y hook
       	     <anchor 638 1458> mark @above_center
@@ -2292,7 +2316,7 @@ lookup mark_Mark_Positioning {
       	     <anchor 944 1800> mark @above_center
   	     <anchor 527 -75> mark @below_center;
   pos base [ Racute uni1E58 Rcaron uni0210 ]
-      	     <anchor 1101 1800> mark @above_center
+      	     <anchor 991 1800> mark @above_center
   	     <anchor 529 -75> mark @below_center;
   pos base [ Rcommaaccent ]
       	     <anchor 880 1415> mark @above_center
@@ -2355,7 +2379,7 @@ lookup mark_Mark_Positioning {
 	     <anchor 1153 1900> mark @above_center
 	     <anchor 670 -75> mark @below_center;
   pos base [ uni1EE4 uni1EF0 uni1E72 ] # U, Uhorn dot below
-	     <anchor 799 1415> mark @above_center
+	     <anchor 1118 1415> mark @above_center
 	     <anchor 610 -485> mark @below_center;
   pos base [ uni1E76 ] # U circumflex below
 	     <anchor 1118 1415> mark @above_center
@@ -2388,7 +2412,7 @@ lookup mark_Mark_Positioning {
 	     <anchor 934 1415> mark @above_center
 	     <anchor 436 -485> mark @below_center;
   pos base [ Zacute uni1E90 Zdotaccent Zcaron ]
-	     <anchor 945 1800> mark @above_center
+	     <anchor 965 1800> mark @above_center
 	     <anchor 526 -75> mark @below_center;
   pos base [ uni1E92 ] # Z dot below
 	     <anchor 954 1415> mark @above_center
