@@ -3,7 +3,7 @@
   <advance width="1199"/>
   <unicode hex="017D"/>
   <outline>
-    <contour>
+    <component base="CapCaron" xOffset="190"/>
     <component base="Z"/>
   </outline>
 </glyph>
