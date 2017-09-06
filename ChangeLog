@@ -1,3 +1,16 @@
+2017-09-06  Peter Baker  <peter@hengest>
+
+	* Junicode, Junicode-Italic: Mkmk failed in different ways in
+	different applications. It turned out this was about the ways
+	different shaping engines handled normalization. Solution was to
+	add anchors to the precomposed characters in the Unicode
+	Normalization List (single-storey only).
+
+2017-08-27  Peter Baker  <peter@hengest>
+
+	* Junicode, Junicode-Italic: MUFI 4.0 now fully implemented in
+	regular and italic faces.
+
 2017-08-16  Peter Baker  <peter@hengest>
 
 	* Junicode-Italic: Characters and features added to bring italic
