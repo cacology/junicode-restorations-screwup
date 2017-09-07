@@ -1317,6 +1317,9 @@ feature calt {
 
 lookup mark_Mark_Positioning {
   lookupflag IgnoreLigatures;
+  pos base [ uni25CC ]
+      	     <anchor 555 900> mark @above_center
+	     <anchor 555 -75> mark @below_center ;
   pos base [ A ]
       	     <anchor 950 1415> mark @above_center
       	     <anchor 449 -75> mark @below_center ;
