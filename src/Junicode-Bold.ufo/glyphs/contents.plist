@@ -2358,5 +2358,9 @@
 	<string>zero.glif</string>
 	<key>zero.oldstyle</key>
 	<string>zero.oldstyle.glif</string>
+	<key>zero.zero</key>
+	<string>zero.zero.glif</string>
+	<key>zero.oldstylezero</key>
+	<string>zero.oldstylezero.glif</string>
 </dict>
 </plist>

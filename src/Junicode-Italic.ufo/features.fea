@@ -251,6 +251,12 @@ lookup onum_Old_Style_Figures {
     sub cent by cent.oldstyle ;
 } onum_Old_Style_Figures;
 
+lookup zero_Slashed_Zero {
+  lookupflag 0;
+  sub zero by zero.zero;
+  sub zero.oldstyle by zero.oldstylezero;
+} zero_Slashed_Zero;
+
 lookup swsh_Swashes {
   lookupflag 0;
     sub A by A.swash ;
@@ -1184,6 +1190,10 @@ feature subs {
 feature onum {
   lookup onum_Old_Style_Figures;
 } onum;
+
+feature zero {
+  lookup zero_Slashed_Zero;
+} zero;
 
 feature swsh {
   lookup swsh_Swashes;
