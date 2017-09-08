@@ -5017,6 +5017,7 @@ table OS/2 {
   XHeight 856 ;
   CapHeight 1358 ;
   WeightClass 400 ;
+  UnicodeRange 0 1 2 3 4 5 6 29 31 36 42 79 86;
 #  Vendor "PfEd" ;
 } OS/2 ;
 
