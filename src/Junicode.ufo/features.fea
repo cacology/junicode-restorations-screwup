@@ -1057,8 +1057,8 @@ lookup case_Case_Sensitive_Forms {
 
 lookup hlig_Historic_Ligatures {
   lookupflag 0 ;
-    sub A V uni0336  by uniEF98 ;
-    sub a v uni0336  by uniEF99 ;
+    sub A V uni0336  by uniA738 ;
+    sub a v uni0336  by uniA739 ;
     sub a uniE73A uni0336  by uniEBB1 ;
     sub A uniE33A uni0336  by uniEBB0 ;
     sub a v uni0328  by uniEBF1 ;
@@ -1137,7 +1137,7 @@ lookup hlig_Historic_Ligatures {
     sub o uni1ECD  by uniEFFD ;
     sub O uni1ECC  by uniEFFC ;
     sub P P  by uniEEDD ;
-    sub uniE67D p  by uniEED7 ;
+    sub uniA753 p  by uniEED7 ;
     sub q uniA75B  by uniE8B3 ;
     sub q uniA76B  by uniE8BF ;
     sub longs uniF221  by uniEBAC ;
@@ -1179,14 +1179,9 @@ lookup hlig_Historic_Ligatures {
 
 lookup dlig_Discretionary_Ligatures {
   lookupflag 0 ;
-    sub V I I I  by uni2167 ;
-    sub v i i i  by uni2177 ;
-    sub I I I  by uni2162 ;
-    sub V I I  by uni2166 ;
-    sub X I I  by uni216B ;
-    sub i i i  by uni2172 ;
-    sub v i i  by uni2176 ;
-    sub x i i  by uni217B ;
+# six elements:
+    sub bracketleft bracketleft one zero bracketright bracketright  by uni24FE ;
+# five elements:
     sub bracketleft bracketleft one bracketright bracketright  by uni24F5 ;
     sub bracketleft bracketleft two bracketright bracketright  by uni24F6 ;
     sub bracketleft bracketleft three bracketright bracketright  by uni24F7 ;
@@ -1196,29 +1191,9 @@ lookup dlig_Discretionary_Ligatures {
     sub bracketleft bracketleft seven bracketright bracketright  by uni24FB ;
     sub bracketleft bracketleft eight bracketright bracketright  by uni24FC ;
     sub bracketleft bracketleft nine bracketright bracketright  by uni24FD ;
-    sub bracketleft bracketleft one zero bracketright bracketright  by uni24FE ;
-    sub t t r  by t_t_r ;
-    sub t t y  by t_t_y ;
-    sub h v  by uni0195 ;
-    sub I I  by uni2161 ;
-    sub I V  by uni2163 ;
-    sub V I  by uni2165 ;
-    sub I X  by uni2168 ;
-    sub X I  by uni216A ;
-    sub i i  by uni2171 ;
-    sub i v  by uni2173 ;
-    sub v i  by uni2175 ;
-    sub i x  by uni2178 ;
-    sub x i  by uni217A ;
-    sub bracketleft one bracketright  by uni2460 ;
-    sub bracketleft two bracketright  by uni2461 ;
-    sub bracketleft three bracketright  by uni2462 ;
-    sub bracketleft four bracketright  by uni2463 ;
-    sub bracketleft five bracketright  by uni2464 ;
-    sub bracketleft six bracketright  by uni2465 ;
-    sub bracketleft seven bracketright  by uni2466 ;
-    sub bracketleft eight bracketright  by uni2467 ;
-    sub bracketleft nine bracketright  by uni2468 ;
+# four elements:
+    sub V I I I  by uni2167 ;
+    sub v i i i  by uni2177 ;
     sub bracketleft one zero bracketright  by uni2469 ;
     sub bracketleft one one bracketright  by uni246A ;
     sub bracketleft one two bracketright  by uni246B ;
@@ -1230,6 +1205,46 @@ lookup dlig_Discretionary_Ligatures {
     sub bracketleft one eight bracketright  by uni2471 ;
     sub bracketleft one nine bracketright  by uni2472 ;
     sub bracketleft two zero bracketright  by uni2473 ;
+    sub less one one greater  by uni24EB ;
+    sub less one two greater  by uni24EC ;
+    sub less one three greater  by uni24ED ;
+    sub less one four greater  by uni24EE ;
+    sub less one five greater  by uni24EF ;
+    sub less one six greater  by uni24F0 ;
+    sub less one seven greater  by uni24F1 ;
+    sub less one eight greater  by uni24F2 ;
+    sub less one nine greater  by uni24F3 ;
+    sub less two zero greater  by uni24F4 ;
+    sub less one zero greater  by uni277F ;
+    sub parenleft one zero parenright  by uni247D ;
+    sub parenleft one one parenright  by uni247E ;
+    sub parenleft one two parenright  by uni247F ;
+    sub parenleft one three parenright  by uni2480 ;
+    sub parenleft one four parenright  by uni2481 ;
+    sub parenleft one five parenright  by uni2482 ;
+    sub parenleft one six parenright  by uni2483 ;
+    sub parenleft one seven parenright  by uni2484 ;
+    sub parenleft one eight parenright  by uni2485 ;
+    sub parenleft one nine parenright  by uni2486 ;
+    sub parenleft two zero parenright  by uni2487 ;
+# three elements:
+    sub t t r  by t_t_r ;
+    sub t t y  by t_t_y ;
+    sub I I I  by uni2162 ;
+    sub V I I  by uni2166 ;
+    sub X I I  by uni216B ;
+    sub i i i  by uni2172 ;
+    sub v i i  by uni2176 ;
+    sub x i i  by uni217B ;
+    sub bracketleft one bracketright  by uni2460 ;
+    sub bracketleft two bracketright  by uni2461 ;
+    sub bracketleft three bracketright  by uni2462 ;
+    sub bracketleft four bracketright  by uni2463 ;
+    sub bracketleft five bracketright  by uni2464 ;
+    sub bracketleft six bracketright  by uni2465 ;
+    sub bracketleft seven bracketright  by uni2466 ;
+    sub bracketleft eight bracketright  by uni2467 ;
+    sub bracketleft nine bracketright  by uni2468 ;
     sub bracketleft A bracketright  by uni24B6 ;
     sub bracketleft B bracketright  by uni24B7 ;
     sub bracketleft C bracketright  by uni24B8 ;
@@ -1283,16 +1298,6 @@ lookup dlig_Discretionary_Ligatures {
     sub bracketleft y bracketright  by uni24E8 ;
     sub bracketleft z bracketright  by uni24E9 ;
     sub bracketleft zero bracketright  by uni24EA ;
-    sub less one one greater  by uni24EB ;
-    sub less one two greater  by uni24EC ;
-    sub less one three greater  by uni24ED ;
-    sub less one four greater  by uni24EE ;
-    sub less one five greater  by uni24EF ;
-    sub less one six greater  by uni24F0 ;
-    sub less one seven greater  by uni24F1 ;
-    sub less one eight greater  by uni24F2 ;
-    sub less one nine greater  by uni24F3 ;
-    sub less two zero greater  by uni24F4 ;
     sub less zero greater  by uni24FF ;
     sub less one greater  by uni2776 ;
     sub less two greater  by uni2777 ;
@@ -1303,7 +1308,6 @@ lookup dlig_Discretionary_Ligatures {
     sub less seven greater  by uni277C ;
     sub less eight greater  by uni277D ;
     sub less nine greater  by uni277E ;
-    sub less one zero greater  by uni277F ;
     sub one zero uni20DD  by uni2469 ;
     sub one one uni20DD  by uni246A ;
     sub one two uni20DD  by uni246B ;
@@ -1315,17 +1319,6 @@ lookup dlig_Discretionary_Ligatures {
     sub one eight uni20DD  by uni2471 ;
     sub one nine uni20DD  by uni2472 ;
     sub two zero uni20DD  by uni2473 ;
-    sub parenleft one zero parenright  by uni247D ;
-    sub parenleft one one parenright  by uni247E ;
-    sub parenleft one two parenright  by uni247F ;
-    sub parenleft one three parenright  by uni2480 ;
-    sub parenleft one four parenright  by uni2481 ;
-    sub parenleft one five parenright  by uni2482 ;
-    sub parenleft one six parenright  by uni2483 ;
-    sub parenleft one seven parenright  by uni2484 ;
-    sub parenleft one eight parenright  by uni2485 ;
-    sub parenleft one nine parenright  by uni2486 ;
-    sub parenleft two zero parenright  by uni2487 ;
     sub one zero period  by uni2491 ;
     sub one one period  by uni2492 ;
     sub one two period  by uni2493 ;
@@ -1337,15 +1330,6 @@ lookup dlig_Discretionary_Ligatures {
     sub one eight period  by uni2499 ;
     sub one nine period  by uni249A ;
     sub two zero period  by uni249B ;
-    sub one uni20DD  by uni2460 ;
-    sub two uni20DD  by uni2461 ;
-    sub three uni20DD  by uni2462 ;
-    sub four uni20DD  by uni2463 ;
-    sub five uni20DD  by uni2464 ;
-    sub six uni20DD  by uni2465 ;
-    sub seven uni20DD  by uni2466 ;
-    sub eight uni20DD  by uni2467 ;
-    sub nine uni20DD  by uni2468 ;
     sub parenleft one parenright  by uni2474 ;
     sub parenleft two parenright  by uni2475 ;
     sub parenleft three parenright  by uni2476 ;
@@ -1355,15 +1339,6 @@ lookup dlig_Discretionary_Ligatures {
     sub parenleft seven parenright  by uni247A ;
     sub parenleft eight parenright  by uni247B ;
     sub parenleft nine parenright  by uni247C ;
-    sub one period  by uni2488 ;
-    sub two period  by uni2489 ;
-    sub three period  by uni248A ;
-    sub four period  by uni248B ;
-    sub five period  by uni248C ;
-    sub six period  by uni248D ;
-    sub seven period  by uni248E ;
-    sub eight period  by uni248F ;
-    sub nine period  by uni2490 ;
     sub parenleft a parenright  by uni249C ;
     sub parenleft b parenright  by uni249D ;
     sub parenleft c parenright  by uni249E ;
@@ -1390,11 +1365,41 @@ lookup dlig_Discretionary_Ligatures {
     sub parenleft x parenright  by uni24B3 ;
     sub parenleft y parenright  by uni24B4 ;
     sub parenleft z parenright  by uni24B5 ;
-    sub s t  by uniFB06 ;
+# two elements:
+    sub I I  by uni2161 ;
+    sub I V  by uni2163 ;
+    sub I X  by uni2168 ;
+    sub V I  by uni2165 ;
+    sub X I  by uni216A ;
     sub c t  by uniEEC5 ;
+    sub h v  by uni0195 ;
+    sub i i  by uni2171 ;
+    sub i v  by uni2173 ;
+    sub i x  by uni2178 ;
+    sub s t  by uniFB06 ;
     sub t r  by uniEED8 ;
     sub t t  by uniEED9 ;
     sub t y  by uniEEDB ;
+    sub v i  by uni2175 ;
+    sub x i  by uni217A ;
+    sub one uni20DD  by uni2460 ;
+    sub two uni20DD  by uni2461 ;
+    sub three uni20DD  by uni2462 ;
+    sub four uni20DD  by uni2463 ;
+    sub five uni20DD  by uni2464 ;
+    sub six uni20DD  by uni2465 ;
+    sub seven uni20DD  by uni2466 ;
+    sub eight uni20DD  by uni2467 ;
+    sub nine uni20DD  by uni2468 ;
+    sub one period  by uni2488 ;
+    sub two period  by uni2489 ;
+    sub three period  by uni248A ;
+    sub four period  by uni248B ;
+    sub five period  by uni248C ;
+    sub six period  by uni248D ;
+    sub seven period  by uni248E ;
+    sub eight period  by uni248F ;
+    sub nine period  by uni2490 ;
 } dlig_Discretionary_Ligatures ;
 
 lookup liga_Standard_Ligatures {
@@ -1405,48 +1410,50 @@ lookup liga_Standard_Ligatures {
     sub f f l  by uniFB04 ;
     sub longs longs i  by uniE1AC ;
     sub longs longs l  by uniE1AD ;
+    sub longs longs k  by uniF4FE ;
+    sub longs longs t  by uniF4FF ;
     sub longs t i  by uniEBA9 ;
     sub longs t r  by uniEBAA ;
-    sub longs longs t  by uniF4FF ;
-    sub longs longs k  by uniF4FE ;
     sub f f t  by f_f_t ;
     sub f f y  by f_f_y ;
     sub f t y  by f_t_y ;
     sub f f udieresis  by f_f_udieresis ;
-    sub period period  by twodotenleader ;
-    sub uni2035 uni2035  by uni2036 ;
-    sub exclam exclam  by exclamdbl ;
-    sub question question  by uni2047 ;
-    sub question exclam  by uni2048 ;
-    sub exclam question  by uni2049 ;
-    sub f f  by uniFB00 ;
-    sub f i  by uniFB01 ;
-    sub f l  by uniFB02 ;
-    sub longs t  by uniFB05 ;
-    sub longs longs  by uniE1AB ;
-    sub longs l  by uniE1AA ;
-    sub longs h  by uniE1A7 ;
-    sub longs k  by uniE1A9 ;
-    sub longs i  by uniE1A8 ;
-    sub longs b  by uniE1A6 ;
-    sub longs p  by uniEBA5 ;
-    sub longs adieresis  by uniEBA0 ;
-    sub longs odieresis  by uniEBA4 ;
-    sub longs udieresis  by uniEBAB ;
-    sub uniA787 uniA787  by uniEEDA ;
-    sub f thorn  by f_thorn ;
-    sub f eth  by f_eth ;
-    sub f thorn.nordic  by f_thorn.nordic ;
-    sub longs s  by uniF4FD ;
-    sub longs j  by uniF4FB ;
-    sub f eth.nordic  by f_eth.nordic ;
-    sub f y  by f_y ;
-    sub f j  by f_j ;
-    sub f r  by f_r ;
-    sub f t  by f_t ;
-    sub f udieresis  by f_udieresis ;
-    sub f odieresis  by f_odieresis ;
-    sub Q u  by Q_u ;
+    sub Q u by Q_u ;
+    sub exclam exclam by exclamdbl ;
+    sub exclam question by uni2049 ;
+    sub f eth by f_eth ;
+    sub f eth.nordic by f_eth.nordic ;
+    sub f f by uniFB00 ;
+    sub f i by uniFB01 ;
+    sub f j by f_j ;
+    sub f l by uniFB02 ;
+    sub f odieresis by f_odieresis ;
+    sub f r by f_r ;
+    sub f t by f_t ;
+    sub f thorn by f_thorn ;
+    sub f thorn.nordic by f_thorn.nordic ;
+    sub f udieresis by f_udieresis ;
+    sub f y by f_y ;
+    sub longs adieresis by uniEBA0 ;
+    sub longs b by uniE1A6 ;
+    sub longs h by uniE1A7 ;
+    sub longs i by uniE1A8 ;
+    sub longs j by uniF4FB ;
+    sub longs k by uniE1A9 ;
+    sub longs l by uniE1AA ;
+    sub longs longs by uniE1AB ;
+    sub longs odieresis by uniEBA4 ;
+    sub longs p by uniEBA5 ;
+    sub longs s by uniF4FD ;
+    sub longs t by uniFB05 ;
+    sub longs udieresis by uniEBAB ;
+    sub minute minute by second;
+    sub period period by twodotenleader ;
+    sub question exclam by uni2048 ;
+    sub question question by uni2047 ;
+    sub uni2035 uni2035 by uni2036 ;
+    sub uniA787 uniA787 by uniEEDA ;
+    sub uniF127 t by uniEADA;
 } liga_Standard_Ligatures ;
 
 lookup calt_Non_Colliding_f {
@@ -1818,7 +1825,7 @@ lookup mark_Mark_Positioning {
   pos base [ uniA783 ] # insular r
       	     <anchor 541 900> mark @above_center
 	     <anchor 515 -561> mark @below_center ;
-  pos base [ p per pro ]
+  pos base [ p uniA751 uniA753 ]
       	     <anchor 512 900> mark @above_center
 	     <anchor 319 -626> mark @below_center ;
   pos base [ q uni02A0 uniA757 uniA759 ]
@@ -3380,7 +3387,7 @@ lookup kern_Horizontal_Kerning {
     @kc59_second_33 = [ uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron 
 	uni01D4 uni01D6 uni01D8 uni01DA uni01DC uring utilde ] ;
     @kc59_second_34 = [ uni0233 yacute ydieresis ] ;
-    @kc59_second_35 = [ pro ] ;
+    @kc59_second_35 = [ uniA753 ] ;
     @kc59_second_36 = [ v w ] ;
     @kc59_second_37 = [ v.sc w.sc uniF776 uniF777 ] ;
     @kc59_second_38 = [ x ] ;
@@ -4796,7 +4803,7 @@ feature kern {
 	uniA77A.alt uni20B0 uni1E9C uni1E9D uni1E9E uni1E9F uni1EFB uni1EFC 
 	uni1EFD uni1EFF uni1EFE uniA730 uniA731 uniA73A uniA73B uniA73E uniA73F 
 	uniA741 uniA740 uniA742 uniA743 uniA744 uniA745 uniA746 uniA747 uniA748 
-	uniA749 uniA74C uniA74D uniA750 per uniA752 pro uniA754 uniA755 uniA756 
+	uniA749 uniA74C uniA74D uniA750 uniA751 uniA752 uniA753 uniA754 uniA755 uniA756 
 	uniA757 uniA758 uniA759 uniA75A uniA75B uniA75E uniA75F uniA764 uniA765 
 	uniA766 uniA767 uniA74A uniA74B uniA75C uniA75D uniA768 uniA769 uniA76A 
 	uniA76B uniA76C uniA76D uniA76E uniA76F uniA770 uniA771 uniA772 uniA773 
