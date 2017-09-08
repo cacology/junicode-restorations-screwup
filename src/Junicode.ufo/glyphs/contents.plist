@@ -942,7 +942,7 @@
 	<string>parenright.sc.glif</string>
 	<key>partialdiff</key>
 	<string>partialdiff.glif</string>
-	<key>per</key>
+	<key>uniA751</key>
 	<string>uniA_751.glif</string>
 	<key>percent</key>
 	<string>percent.glif</string>
@@ -964,7 +964,7 @@
 	<string>plusminus.glif</string>
 	<key>prescription</key>
 	<string>prescription.glif</string>
-	<key>pro</key>
+	<key>uniA753</key>
 	<string>uniA_753.glif</string>
 	<key>product</key>
 	<string>product.glif</string>
@@ -6000,5 +6000,9 @@
 	<string>zero.glif</string>
 	<key>zero.oldstyle</key>
 	<string>zero.oldstyle.glif</string>
+	<key>zero.zero</key>
+	<string>zero.zero.glif</string>
+	<key>zero.oldstylezero</key>
+	<string>zero.oldstylezero.glif</string>
 </dict>
 </plist>

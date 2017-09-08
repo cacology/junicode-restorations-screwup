@@ -1193,6 +1193,8 @@
 		<string>CapDieresis</string>
 		<string>percent.sc</string>
 		<string>five.oldstyle</string>
+		<string>zero.zero</string>
+		<string>zero.oldstylezero</string>
 	</array>
 </dict>
 </plist>

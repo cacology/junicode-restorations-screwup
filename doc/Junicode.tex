@@ -352,11 +352,10 @@ se o tom, co nám anděl oznámil. Mojžíšův Zákon přikazoval, aby každá
 
 {\itshape Following is a list of the OpenType features in
   Junicode. For instructions on applying OpenType features, consult
-  the documentation for your preferred application. Note that you
-  should turn on the following features, if they are not on by
-  default: {\upshape liga} (Standard Ligatures), {\upshape ccmp}
-  (Glyph Composition/Decomposition), {\upshape calt} (Contextual
-  Alternates), {\upshape kern} (Horizontal Kerning).}
+  the documentation for your preferred application. The first three of
+  these (Standard Ligatures, Contextual Alternates, Kerning) should
+  generally be on (they already are in most applications, but in
+  Microsoft Word you must turn them on yourself).}
 
 \subsection*{Standard Ligatures (liga)}
 
@@ -365,36 +364,29 @@ Like many old-style fonts, Junicode contains the most common f-ligatures
 (e.g. thrift fifty afraid für fördern).  It
 also has long-s ligatures (e.g. aſſert ſtart ſlick omiſſion).
 
-%\subsection*{Glyph Composition/Decomposition (ccmp)}
-%
-%A base character followed by one or more combining diacritical marks
-%is replaced with a precomposed character when that would look
-%different from the character + diacritic sequence: for example A +
-%U+301 makes Á, where a special upper-case form of the diacritic is
-%used.
-
 \subsection*{Contextual Alternates (calt)}
 
-When this feature is on (as it is by default in most applications,
-though it must be turned on explicitly in Microsoft Word), Junicode
+When this feature is on, Junicode
 will avoid unsightly collisions between neighboring characters such as
 f and vowels with diacritics, e.g.  fêler fíf fŭl. If you find that f
-collides with some other character, you can select the narrower
-\saltb{f} via the OpenType salt feature.
+collides with some other character, you can select the narrow
+\saltb{f} via the OpenType {\scshape Stylistic Alternates} feature.
+
+\subsection*{Kerning (kern)}
+
+In most text-based applications, {\scshape Kerning} (which makes fine
+adjustments to the spacing
+between characters) is on by default, but in
+Microsoft Word it must be turned on explicitly. Turn it off for
+an antique look.
 
 \subsection*{Stylistic Alternates (salt)}
 
 This feature gives you direct access to a number of alternates that
 are available via other features. Some of these (for example the
-narrow f) may be useful to avoid collisions that the font designer has
+narrow \saltb{f}\kern+2pt) may be useful to avoid collisions that the font designer has
 not anticipated. In Foulis Greek, a number of alternative letter shapes
 can be accessed in this way: e.g. {\greekfont β\salt{β}γ\salt{γ}ρ\salt{ρ}τ\salt{τ}φ\salt{φ}.}
-
-\subsection*{Kerning (kern)}
-
-In most text-based applications, kerning is on by default, but in
-Microsoft Word it must be turned on explicitly. Turn kerning off for
-an antique look.
 
 \subsection*{Discretionary Ligatures (dlig)}
 
@@ -415,7 +407,7 @@ Use it also for circled numbers and letters:
 \subsection*{Historic Ligatures (hlig)}
 
 Nearly all of MUFI’s ligatures are
-accessible via “Historic Ligatures” (hlig).
+accessible via {\scshape Historic Ligatures}.
 {\addfontfeature{Ligatures=Historic}Even if you are not a medievalist,
   you may still be amused by the strange effects you can achieve by
   turning on this feature: egg track caught fan sock book save aardvark
@@ -433,17 +425,17 @@ at the ends of words: {\addfontfeature{Style=Historic}“When to the sessions of
 
 \subsection*{Mark Positioning (mark and mkmk)}
 
-Where no precomposed character is available, combining marks should
-still be correctly positioned, and marks can be “stacked” via “Mark
-to Base” (mark) and “Mark to Mark” (mkmk): ŏ́ (o + U+306 + U+301);
+Where no precomposed character is available, combining marks are
+still correctly positioned, and marks can be “stacked” via {\scshape Mark
+to Base} (mark) and {\scshape Mark to Mark} (mkmk): ŏ́ (o + U+306 + U+301);
 ī̆ (i + U+304 + U+306).  The dot of an i or j followed by a diacritic
 is removed: i̽. If your application supports these
-features, they are probably on by default.
+features, they are almost certainly on by default.
 
 \subsection*{Small Capitals (smcp and c2sc)}
 
-Use “Small Caps” (smcp) to change lower-case letters to small caps;
-add “Caps to Small Caps” (c2sc) for text entirely in small
+Use {\scshape Small Caps} to change lower-case letters to small caps;
+add {\scshape Caps to Small Caps} for text entirely in small
 caps. {\scshape Junicode has true small caps rather than scaled
   capitals.} Special small cap versions of common combining diacritics
 are available, and these should be positioned correctly relative to
@@ -453,14 +445,19 @@ the base characters: {\scshape äçé}. {\itshape Regular, Italic, and
 \subsection*{Old-Style Numbers (onum)}
 
 You have a choice of either standard “lining” figures or old-style
-figures, selected by “Old-Style Numbers” (onum): 0123456789
+figures, selected by {\scshape Old-Style Numbers}: 0123456789
 {\addfontfeature{Numbers=OldStyle}0123456789.}
+
+\subsection*{Slashed Zero (zero)}
+
+Turn on this feature for a slash through the digit zero (both lining and old-style):
+{\addfontfeature{Numbers=SlashedZero} 0 {\addfontfeature{Numbers=OldStyle} 0}}.
 
 \subsection*{Superscripts and Subscripts (sups, subs)}
 
-\noindent Superscript numbers are rendered with “Superscripts” (sups):
+\noindent Superscript numbers are rendered with {\scshape Superscripts}:
 {\addfontfeature{Superscripts=on} 0123456789}.  Subscript numbers
-are rendered with “Subscripts” (subs):
+are rendered with {\scshape Subscripts}:
 {\addfontfeature{Subscripts=on} 0123456789}. In the regular and
 italic styles there is a complete alphabet of superscripts (e.g.
 {\addfontfeature{Superscripts=on}abcxyz}).
@@ -474,7 +471,7 @@ fractions in regular and italic).
 
 \subsection*{Letters with flourishes (swsh)}
 For letters with flourishes (sometimes used for setting Middle English
-texts), use “Swash” (swsh):
+texts), use {\scshape Swash}:
 {\addfontfeature{Style=Swash}c d f g k n r}. Some capital swashes are also
 available in the italic face, based on those in Hickes's \textit{Thesaurus}:
 {\addfontfeature{Style=Swash}\textit{A D J Q Æ}}.
@@ -483,7 +480,7 @@ available in the italic face, based on those in Hickes's \textit{Thesaurus}:
 
 In the regular and italic faces Junicode
 contains mirrored versions of runes. To access these, use
-Right-to-Left Mirroring (rtlm): {\addfontfeatures{MirrorRunes=on}
+{\scshape Right-to-Left Mirroring}: {\addfontfeatures{MirrorRunes=on}
   ᚾᚪᛒᛋᚫᚾᚩᚱᚻ.} This feature will not reverse the order of the runes,
 but only the shapes of the characters.
 
@@ -501,24 +498,24 @@ needed to access them.
 The default shapes of ð and þ in Junicode are English: this is unusual in
 modern fonts. For the shapes used in Icelandic, specify the Icelandic
 language, if your application has good language support, or select
-“Stylistic Set 1” (ss01): {\addfontfeature{Language=Icelandic} ðþ}.
+{\scshape Stylistic Set 1}: {\addfontfeature{Language=Icelandic} ðþ}.
 
 \subsection*{Insular letter-shapes (ss02)}
 
-Use “Stylistic Set 2” (ss02) for insular letter-forms:
+Use {\scshape Stylistic Set 2} for insular letter-forms:
 {\fontspec[StyleSet=insular]{Junicode} abcdefg.}
 
 \subsection*{Overlined characters (ss04, ss05)}
 
-Use “Stylistic Set 4” (ss04) for roman numbers with high overline
-({\fontspec[StyleSet=highline]{Junicode} viii XCXV}) and “Stylistic Set 5”
-(ss05) for lower-case roman numbers with medium-high overline
+Use {\scshape Stylistic Set 4} for roman numbers with high overline
+({\fontspec[StyleSet=highline]{Junicode} viii XCXV}) and {\scshape Stylistic Set 5}
+for lower-case roman numbers with medium-high overline
 ({\fontspec[StyleSet=medline]{Junicode} viii dclx}). These Stylistic
 Sets will work only with letters used in Roman numbers.
 
 \subsection*{Enlarged minuscules (ss06)}
 
-“Stylistic Set 6” (ss06) produces enlarged minuscules, thus:
+{\scshape Stylistic Set 6} produces enlarged minuscules, thus:
 {\addfontfeature{StyleSet=enlarged} abcdefg.} Since the underlying
 text remains unchanged, enlarged text can be searched like normal
 text.
@@ -528,14 +525,14 @@ text.
 In medieval manuscripts, text is often deleted by placing a dot under each
 letter. Both Unicode and MUFI define many characters with dots below:
 {\addfontfeature{StyleSet=underdot} if possible, you should avoid
-hard-coding these and instead use} “Stylistic Set 7” (ss07).
+hard-coding these and instead use} {\scshape Stylistic Set 7}.
 
 \subsection*{Alternate yogh (ss08)}
 
 For Middle English, always use the yogh at U+021C and U+021D (Ȝȝ).
 Unicode also has an alternative yogh, which in Junicode has a
 flat top. If you prefer this, leave the underlying text the same and
-specify “Stylistic Set 8” (ss08):
+specify {\scshape Stylistic Set 8}:
 {\addfontfeature{StyleSet=altyogh} Ȝȝ}.
 
 
@@ -543,7 +540,7 @@ specify “Stylistic Set 8” (ss08):
 
 The design of a few Junicode characters has changed since the font was
 introduced. The original designs, if you prefer them, will always be
-available via “Stylistic Set 9” (ss09). Currently there are just a few
+available via {\scshape Stylistic Set 9}. Currently there are just a few
 such alternates: {\fontspec[StyleSet=altshapes]{Junicode} ꝺ} for ꝺ,
 {\addfontfeature{StyleSet=altshapes} T} for T,
 {\scshape{\addfontfeature{StyleSet=altshapes} t} for t}.
@@ -551,12 +548,12 @@ such alternates: {\fontspec[StyleSet=altshapes]{Junicode} ꝺ} for ꝺ,
 \subsection*{Long slashes (ss10)}
 
 Some users prefer slashes and backslashes that are longer than
-usual. Use Stylistic Set 10 to access these: a/a, {\addfontfeatures{StyleSet=longslash}a/a}.
+usual. Use {\scshape Stylistic Set 10} to access these: a/a, {\addfontfeatures{StyleSet=longslash}a/a}.
 
 \subsection*{Alternative italic æ (ss11)}
 
 In texts that contain both æ and œ, the two may be confused in the
-italic face: \textit{æ œ}. In this case, use Stylistic Set 11 to
+italic face: \textit{æ œ}. In this case, use {\scshape Stylistic Set 11} to
 substitute \textit{\addfontfeatures{StylisticSet=11}æ} for \textit{æ}.
 
 \subsection*{E caudata (ss15)}
@@ -571,20 +568,20 @@ printing it is attached to the end of the bottom stroke: Polish ę,
 medieval Latin {\addfontfeatures{StyleSet=altogonek}ę}. The modern
 Polish version of the letter is acceptable for medieval Latin;
 however, if you prefer a centered {\itshape cauda}, use
-“Stylistic Set 15” (ss15).
+{\scshape Stylistic Set 15}.
 
 \subsection*{Linguistic alternates (ss17)}
 
 One character (ʔ, U+0294) has an alternate shape used in phonetic
-transcription. Access this with ss17.
+transcription. Access this with {\scshape Stylistic Set 17}.
 
 \subsection*{Old-Style Punctuation (ss18)}
 
 {\addfontfeature{StyleSet=oldpunct}Old books generally set
 extra space before the heavier punctuation marks (; : ! ?);
 they also leave extra space inside quotation marks and
-parentheses (e.g. “here”). For a similar effect, use Stylistic Set 18 (ss18). Make sure
-that Contextual Alternates are also on so that Junicode can correct
+parentheses (e.g. “here”). For a similar effect, use {\scshape Stylistic Set 18}. Make sure
+that {\scshape Contextual Alternates} are also on so that Junicode can correct
 the spacing in certain environments.}
 
 \subsection*{Latin-to-Gothic Transliteration (ss19)}

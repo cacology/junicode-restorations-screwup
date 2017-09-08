@@ -699,6 +699,7 @@ lookup kern_Horizontal_Kerning {
     pos @kc40_first_34 @kc40_second_18 410;
     pos @kc40_first_34 @kc40_second_20 410;
     pos @kc40_first_34 @kc40_second_26 130;
+    pos @kc40_first_34 @kc40_second_36 219;
     pos @kc40_first_34 @kc40_second_37 410;
     pos @kc40_first_34 @kc40_second_38 137;
     pos @kc40_first_34 @kc40_second_39 185;
