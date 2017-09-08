@@ -936,13 +936,6 @@ lookup rtlm_Mirrored_Runes {
 lookup salt_Stylistic_Alternates {
   lookupflag 0 ;
     sub A by uniF13A ;
-    sub B by uniEEE1 ;
-    sub J by uniEEEA ;
-    sub K by uniEEEC ;
-    sub L by uniEEED ;
-    sub O by uniEEF0 ;
-    sub P by uniEEF1 ;
-    sub Q by uniEEF2 ;
     sub R by uniA75A ;
     sub T by uniA786;
     sub b by uniEEE1 ;
@@ -959,11 +952,11 @@ lookup salt_Stylistic_Alternates {
 
 lookup salt_Stylistic_Alternates_B {
   lookupflag 0 ;
-    sub A from [ uniF13A uniEEE0 uniF201 ] ;
+    sub A from [ uniF13A uniF201 ] ;
     sub C from [ uniF106 ] ;
-    sub D from [ uniEEE3 uniEEE4 uniA779 ] ;
-    sub E from [ uniF10A uniEEE6 uniF217 ] ;
-    sub F from [ uniA77B uniEEE7 ] ;
+    sub D from [ uniA779 ] ;
+    sub E from [ uniF10A uniF217 ] ;
+    sub F from [ uniA77B ] ;
     sub G from [ uniA77D uniF10E uniEEE8 ] ;
     sub H from [ uniF110 uniEEE9 ] ;
     sub I from [ uniEEEA uniF220 uniA7FE ] ;
@@ -978,12 +971,12 @@ lookup salt_Stylistic_Alternates_B {
     sub c from [ uniEEE2 uniF198 ] ;
     sub d from [ uniEEE3 uniA77A uniEEE4 uniF193 ] ;
     sub e from [ uniEEE6 uniF218 uniF219 uniF21A ] ;
-    sub f from [ f.alt uniA77C uniEEE7 uniEEFF uniF207 uniF21B uniF21C uniF194 ] ;
+    sub f from [ uniEEE7 f.alt uniA77C uniEEFF uniF207 uniF21B uniF21C uniF194 ] ;
     sub g from [ uniEEE8 uni1D79 uniF21D uniF21E uniF21F uni0261 uniF196 ] ;
     sub h from [ uniEEE9 uniF21A ] ;
     sub l from [ uniEEED uniF222 ] ;
     sub k from [ uniF208 uniF209 uniEEEC uniF221 uniF195 ] ;
-    sub m from [ uniEEEE  uniF23C uniF225 uniF223 uniF23D uniF226 ] ;
+    sub m from [ uniEEEE uniF23C uniF225 uniF223 uniF23D uniF226 ] ;
     sub n from [ uniEEEF uniF228 uniF19A ] ;
     sub r from [ uni027C uniA75B uniA783 uniEEF3 ] ;
     sub s from [ uniEEF4 longs uniEEDF uniF127 uniF128 uniA785 ] ;
