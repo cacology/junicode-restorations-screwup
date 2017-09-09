@@ -5,6 +5,6 @@
   <outline>
     <component base="dotlessi"/>
     <component base="macron" xOffset="-139"/>
-    <component base="acute" yOffset="325"/>
+    <component base="acute" yOffset="355"/>
   </outline>
 </glyph>

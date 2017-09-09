@@ -3,8 +3,8 @@
   <advance width="797"/>
   <unicode hex="E41A"/>
   <outline>
-    <component base="dieresis" xOffset="-12.523711340206205" yOffset="-0.16701030927833926"/>
+    <component base="dieresis" xOffset="-13"/>
     <component base="a"/>
-    <component base="circumflex" xOffset="-0.5402061855670013" yOffset="338.7546391752578"/>
+    <component base="circumflex" yOffset="339"/>
   </outline>
 </glyph>

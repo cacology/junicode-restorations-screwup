@@ -3,7 +3,7 @@
   <advance width="1108"/>
   <unicode hex="1EAA"/>
   <outline>
-    <component base="CapTilde" xOffset="332" yOffset="245"/>
+    <component base="CapTilde" xOffset="332" yOffset="310"/>
     <component base="CapCircumflex" xOffset="252" yOffset="-40"/>
     <component base="A"/>
   </outline>
