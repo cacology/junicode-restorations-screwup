@@ -48,6 +48,18 @@ bolditalic : Junicode-BoldItalic.ttf
 
 greek : FoulisGreek.ttf
 
+woff: Junicode.ttf Junicode-Italic.ttf Junicode-Bold.ttf Junicode-BoldItalic.ttf FoulisGreek.ttf
+	which sfnt2woff > /dev/null; \
+	if [ $$? -eq 0 ] ; then \
+	  sfnt2woff Junicode.ttf ; \
+	  sfnt2woff Junicode-Italic.ttf ; \
+	  sfnt2woff Junicode-Bold.ttf ; \
+	  sfnt2woff Junicode-BoldItalic.ttf ; \
+	  sfnt2woff FoulisGreek.ttf ; \
+	else \
+	  echo "sfnt2woff is not installed." ; \
+	fi
+
 Junicode.ttf : jr.ttf
 	$(call generate_font,jr,Junicode)
 
@@ -83,3 +95,6 @@ clean :
 
 dist :
 	zip -r junicode-$(VERSION).zip *.ttf ChangeLog doc/*.pdf util/mt-Junicode.cfg
+
+woffdist : 
+	zip -r junicode-woff-$(VERSION).zip *.woff ChangeLog doc/*.pdf
