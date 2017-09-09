@@ -3128,20 +3128,16 @@ lookup mark_Attached_Below {
 lookup mkmk_Mark_to_Mark_Above {
   lookupflag MarkAttachmentType @above_center ;
 #  lookupflag MarkAttachmentType @all_above_marks ;
-  pos mark [ gravecomb ] <anchor 0 1401> mark @above_center ;
-  pos mark [ acutecomb ] <anchor 0 1411> mark @above_center ;
+  pos mark [ gravecomb acutecomb uni030F ] <anchor 0 1401> mark @above_center ;
   pos mark [ uni0302 ] <anchor 0 1458> mark @above_center ;
-  pos mark [ tildecomb ] <anchor 0 1233> mark @above_center ;
+  pos mark [ tildecomb uni0307 uni0308 ] <anchor 0 1250> mark @above_center ;
   pos mark [ uni0304 ] <anchor 0 1208> mark @above_center ;
   pos mark [ uni0305 ] <anchor 0 1216> mark @above_center ;
   pos mark [ uni0306 uni0311 ] <anchor 0 1380> mark @above_center ;
-  pos mark [ uni0307 uni0308 ] <anchor 0 1274> mark @above_center ;
   pos mark [ hookabovecomb ] <anchor 0 1458> mark @above_center ;
-  pos mark [ uni030A ] <anchor 0 1419> mark @above_center ;
-  pos mark [ uni030B ] <anchor 0 1411> mark @above_center ;
+  pos mark [ uni030A uni030B ] <anchor 0 1415> mark @above_center ;
   pos mark [ uni030C ] <anchor 0 1458> mark @above_center ;
   pos mark [ uni030D uni030E ] <anchor 0 1420> mark @above_center ;
-  pos mark [ uni030F ] <anchor 0 1401> mark @above_center ;
   pos mark [ uni0310 ] <anchor 0 1628> mark @above_center ;
   pos mark [ uni0312 ] <anchor 0 1573> mark @above_center ;
   pos mark [ uni0313 uni0314 uni0315 ] <anchor 0 1571> mark @above_center ;
@@ -3192,9 +3188,7 @@ lookup mkmk_Mark_to_Mark_Above {
   pos mark [ uniF033 ] <anchor 0 1693> mark @above_center ;
   pos mark [ uniF03D ] <anchor 0 1835> mark @above_center ;
   pos mark [ uniF03F uniF040 ] <anchor 0 1576> mark @above_center ;
-  pos mark [ uniF135 ] <anchor 0 1717> mark @above_center ;
-  pos mark [ uniF136 ] <anchor 0 1728> mark @above_center ;
-  pos mark [ uniF13E ] <anchor 0 1740> mark @above_center ;
+  pos mark [ uniF135 uniF136 uniF13E ] <anchor 0 1725> mark @above_center ;
   pos mark [ uniF13F ] <anchor 0 1682> mark @above_center ;
   pos mark [ uniF153 ] <anchor 0 1674> mark @above_center ;
   pos mark [ uniF1C0 ] <anchor 0 1458> mark @above_center ;
