@@ -3,7 +3,7 @@
   <advance width="729"/>
   <unicode hex="E137"/>
   <outline>
-    <component base="breve" xOffset="176" yOffset="750"/>
+    <component base="breve" xOffset="176" yOffset="700"/>
     <component base="CapMacron" xOffset="-308" yOffset="-40"/>
     <component base="I"/>
   </outline>

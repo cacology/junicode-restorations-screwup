@@ -5,6 +5,6 @@
   <outline>
     <component base="CapGrave" xOffset="268" yOffset="245"/>
     <component base="A"/>
-    <component base="breve" xOffset="465" yOffset="500"/>
+    <component base="breve" xOffset="465" yOffset="453"/>
   </outline>
 </glyph>
