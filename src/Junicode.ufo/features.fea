@@ -173,26 +173,6 @@ lookup ccmp_make_precomposed {
   sub u uni0304 uni0306 by uniE70B;
   sub Y uni0304 uni0306 by uniE375;
   sub y uni0304 uni0306 by uniE775;
-  sub A uni0307 acutecomb by uniEBF4 ;
-  sub a uni0307 acutecomb by uniEBF5 ;
-  sub AE uni0307 acutecomb by uniEFDB ;
-  sub ae uni0307 acutecomb by uniEFDC ;
-  sub e uni0307 acutecomb by uniE4C8 ;
-  sub E uni0307 acutecomb by uniE0C8 ;
-  sub eogonek uni0307 acutecomb by uniE4EC ;
-  sub Eogonek uni0307 acutecomb by uniE0EC ;
-  sub I uni0307 acutecomb by uniEBF6 ;
-  sub i uni0307 acutecomb by uniEBF7 ;
-  sub O uni0307 acutecomb by uniEBF8 ;
-  sub o uni0307 acutecomb by uniEBF9 ;
-  sub uni01EA uni0307 acutecomb by uniEBFA ;
-  sub uni01EB uni0307 acutecomb by uniEBFB ;
-  sub Oslash uni0307 acutecomb by uniEBFC ;
-  sub oslash uni0307 acutecomb by uniEBFD ;
-  sub U uni0307 acutecomb by uniEBFE ;
-  sub u uni0307 acutecomb by uniEBFF ;
-  sub y uni0307 acutecomb by uniE784 ;
-  sub Y uni0307 acutecomb by uniE384 ;
   #
   # Some combos need ccmp because joining the diacritic changes the shape of
   # the whole
@@ -235,6 +215,40 @@ lookup ccmp_i_to_dotlessi {
     sub @double_diacritics @eyejay' lookup Misc_Lookups ;
     sub @eyejay' lookup Misc_Lookups  @double_diacritics ;
 } ccmp_i_to_dotlessi ;
+
+# MUFI-specific combos (where dot and acute are side by side)
+
+lookup ccmp_dot_and_acute {
+  lookupflag 0;
+  sub A uni0307 acutecomb by uniEBF4 ;
+  sub a uni0307 acutecomb by uniEBF5 ;
+  sub AE uni0307 acutecomb by uniEFDB ;
+  sub ae uni0307 acutecomb by uniEFDC ;
+  sub e uni0307 acutecomb by uniE4C8 ;
+  sub E uni0307 acutecomb by uniE0C8 ;
+  sub eogonek uni0307 acutecomb by uniE4EC ;
+  sub Eogonek uni0307 acutecomb by uniE0EC ;
+  sub I uni0307 acutecomb by uniEBF6 ;
+  sub O uni0307 acutecomb by uniEBF8 ;
+  sub o uni0307 acutecomb by uniEBF9 ;
+  sub uni01EA uni0307 acutecomb by uniEBFA ;
+  sub uni01EB uni0307 acutecomb by uniEBFB ;
+  sub Oslash uni0307 acutecomb by uniEBFC ;
+  sub oslash uni0307 acutecomb by uniEBFD ;
+  sub U uni0307 acutecomb by uniEBFE ;
+  sub u uni0307 acutecomb by uniEBFF ;
+  sub y uni0307 acutecomb by uniE784 ;
+  sub Y uni0307 acutecomb by uniE384 ;
+  sub uni0226 acutecomb by uniEBF4 ;
+  sub uni0227 acutecomb by uniEBF5 ;
+  sub Edotaccent acutecomb by uniE0C8 ;
+  sub edotaccent acutecomb by uniE4C8 ;
+  sub Idotaccent acutecomb by uniEBF6 ;
+  sub uni022E acutecomb by uniEBF8 ;
+  sub uni022F acutecomb by uniEBF9 ;
+  sub uni1E8E acutecomb by uniE384 ;
+  sub uni1E8F acutecomb by uniE784 ;
+} ccmp_dot_and_acute;
 
 lookup sups_Superscripts {
   lookupflag 0 ;
@@ -1540,6 +1554,7 @@ lookup calt_s_In_Final_Position {
 feature ccmp {
   lookup ccmp_make_precomposed ;
   lookup ccmp_i_to_dotlessi ;
+  lookup ccmp_dot_and_acute ;
 } ccmp ;
 
 feature sups {
