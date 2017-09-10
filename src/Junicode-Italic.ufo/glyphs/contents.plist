@@ -6032,5 +6032,17 @@
 	<string>zero.zero.glif</string>
 	<key>zero.oldstylezero</key>
 	<string>zero.oldstylezero.glif</string>
+	<key>uniA722</key>
+	<string>uniA_722.glif</string>
+	<key>uniA723</key>
+	<string>uniA_723.glif</string>
+	<key>uniA724</key>
+	<string>uniA_724.glif</string>
+	<key>uniA725</key>
+	<string>uniA_725.glif</string>
+	<key>uni2308</key>
+	<string>uni2308.glif</string>
+	<key>uni2309</key>
+	<string>uni2309.glif</string>
 </dict>
 </plist>
