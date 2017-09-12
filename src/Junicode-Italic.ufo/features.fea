@@ -1949,7 +1949,7 @@ feature c2sc {
 } c2sc;
 
 feature locl {
- script latn;
+  script latn;
     language ISL  exclude_dflt;
       lookup locl_Icelandic;
     language TRK  exclude_dflt ;
@@ -2027,7 +2027,7 @@ feature ss19 {
 } ss19;
 
 feature ss20 {
-  lookup ss20_Gothic_To_Latin;
+    lookup ss20_Gothic_To_Latin;
 } ss20;
 
 feature rtlm {
