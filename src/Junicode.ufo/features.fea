@@ -2226,6 +2226,9 @@ lookup mark_Mark_Positioning {
   pos base [  h k uni0199 uni0266 uniE7C8 uniF208 uniF23A uniF221 ]
       	     <anchor 575 1475> mark @above_center
 	     <anchor 560 -75> mark @below_center ;
+  pos base [  uni0267 ]
+      	     <anchor 652 1545> mark @above_center
+	     <anchor 588 -610> mark @below_center ;
   pos base [  i uni0268 ]
       	     <anchor 268 1285> mark @above_center
 	     <anchor 280 -75> mark @below_center ;
@@ -2350,8 +2353,8 @@ lookup mark_Mark_Positioning {
       	     <anchor 580 1545> mark @above_center
 	     <anchor 444 -650> mark @below_center ;
   pos base [  uni0257 ]
-      	     <anchor 580 1545> mark @above_center
-	     <anchor 444 -75> mark @below_center ;
+      	     <anchor 512 1545> mark @above_center
+	     <anchor 453 -75> mark @below_center ;
   pos base [  uni0258 ]
       	     <anchor 390 900> mark @above_center
      	     <anchor 390 -75> mark @below_center ;
@@ -2373,6 +2376,9 @@ lookup mark_Mark_Positioning {
   pos base [  uni0264 ]
       	     <anchor 504 900> mark @above_center
 	     <anchor 504 -75> mark @below_center ;
+  pos base [  uni0265 ]
+      	     <anchor 556 900> mark @above_center
+	     <anchor 524 -597> mark @below_center ;
   pos base [  uni0270 uni0271 ]
       	     <anchor 824 900> mark @above_center
 	     <anchor 824 -561> mark @below_center ;
