@@ -179,8 +179,7 @@ feature aalt {
     sub Scedilla by scedilla.sc ;
     sub T from [u10344 T.alt uni1E6C t.sc ];
     sub Tcaron by tcaron.sc ;
-    sub Thorn from [u10338 uniE39F Thorn.nordic thorn.sc ];
-    sub Thorn.nordic from [uniE39F.nordic ];
+    sub Thorn from [u10338 uniE39F Thorn.nordic thorn.sc uniE39F.nordic ];
     sub U from [u1033F uni1EE4 u.sc ];
     sub Uacute by uacute.sc ;
     sub Ucircumflex by ucircumflex.sc ;
@@ -202,7 +201,6 @@ feature aalt {
     sub a from [u10330 uni1EA1 uniEEE0 a.sc uni1D43 ];
     sub aacute from [uniEAF0 aacute.sc ];
     sub acircumflex by acircumflex.sc ;
-    sub acute by CapAcute ;
     sub acutecomb from [CapAcute.comb acutecomb.sc ];
     sub adieresis by adieresis.sc ;
     sub ae from [ae.square uniE436 uniEAF1 ae.sc ];
@@ -215,18 +213,12 @@ feature aalt {
     sub atilde by atilde.sc ;
     sub b from [u10331 uni1E05 uniEEE1 b.sc uni1D47 ];
     sub backslash by longbackslash ;
-    sub braceleft by braceleft.alt ;
-    sub braceright by braceright.alt ;
-    sub bracketleft by bracketleft.alt ;
-    sub bracketright by bracketright.alt ;
     sub c from [uniE466 uniEEE2 cmedoverline chighoverline c.sc uniF198 uni1D9C ];
     sub cacute by cacute.sc ;
-    sub caron by caron.sc ;
     sub ccaron by ccaron.sc ;
     sub ccedilla by ccedilla.sc ;
     sub cdotaccent by cdotaccent.sc ;
     sub cent by cent.oldstyle ;
-    sub colon by colon.alt ;
     sub d from [u10333 uni1E0D uniEEE3 uniE491 dhighoverline uniA77A d.sc uniF193 
 	uni1D48 ];
     sub dcaron by dcaron.sc ;
@@ -242,8 +234,7 @@ feature aalt {
     sub emacron by emacron.sc ;
     sub eogonek from [eogonek.alt uniEAF3 eogonek.sc ];
     sub equal from [uni208C uni207C ];
-    sub eth from [uniE48F uniEEE5 eth.nordic eth.sc eth.alt ];
-    sub eth.nordic from [uniE48F.nordic eth.nordicenlarged ];
+    sub eth from [uniE48F uniEEE5 eth.nordic eth.sc eth.alt uniE48F.nordic eth.nordicenlarged ];
     sub exclam from [exclam.alt exclam.sc ];
     sub exclamdown by exclamdown.sc ;
     sub f from [f.alt u10346 uniE4EE uniEEE7 uniA77C f.sc uniF194 uni1DA0 ];
@@ -253,11 +244,8 @@ feature aalt {
     sub gcaron by gcaron.sc ;
     sub gdotaccent by gdotaccent.sc ;
     sub germandbls by germandbls.sc ;
-    sub gravecomb from [CapGrave.comb gravecomb.sc ];
     sub h from [u10337 uni1E25 uniEEE9 h.sc uni02B0 ];
-    sub hyphen from [uni208B uni207B ];
-    sub i from [u10339 uni1ECB uniEEEA uniE550 ihighoverline i.sc uni2071 dotlessi ];
-    sub i.sc by i.sc1 ;
+    sub i from [u10339 uni1ECB uniEEEA uniE550 ihighoverline i.sc i.sc1 uni2071 dotlessi ];
     sub iacute by iacute.sc ;
     sub icircumflex by icircumflex.sc ;
     sub idieresis by idieresis.sc ;
@@ -270,7 +258,6 @@ feature aalt {
     sub longs from [s uniF127 uniE7C2 uniEEDF ];
     sub lslash by lslash.sc ;
     sub m from [u1033C uni1E43 uniEEEE uniE5D2 mhighoverline m.sc uni1D50 ];
-    sub minus from [uni208B uni207B ];
     sub n from [u1033D uni1E47 uniEEEF n.sc uniF19A uni207F ];
     sub nacute by nacute.sc ;
     sub ncaron by ncaron.sc ;
@@ -288,35 +275,23 @@ feature aalt {
     sub oslash from [uniEBE1 oslash.sc ];
     sub otilde by otilde.sc ;
     sub p from [u10340 uniE66D uniEEF1 p.sc uni1D56 ];
-    sub parenleft from [parenleft.alt1 parenleft.alt parenleft.sc uni208D uni207D ];
-    sub parenright from [parenright.alt1 parenright.alt parenright.sc uni208E uni207E ];
     sub percent by percent.sc ;
-    sub plus from [uni208A uni207A ];
     sub q from [u10335 uniE688 uniEEF2 q.sc q.superscript ];
     sub question from [question.alt question.sc ];
     sub questiondown by questiondown.sc ;
-    sub quotedblleft from [quotedblleft.alt quotedblleft.sc ];
-    sub quotedblright from [quotedblright.alt quotedblright.sc ];
-    sub quoteleft from [quoteleft.alt quoteleft.sc ];
-    sub quoteright from [quoteright.alt quoteright.sc ];
-    sub quoteright.alt by quoteright ;
     sub r from [u10342 uni1E5B uniEEF3 uniA783 r.sc uniF19B uni02B3 ];
     sub rcaron by rcaron.sc ;
     sub s from [u10343 uni1E63 uniEEF4 uniA785 longs s.sc uni02E2 ];
     sub sacute by sacute.sc ;
     sub scaron by scaron.sc ;
     sub scedilla by scedilla.sc ;
-    sub semicolon by semicolon.alt ;
     sub seven from [seven.oldstyle uni2087 uni2077 ];
     sub six from [six.oldstyle uni2086 uni2076 ];
-    sub slash by longslash ;
     sub t from [u10344 uni1E6D uniEEF5 uniA787 t.sc uniF199 uni1D57 ];
     sub tcaron by tcaron.sc ;
-    sub thorn from [u10338 uniE79F uniEEF6 thorn.nordic thorn.sc ];
-    sub thorn.nordic from [uniE79F.nordic thorn.nordicenlarged thorn.nordicsc ];
-    sub thorn.sc by thorn.nordicsc ;
+    sub thorn from [u10338 uniE79F uniEEF6 thorn.nordic thorn.sc uniE79F.nordic
+    	      	   	   thorn.nordicenlarged thorn.nordicsc ];
     sub three from [three.oldstyle uni2083 uni00B3 ];
-    sub tildecomb from [CapTilde.comb tildecomb.sc ];
     sub two from [two.oldstyle uni2082 uni00B2 ];
     sub u from [u1033F uni1EE5 uniEEF7 u.sc uni1D58 ];
     sub u10330 by a ;
@@ -363,12 +338,6 @@ feature aalt {
     sub uni0233 by uni0233.sc ;
     sub uni0237 by uniEEFE ;
     sub uni0294 by uni0294.alt ;
-    sub uni0302 from [CapCircumflex.comb uni0302.sc ];
-    sub uni0304 from [CapMacron.comb uni0304.sc ];
-    sub uni0308 from [CapDieresis.comb uni0308.sc ];
-    sub uni030B by CapDoubleAcute.comb ;
-    sub uni030C by CapCaron.comb ;
-    sub uni030F by CapDoubleGrave.comb ;
     sub uni16A0 by uni16A0.rtl ;
     sub uni16A1 by uni16A1.rtl ;
     sub uni16A2 by uni16A2.rtl ;
@@ -484,8 +453,7 @@ feature aalt {
     sub zacute by zacute.sc ;
     sub zcaron by zcaron.sc ;
     sub zdotaccent by zdotaccent.sc ;
-    sub zero from [zero.zero zero.oldstyle uni2080 uni2070 ];
-    sub zero.oldstyle by zero.oldstylezero ;
+    sub zero from [zero.zero zero.oldstyle uni2080 uni2070 zero.oldstylezero ];
 } aalt ;
 
 
@@ -2167,8 +2135,11 @@ lookup mark_Mark_Positioning {
   pos base [ Z uni01B5 uni0224 ]
       	     <anchor 954 1415> mark @above_center
 	     <anchor 526 -75> mark @below_center ;
-  pos base [ a uni0250 uni0251 uni0252 uniF203 uniF215 ]
+  pos base [ a uni0251 uni0252 uniF203 uniF215 ]
       	     <anchor 620 900> mark @above_center
+	     <anchor 276 -75> mark @below_center ;
+  pos base [ uni0250 ]
+      	     <anchor 540 900> mark @above_center
 	     <anchor 276 -75> mark @below_center ;
   pos base [ aogonek ]
       	     <anchor 620 900> mark @above_center
@@ -2302,7 +2273,7 @@ lookup mark_Mark_Positioning {
   pos base [ t ]
       	     <anchor 480 1305> mark @above_center
 	     <anchor 201 -75> mark @below_center ;
-  pos base [ u uhorn ]
+  pos base [ u uhorn uni0289 ]
       	     <anchor 633 900> mark @above_center
 	     <anchor 406 -75> mark @below_center ;
   pos base [ v ]
@@ -2335,7 +2306,7 @@ lookup mark_Mark_Positioning {
   pos base [ eth.nordic ]
       	     <anchor 637 1545> mark @above_center
 	     <anchor 320 -75> mark @below_center ;
-  pos base [  longs ]
+  pos base [ longs uni0283 uni0286 ]
       	     <anchor 745 1489> mark @above_center
 	     <anchor -151 -600> mark @below_center;
   pos base [  eth.nordicenlarged ]
@@ -2551,6 +2522,45 @@ lookup mark_Mark_Positioning {
   pos base [ thorn.nordicsc ]
       	     <anchor 396 1050> mark @above_center
 	     <anchor 318 -75> mark @below_center ;
+  pos base [ uni0280 ]
+      	     <anchor 502 900> mark @above_center
+	     <anchor 395 -75> mark @below_center ;
+  pos base [ uni0281 ]
+      	     <anchor 548 900> mark @above_center
+	     <anchor 316 -75> mark @below_center ;
+  pos base [ uni0282 ]
+      	     <anchor 384 900> mark @above_center
+	     <anchor 240 -300> mark @below_center ;
+  pos base [ uni0284 ]
+      	     <anchor 762 1548> mark @above_center
+	     <anchor -198 -610> mark @below_center ;
+  pos base [ uni0285 ]
+      	     <anchor 134 1342> mark @above_center
+	     <anchor 368 -75> mark @below_center ;
+  pos base [ uni0287 ]
+      	     <anchor 470 900> mark @above_center
+	     <anchor 206 -270> mark @below_center ;
+  pos base [ uni0288 ]
+      	     <anchor 480 1305> mark @above_center
+	     <anchor 47 -608> mark @below_center ;
+  pos base [ uni028A ]
+      	     <anchor 553 900> mark @above_center
+	     <anchor 406 -75> mark @below_center ;
+  pos base [ uni028B ]
+      	     <anchor 603 900> mark @above_center
+	     <anchor 406 -75> mark @below_center ;
+  pos base [ uni028C ]
+      	     <anchor 507 900> mark @above_center
+	     <anchor 315 -75> mark @below_center ;
+  pos base [ uni028D ]
+      	     <anchor 753 900> mark @above_center
+	     <anchor 582 -75> mark @below_center ;
+  pos base [ uni028E ]
+      	     <anchor 768 1458> mark @above_center
+	     <anchor 315 -75> mark @below_center ;
+  pos base [ uni028F ]
+      	     <anchor 569 900> mark @above_center
+	     <anchor 359 -75> mark @below_center ;
 
 # Now we need to take account of the precomposed characters which shaping
 # engines will produce from base + diacritic sequences. It seems unnecessary
@@ -3555,7 +3565,10 @@ feature mkmk {
 	       	 uni025F uni0262 uni0263 uni0264 uni0266 uni0268
 	       	 uni026A uni026B uni026C uni026D uni026F uni0271
 	       	 uni0272 uni0273 uni0274 uni0275 uni0276 uni0278
-	       	 uni0279 uni027A uni027B uni027C uni027D uni027E ] ;
+	       	 uni0279 uni027A uni027B uni027C uni027D uni027E
+	       	 uni027F uni0280 uni0281 uni0283 uni0284 uni0285
+	       	 uni0286 uni0287 uni0288 uni0289 uni028A uni028B
+	       	 uni028C uni028D uni028E uni028F ] ;
 
 @GDEF_Ligature = [ IJ ij uni01C4 uni01C5 uni01C6 uni01C7 uni01C8
 		   uni01C9 uni01CA uni01CB uni01CC uni01F1 uni01F2
