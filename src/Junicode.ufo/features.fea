@@ -2605,6 +2605,9 @@ lookup mark_Mark_Positioning {
   pos base [  uniA732 ]
       	     <anchor 1023 1425> mark @above_center
 	     <anchor 1023 -75> mark @below_center ;
+  pos base [  uniA733 ]
+      	     <anchor 590 900> mark @above_center
+	     <anchor 560 -75> mark @below_center ;
   pos base [  uniA734 ]
       	     <anchor 1075 1425> mark @above_center
 	     <anchor 1075 -75> mark @below_center ;

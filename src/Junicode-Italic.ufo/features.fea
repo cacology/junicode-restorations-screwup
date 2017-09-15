@@ -41,8 +41,6 @@ markClass @cap_above <anchor 0 1410> @above_center;
 # TOTAL IN above_center: 120
 
 #
-# Marks from F1C0 on don't yet have mkmk points above.
-#
 # F1C5 and F1CA are fakeups, and Junicode includes but does not support them.
 #
 # Note that 1DCE, ogonek above, attaches differently: it must connect with the letter rather
@@ -114,8 +112,8 @@ markClass @combining_below <anchor 0 -75> @below_center;
 
 
 feature aalt {
-    sub A from [uniF13A u10330 uni1EA0 a.sc A.swash ];
-    sub AE from [uniE036 ae.sc AE.swash ];
+    sub A from [ uniF13A u10330 uni1EA0 a.sc A.swash ];
+    sub AE from [ uniE036 ae.sc AE.swash ];
     sub Aacute by aacute.sc ;
     sub Acircumflex by acircumflex.sc ;
     sub Adieresis by adieresis.sc ;
@@ -124,176 +122,176 @@ feature aalt {
     sub Aogonek by aogonek.sc ;
     sub Aring by aring.sc ;
     sub Atilde by atilde.sc ;
-    sub B from [u10331 uni1E04 b.sc ];
-    sub C from [uniF106 uniE066 uniF7B5 c.sc ];
+    sub B from [ u10331 uni1E04 b.sc ];
+    sub C from [ uniF106 uniE066 uniF7B5 c.sc ];
     sub Cacute by cacute.sc ;
     sub Ccaron by ccaron.sc ;
     sub Ccedilla by ccedilla.sc ;
     sub Cdotaccent by cdotaccent.sc ;
-    sub D from [u10333 uni1E0C uniF7B6 d.sc D.swash ];
+    sub D from [ u10333 uni1E0C uniF7B6 d.sc D.swash ];
     sub Dcaron by dcaron.sc ;
-    sub E from [uniF10A u10334 uni1EB8 e.sc ];
+    sub E from [ uniF10A u10334 uni1EB8 e.sc ];
     sub Eacute by eacute.sc ;
     sub Ecaron by ecaron.sc ;
     sub Ecircumflex by ecircumflex.sc ;
     sub Edieresis by edieresis.sc ;
     sub Egrave by egrave.sc ;
     sub Emacron by emacron.sc ;
-    sub Eth from [uniE08F eth.sc ];
-    sub F from [u10346 uniE0EE f.sc ];
-    sub G from [uniF10E u10332 uniE101 g.sc ];
+    sub Eth from [ uniE08F eth.sc ];
+    sub F from [ u10346 uniE0EE f.sc ];
+    sub G from [ uniF10E u10332 uniE101 g.sc ];
     sub Gcaron by gcaron.sc ;
     sub Gdotaccent by gdotaccent.sc ;
-    sub H from [uniF110 u10337 uni1E24 h.sc ];
-    sub I from [u10339 uni1ECA uniE150 i.sc ];
+    sub H from [ uniF110 u10337 uni1E24 h.sc ];
+    sub I from [ u10339 uni1ECA uniE150 i.sc ];
     sub Iacute by iacute.sc ;
     sub Icircumflex by icircumflex.sc ;
     sub Idieresis by idieresis.sc ;
     sub Igrave by igrave.sc ;
     sub Imacron by imacron.sc ;
-    sub J from [u1033E uniE151 uniE152 j.sc J.swash ];
-    sub K from [u1033A uni1E32 k.sc ];
-    sub L from [u1033B uni1E36 uniF7B4 l.sc ];
+    sub J from [ u1033E uniE151 uniE152 j.sc J.swash ];
+    sub K from [ u1033A uni1E32 k.sc ];
+    sub L from [ u1033B uni1E36 uniF7B4 l.sc ];
     sub Lslash by lslash.sc ;
-    sub M from [uniF11A u1033C uni1E42 uniE1D2 m.sc ];
-    sub N from [u1033D uni1E46 n.sc ];
+    sub M from [ uniF11A u1033C uni1E42 uniE1D2 m.sc ];
+    sub N from [ u1033D uni1E46 n.sc ];
     sub Nacute by nacute.sc ;
     sub Ncaron by ncaron.sc ;
     sub Ntilde by ntilde.sc ;
-    sub O from [u10349 uni1ECC o.sc ];
+    sub O from [ u10349 uni1ECC o.sc ];
     sub OE by oe.sc ;
     sub Oacute by oacute.sc ;
     sub Ocircumflex by ocircumflex.sc ;
     sub Odieresis by odieresis.sc ;
     sub Ograve by ograve.sc ;
     sub Omacron by omacron.sc ;
-    sub Oslash from [uniEBE0 oslash.sc ];
+    sub Oslash from [ uniEBE0 oslash.sc ];
     sub Otilde by otilde.sc ;
-    sub P from [u10340 uniE26D p.sc ];
-    sub Q from [u10335 uniE288 q.sc Q.swash ];
-    sub R from [u10342 uni1E5A r.sc ];
+    sub P from [ u10340 uniE26D p.sc ];
+    sub Q from [ u10335 uniE288 q.sc Q.swash ];
+    sub R from [ u10342 uni1E5A r.sc ];
     sub Rcaron by rcaron.sc ;
-    sub S from [uniF126 u10343 uni1E62 s.sc ];
+    sub S from [ uniF126 u10343 uni1E62 s.sc ];
     sub Sacute by sacute.sc ;
     sub Scaron by scaron.sc ;
     sub Scedilla by scedilla.sc ;
-    sub T from [u10344 T.alt uni1E6C t.sc ];
+    sub T from [ u10344 T.alt uni1E6C t.sc ];
     sub Tcaron by tcaron.sc ;
-    sub Thorn from [u10338 uniE39F Thorn.nordic thorn.sc uniE39F.nordic ];
-    sub U from [u1033F uni1EE4 u.sc ];
+    sub Thorn from [ u10338 uniE39F Thorn.nordic thorn.sc uniE39F.nordic ];
+    sub U from [ u1033F uni1EE4 u.sc ];
     sub Uacute by uacute.sc ;
     sub Ucircumflex by ucircumflex.sc ;
     sub Udieresis by udieresis.sc ;
     sub Ugrave by ugrave.sc ;
     sub Umacron by umacron.sc ;
     sub Uring by uring.sc ;
-    sub V from [uni1E7E uniF7B2 v.sc ];
-    sub W from [u10345 uni1E88 uni01F7 w.sc ];
-    sub X from [u10347 Xdotsub uniF7B3 x.sc ];
-    sub Y from [uni1EF4 y.sc ];
+    sub V from [ uni1E7E uniF7B2 v.sc ];
+    sub W from [ u10345 uni1E88 uni01F7 w.sc ];
+    sub X from [ u10347 Xdotsub uniF7B3 x.sc ];
+    sub Y from [ uni1EF4 y.sc ];
     sub Yacute by yacute.sc ;
     sub Ydieresis by ydieresis.sc ;
     sub Yoghdotsub by Yoghflatdot ;
-    sub Z from [u10336 uni1E92 z.sc ];
+    sub Z from [ u10336 uni1E92 z.sc ];
     sub Zacute by zacute.sc ;
     sub Zcaron by zcaron.sc ;
     sub Zdotaccent by zdotaccent.sc ;
-    sub a from [u10330 uni1EA1 uniEEE0 a.sc uni1D43 ];
-    sub aacute from [uniEAF0 aacute.sc ];
+    sub a from [ u10330 uni1EA1 uniEEE0 a.sc uni1D43 ];
+    sub aacute from [ uniEAF0 aacute.sc ];
     sub acircumflex by acircumflex.sc ;
-    sub acutecomb from [CapAcute.comb acutecomb.sc ];
+    sub acutecomb from [ CapAcute.comb acutecomb.sc ];
     sub adieresis by adieresis.sc ;
-    sub ae from [ae.square uniE436 uniEAF1 ae.sc ];
+    sub ae from [ ae.square uniE436 uniEAF1 ae.sc ];
     sub aeacute by aeacute.square ;
     sub agrave by agrave.sc ;
     sub amacron by amacron.sc ;
-    sub ampersand from [uni204A ampersand.sc ];
+    sub ampersand from [ uni204A ampersand.sc ];
     sub aogonek by aogonek.sc ;
     sub aring by aring.sc ;
     sub atilde by atilde.sc ;
-    sub b from [u10331 uni1E05 uniEEE1 b.sc uni1D47 ];
+    sub b from [ u10331 uni1E05 uniEEE1 b.sc uni1D47 ];
     sub backslash by longbackslash ;
-    sub c from [uniE466 uniEEE2 cmedoverline chighoverline c.sc uniF198 uni1D9C ];
+    sub c from [ uniE466 uniEEE2 cmedoverline chighoverline c.sc uniF198 uni1D9C ];
     sub cacute by cacute.sc ;
     sub ccaron by ccaron.sc ;
     sub ccedilla by ccedilla.sc ;
     sub cdotaccent by cdotaccent.sc ;
     sub cent by cent.oldstyle ;
-    sub d from [u10333 uni1E0D uniEEE3 uniE491 dhighoverline uniA77A d.sc uniF193 
+    sub d from [ u10333 uni1E0D uniEEE3 uniE491 dhighoverline uniA77A d.sc uniF193 
 	uni1D48 ];
     sub dcaron by dcaron.sc ;
     sub dollar by dollar.oldstyle ;
     sub dotlessi by uniEEFD ;
-    sub e from [u10334 uni1EB9 uniEEE6 e.sc uni1D49 ];
+    sub e from [ u10334 uni1EB9 uniEEE6 e.sc uni1D49 ];
     sub eacute by eacute.sc ;
     sub ecaron by ecaron.sc ;
     sub ecircumflex by ecircumflex.sc ;
     sub edieresis by edieresis.sc ;
     sub egrave by egrave.sc ;
-    sub eight from [eight.oldstyle uni2088 uni2078 ];
+    sub eight from [ eight.oldstyle uni2088 uni2078 ];
     sub emacron by emacron.sc ;
-    sub eogonek from [eogonek.alt uniEAF3 eogonek.sc ];
-    sub equal from [uni208C uni207C ];
-    sub eth from [uniE48F uniEEE5 eth.nordic eth.sc eth.alt uniE48F.nordic eth.nordicenlarged ];
-    sub exclam from [exclam.alt exclam.sc ];
+    sub eogonek from [ eogonek.alt uniEAF3 eogonek.sc ];
+    sub equal from [ uni208C uni207C ];
+    sub eth from [ uniE48F uniEEE5 eth.nordic eth.sc eth.alt uniE48F.nordic eth.nordicenlarged ];
+    sub exclam from [ exclam.alt exclam.sc ];
     sub exclamdown by exclamdown.sc ;
-    sub f from [f.alt u10346 uniE4EE uniEEE7 uniA77C f.sc uniF194 uni1DA0 ];
-    sub five from [five.oldstyle uni2085 uni2075 ];
-    sub four from [four.oldstyle uni2084 uni2074 ];
-    sub g from [u10332 uniE501 uniEEE8 uni1D79 g.sc uniF196 uni1D4D ];
+    sub f from [ f.alt u10346 uniE4EE uniEEE7 uniA77C f.sc uniF194 uni1DA0 ];
+    sub five from [ five.oldstyle uni2085 uni2075 ];
+    sub four from [ four.oldstyle uni2084 uni2074 ];
+    sub g from [ u10332 uniE501 uniEEE8 uni1D79 g.sc uniF196 uni1D4D ];
     sub gcaron by gcaron.sc ;
     sub gdotaccent by gdotaccent.sc ;
     sub germandbls by germandbls.sc ;
-    sub h from [u10337 uni1E25 uniEEE9 h.sc uni02B0 ];
-    sub i from [u10339 uni1ECB uniEEEA uniE550 ihighoverline i.sc i.sc1 uni2071 dotlessi ];
+    sub h from [ u10337 uni1E25 uniEEE9 h.sc uni02B0 ];
+    sub i from [ u10339 uni1ECB uniEEEA uniE550 ihighoverline i.sc i.sc1 uni2071 dotlessi ];
     sub iacute by iacute.sc ;
     sub icircumflex by icircumflex.sc ;
     sub idieresis by idieresis.sc ;
     sub igrave by igrave.sc ;
     sub imacron by imacron.sc ;
-    sub j from [j.alt u1033E uniE551 uniEEEB uniE552 jhighoverline j.sc uni02B2 uni0237 ];
-    sub k from [u1033A uni1E33 uniEEEC k.sc uniF195 uni1D4F ];
+    sub j from [ j.alt u1033E uniE551 uniEEEB uniE552 jhighoverline j.sc uni02B2 uni0237 ];
+    sub k from [ u1033A uni1E33 uniEEEC k.sc uniF195 uni1D4F ];
     sub k_i by k_i.alt ;
-    sub l from [u1033B uni1E37 uniEEED uniE5B1 lhighoverline l.sc uni02E1 ];
-    sub longs from [s uniF127 uniE7C2 uniEEDF ];
+    sub l from [ u1033B uni1E37 uniEEED uniE5B1 lhighoverline l.sc uni02E1 ];
+    sub longs from [ s uniF127 uniE7C2 uniEEDF ];
     sub lslash by lslash.sc ;
-    sub m from [u1033C uni1E43 uniEEEE uniE5D2 mhighoverline m.sc uni1D50 ];
-    sub n from [u1033D uni1E47 uniEEEF n.sc uniF19A uni207F ];
+    sub m from [ u1033C uni1E43 uniEEEE uniE5D2 mhighoverline m.sc uni1D50 ];
+    sub n from [ u1033D uni1E47 uniEEEF n.sc uniF19A uni207F ];
     sub nacute by nacute.sc ;
     sub ncaron by ncaron.sc ;
-    sub nine from [nine.oldstyle uni2089 uni2079 ];
+    sub nine from [ nine.oldstyle uni2089 uni2079 ];
     sub ntilde by ntilde.sc ;
     sub numbersign by numbersign.sc ;
-    sub o from [u10349 uni1ECD uniEEF0 o.sc ordmasculine ];
+    sub o from [ u10349 uni1ECD uniEEF0 o.sc ordmasculine ];
     sub oacute by oacute.sc ;
     sub ocircumflex by ocircumflex.sc ;
     sub odieresis by odieresis.sc ;
-    sub oe from [uniEFDD oe.sc ];
+    sub oe from [ uniEFDD oe.sc ];
     sub ograve by ograve.sc ;
     sub omacron by omacron.sc ;
-    sub one from [one.oldstyle uni2081 uni00B9 ];
-    sub oslash from [uniEBE1 oslash.sc ];
+    sub one from [ one.oldstyle uni2081 uni00B9 ];
+    sub oslash from [ uniEBE1 oslash.sc ];
     sub otilde by otilde.sc ;
-    sub p from [u10340 uniE66D uniEEF1 p.sc uni1D56 ];
+    sub p from [ u10340 uniE66D uniEEF1 p.sc uni1D56 ];
     sub percent by percent.sc ;
-    sub q from [u10335 uniE688 uniEEF2 q.sc q.superscript ];
-    sub question from [question.alt question.sc ];
+    sub q from [ u10335 uniE688 uniEEF2 q.sc q.superscript ];
+    sub question from [ question.alt question.sc ];
     sub questiondown by questiondown.sc ;
-    sub r from [u10342 uni1E5B uniEEF3 uniA783 r.sc uniF19B uni02B3 ];
+    sub r from [ u10342 uni1E5B uniEEF3 uniA783 r.sc uniF19B uni02B3 ];
     sub rcaron by rcaron.sc ;
-    sub s from [u10343 uni1E63 uniEEF4 uniA785 longs s.sc uni02E2 ];
+    sub s from [ u10343 uni1E63 uniEEF4 uniA785 longs s.sc uni02E2 ];
     sub sacute by sacute.sc ;
     sub scaron by scaron.sc ;
     sub scedilla by scedilla.sc ;
-    sub seven from [seven.oldstyle uni2087 uni2077 ];
-    sub six from [six.oldstyle uni2086 uni2076 ];
-    sub t from [u10344 uni1E6D uniEEF5 uniA787 t.sc uniF199 uni1D57 ];
+    sub seven from [ seven.oldstyle uni2087 uni2077 ];
+    sub six from [ six.oldstyle uni2086 uni2076 ];
+    sub t from [ u10344 uni1E6D uniEEF5 uniA787 t.sc uniF199 uni1D57 ];
     sub tcaron by tcaron.sc ;
-    sub thorn from [u10338 uniE79F uniEEF6 thorn.nordic thorn.sc uniE79F.nordic
+    sub thorn from [ u10338 uniE79F uniEEF6 thorn.nordic thorn.sc uniE79F.nordic
     	      	   	   thorn.nordicenlarged thorn.nordicsc ];
-    sub three from [three.oldstyle uni2083 uni00B3 ];
-    sub two from [two.oldstyle uni2082 uni00B2 ];
-    sub u from [u1033F uni1EE5 uniEEF7 u.sc uni1D58 ];
+    sub three from [ three.oldstyle uni2083 uni00B3 ];
+    sub two from [ two.oldstyle uni2082 uni00B2 ];
+    sub u from [ u1033F uni1EE5 uniEEF7 u.sc uni1D58 ];
     sub u10330 by a ;
     sub u10331 by b ;
     sub u10332 by g ;
@@ -332,8 +330,8 @@ feature aalt {
     sub uni01EB by uniE608 ;
     sub uni01F6 by u10348 ;
     sub uni01F7 by Wynndotsub ;
-    sub uni021C from [uni01B7 Yoghdotsub ];
-    sub uni021D from [uni0292 yoghdotsub ];
+    sub uni021C from [ uni01B7 Yoghdotsub ];
+    sub uni021D from [ uni0292 yoghdotsub ];
     sub uni0232 by uni0233.sc ;
     sub uni0233 by uni0233.sc ;
     sub uni0237 by uniEEFE ;
@@ -405,12 +403,12 @@ feature aalt {
     sub uni1E63 by uniEF2C ;
     sub uni1E6B by uniEF24 ;
     sub uni1E6D by uniEF2D ;
-    sub uni1E9C from [uniE8B7 uniE8B8 ];
+    sub uni1E9C from [ uniE8B7 uniE8B8 ];
     sub uni1E9E by germandbls.sc ;
     sub uniA732 by uniEFF2 ;
-    sub uniA733 from [uniEFF3 uniEFDF ];
+    sub uniA733 from [ uniEFF3 uniEFDF ];
     sub uniA734 by uniEFF4 ;
-    sub uniA735 from [uniEFF5 uniEFDE ];
+    sub uniA735 from [ uniEFF5 uniEFDE ];
     sub uniA736 by uniEFF6 ;
     sub uniA737 by uniEFF7 ;
     sub uniA738 by uniEFF8 ;
@@ -442,18 +440,18 @@ feature aalt {
     sub uniF6BE by uniEEFE ;
     sub uniFB00 by f_f.alt ;
     sub uring by uring.sc ;
-    sub v from [uni1E7F uniEEF8 vmedoverline vhighoverline v.sc uni1D5B ];
-    sub w from [u10345 uni1E89 uniEEF9 uni01BF w.sc uni02B7 ];
-    sub x from [u10347 xdotsub uniEEFA xmedoverline xhighoverline x.sc uni02E3 ];
-    sub y from [uni1EF5 uniEEFB uni1E8F y.sc uni02B8 ];
+    sub v from [ uni1E7F uniEEF8 vmedoverline vhighoverline v.sc uni1D5B ];
+    sub w from [ u10345 uni1E89 uniEEF9 uni01BF w.sc uni02B7 ];
+    sub x from [ u10347 xdotsub uniEEFA xmedoverline xhighoverline x.sc uni02E3 ];
+    sub y from [ uni1EF5 uniEEFB uni1E8F y.sc uni02B8 ];
     sub yacute by yacute.sc ;
     sub ydieresis by ydieresis.sc ;
     sub yoghdotsub by yoghflatdot ;
-    sub z from [u10336 uni1E93 uniEEFC z.sc uni1DBB ];
+    sub z from [ u10336 uni1E93 uniEEFC z.sc uni1DBB ];
     sub zacute by zacute.sc ;
     sub zcaron by zcaron.sc ;
     sub zdotaccent by zdotaccent.sc ;
-    sub zero from [zero.zero zero.oldstyle uni2080 uni2070 zero.oldstylezero ];
+    sub zero from [ zero.zero zero.oldstyle uni2080 uni2070 zero.oldstylezero ];
 } aalt ;
 
 
@@ -1879,7 +1877,7 @@ lookup calt_s_In_Final_Position {
   lookupflag 0;
   ignore sub [ longs uniE1AB ]' @AllLowerCase;
   ignore sub [ longs uniE1AB ]' [ quotesingle quoteright ] @AllLowerCase ;
-  sub [longs uniE1AB]' by [s uniF4FD];
+  sub [ longs uniE1AB]' by [ s uniF4FD];
 } calt_s_In_Final_Position;
 
 feature ccmp {
@@ -2069,7 +2067,7 @@ lookup mark_Mark_Positioning {
   pos base [ H Hbar uni01F6 ]
       	     <anchor 1056 1415> mark @above_center
 	     <anchor 648 -75> mark @below_center ;
-  pos base [ I uni0197 ]
+  pos base [ I uni0197 uni2C75 ]
       	     <anchor 678 1415> mark @above_center
 	     <anchor 269 -75> mark @below_center ;
   pos base [ Iogonek ]
@@ -2123,7 +2121,7 @@ lookup mark_Mark_Positioning {
   pos base [ V ]
       	     <anchor 942 1415> mark @above_center
 	     <anchor 439 -75> mark @below_center ;
-  pos base [ W ]
+  pos base [ W uni2C72 ]
       	     <anchor 1302 1415> mark @above_center
 	     <anchor 894 -75> mark @below_center ;
   pos base [ X ]
@@ -2186,10 +2184,10 @@ lookup mark_Mark_Positioning {
   pos base [ uni0264 ]
       	     <anchor 588 900> mark @above_center
 	     <anchor 412 -75> mark @below_center ;
-  pos base [  uni0265 ]
+  pos base [ uni0265 ]
       	     <anchor 556 900> mark @above_center
 	     <anchor 216 -597> mark @below_center ;
-  pos base [  uni0267 ]
+  pos base [ uni0267 ]
       	     <anchor 762 1545> mark @above_center
 	     <anchor 288 -610> mark @below_center ;
   pos base [ d uni0221 ]
@@ -2213,7 +2211,7 @@ lookup mark_Mark_Positioning {
   pos base [ iogonek ]
       	     <anchor 452 1305> mark @above_center
 	     <anchor 91 -563> mark @below_center ;
-  pos base [ j j.alt uni0249 ]
+  pos base [ j j.alt uni0249 uni029D ]
       	     <anchor 456 1305> mark @above_center
 	     <anchor 98 -594> mark @below_center ;
   pos base [ k uni0199 uniE8C5 k.swash ]
@@ -2252,8 +2250,11 @@ lookup mark_Mark_Positioning {
   pos base [ p uniA751 uniA753 ]
       	     <anchor 592 1305> mark @above_center
 	     <anchor 270 -626> mark @below_center ;
-  pos base [ q uni02A0 uniA757 uniA759 ]
+  pos base [ q uniA757 uniA759 ]
       	     <anchor 688 900> mark @above_center
+	     <anchor 357 -626> mark @below_center ;
+  pos base [ uni02A0 ]
+      	     <anchor 724 1200> mark @above_center
 	     <anchor 357 -626> mark @below_center ;
   pos base [ ae.square ]
       	     <anchor 688 900> mark @above_center
@@ -2309,7 +2310,7 @@ lookup mark_Mark_Positioning {
   pos base [ longs uni0283 uni0286 ]
       	     <anchor 745 1489> mark @above_center
 	     <anchor -151 -600> mark @below_center;
-  pos base [  eth.nordicenlarged ]
+  pos base [ eth.nordicenlarged ]
       	     <anchor 877 1640> mark @above_center
 	     <anchor 389 -90> mark @below_center ;
   pos base [ thorn ]
@@ -2561,6 +2562,69 @@ lookup mark_Mark_Positioning {
   pos base [ uni028F ]
       	     <anchor 569 900> mark @above_center
 	     <anchor 359 -75> mark @below_center ;
+  pos base [ uni0290 ]
+      	     <anchor 568 900> mark @above_center
+	     <anchor 366 -560> mark @below_center ;
+  pos base [ uni0291 ]
+      	     <anchor 568 900> mark @above_center
+	     <anchor 377 -260> mark @below_center ;
+  pos base [ uni0292 ]
+      	     <anchor 535 900> mark @above_center
+	     <anchor 195 -610> mark @below_center ;
+  pos base [ uni0293 ]
+      	     <anchor 535 900> mark @above_center
+	     <anchor 195 -700> mark @below_center ;
+  pos base [ uni0294 uni02A1 ]
+      	     <anchor 493 1548> mark @above_center
+	     <anchor 253 -75> mark @below_center ;
+  pos base [ uni0295 uni0296 uni02A2 ]
+      	     <anchor 542 1548> mark @above_center
+	     <anchor 292 -75> mark @below_center ;
+  pos base [ uni0297 ]
+      	     <anchor 550 900> mark @above_center
+	     <anchor 183 -610> mark @below_center ;
+  pos base [ uni0299 ]
+      	     <anchor 490 900> mark @above_center
+	     <anchor 332 -75> mark @below_center ;
+  pos base [ uni029A ]
+      	     <anchor 550 900> mark @above_center
+	     <anchor 297 -75> mark @below_center ;
+  pos base [ uni029B ]
+      	     <anchor 558 1250> mark @above_center
+	     <anchor 426 -75> mark @below_center ;
+  pos base [ uni029C ]
+      	     <anchor 683 900> mark @above_center
+	     <anchor 490 -75> mark @below_center ;
+  pos base [ uni029E ]
+      	     <anchor 492 900> mark @above_center
+	     <anchor 272 -700> mark @below_center ;
+  pos base [ uni029F ]
+      	     <anchor 333 900> mark @above_center
+	     <anchor 403 -75> mark @below_center ;
+  pos base [ uni2C71 ]
+      	     <anchor 589 900> mark @above_center
+	     <anchor 252 -75> mark @below_center ;
+  pos base [ uni2C73 ]
+      	     <anchor 834 900> mark @above_center
+	     <anchor 489 -75> mark @below_center ;
+  pos base [ uniA732 uniA734 ]
+      	     <anchor 1279 1425> mark @above_center
+	     <anchor 843 -75> mark @below_center ;
+  pos base [ uniA733 uniA735 uniA737 uniA739 uniA73B ]
+      	     <anchor 833 900> mark @above_center
+	     <anchor 530 -75> mark @below_center ;
+  pos base [ uniA736 ]
+      	     <anchor 1358 1425> mark @above_center
+	     <anchor 787 -75> mark @below_center ;
+  pos base [ uniA738 uniA73A ]
+      	     <anchor 1227 1425> mark @above_center
+	     <anchor 532 -75> mark @below_center ;
+  pos base [ uniA73C ]
+      	     <anchor 1227 1425> mark @above_center
+	     <anchor 327 -635> mark @below_center ;
+  pos base [ uniA73D ]
+      	     <anchor 833 900> mark @above_center
+	     <anchor 206 -610> mark @below_center ;
 
 # Now we need to take account of the precomposed characters which shaping
 # engines will produce from base + diacritic sequences. It seems unnecessary
@@ -3410,6 +3474,13 @@ lookup mkmk_Mark_To_Mark {
   pos mark [ uni0302.sc ] <anchor 100 1420> mark @above_center;
   pos mark [ uni0304.sc ] <anchor 68 1214> mark @above_center;
   pos mark [ uni0308.sc ] <anchor 76 1316> mark @above_center;
+# leave out F1C0 and F1C1 because they already have above marks built in
+  pos mark [ uniF1C2 ] <anchor 32 1316> mark @above_center;
+  pos mark [ uniF1C7 ] <anchor 88 1548> mark @above_center;
+  pos mark [ uniF1C8 ] <anchor 64 1525> mark @above_center;
+  pos mark [ uniF1CC ] <anchor 132 1525> mark @above_center;
+# This takes us to the end of the above_center list. Anything else missing
+# per the line below?
 # Things missing here! put in all things in reg that aren't here!
 } mkmk_Mark_To_Mark;
 
@@ -3568,7 +3639,12 @@ feature mkmk {
 	       	 uni0279 uni027A uni027B uni027C uni027D uni027E
 	       	 uni027F uni0280 uni0281 uni0283 uni0284 uni0285
 	       	 uni0286 uni0287 uni0288 uni0289 uni028A uni028B
-	       	 uni028C uni028D uni028E uni028F ] ;
+	       	 uni028C uni028D uni028E uni028F uni0290 uni0291
+	       	 uni0292 uni0293 uni0294 uni0295 uni0296 uni0297
+	       	 uni0299 uni029A uni029B uni029C uni029D uni029E
+	       	 uni029F uni02A1 uni02A2 uni2C71 uni2C72 uni2C73
+	       	 uni2C75 uniA732 uniA734 uniA735 uniA736 uniA737
+	       	 uniA738 uniA739 uniA73A uniA73B uniA73C uniA73D ] ;
 
 @GDEF_Ligature = [ IJ ij uni01C4 uni01C5 uni01C6 uni01C7 uni01C8
 		   uni01C9 uni01CA uni01CB uni01CC uni01F1 uni01F2

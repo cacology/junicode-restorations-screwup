@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <glyph name="uni029A" format="1">
   <advance width="871"/>
   <unicode hex="029A"/>
@@ -17,6 +17,7 @@
       <point x="242" y="588" type="qcurve" smooth="yes"/>
       <point x="242" y="695"/>
       <point x="430" y="852"/>
+      <point x="556" y="852" type="qcurve" smooth="yes"/>
       <point x="682" y="852"/>
       <point x="803" y="682"/>
     </contour>
