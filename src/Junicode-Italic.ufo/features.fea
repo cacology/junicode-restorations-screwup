@@ -937,13 +937,13 @@ lookup c2sc_Caps_to_Small_Caps {
   sub Zacute by zacute.sc;
   sub Zcaron by zcaron.sc;
   sub Zdotaccent by zdotaccent.sc;
-#  sub uni1E0C by uniEF26 ;
-#  sub uni1E36 by uniEF28 ;
-#  sub uni1E40 by uniEBDD ;
-#  sub uni1E42 by uniEF29 ;
-#  sub uni1E44 by uniEF21 ;
-#  sub uni1E46 by uniEF2A ;
-#  sub uni1E6C by uniEF2D ;
+  sub uni1E0C by uniEF26 ;
+  sub uni1E36 by uniEF28 ;
+  sub uni1E40 by uniEBDD ;
+  sub uni1E42 by uniEF29 ;
+  sub uni1E44 by uniEF21 ;
+  sub uni1E46 by uniEF2A ;
+  sub uni1E6C by uniEF2D ;
 } c2sc_Caps_to_Small_Caps ;
 
 lookup locl_Icelandic {

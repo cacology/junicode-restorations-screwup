@@ -39,11 +39,6 @@ markClass @sc_above <anchor 0 1050> @above_center;
 
 markClass @cap_above <anchor 0 1410> @above_center;
 
-# uni1DCE = ogonek above (see mark_Ogonek_Above)
-# uni0340 = grave tone mark (see mkmk_Mark_to_Mark_03)
-# uni0341 = acute tone mark (see mkmk_Mark_to_Mark_03)
-# uni031B = combining horn (not supported)
-# uniF00A-D = fixed-height overlines: use ss04 and ss05 instead.
 @other_above = [ uni1DCE uni0340 uni0341 uni031B uniF00A uniF00B uniF00C uniF00D ];
 
 # F1C5 and F1CA are fakeups, and Junicode includes but does not support them.
@@ -76,11 +71,6 @@ markClass @combining_below <anchor 0 -75> @below_center;
 # Of these, 0321 and 0322 are not generally used in the IPA and so it would probably be a waste
 # of space to give them attachment points. Could 0327 (cedilla) and 0328 (ogonek) share an
 # anchor? 1DD0 appears to need its own anchor.
-
-# markClass [ hookabovecomb ] <anchor -690 1230> @tone_marks ;
-# markClass [ uni0340 ] <anchor -148 1155> @tone_marks ;
-# markClass [ uni0341 ] <anchor -687 1155> @tone_marks ;
-
 
 @AllLowerCase = [ a b c d e f g h i j k l m n o p q r s t u v w x y z
 	      	  agrave aacute acircumflex atilde adieresis aring ae
@@ -122,6 +112,7 @@ markClass @combining_below <anchor 0 -75> @below_center;
 	      	  f_y f_j f_r f_t f_udieresis f_odieresis ] ;
 
 @double_diacritics = [ uni1DCD uni035D uni035E uni0360 uni0361 uni035C uni035F ] ;
+
 @eff = [ f uniFB00 ] ;
 
 # GSUB
@@ -215,8 +206,6 @@ feature aalt {
 	uni1D43 ];
     sub aacute from [ uniEAF0 aacute.sc ];
     sub acircumflex by acircumflex.sc ;
-    sub acute by CapAcute ;
-    sub acutecomb from [ CapAcute.comb acutecomb.sc ];
     sub adieresis by adieresis.sc ;
     sub ae from [ uniE436 uniEAF1 ae.sc ];
     sub agrave by agrave.sc ;
@@ -226,7 +215,6 @@ feature aalt {
     sub aring by aring.sc ;
     sub atilde by atilde.sc ;
     sub b from [ uniEEE1 u10331 uni1E05 b.sc uni1D47 ];
-    sub backslash by longbackslash ;
     sub c from [ uniEEE2 uniF198 uniE466 cmedoverline chighoverline c.sc uni1D9C ];
     sub cacute by cacute.sc ;
     sub caron from [ CapCaron caron.sc ];
@@ -234,12 +222,9 @@ feature aalt {
     sub ccedilla by ccedilla.sc ;
     sub cdotaccent by cdotaccent.sc ;
     sub cent by cent.oldstyle ;
-    sub circumflex by CapCircumflex ;
-    sub colon by colon.alt ;
     sub d from [ uniEEE3 uniA77A uniEEE4 uniF193 u10333 uni1E0D uniE491 dhighoverline 
 	d.sc uni1D48 ];
     sub dcaron by dcaron.sc ;
-    sub dieresis by CapDieresis ;
     sub dollar by dollar.oldstyle ;
     sub dotlessi by uniEEFD ;
     sub e from [ uniEEE6 uniF218 uniF219 uniF21A u10334 uni1EB9 e.sc uni1D49 ];
@@ -252,8 +237,7 @@ feature aalt {
     sub emacron by emacron.sc ;
     sub eogonek from [ eogonek.alt uniEAF3 eogonek.sc ];
     sub equal from [ uni208C uni207C ];
-    sub eth from [ uniEEE5 uniE48F eth.nordic eth.sc eth.alt ];
-    sub eth.nordic from [ uniE48F.nordic eth.nordicenlarged ];
+    sub eth from [ uniEEE5 uniE48F eth.nordic eth.sc eth.alt uniE48F.nordic eth.nordicenlarged ];
     sub exclam from [ exclam.alt exclam.sc ];
     sub exclamdown by exclamdown.sc ;
     sub f from [ uniEEE7 f.alt uniA77C uniEEFF uniF207 uniF21B uniF21C uniF194 u10346 
@@ -265,10 +249,7 @@ feature aalt {
     sub gcaron by gcaron.sc ;
     sub gdotaccent by gdotaccent.sc ;
     sub germandbls by germandbls.sc ;
-    sub grave by CapGrave ;
-    sub gravecomb from [ CapGrave.comb gravecomb.sc ];
     sub h from [ uniEEE9 uniF21A u10337 uni1E25 h.sc uni02B0 ];
-    sub hyphen by hyphen.cap ;
     sub i from [ uniEEEA u10339 uni1ECB uniE550 ihighoverline dotlessi i.sc uni2071 ];
     sub i.sc by i.sc1 ;
     sub iacute by iacute.sc ;
@@ -283,10 +264,8 @@ feature aalt {
     sub lslash by lslash.sc ;
     sub m from [ uniEEEE uniF23C uniF225 uniF223 uniF23D uniF226 u1033C uni1E43 uniE5D2 
 	mhighoverline m.sc uni1D50 ];
-    sub macron by CapMacron ;
     sub minus from [ uni208B uni207B ];
-    sub n from [ uniEEEF uniF228 uniF19A u1033D uni1E47 n.sc uni207F ];
-    sub n.sc by uniF22A ;
+    sub n from [ uniEEEF uniF228 uniF19A u1033D uni1E47 n.sc uni207F uniF22A ];
     sub nacute by nacute.sc ;
     sub ncaron by ncaron.sc ;
     sub nine from [ nine.oldstyle uni2089 uni2079 ];
@@ -303,18 +282,11 @@ feature aalt {
     sub oslash from [ uniEBE1 oslash.sc ];
     sub otilde by otilde.sc ;
     sub p from [ uniEEF1 u10340 uniE66D p.sc uni1D56 ];
-    sub parenleft from [ parenleft.alt parenleft.sc uni208D uni207D ];
-    sub parenright from [ parenright.alt parenright.sc uni208E uni207E ];
     sub percent by percent.sc ;
     sub plus from [ uni208A uni207A ];
     sub q from [ uniEEF2 u10335 uniE688 q.sc q.superscript ];
     sub question from [ question.alt question.sc ];
     sub questiondown by questiondown.sc ;
-    sub quotedblleft from [ quotedblleft.alt quotedblleft.sc ];
-    sub quotedblright from [ quotedblright.alt quotedblright.sc ];
-    sub quoteleft from [ quoteleft.alt quoteleft.sc ];
-    sub quoteright from [ quoteright.alt quoteright.sc ];
-    sub quoteright.alt by quoteright ;
     sub r from [ uni027C uniA75B uniA783 uniEEF3 u10342 uni1E5B r.sc uniF19B uni02B3 ];
     sub rcaron by rcaron.sc ;
     sub s from [ uniEEF4 longs uniEEDF uniF127 uniF128 uniA785 u10343 uni1E63 s.sc 
@@ -322,19 +294,13 @@ feature aalt {
     sub sacute by sacute.sc ;
     sub scaron by scaron.sc ;
     sub scedilla by scedilla.sc ;
-    sub semicolon by semicolon.alt ;
     sub seven from [ seven.oldstyle uni2087 uni2077 ];
     sub six from [ six.oldstyle uni2086 uni2076 ];
-    sub slash by longslash ;
-    sub t from [ uniEEF5 uniA787 uniF199 u10344 uni1E6D t.sc uni1D57 ];
-    sub t.sc by t.scalt ;
+    sub t from [ uniEEF5 uniA787 uniF199 u10344 uni1E6D t.sc uni1D57 t.scalt ];
     sub tcaron by tcaron.sc ;
-    sub thorn from [ uniEEF6 thorn.nordic thorn.nordicenlarged u10338 uniE79F thorn.sc ];
-    sub thorn.nordic from [ uniE79F.nordic thorn.nordicenlarged ];
-    sub thorn.sc by thorn.nordicsc ;
+    sub thorn from [ uniEEF6 thorn.nordic thorn.nordicenlarged u10338 uniE79F
+    	      	     thorn.sc uniE79F.nordic thorn.nordicsc ];
     sub three from [ three.oldstyle uni2083 uni00B3 ];
-    sub tilde by CapTilde ;
-    sub tildecomb from [ CapTilde.comb tildecomb.sc ];
     sub two from [ two.oldstyle uni2082 uni00B2 ];
     sub u from [ uniEEF7 u1033F uni1EE5 u.sc uni1D58 ];
     sub u10330 by a ;
@@ -381,12 +347,6 @@ feature aalt {
     sub uni0233 by uni0233.sc ;
     sub uni0237 by uniEEFE ;
     sub uni0294 by uni0294.alt ;
-    sub uni0302 from [ CapCircumflex.comb uni0302.sc ];
-    sub uni0304 from [ CapMacron.comb uni0304.sc ];
-    sub uni0308 from [ CapDieresis.comb uni0308.sc ];
-    sub uni030B by CapDoubleAcute.comb ;
-    sub uni030C by CapCaron.comb ;
-    sub uni030F by CapDoubleGrave.comb ;
     sub uni16A0 by uni16A0.rtl ;
     sub uni16A1 by uni16A1.rtl ;
     sub uni16A2 by uni16A2.rtl ;
@@ -466,9 +426,6 @@ feature aalt {
     sub uniE4EC by uniE4EC.alt ;
     sub uniEAF3 by eogonek.enlargedalt ;
     sub uniEBF3 by uniEBF3.alt ;
-    sub uniEEE5 by eth.nordicenlarged ;
-    sub uniEEF6 by thorn.nordicenlarged ;
-    sub uniEF15 by thorn.nordicsc ;
     sub uniEF90 by uniEFF2 ;
     sub uniEF91 by uniEFF3 ;
     sub uniEF92 by uniEFF4 ;
@@ -627,6 +584,8 @@ lookup ccmp_dot_and_acute {
   sub uni1E8E acutecomb by uniE384 ;
   sub uni1E8F acutecomb by uniE784 ;
 } ccmp_dot_and_acute;
+
+# onum has to come before sups.
 
 lookup onum_Old_Style_Figures {
   lookupflag 0 ;
@@ -1213,8 +1172,6 @@ lookup ss15_Centered_Ogonek {
     sub uniEAF3 by eogonek.enlargedalt ;
     sub uniE49F by uniE49F.alt ;
 } ss15_Centered_Ogonek ;
-
-# Without Greek, should this be necessary?
 
 lookup ss17_Linguistic_Alternates {
   lookupflag 0 ;
