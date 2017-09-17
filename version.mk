@@ -1,2 +1,2 @@
 PACKAGE = junicode
-VERSION = 1.000RC4
+VERSION = 1.000
