@@ -1314,5 +1314,9 @@
 	<string>zero.glif</string>
 	<key>zeta</key>
 	<string>zeta.glif</string>
+	<key>tildecomb</key>
+	<string>tildecomb.glif</string>
+	<key>uni0304</key>
+	<string>uni0304.glif</string>
 </dict>
 </plist>

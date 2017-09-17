@@ -257,6 +257,8 @@ lookup mark_Mark_Above {
   markClass [ tonos ] <anchor 267 900> @above ;
   markClass [ uni1DD1 ] <anchor -192 985> @above ;
   markClass [ acute.cap ] <anchor -404 1415> @above ;
+  markClass [ tildecomb ] <anchor 0 985> @above;
+  markClass [ uni0304 ] <anchor 0 985> @above;
   pos base [ a ] <anchor 392 900> mark @above ;
   pos base [ b ] <anchor 420 1545> mark @above ;
   pos base [ c ] <anchor 500 900> mark @above ;
