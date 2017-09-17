@@ -6016,5 +6016,25 @@
 	<string>uni2308.glif</string>
 	<key>uni2309</key>
 	<string>uni2309.glif</string>
+	<key>zero.supold</key>
+	<string>zero.supold.glif</string>
+	<key>one.supold</key>
+	<string>one.supold.glif</string>
+	<key>two.supold</key>
+	<string>two.supold.glif</string>
+	<key>three.supold</key>
+	<string>three.supold.glif</string>
+	<key>four.supold</key>
+	<string>four.supold.glif</string>
+	<key>five.supold</key>
+	<string>five.supold.glif</string>
+	<key>six.supold</key>
+	<string>six.supold.glif</string>
+	<key>seven.supold</key>
+	<string>seven.supold.glif</string>
+	<key>eight.supold</key>
+	<string>eight.supold.glif</string>
+	<key>nine.supold</key>
+	<string>nine.supold.glif</string>
       </dict>
 </plist>

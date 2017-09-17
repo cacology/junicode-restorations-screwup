@@ -582,6 +582,22 @@ lookup ccmp_dot_and_acute {
   sub uni1E8F acutecomb by uniE784 ;
 } ccmp_dot_and_acute;
 
+lookup onum_Old_Style_Figures {
+  lookupflag 0;
+    sub dollar by dollar.oldstyle ;
+    sub zero by zero.oldstyle ;
+    sub one by one.oldstyle ;
+    sub two by two.oldstyle ;
+    sub three by three.oldstyle ;
+    sub four by four.oldstyle ;
+    sub five by five.oldstyle ;
+    sub six by six.oldstyle ;
+    sub seven by seven.oldstyle ;
+    sub eight by eight.oldstyle ;
+    sub nine by nine.oldstyle ;
+    sub cent by cent.oldstyle ;
+} onum_Old_Style_Figures;
+
 lookup sups_Superscripts {
   lookupflag 0;
     sub parenleft by uni207D ;
@@ -626,6 +642,16 @@ lookup sups_Superscripts {
     sub y by uni02B8 ;
     sub z by uni1DBB ;
     sub minus by uni207B ;
+    sub zero.oldstyle by zero.supold ;
+    sub one.oldstyle by one.supold ;
+    sub two.oldstyle by two.supold ;
+    sub three.oldstyle by three.supold ;
+    sub four.oldstyle by four.supold ;
+    sub five.oldstyle by five.supold ;
+    sub six.oldstyle by six.supold ;
+    sub seven.oldstyle by seven.supold ;
+    sub eight.oldstyle by eight.supold ;
+    sub nine.oldstyle by nine.supold ;
 } sups_Superscripts;
 
 lookup subs_Subscripts {
@@ -647,22 +673,6 @@ lookup subs_Subscripts {
     sub equal by uni208C ;
     sub minus by uni208B ;
 } subs_Subscripts;
-
-lookup onum_Old_Style_Figures {
-  lookupflag 0;
-    sub dollar by dollar.oldstyle ;
-    sub zero by zero.oldstyle ;
-    sub one by one.oldstyle ;
-    sub two by two.oldstyle ;
-    sub three by three.oldstyle ;
-    sub four by four.oldstyle ;
-    sub five by five.oldstyle ;
-    sub six by six.oldstyle ;
-    sub seven by seven.oldstyle ;
-    sub eight by eight.oldstyle ;
-    sub nine by nine.oldstyle ;
-    sub cent by cent.oldstyle ;
-} onum_Old_Style_Figures;
 
 lookup zero_Slashed_Zero {
   lookupflag 0;
@@ -1889,6 +1899,10 @@ feature ccmp {
   lookup ccmp_dot_and_acute;
 } ccmp;
 
+feature onum {
+  lookup onum_Old_Style_Figures;
+} onum;
+
 feature sups {
   lookup sups_Superscripts;
 } sups;
@@ -1896,10 +1910,6 @@ feature sups {
 feature subs {
   lookup subs_Subscripts;
 } subs;
-
-feature onum {
-  lookup onum_Old_Style_Figures;
-} onum;
 
 feature zero {
   lookup zero_Slashed_Zero;
