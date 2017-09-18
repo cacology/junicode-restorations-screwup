@@ -10,6 +10,14 @@
 			<key>ascending</key>
 			<true/>
 			<key>type</key>
+			<string>alphabetical</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<false/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
 			<string>unicode</string>
 		</dict>
 	</array>
@@ -145,6 +153,8 @@
 		<string>threequarters</string>
 		<string>questiondown</string>
 		<string>breve</string>
+		<string>tildecomb</string>
+		<string>uni0304</string>
 		<string>uni0342</string>
 		<string>uni0343</string>
 		<string>uni0344</string>
@@ -608,71 +618,69 @@
 		<string>uni261F</string>
 		<string>uni2766</string>
 		<string>uni2767</string>
-		<string>five.oldstyle</string>
-		<string>alpha_uni1F53</string>
-		<string>alpha_uni1F55</string>
-		<string>eight.oldstyle</string>
-		<string>nine.oldstyle</string>
-		<string>alpha_uni1F37</string>
-		<string>alpha_uni1F7A</string>
-		<string>omicron_uni1F50</string>
-		<string>alpha_uni1FD6</string>
-		<string>omicron_upsilon</string>
-		<string>alpha_iotatonos</string>
-		<string>alpha_iota</string>
-		<string>omicron_uni1FE6</string>
-		<string>epsilon_uni1F30</string>
-		<string>epsilon_iota</string>
-		<string>alpha_uni1FE6</string>
-		<string>alpha_uni1F54</string>
-		<string>one.oldstyle</string>
-		<string>omicron_upsilontonos</string>
-		<string>uni1DD1</string>
-		<string>epsilon_uni1F33</string>
-		<string>alpha_uni1F50</string>
-		<string>alpha_upsilon</string>
-		<string>breve.cap</string>
-		<string>epsilon_uni1F35</string>
-		<string>gamma_gamma</string>
-		<string>chi_rho</string>
-		<string>epsilon_uni1F36</string>
-		<string>Q_u</string>
-		<string>epsilon_uni1FD6</string>
-		<string>omicron_uni1F56</string>
-		<string>sigma_theta</string>
-		<string>alpha_uni1F52</string>
-		<string>macron.cap</string>
-		<string>three.oldstyle</string>
-		<string>epsilon_iotatonos</string>
-		<string>alpha_uni1F30</string>
-		<string>gamma.alt1</string>
-		<string>acute.cap</string>
-		<string>four.oldstyle</string>
-		<string>tau.alt</string>
-		<string>omicron_uni1F57</string>
-		<string>six.oldstyle</string>
-		<string>alpha_uni1F56</string>
-		<string>alpha_upsilontonos</string>
 		<string>.notdef</string>
-		<string>epsilon_uni1F76</string>
-		<string>epsilon_uni1F31</string>
-		<string>seven.oldstyle</string>
-		<string>alpha_uni1F76</string>
-		<string>omicron_uni1F7A</string>
-		<string>epsilon_uni1F34</string>
-		<string>alpha_uni1F51</string>
-		<string>rho_alpha</string>
-		<string>epsilon_uni1F37</string>
-		<string>two.oldstyle</string>
-		<string>alpha_uni1F57</string>
-		<string>epsilon_uni1F32</string>
-		<string>lambda_lambda</string>
+		<string>Q_u</string>
+		<string>acute.cap</string>
+		<string>alpha_iota</string>
+		<string>alpha_iotatonos</string>
+		<string>alpha_uni1F30</string>
 		<string>alpha_uni1F31</string>
-		<string>omicron_uni1F51</string>
 		<string>alpha_uni1F36</string>
+		<string>alpha_uni1F37</string>
+		<string>alpha_uni1F50</string>
+		<string>alpha_uni1F51</string>
+		<string>alpha_uni1F52</string>
+		<string>alpha_uni1F53</string>
+		<string>alpha_uni1F54</string>
+		<string>alpha_uni1F55</string>
+		<string>alpha_uni1F56</string>
+		<string>alpha_uni1F57</string>
+		<string>alpha_uni1F76</string>
+		<string>alpha_uni1F7A</string>
+		<string>alpha_uni1FD6</string>
+		<string>alpha_uni1FE6</string>
+		<string>alpha_upsilon</string>
+		<string>alpha_upsilontonos</string>
+		<string>breve.cap</string>
+		<string>chi_rho</string>
+		<string>eight.oldstyle</string>
+		<string>epsilon_iota</string>
+		<string>epsilon_iotatonos</string>
+		<string>epsilon_uni1F30</string>
+		<string>epsilon_uni1F31</string>
+		<string>epsilon_uni1F32</string>
+		<string>epsilon_uni1F33</string>
+		<string>epsilon_uni1F34</string>
+		<string>epsilon_uni1F35</string>
+		<string>epsilon_uni1F36</string>
+		<string>epsilon_uni1F37</string>
+		<string>epsilon_uni1F76</string>
 		<string>epsilon_uni1FD3</string>
-		<string>tildecomb</string>
-		<string>uni0304</string>
+		<string>epsilon_uni1FD6</string>
+		<string>five.oldstyle</string>
+		<string>four.oldstyle</string>
+		<string>gamma.alt1</string>
+		<string>gamma_gamma</string>
+		<string>lambda_lambda</string>
+		<string>macron.cap</string>
+		<string>nine.oldstyle</string>
+		<string>omicron_uni1F50</string>
+		<string>omicron_uni1F51</string>
+		<string>omicron_uni1F56</string>
+		<string>omicron_uni1F57</string>
+		<string>omicron_uni1F7A</string>
+		<string>omicron_uni1FE6</string>
+		<string>omicron_upsilon</string>
+		<string>omicron_upsilontonos</string>
+		<string>one.oldstyle</string>
+		<string>rho_alpha</string>
+		<string>seven.oldstyle</string>
+		<string>sigma_theta</string>
+		<string>six.oldstyle</string>
+		<string>tau.alt</string>
+		<string>three.oldstyle</string>
+		<string>two.oldstyle</string>
+		<string>uni1DD1</string>
 	</array>
 </dict>
 </plist>

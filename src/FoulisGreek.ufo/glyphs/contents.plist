@@ -562,6 +562,8 @@
 	<string>threeeighths.glif</string>
 	<key>threequarters</key>
 	<string>threequarters.glif</string>
+	<key>tildecomb</key>
+	<string>tildecomb.glif</string>
 	<key>tonos</key>
 	<string>tonos.glif</string>
 	<key>trademark</key>
@@ -592,6 +594,8 @@
 	<string>uni00B_5.glif</string>
 	<key>uni00B9</key>
 	<string>uni00B_9.glif</string>
+	<key>uni0304</key>
+	<string>uni0304.glif</string>
 	<key>uni0342</key>
 	<string>uni0342.glif</string>
 	<key>uni0343</key>
@@ -1314,9 +1318,5 @@
 	<string>zero.glif</string>
 	<key>zeta</key>
 	<string>zeta.glif</string>
-	<key>tildecomb</key>
-	<string>tildecomb.glif</string>
-	<key>uni0304</key>
-	<string>uni0304.glif</string>
 </dict>
 </plist>

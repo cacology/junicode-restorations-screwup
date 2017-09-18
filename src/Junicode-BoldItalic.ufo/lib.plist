@@ -10,6 +10,14 @@
 			<key>ascending</key>
 			<true/>
 			<key>type</key>
+			<string>alphabetical</string>
+		</dict>
+		<dict>
+			<key>allowPseudoUnicode</key>
+			<false/>
+			<key>ascending</key>
+			<true/>
+			<key>type</key>
 			<string>unicode</string>
 		</dict>
 	</array>
@@ -882,49 +890,49 @@
 		<string>u10348</string>
 		<string>u10349</string>
 		<string>u1034A</string>
-		<string>three.oldstyle</string>
-		<string>CapTilde</string>
-		<string>CapCaron</string>
-		<string>CapDoubleGrave</string>
-		<string>T.alt</string>
-		<string>nine.oldstyle</string>
-		<string>CapMacron</string>
-		<string>zero.oldstyle</string>
-		<string>f.alt</string>
-		<string>four.oldstyle</string>
-		<string>f_eth</string>
-		<string>j.alt</string>
-		<string>PoisonMark</string>
-		<string>CapDoubleAcute</string>
-		<string>eth.nordic</string>
-		<string>eth.alt</string>
-		<string>caron.alt</string>
-		<string>uni0294.alt</string>
-		<string>one.oldstyle</string>
-		<string>cent.oldstyle</string>
-		<string>seven.oldstyle</string>
-		<string>f_j</string>
-		<string>five.oldstyle</string>
-		<string>CapGrave</string>
-		<string>CapAcute</string>
-		<string>longslash</string>
-		<string>eogonek.alt</string>
-		<string>uniA77A.alt</string>
-		<string>two.oldstyle</string>
-		<string>f_thorn.nordic</string>
-		<string>dollar.oldstyle</string>
-		<string>Thorn.nordic</string>
-		<string>thorn.nordic</string>
-		<string>CapDieresis</string>
-		<string>longbackslash</string>
-		<string>CapCircumflex</string>
 		<string>.notdef</string>
+		<string>CapAcute</string>
+		<string>CapCaron</string>
+		<string>CapCircumflex</string>
+		<string>CapDieresis</string>
+		<string>CapDoubleAcute</string>
+		<string>CapDoubleGrave</string>
+		<string>CapGrave</string>
+		<string>CapMacron</string>
+		<string>CapTilde</string>
+		<string>PoisonMark</string>
+		<string>T.alt</string>
+		<string>Thorn.nordic</string>
+		<string>caron.alt</string>
+		<string>cent.oldstyle</string>
+		<string>dollar.oldstyle</string>
 		<string>eight.oldstyle</string>
-		<string>six.oldstyle</string>
-		<string>f_thorn</string>
+		<string>eogonek.alt</string>
+		<string>eth.alt</string>
+		<string>eth.nordic</string>
+		<string>f.alt</string>
+		<string>f_eth</string>
 		<string>f_f.alt</string>
-		<string>zero.zero</string>
+		<string>f_j</string>
+		<string>f_thorn</string>
+		<string>f_thorn.nordic</string>
+		<string>five.oldstyle</string>
+		<string>four.oldstyle</string>
+		<string>j.alt</string>
+		<string>longbackslash</string>
+		<string>longslash</string>
+		<string>nine.oldstyle</string>
+		<string>one.oldstyle</string>
+		<string>seven.oldstyle</string>
+		<string>six.oldstyle</string>
+		<string>thorn.nordic</string>
+		<string>three.oldstyle</string>
+		<string>two.oldstyle</string>
+		<string>uni0294.alt</string>
+		<string>uniA77A.alt</string>
+		<string>zero.oldstyle</string>
 		<string>zero.oldstylezero</string>
+		<string>zero.zero</string>
 	</array>
 </dict>
 </plist>
