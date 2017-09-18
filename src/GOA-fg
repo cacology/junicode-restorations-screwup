@@ -9,7 +9,7 @@ Beta	Beta
 C	C
 Chi	Chi
 D	D
-Delta	Delta
+uni0394	Delta	uni0394
 E	E
 Epsilon	Epsilon
 Epsilontonos	Epsilontonos
@@ -34,7 +34,7 @@ Mu	Mu
 N	N
 Nu	Nu
 O	O
-Omega	Omega
+uni03A9	Omega	uni03A9
 Omegatonos	Omegatonos
 Omicron	Omicron
 Omicrontonos	Omicrontonos
@@ -195,7 +195,7 @@ m	m
 macron	macron
 macron.cap	macron.cap
 minute	minute
-mu	mu
+uni03BC	mu	uni03BC
 n	n
 nine	nine
 nine.oldstyle	nine.oldstyle
