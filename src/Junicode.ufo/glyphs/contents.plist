@@ -556,6 +556,8 @@
 	<string>eight.glif</string>
 	<key>eight.oldstyle</key>
 	<string>eight.oldstyle.glif</string>
+	<key>eight.supold</key>
+	<string>eight.supold.glif</string>
 	<key>ellipsis</key>
 	<string>ellipsis.glif</string>
 	<key>emacron</key>
@@ -644,6 +646,8 @@
 	<string>five.glif</string>
 	<key>five.oldstyle</key>
 	<string>five.oldstyle.glif</string>
+	<key>five.supold</key>
+	<string>five.supold.glif</string>
 	<key>fiveeighths</key>
 	<string>fiveeighths.glif</string>
 	<key>florin</key>
@@ -652,6 +656,8 @@
 	<string>four.glif</string>
 	<key>four.oldstyle</key>
 	<string>four.oldstyle.glif</string>
+	<key>four.supold</key>
+	<string>four.supold.glif</string>
 	<key>fraction</key>
 	<string>fraction.glif</string>
 	<key>g</key>
@@ -844,6 +850,8 @@
 	<string>nine.glif</string>
 	<key>nine.oldstyle</key>
 	<string>nine.oldstyle.glif</string>
+	<key>nine.supold</key>
+	<string>nine.supold.glif</string>
 	<key>nonmarkingreturn</key>
 	<string>nonmarkingreturn.glif</string>
 	<key>notequal</key>
@@ -898,6 +906,8 @@
 	<string>one.glif</string>
 	<key>one.oldstyle</key>
 	<string>one.oldstyle.glif</string>
+	<key>one.supold</key>
+	<string>one.supold.glif</string>
 	<key>onedotenleader</key>
 	<string>onedotenleader.glif</string>
 	<key>oneeighth</key>
@@ -942,8 +952,6 @@
 	<string>parenright.sc.glif</string>
 	<key>partialdiff</key>
 	<string>partialdiff.glif</string>
-	<key>uniA751</key>
-	<string>uniA_751.glif</string>
 	<key>percent</key>
 	<string>percent.glif</string>
 	<key>percent.sc</key>
@@ -964,8 +972,6 @@
 	<string>plusminus.glif</string>
 	<key>prescription</key>
 	<string>prescription.glif</string>
-	<key>uniA753</key>
-	<string>uniA_753.glif</string>
 	<key>product</key>
 	<string>product.glif</string>
 	<key>q</key>
@@ -1068,12 +1074,16 @@
 	<string>seven.glif</string>
 	<key>seven.oldstyle</key>
 	<string>seven.oldstyle.glif</string>
+	<key>seven.supold</key>
+	<string>seven.supold.glif</string>
 	<key>seveneighths</key>
 	<string>seveneighths.glif</string>
 	<key>six</key>
 	<string>six.glif</string>
 	<key>six.oldstyle</key>
 	<string>six.oldstyle.glif</string>
+	<key>six.supold</key>
+	<string>six.supold.glif</string>
 	<key>slash</key>
 	<string>slash.glif</string>
 	<key>space</key>
@@ -1118,6 +1128,8 @@
 	<string>three.glif</string>
 	<key>three.oldstyle</key>
 	<string>three.oldstyle.glif</string>
+	<key>three.supold</key>
+	<string>three.supold.glif</string>
 	<key>threeeighths</key>
 	<string>threeeighths.glif</string>
 	<key>threequarters</key>
@@ -1134,6 +1146,8 @@
 	<string>two.glif</string>
 	<key>two.oldstyle</key>
 	<string>two.oldstyle.glif</string>
+	<key>two.supold</key>
+	<string>two.supold.glif</string>
 	<key>twodotenleader</key>
 	<string>twodotenleader.glif</string>
 	<key>twothirds</key>
@@ -3472,6 +3486,10 @@
 	<string>uni223B_.glif</string>
 	<key>uni22D7</key>
 	<string>uni22D_7.glif</string>
+	<key>uni2308</key>
+	<string>uni2308.glif</string>
+	<key>uni2309</key>
+	<string>uni2309.glif</string>
 	<key>uni23D1</key>
 	<string>uni23D_1.glif</string>
 	<key>uni23D2</key>
@@ -3916,6 +3934,14 @@
 	<string>uni2E_2E_.glif</string>
 	<key>uni2E40</key>
 	<string>uni2E_40.glif</string>
+	<key>uniA722</key>
+	<string>uniA_722.glif</string>
+	<key>uniA723</key>
+	<string>uniA_723.glif</string>
+	<key>uniA724</key>
+	<string>uniA_724.glif</string>
+	<key>uniA725</key>
+	<string>uniA_725.glif</string>
 	<key>uniA726</key>
 	<string>uniA_726.glif</string>
 	<key>uniA727</key>
@@ -3990,8 +4016,12 @@
 	<string>uniA_74F_.glif</string>
 	<key>uniA750</key>
 	<string>uniA_750.glif</string>
+	<key>uniA751</key>
+	<string>uniA_751.glif</string>
 	<key>uniA752</key>
 	<string>uniA_752.glif</string>
+	<key>uniA753</key>
+	<string>uniA_753.glif</string>
 	<key>uniA754</key>
 	<string>uniA_754.glif</string>
 	<key>uniA755</key>
@@ -6000,41 +6030,11 @@
 	<string>zero.glif</string>
 	<key>zero.oldstyle</key>
 	<string>zero.oldstyle.glif</string>
-	<key>zero.zero</key>
-	<string>zero.zero.glif</string>
 	<key>zero.oldstylezero</key>
 	<string>zero.oldstylezero.glif</string>
-	<key>uniA722</key>
-	<string>uniA_722.glif</string>
-	<key>uniA723</key>
-	<string>uniA_723.glif</string>
-	<key>uniA724</key>
-	<string>uniA_724.glif</string>
-	<key>uniA725</key>
-	<string>uniA_725.glif</string>
-	<key>uni2308</key>
-	<string>uni2308.glif</string>
-	<key>uni2309</key>
-	<string>uni2309.glif</string>
 	<key>zero.supold</key>
 	<string>zero.supold.glif</string>
-	<key>one.supold</key>
-	<string>one.supold.glif</string>
-	<key>two.supold</key>
-	<string>two.supold.glif</string>
-	<key>three.supold</key>
-	<string>three.supold.glif</string>
-	<key>four.supold</key>
-	<string>four.supold.glif</string>
-	<key>five.supold</key>
-	<string>five.supold.glif</string>
-	<key>six.supold</key>
-	<string>six.supold.glif</string>
-	<key>seven.supold</key>
-	<string>seven.supold.glif</string>
-	<key>eight.supold</key>
-	<string>eight.supold.glif</string>
-	<key>nine.supold</key>
-	<string>nine.supold.glif</string>
-      </dict>
+	<key>zero.zero</key>
+	<string>zero.zero.glif</string>
+</dict>
 </plist>
