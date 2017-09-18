@@ -2,17 +2,20 @@ vpath %.ufo src
 
 include version.mk
 
+# for release mode add these options to makeotf:
+# -gf src/GOA-$(1) -r -nS
+
 define generate_font
 	which sfntedit > /dev/null ; \
 	if [ $$? -eq 0 ] ; then \
-	  sfntedit -d GSUB,GPOS,GDEF $(1).ttf ; \
+	  sfntedit -d GSUB,GPOS,GDEF,cmap $(1).ttf ; \
 	else \
 	  echo "Required program sfntedit (Adobe FDK) not installed!" ; \
 	  exit 1 ; \
 	fi ; \
 	which makeotf > /dev/null ; \
 	if [ $$? -eq 0 ] ; then \
-	  makeotf -fi src/$(1)_fontinfo -f $(1).ttf -o $(1)-tmp.ttf -ff src/$(2).ufo/features.fea -mf src/JunicodeNameDB ; \
+	  makeotf -fi src/$(1)_fontinfo -gf src/GOA-$(1) -r -nS -f $(1).ttf -o $(1)-tmp.ttf -ff src/$(2).ufo/features.fea -mf src/JunicodeNameDB ; \
 	else \
 	  echo "Required program makeotf (Adobe FDK) not installed!" ; \
 	  exit 1 ; \
@@ -48,7 +51,8 @@ bolditalic : Junicode-BoldItalic.ttf
 
 greek : FoulisGreek.ttf
 
-woff: Junicode.ttf Junicode-Italic.ttf Junicode-Bold.ttf Junicode-BoldItalic.ttf FoulisGreek.ttf
+# Assume the ttf files: otherwise we'll have to make them all again.
+woff :
 	which sfnt2woff > /dev/null; \
 	if [ $$? -eq 0 ] ; then \
 	  sfnt2woff Junicode.ttf ; \
