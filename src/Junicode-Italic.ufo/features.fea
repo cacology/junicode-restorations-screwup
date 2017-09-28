@@ -3561,6 +3561,18 @@ lookup mark_Mark_Positioning {
 	     <anchor 465 1273> mark @above_center
 	     <anchor 37 -499> mark @below_center ;
 
+# Post-1.000 additions
+
+  pos base [ uni0195 ]
+      	     <anchor 766 1545> mark @above_center
+	     <anchor 552 -75> mark @below_center;
+  pos base [ eng ]
+      	     <anchor 637 900> mark @above_center
+	     <anchor 204 -610> mark @below_center;
+  pos base [ Eng ]
+      	     <anchor 1106 1400> mark @above_center
+	     <anchor 594 -610> mark @below_center;
+
 } mark_Mark_Positioning;
 
 lookup mark_Ogonek_Above {
@@ -3918,7 +3930,7 @@ table hhea {
 } hhea ;
 
 table head {
-  FontRevision 1.000;
+  FontRevision 1.001;
 } head;
 
 table name {
