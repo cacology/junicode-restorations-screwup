@@ -39,7 +39,7 @@
 	<key>openTypeNameManufacturerURL</key>
 	<string>http://junicode.sourceforge.net/</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.000</string>
+	<string>Version 1.001</string>
 	<key>openTypeOS2CodePageRanges</key>
 	<array>
 		<integer>0</integer>
@@ -177,9 +177,9 @@
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>versionMajor</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>900</integer>
+	<integer>001</integer>
 	<key>xHeight</key>
 	<integer>414</integer>
 </dict>

@@ -140,7 +140,7 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>openTypeNameUniqueID</key>
 	<string>Peter S.Baker: Junicode: 0.900</string>
 	<key>openTypeNameVersion</key>
-	<string>Version 1.000</string>
+	<string>Version 1.001</string>
 	<key>openTypeOS2FamilyClass</key>
 	<array>
 		<integer>1</integer>
@@ -242,9 +242,9 @@ OTHER DEALINGS IN THE FONT SOFTWARE.</string>
 	<key>unitsPerEm</key>
 	<integer>2048</integer>
 	<key>versionMajor</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>versionMinor</key>
-	<integer>900</integer>
+	<integer>001</integer>
 	<key>xHeight</key>
 	<integer>856</integer>
 </dict>
